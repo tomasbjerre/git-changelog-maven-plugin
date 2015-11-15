@@ -27,13 +27,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
             <configuration>
               <toRef>refs/heads/master</toRef>
               <templateFile>changelog.mustache</templateFile>
-              <filePath>CHANGELOG.md</filePath>
               <settingsFile>changelog.json</settingsFile>
+              <filePath>CHANGELOG.md</filePath>
             </configuration>
           </execution>
         </executions>
       </plugin>
-      
     </plugins>
   </build>
 </project>

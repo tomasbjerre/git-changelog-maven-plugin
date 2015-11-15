@@ -1,54 +1,85 @@
-# Byggarmonster Maven Plugin [![Build Status](https://travis-ci.org/tomasbjerre/byggarmonster-maven-plugin.svg?branch=master)](https://travis-ci.org/tomasbjerre/byggarmonster-maven-plugin)
+# Git Changelog Maven Plugin [![Build Status](https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin.svg?branch=master)](https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin)
 
-This is a Maven plugin for [Byggarmonster](https://github.com/tomasbjerre/byggarmonster-lib).
+This is a Maven plugin for [Git Changelog](https://github.com/tomasbjerre/git-changelog-lib).
+
 
 ## Usage ##
-Here is and example that will scan a given package and produce builders for the classes found in it. There is also a running example [here](https://github.com/tomasbjerre/byggarmonster-maven-plugin/tree/master/byggarmonster-maven-plugin-example).
+Here is and example that will generate a CHANGELOG.md. There is also a running example [here](https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example).
 
+  <build>
     <plugins>
       <plugin>
-        <groupId>se.bjurr.byggarmonster</groupId>
-        <artifactId>byggarmonster-maven-plugin</artifactId>
-        <version>1.1</version>
+        <groupId>se.bjurr.gitchangelog</groupId>
+        <artifactId>git-changelog-maven-plugin</artifactId>
+        <version>1.0-SNAPSHOT</version>
         <executions>
           <execution>
-            <id>GenerateBuilders</id>
+            <id>GenerateGitChangelog</id>
             <phase>generate-sources</phase>
             <goals>
-              <goal>generate-builders</goal>
+              <goal>git-changelog</goal>
             </goals>
             <configuration>
-              <fromPackage>se.bjurr.byggarmonster.model</fromPackage>
-              <fromFolder>src/main/java</fromFolder>
-              <toFolder>target/generated-sources</toFolder>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <version>1.7</version>
-        <executions>
-          <execution>
-            <id>add-source</id>
-            <phase>generate-sources</phase>
-            <goals>
-              <goal>add-source</goal>
-            </goals>
-            <configuration>
-              <sources>
-                <source>src/main/java</source>
-                <source>target/generated-sources</source>
-              </sources>
+              <toRef>refs/heads/master</toRef>
+              <templateFile>changelog.mustache</templateFile>
+              <settingsFile>changelog.json</settingsFile>
+              <filePath>CHANGELOG.md</filePath>
             </configuration>
           </execution>
         </executions>
       </plugin>
     </plugins>
+  </build>
 
-And then to generate builders, just run:
+
+This setup has a settings file, changelog.json, like this:
+
+```
+{
+ "fromRepo": ".",
+ "fromCommit": "0000000000000000000000000000000000000000",
+ "toRef": "refs/heads/master",
+ 
+ "ignoreCommitsIfMessageMatches": "^\\[maven-release-plugin\\].*|^\\[Gradle Release Plugin\\].*|^Merge.*",
+ "readableTagName": "/([^/]+?)$",
+ "dateFormat": "YYYY-MM-dd HH:mm:ss",
+ "untaggedName": "Next release",
+ "noIssueName": "Other changes",
+ "timeZone": "UTC",
+ "removeIssueFromMessage": "true",
+ 
+ "jiraIssuePattern": "\\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\\b",
+
+ "githubIssuePattern": "#[0-9]*",
+ 
+ "customIssues": [
+  { "name": "Bugs", "pattern": "#bug" },
+  { "name": "Features", "pattern": "#feature" }
+ ]
+}
+```
+
+It has a template file like this:
+
+```
+# Git Changelog changelog
+
+Changelog of Git Changelog.
+
+{{#tags}}
+## {{name}}
+ {{#issues}}
+### {{name}}
+
+   {{#commits}}
+{{{message}}}
+
+   {{/commits}}
+ {{/issues}}
+{{/tags}}
+```
+
+And then to generate changelog, just run:
 ```
 mvn generate-sources
 ```
