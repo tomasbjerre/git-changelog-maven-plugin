@@ -42,30 +42,31 @@
 
 <p>Here is and example that will generate a CHANGELOG.md. There is also a running example <a href="https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example">here</a>.</p>
 
-<p>
-    
-      
-        se.bjurr.gitchangelog
-        git-changelog-maven-plugin
-        1.0-SNAPSHOT
-        
-          
-            GenerateGitChangelog
-            generate-sources
-            
-              git-changelog
-            
-            
-              refs/heads/master
-              changelog.mustache
-              changelog.json
-              CHANGELOG.md
-            
-          
-        
-      
-    
-  </p>
+<pre><code>  &lt;build&gt;
+    &lt;plugins&gt;
+      &lt;plugin&gt;
+        &lt;groupId&gt;se.bjurr.gitchangelog&lt;/groupId&gt;
+        &lt;artifactId&gt;git-changelog-maven-plugin&lt;/artifactId&gt;
+        &lt;version&gt;1.0&lt;/version&gt;
+        &lt;executions&gt;
+          &lt;execution&gt;
+            &lt;id&gt;GenerateGitChangelog&lt;/id&gt;
+            &lt;phase&gt;generate-sources&lt;/phase&gt;
+            &lt;goals&gt;
+              &lt;goal&gt;git-changelog&lt;/goal&gt;
+            &lt;/goals&gt;
+            &lt;configuration&gt;
+              &lt;toRef&gt;refs/heads/master&lt;/toRef&gt;
+              &lt;templateFile&gt;changelog.mustache&lt;/templateFile&gt;
+              &lt;settingsFile&gt;changelog.json&lt;/settingsFile&gt;
+              &lt;filePath&gt;CHANGELOG.md&lt;/filePath&gt;
+            &lt;/configuration&gt;
+          &lt;/execution&gt;
+        &lt;/executions&gt;
+      &lt;/plugin&gt;
+    &lt;/plugins&gt;
+  &lt;/build&gt;
+</code></pre>
 
 <p>This setup has a settings file, changelog.json, like this:</p>
 
