@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Git-changelog-maven-plugin : Maven plugin for git-changelog">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Git-changelog-maven-plugin</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/tomasbjerre/git-changelog-maven-plugin">View on GitHub</a>
+
+          <h1 id="project_title">Git-changelog-maven-plugin</h1>
+          <h2 id="project_tagline">Maven plugin for git-changelog</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/tomasbjerre/git-changelog-maven-plugin/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/tomasbjerre/git-changelog-maven-plugin/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="git-changelog-maven-plugin-" class="anchor" href="#git-changelog-maven-plugin-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git Changelog Maven Plugin <a href="https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin"><img src="https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin.svg?branch=master" alt="Build Status"></a>
+</h1>
+
+<p>This is a Maven plugin for <a href="https://github.com/tomasbjerre/git-changelog-lib">Git Changelog</a>.</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Here is and example that will generate a CHANGELOG.md. There is also a running example <a href="https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example">here</a>.</p>
+
+<p>
+    
+      
+        se.bjurr.gitchangelog
+        git-changelog-maven-plugin
+        1.0-SNAPSHOT
+        
+          
+            GenerateGitChangelog
+            generate-sources
+            
+              git-changelog
+            
+            
+              refs/heads/master
+              changelog.mustache
+              changelog.json
+              CHANGELOG.md
+            
+          
+        
+      
+    
+  </p>
+
+<p>This setup has a settings file, changelog.json, like this:</p>
+
+<pre><code>{
+ "fromRepo": ".",
+ "fromCommit": "0000000000000000000000000000000000000000",
+ "toRef": "refs/heads/master",
+
+ "ignoreCommitsIfMessageMatches": "^\\[maven-release-plugin\\].*|^\\[Gradle Release Plugin\\].*|^Merge.*",
+ "readableTagName": "/([^/]+?)$",
+ "dateFormat": "YYYY-MM-dd HH:mm:ss",
+ "untaggedName": "Next release",
+ "noIssueName": "Other changes",
+ "timeZone": "UTC",
+ "removeIssueFromMessage": "true",
+
+ "jiraIssuePattern": "\\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\\b",
+
+ "githubIssuePattern": "#[0-9]*",
+
+ "customIssues": [
+  { "name": "Bugs", "pattern": "#bug" },
+  { "name": "Features", "pattern": "#feature" }
+ ]
+}
+</code></pre>
+
+<p>It has a template file like this:</p>
+
+<pre><code># Git Changelog changelog
+
+Changelog of Git Changelog.
+
+{{#tags}}
+## {{name}}
+ {{#issues}}
+### {{name}}
+
+   {{#commits}}
+{{{message}}}
+
+   {{/commits}}
+ {{/issues}}
+{{/tags}}
+</code></pre>
+
+<p>And then to generate changelog, just run:</p>
+
+<pre><code>mvn generate-sources
+</code></pre>
+
+<h2>
+<a id="developer-instructions" class="anchor" href="#developer-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developer instructions</h2>
+
+<p>To make a release, first run:</p>
+
+<pre><code>mvn release:prepare -DperformRelease=true
+mvn release:perform
+</code></pre>
+
+<p>Then release the artifact from <a href="https://oss.sonatype.org/#stagingRepositories">staging</a>. More information <a href="http://central.sonatype.org/pages/releasing-the-deployment.html">here</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Git-changelog-maven-plugin maintained by <a href="https://github.com/tomasbjerre">tomasbjerre</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
