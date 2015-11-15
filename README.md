@@ -6,12 +6,13 @@ This is a Maven plugin for [Git Changelog](https://github.com/tomasbjerre/git-ch
 ## Usage ##
 Here is and example that will generate a CHANGELOG.md. There is also a running example [here](https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example).
 
+```
   <build>
     <plugins>
       <plugin>
         <groupId>se.bjurr.gitchangelog</groupId>
         <artifactId>git-changelog-maven-plugin</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
         <executions>
           <execution>
             <id>GenerateGitChangelog</id>
@@ -30,6 +31,7 @@ Here is and example that will generate a CHANGELOG.md. There is also a running e
       </plugin>
     </plugins>
   </build>
+```
 
 
 This setup has a settings file, changelog.json, like this:
