@@ -1,0 +1,12 @@
+.classpath
+.project
+.settings
+generated-src
+build
+target
+bin
+temp
+gradlew
+gradlew.bat
+.gradle
+gradle
