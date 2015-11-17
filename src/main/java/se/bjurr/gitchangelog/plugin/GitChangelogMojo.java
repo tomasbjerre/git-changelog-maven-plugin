@@ -30,8 +30,17 @@ public class GitChangelogMojo extends AbstractMojo {
  private String settingsFile;
  @Parameter(property = "templateFile", required = false)
  private String templateFile;
- @Parameter(property = "filePath", required = true)
+ @Parameter(property = "filePath", required = false)
  private String filePath;
+
+ @Parameter(property = "mediaWikiUrl", required = false)
+ private String mediaWikiUrl;
+ @Parameter(property = "mediaWikiTitle", required = false)
+ private String mediaWikiTitle;
+ @Parameter(property = "mediaWikiUsername", required = false)
+ private String mediaWikiUsername;
+ @Parameter(property = "mediaWikiPassword", required = false)
+ private String mediaWikiPassword;
 
  @Override
  public void execute() throws MojoExecutionException {
@@ -55,10 +64,21 @@ public class GitChangelogMojo extends AbstractMojo {
       .withToCommit(toCommit);
    }
 
-   builder //
-     .toFile(filePath);
+   if (!isNullOrEmpty(filePath)) {
+    builder //
+      .toFile(filePath);
+    getLog().info("Git Changelog written to " + filePath);
+   }
 
-   getLog().info("Git Changelog written to " + filePath);
+   if (!isNullOrEmpty(mediaWikiUrl)) {
+    builder//
+      .toMediaWiki(//
+        mediaWikiUsername,//
+        mediaWikiPassword, //
+        mediaWikiUrl,//
+        mediaWikiTitle);
+    getLog().info("Git Changelog written to " + mediaWikiUrl + "/index.php/" + mediaWikiTitle);
+   }
   } catch (MalformedURLException e) {
    getLog().error("GitChangelog", e);
   }

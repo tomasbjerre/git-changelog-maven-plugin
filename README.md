@@ -24,7 +24,15 @@ Here is and example that will generate a CHANGELOG.md. There is also a running e
               <toRef>refs/heads/master</toRef>
               <templateFile>changelog.mustache</templateFile>
               <settingsFile>changelog.json</settingsFile>
+
+              <!-- A file on filesystem //-->
               <filePath>CHANGELOG.md</filePath>
+
+              <!-- Or post to MediaWiki //-->
+              <mediaWikiUsername>tomas</mediaWikiUsername>
+              <mediaWikiPassword>tomaskod</mediaWikiPassword>
+              <mediaWikiUrl>http://localhost/mediawiki</mediaWikiUrl>
+              <mediaWikiTitle>Tomas Title</mediaWikiTitle>
             </configuration>
           </execution>
         </executions>
