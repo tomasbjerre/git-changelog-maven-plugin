@@ -47,7 +47,7 @@
       &lt;plugin&gt;
         &lt;groupId&gt;se.bjurr.gitchangelog&lt;/groupId&gt;
         &lt;artifactId&gt;git-changelog-maven-plugin&lt;/artifactId&gt;
-        &lt;version&gt;1.0&lt;/version&gt;
+        &lt;version&gt;1.1&lt;/version&gt;
         &lt;executions&gt;
           &lt;execution&gt;
             &lt;id&gt;GenerateGitChangelog&lt;/id&gt;
@@ -59,7 +59,15 @@
               &lt;toRef&gt;refs/heads/master&lt;/toRef&gt;
               &lt;templateFile&gt;changelog.mustache&lt;/templateFile&gt;
               &lt;settingsFile&gt;changelog.json&lt;/settingsFile&gt;
+
+              &lt;!-- A file on filesystem //--&gt;
               &lt;filePath&gt;CHANGELOG.md&lt;/filePath&gt;
+
+              &lt;!-- Or post to MediaWiki //--&gt;
+              &lt;mediaWikiUsername&gt;tomas&lt;/mediaWikiUsername&gt;
+              &lt;mediaWikiPassword&gt;tomaskod&lt;/mediaWikiPassword&gt;
+              &lt;mediaWikiUrl&gt;http://localhost/mediawiki&lt;/mediaWikiUrl&gt;
+              &lt;mediaWikiTitle&gt;Tomas Title&lt;/mediaWikiTitle&gt;
             &lt;/configuration&gt;
           &lt;/execution&gt;
         &lt;/executions&gt;
