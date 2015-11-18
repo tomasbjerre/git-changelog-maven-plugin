@@ -1,15 +1,23 @@
-# Git Changelog changelog
+# Git Changelog Maven plugin changelog
 
-Changelog of Git Changelog.
+Changelog of Git Changelog Maven plugin.
 
 {{#tags}}
 ## {{name}}
  {{#issues}}
+  {{#hasLink}}
+### {{name}} [{{issue}}]({{link}})
+  {{/hasLink}}
+  {{^hasLink}}
 ### {{name}}
+  {{/hasLink}}
 
-   {{#commits}}
+  {{#commits}}
+[{{hash}}](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/{{hash}}) {{authorName}} *{{commitTime}}*
+
 {{{message}}}
 
-   {{/commits}}
+  {{/commits}}
+
  {{/issues}}
 {{/tags}}
