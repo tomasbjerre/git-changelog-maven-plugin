@@ -12,7 +12,7 @@ Here is and example that will generate a CHANGELOG.md. There is also a running e
       <plugin>
         <groupId>se.bjurr.gitchangelog</groupId>
         <artifactId>git-changelog-maven-plugin</artifactId>
-        <version>1.4</version>
+        <version>1.5</version>
         <executions>
           <execution>
             <id>GenerateGitChangelog</id>
@@ -57,11 +57,14 @@ This setup has a settings file, changelog.json, like this:
  "noIssueName": "Other changes",
  "timeZone": "UTC",
  "removeIssueFromMessage": "true",
- 
+
+ "jiraServer": "https://jiraserver/jira",
  "jiraIssuePattern": "\\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\\b",
 
+ "gitHubApi": "https://api.github.com/repos/tomasbjerre/git-changelog-maven-plugin",
+ "gitHubIssuePattern": "#([0-9]+)",
+
  "customIssues": [
-  {"name": "Github", "pattern": "#([0-9]+)", "link": "https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/${PATTERN_GROUP_1}" },
   { "name": "Bugs", "pattern": "#bug" },
   { "name": "Features", "pattern": "#feature" }
  ]
