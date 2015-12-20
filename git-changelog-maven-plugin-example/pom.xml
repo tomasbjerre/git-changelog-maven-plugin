@@ -26,9 +26,40 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
             </goals>
             <configuration>
               <toRef>refs/heads/master</toRef>
-              <templateFile>changelog.mustache</templateFile>
               <settingsFile>changelog.json</settingsFile>
-              
+
+              <!-- Template from file //-->
+              <!-- templateFile>changelog.mustache</templateFile //-->
+
+              <!-- Template here //-->
+              <!-- templateContent>
+              <![CDATA[
+# Git Changelog Maven plugin changelog
+
+Changelog of Git Changelog Maven plugin.
+
+{{#tags}}
+## {{name}}
+ {{#issues}}
+  {{#hasLink}}
+### {{name}} [{{issue}}]({{link}}) {{title}}
+  {{/hasLink}}
+  {{^hasLink}}
+### {{name}}
+  {{/hasLink}}
+
+  {{#commits}}
+[{{hash}}](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/{{hash}}) {{authorName}} *{{commitTime}}*
+
+{{{message}}}
+
+  {{/commits}}
+
+ {{/issues}}
+{{/tags}}
+              ]]>
+              </templateContent//-->
+
               <!-- A file on filesystem //-->
               <filePath>CHANGELOG.md</filePath>
 

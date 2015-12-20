@@ -30,6 +30,8 @@ public class GitChangelogMojo extends AbstractMojo {
  private String settingsFile;
  @Parameter(property = "templateFile", required = false)
  private String templateFile;
+ @Parameter(property = "templateContent", required = false)
+ private String templateContent;
  @Parameter(property = "filePath", required = false)
  private String filePath;
 
@@ -48,9 +50,16 @@ public class GitChangelogMojo extends AbstractMojo {
    GitChangelogApi builder;
    builder = gitChangelogApiBuilder() //
      .withSettings(new File(settingsFile).toURI().toURL()) //
-     .withTemplatePath(templateFile) //
      .withToRef(toRef);
 
+   if (!isNullOrEmpty(templateFile)) {
+    builder //
+      .withTemplatePath(templateFile);
+   }
+   if (!isNullOrEmpty(templateContent)) {
+    builder //
+      .withTemplateContent(templateContent);
+   }
    if (!isNullOrEmpty(fromCommit)) {
     builder //
       .withFromCommit(fromCommit);
