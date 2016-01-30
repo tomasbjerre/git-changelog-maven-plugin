@@ -32,13 +32,13 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a id="git-changelog-maven-plugin-" class="anchor" href="#git-changelog-maven-plugin-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git Changelog Maven Plugin <a href="https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin"><img src="https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin.svg?branch=master" alt="Build Status"></a>
+<a id="git-changelog-maven-plugin-" class="anchor" href="#git-changelog-maven-plugin-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git Changelog Maven Plugin <a href="https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin"><img src="https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin.svg?branch=master" alt="Build Status"></a>
 </h1>
 
 <p>This is a Maven plugin for <a href="https://github.com/tomasbjerre/git-changelog-lib">Git Changelog</a>.</p>
 
 <h2>
-<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
 
 <p>Here is and example that will generate a CHANGELOG.md. There is also a running example <a href="https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example">here</a>.</p>
 
@@ -47,7 +47,7 @@
       &lt;plugin&gt;
         &lt;groupId&gt;se.bjurr.gitchangelog&lt;/groupId&gt;
         &lt;artifactId&gt;git-changelog-maven-plugin&lt;/artifactId&gt;
-        &lt;version&gt;1.9&lt;/version&gt;
+        &lt;version&gt;1.10&lt;/version&gt;
         &lt;executions&gt;
           &lt;execution&gt;
             &lt;id&gt;GenerateGitChangelog&lt;/id&gt;
@@ -76,7 +76,7 @@
   &lt;/build&gt;
 </code></pre>
 
-<p>This setup has a settings file, changelog.json, like this:</p>
+<p>This setup has a settings file, changelog.json, <a href="https://github.com/tomasbjerre/git-changelog/blob/master/src/main/java/se/bjurr/gitchangelog/internal/settings/Settings.java">documented here</a>. May look something like this:</p>
 
 <pre><code>{
  "fromRepo": ".",
@@ -129,7 +129,7 @@ Changelog of Git Changelog.
 </code></pre>
 
 <h2>
-<a id="developer-instructions" class="anchor" href="#developer-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developer instructions</h2>
+<a id="developer-instructions" class="anchor" href="#developer-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developer instructions</h2>
 
 <p>To make a release, first run:</p>
 
