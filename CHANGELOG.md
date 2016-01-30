@@ -3,9 +3,28 @@
 Changelog of Git Changelog Maven plugin.
 
 ## Next release
+### GitHub [#3](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/3) Enhance documentation for changelog.json file
+
+[adc959a530801da](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/adc959a530801da) Tomas Bjerre *2016-01-30 09:22:01*
+
+Documentation
+
+
+### Other changes
+
+[07ee08286e59ceb](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/07ee08286e59ceb) Tomas Bjerre *2016-01-30 17:36:11*
+
+Using lib 1.22
+
+[75c3bb60f27db98](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/75c3bb60f27db98) Tomas Bjerre *2016-01-28 18:46:14*
+
+Using lib 1.19
+
+
+## git-changelog-maven-plugin-1.10
 ### GitHub [#2](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/2) Allow for template to be added directly in pom.xml
 
-[f2260d8c648971f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f2260d8c648971f) Tomas Bjerre *2015-12-20 17:29:08*
+[ed405f4ff98b9ec](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ed405f4ff98b9ec) Tomas Bjerre *2015-12-20 17:29:26*
 
 Template can be configured directly in the pom
 
@@ -129,5 +148,9 @@ doc
 [044b3a76a1ab650](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/044b3a76a1ab650) Tomas Bjerre *2015-11-15 14:30:51*
 
 Initial
+
+[3c47076c0ecb2de](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3c47076c0ecb2de) Tomas Bjerre *2015-11-15 13:18:29*
+
+Initial commit
 
 
