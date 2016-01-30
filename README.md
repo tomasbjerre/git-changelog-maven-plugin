@@ -42,7 +42,7 @@ Here is and example that will generate a CHANGELOG.md. There is also a running e
 ```
 
 
-This setup has a settings file, changelog.json, like this:
+This setup has a settings file, changelog.json, [documented here](https://github.com/tomasbjerre/git-changelog/blob/master/src/main/java/se/bjurr/gitchangelog/internal/settings/Settings.java). May look something like this:
 
 ```
 {

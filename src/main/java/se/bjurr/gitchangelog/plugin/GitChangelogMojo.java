@@ -52,34 +52,34 @@ public class GitChangelogMojo extends AbstractMojo {
      .withSettings(new File(settingsFile).toURI().toURL()) //
      .withToRef(toRef);
 
-   if (!isNullOrEmpty(templateFile)) {
+   if (isSupplied(templateFile)) {
     builder //
       .withTemplatePath(templateFile);
    }
-   if (!isNullOrEmpty(templateContent)) {
+   if (isSupplied(templateContent)) {
     builder //
       .withTemplateContent(templateContent);
    }
-   if (!isNullOrEmpty(fromCommit)) {
+   if (isSupplied(fromCommit)) {
     builder //
       .withFromCommit(fromCommit);
    }
-   if (!isNullOrEmpty(fromRef)) {
+   if (isSupplied(fromRef)) {
     builder //
       .withFromRef(fromRef);
    }
-   if (!isNullOrEmpty(toCommit)) {
+   if (isSupplied(toCommit)) {
     builder //
       .withToCommit(toCommit);
    }
 
-   if (!isNullOrEmpty(filePath)) {
+   if (isSupplied(filePath)) {
     builder //
       .toFile(filePath);
     getLog().info("Git Changelog written to " + filePath);
    }
 
-   if (!isNullOrEmpty(mediaWikiUrl)) {
+   if (isSupplied(mediaWikiUrl)) {
     builder//
       .toMediaWiki(//
         mediaWikiUsername,//
@@ -91,5 +91,9 @@ public class GitChangelogMojo extends AbstractMojo {
   } catch (MalformedURLException e) {
    getLog().error("GitChangelog", e);
   }
+ }
+
+ private boolean isSupplied(String parameter) {
+  return !isNullOrEmpty(parameter);
  }
 }
