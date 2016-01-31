@@ -26,7 +26,6 @@
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
-							<settingsFile>changelog.json</settingsFile>
 							<filePath>CHANGELOG_minimal.md</filePath>
 						</configuration>
 					</execution>
@@ -169,7 +168,7 @@ Changelog of Git Changelog Maven plugin.
 							<!-- If commits are not grouped per issue, you may want to keep the 
 								issue in the comment. -->
 							<removeIssueFromMessage>false</removeIssueFromMessage>
-							<ignoreCommitsIfMessageMatches></ignoreCommitsIfMessageMatches>
+							<ignoreCommitsIfMessageMatches>^\[maven-release-plugin\].*</ignoreCommitsIfMessageMatches>
 							<untaggedName>These commits are not included in any tag</untaggedName>
 							<noIssueName>These commits have not issue in their commit comment</noIssueName>
 							<templateContent>

@@ -54,16 +54,6 @@ Changelog of Git Changelog Maven plugin.
 
 
 
-## These commits are not included in any tag
-### These commits have not issue in their commit comment
-   Using lib 1.22 *17:36:44*
-
-   Documentation #3 *09:22:01*
-
-   Using lib 1.19 *18:46:14*
-
-
-
 ## 1.10
 ### These commits have not issue in their commit comment
    Template can be configured directly in the pom #2 *17:29:26*
@@ -88,11 +78,31 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## These commits are not included in any tag
+### These commits have not issue in their commit comment
+   Correcting example ignoring commits by comment *09:24:20*
+
+   Updating README.md after release *07:36:20*
+
+
+
 ## 1.9
 ### These commits have not issue in their commit comment
    Using lib 1.17 #1 *07:37:23*
 
    doc *22:58:13*
+
+
+
+## 1.11
+### These commits have not issue in their commit comment
+   Documentation and more configuration available in pom #3 *07:15:44*
+
+   Using lib 1.22 *17:36:44*
+
+   Documentation #3 *09:22:01*
+
+   Using lib 1.19 *18:46:14*
 
 
 
