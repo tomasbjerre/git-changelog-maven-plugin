@@ -26,7 +26,7 @@ public class GitChangelogMojo extends AbstractMojo {
  @Parameter(property = "toCommit", required = false)
  private String fromCommit;
 
- @Parameter(property = "settingsFile", required = true)
+ @Parameter(property = "settingsFile", required = false)
  private String settingsFile;
  @Parameter(property = "templateFile", required = false)
  private String templateFile;
@@ -44,39 +44,75 @@ public class GitChangelogMojo extends AbstractMojo {
  @Parameter(property = "mediaWikiPassword", required = false)
  private String mediaWikiPassword;
 
+ @Parameter(property = "readableTagName", required = false)
+ private String readableTagName;
+ @Parameter(property = "dateFormat", required = false)
+ private String dateFormat;
+ @Parameter(property = "timeZone", required = false)
+ private String timeZone;
+ @Parameter(property = "removeIssueFromMessage", required = false)
+ private boolean removeIssueFromMessage;
+ @Parameter(property = "ignoreCommitsIfMessageMatches", required = false)
+ private String ignoreCommitsIfMessageMatches;
+ @Parameter(property = "untaggedName", required = false)
+ private String untaggedName;
+ @Parameter(property = "noIssueName", required = false)
+ private String noIssueName;
+
  @Override
  public void execute() throws MojoExecutionException {
   try {
    GitChangelogApi builder;
-   builder = gitChangelogApiBuilder() //
-     .withSettings(new File(settingsFile).toURI().toURL()) //
-     .withToRef(toRef);
+   builder = gitChangelogApiBuilder();
+   if (isSupplied(settingsFile)) {
+    builder.withSettings(new File(settingsFile).toURI().toURL());
+   }
+
+   if (isSupplied(toRef)) {
+    builder.withToRef(toRef);
+   }
 
    if (isSupplied(templateFile)) {
-    builder //
-      .withTemplatePath(templateFile);
+    builder.withTemplatePath(templateFile);
    }
    if (isSupplied(templateContent)) {
-    builder //
-      .withTemplateContent(templateContent);
+    builder.withTemplateContent(templateContent);
    }
    if (isSupplied(fromCommit)) {
-    builder //
-      .withFromCommit(fromCommit);
+    builder.withFromCommit(fromCommit);
    }
    if (isSupplied(fromRef)) {
-    builder //
-      .withFromRef(fromRef);
+    builder.withFromRef(fromRef);
    }
    if (isSupplied(toCommit)) {
-    builder //
-      .withToCommit(toCommit);
+    builder.withToCommit(toCommit);
+   }
+
+   if (isSupplied(readableTagName)) {
+    builder.withReadableTagName(readableTagName);
+   }
+   if (isSupplied(dateFormat)) {
+    builder.withDateFormat(dateFormat);
+   }
+   if (isSupplied(timeZone)) {
+    builder.withTimeZone(timeZone);
+   }
+   builder.withRemoveIssueFromMessageArgument(removeIssueFromMessage);
+   if (isSupplied(ignoreCommitsIfMessageMatches)) {
+    builder.withIgnoreCommitsWithMesssage(ignoreCommitsIfMessageMatches);
+   }
+   if (isSupplied(untaggedName)) {
+    builder.withUntaggedName(untaggedName);
+   }
+   if (isSupplied(noIssueName)) {
+    builder.withNoIssueName(noIssueName);
    }
 
    if (isSupplied(filePath)) {
-    builder //
-      .toFile(filePath);
-    getLog().info("Git Changelog written to " + filePath);
+    builder.toFile(filePath);
+    getLog().info("#");
+    getLog().info("# Wrote: " + filePath);
+    getLog().info("#");
    }
 
    if (isSupplied(mediaWikiUrl)) {
@@ -86,7 +122,9 @@ public class GitChangelogMojo extends AbstractMojo {
         mediaWikiPassword, //
         mediaWikiUrl,//
         mediaWikiTitle);
-    getLog().info("Git Changelog written to " + mediaWikiUrl + "/index.php/" + mediaWikiTitle);
+    getLog().info("#");
+    getLog().info("# Created: " + mediaWikiUrl + "/index.php/" + mediaWikiTitle);
+    getLog().info("#");
    }
   } catch (MalformedURLException e) {
    getLog().error("GitChangelog", e);

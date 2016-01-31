@@ -4,7 +4,7 @@
  "toRef": "refs/heads/master",
  
  "ignoreCommitsIfMessageMatches": "^\\[maven-release-plugin\\].*|^\\[Gradle Release Plugin\\].*|^Merge.*",
- "readableTagName": "/([^/]+?)$",
+ "readableTagName": "-([^-]+?)$",
  "dateFormat": "YYYY-MM-dd HH:mm:ss",
  "untaggedName": "Next release",
  "noIssueName": "Other changes",

@@ -4,7 +4,7 @@ This is a Maven plugin for [Git Changelog](https://github.com/tomasbjerre/git-ch
 
 
 ## Usage ##
-Here is and example that will generate a CHANGELOG.md. There is also a running example [here](https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example).
+Here is and example that will generate a CHANGELOG.md. There is also a running example [here](https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example) in the [pom.xml](https://github.com/tomasbjerre/git-changelog-maven-plugin/blob/master/git-changelog-maven-plugin-example/pom.xml) you will find some examples of how it can be configured.
 
 ```
   <build>

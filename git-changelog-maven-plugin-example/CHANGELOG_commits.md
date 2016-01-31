@@ -138,19 +138,3 @@ MediaWiki support, using lib 1.2
 doc
 
 
-## 1.0
-### Other changes
-
-[ee8f7c1e1027713](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ee8f7c1e1027713) Tomas Bjerre *2015-11-15 14:36:57*
-
-doc
-
-[044b3a76a1ab650](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/044b3a76a1ab650) Tomas Bjerre *2015-11-15 14:30:51*
-
-Initial
-
-[3c47076c0ecb2de](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3c47076c0ecb2de) Tomas Bjerre *2015-11-15 13:18:29*
-
-Initial commit
-
-
