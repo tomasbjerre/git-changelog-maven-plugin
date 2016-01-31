@@ -5,7 +5,11 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[62d02c39faf59c5](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/62d02c39faf59c5) Tomas Bjerre *2016-01-31 09:24:20*
+[77ff7d24da7861a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/77ff7d24da7861a) Tomas Bjerre *2016-01-31 11:10:37*
+
+Using lib 1.23 to sort commits by time, not formatted time #4
+
+[ff68131be78f8e8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ff68131be78f8e8) Tomas Bjerre *2016-01-31 09:30:03*
 
 Correcting example ignoring commits by comment
 
