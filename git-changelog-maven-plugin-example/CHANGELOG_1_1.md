@@ -2,8 +2,8 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## 1.1
-### Other changes
+## git-changelog-maven-plugin-1.1
+### No issue
 
 [6f86aae88b6818a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6f86aae88b6818a) Tomas Bjerre *2015-11-17 20:15:39*
 
@@ -14,8 +14,8 @@ MediaWiki support, using lib 1.2
 doc
 
 
-## 1.0
-### Other changes
+## git-changelog-maven-plugin-1.0
+### No issue
 
 [ee8f7c1e1027713](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ee8f7c1e1027713) Tomas Bjerre *2015-11-15 14:36:57*
 

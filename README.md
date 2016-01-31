@@ -12,7 +12,7 @@ Here is and example that will generate a CHANGELOG.md. There is also a running e
       <plugin>
         <groupId>se.bjurr.gitchangelog</groupId>
         <artifactId>git-changelog-maven-plugin</artifactId>
-        <version>1.12</version>
+        <version>1.13</version>
         <executions>
           <execution>
             <id>GenerateGitChangelog</id>
@@ -21,10 +21,6 @@ Here is and example that will generate a CHANGELOG.md. There is also a running e
               <goal>git-changelog</goal>
             </goals>
             <configuration>
-              <toRef>refs/heads/master</toRef>
-              <templateFile>changelog.mustache</templateFile>
-              <settingsFile>changelog.json</settingsFile>
-
               <!-- A file on filesystem //-->
               <filePath>CHANGELOG.md</filePath>
 
@@ -42,7 +38,7 @@ Here is and example that will generate a CHANGELOG.md. There is also a running e
 ```
 
 
-This setup has a settings file, changelog.json, [documented here](https://github.com/tomasbjerre/git-changelog/blob/master/src/main/java/se/bjurr/gitchangelog/internal/settings/Settings.java). May look something like this:
+A settings file may be used, [documented here](https://github.com/tomasbjerre/git-changelog/blob/master/src/main/java/se/bjurr/gitchangelog/internal/settings/Settings.java). It may look something like this:
 
 ```
 {
@@ -71,7 +67,7 @@ This setup has a settings file, changelog.json, [documented here](https://github
 }
 ```
 
-It has a template file like this:
+A custom template file may be used and can look like this:
 
 ```
 # Git Changelog changelog
@@ -81,7 +77,12 @@ Changelog of Git Changelog.
 {{#tags}}
 ## {{name}}
  {{#issues}}
+  {{#hasLink}}
+### {{name}} [{{issue}}]({{link}}) {{title}}
+  {{/hasLink}}
+  {{^hasLink}}
 ### {{name}}
+  {{/hasLink}}
 
    {{#commits}}
 {{{message}}}

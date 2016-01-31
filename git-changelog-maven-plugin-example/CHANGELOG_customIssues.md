@@ -3,6 +3,12 @@
 Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
+### No issue
+   Updating README.md after release
+
+
+
+## git-changelog-maven-plugin-1.13
 ### CQ [QC1234](http://cq/1234) 
    Implementing custom issues
 
