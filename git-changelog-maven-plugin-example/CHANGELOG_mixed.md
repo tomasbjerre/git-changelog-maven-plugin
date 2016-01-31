@@ -4,7 +4,19 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
-   Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:37*
+   Implementing custom issues
+
+ * Adding example with
+  * QC matching QC1234
+  * Incident matching INC1234 *17:02:18*
+
+   Updagint README.md after release *11:14:02*
+
+
+
+## 1.12
+### These commits have not issue in their commit comment
+   Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
 
    Correcting example ignoring commits by comment *09:30:03*
 

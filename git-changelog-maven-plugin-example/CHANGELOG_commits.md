@@ -3,9 +3,25 @@
 Changelog of Git Changelog Maven plugin.
 
 ## Next release
+### Other changes
+
+[1e12717e4616273](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1e12717e4616273) Tomas Bjerre *2016-01-31 17:02:18*
+
+Implementing custom issues
+
+ * Adding example with
+  * QC matching QC1234
+  * Incident matching INC1234
+
+[424f73c0fef52ea](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/424f73c0fef52ea) Tomas Bjerre *2016-01-31 11:14:02*
+
+Updagint README.md after release
+
+
+## 1.12
 ### GitHub [#4](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/4) The tags are out of order
 
-[77ff7d24da7861a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/77ff7d24da7861a) Tomas Bjerre *2016-01-31 11:10:37*
+[5fbc5f762d90669](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5fbc5f762d90669) Tomas Bjerre *2016-01-31 11:10:56*
 
 Using lib 1.23 to sort commits by time, not formatted time #4
 

@@ -6,6 +6,7 @@ import static se.bjurr.gitchangelog.api.GitChangelogApi.gitChangelogApiBuilder;
 
 import java.io.File;
 import java.net.MalformedURLException;
+import java.util.List;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
@@ -59,6 +60,9 @@ public class GitChangelogMojo extends AbstractMojo {
  @Parameter(property = "noIssueName", required = false)
  private String noIssueName;
 
+ @Parameter(property = "customIssues", required = false)
+ private List<CustomIssue> customIssues;
+
  @Override
  public void execute() throws MojoExecutionException {
   try {
@@ -106,6 +110,9 @@ public class GitChangelogMojo extends AbstractMojo {
    }
    if (isSupplied(noIssueName)) {
     builder.withNoIssueName(noIssueName);
+   }
+   for (CustomIssue customIssue : customIssues) {
+    builder.withCustomIssue(customIssue.getName(), customIssue.getPattern(), customIssue.getLink());
    }
 
    if (isSupplied(filePath)) {

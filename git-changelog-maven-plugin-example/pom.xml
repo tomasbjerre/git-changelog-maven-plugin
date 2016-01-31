@@ -194,6 +194,56 @@ Changelog of Git Changelog Maven plugin.
 							<filePath>CHANGELOG_mixed.md</filePath>
 						</configuration>
 					</execution>
+
+
+					<!-- Custom issues // -->
+					<execution>
+						<id>GenerateGitChangelogCustomIssues</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>git-changelog</goal>
+						</goals>
+						<configuration>
+							<customIssues>
+								<customIssue>
+									<name>Incident</name>
+									<pattern>INC[0-9]*</pattern>
+									<link>http://inc/${PATTERN_GROUP}</link>
+								</customIssue>
+								<customIssue>
+									<name>CQ</name>
+									<pattern>QC([0-9]+)</pattern>
+									<link>http://cq/${PATTERN_GROUP_1}</link>
+								</customIssue>
+							</customIssues>
+							<templateContent>
+<![CDATA[
+# Git Changelog Maven plugin changelog
+
+Changelog of Git Changelog Maven plugin.
+
+{{#tags}}
+## {{name}}
+ {{#issues}}
+  {{#hasLink}}
+### {{name}} [{{issue}}]({{link}}) {{title}}
+  {{/hasLink}}
+  {{^hasLink}}
+### {{name}}
+  {{/hasLink}}
+  {{#commits}}
+   {{{message}}}
+
+  {{/commits}}
+
+ {{/issues}}
+
+{{/tags}}
+]]>
+							</templateContent>
+							<filePath>CHANGELOG_customIssues.md</filePath>
+						</configuration>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
