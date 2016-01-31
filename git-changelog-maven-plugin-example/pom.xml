@@ -16,7 +16,7 @@
 			<plugin>
 				<groupId>se.bjurr.gitchangelog</groupId>
 				<artifactId>git-changelog-maven-plugin</artifactId>
-				<version>1.12-SNAPSHOT</version>
+				<version>1.13-SNAPSHOT</version>
 				<executions>
 					<!-- Minimal config // -->
 					<execution>
