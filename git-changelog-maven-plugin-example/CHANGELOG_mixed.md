@@ -4,7 +4,13 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
-   Updating README.md after release *17:13:31*
+   Adding example of custom issue without link
+
+ * Like I123 *18:08:56*
+
+   Maven Central version badge in README.md *21:14:03*
+
+   Updating README.md after release *19:19:40*
 
 
 

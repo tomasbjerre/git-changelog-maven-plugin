@@ -3,24 +3,38 @@
 Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
+### Issue
+   Adding example of custom issue without link
+
+ * Like I123
+
+
+### No issue
+   Maven Central version badge in README.md
+
+   Updating README.md after release
+
+
+
+## git-changelog-maven-plugin-1.13
+### CQ [QC1234](http://cq/1234) 
+   Implementing custom issues
+
+ * Adding example with
+  * QC matching QC1234
+  * Incident matching INC1234
+
+
 ### Incident [INC1234](http://inc/INC1234) 
    Implementing custom issues
 
  * Adding example with
-  * CQ matching CQ1234
+  * QC matching QC1234
   * Incident matching INC1234
 
 
 ### No issue
    Updagint README.md after release
-
-
-### QC [CQ1234](http://cq/1234) 
-   Implementing custom issues
-
- * Adding example with
-  * CQ matching CQ1234
-  * Incident matching INC1234
 
 
 

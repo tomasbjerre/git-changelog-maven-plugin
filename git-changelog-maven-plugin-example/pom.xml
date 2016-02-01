@@ -223,6 +223,10 @@ Changelog of Git Changelog Maven plugin.
 									<pattern>QC([0-9]+)</pattern>
 									<link>http://cq/${PATTERN_GROUP_1}</link>
 								</customIssue>
+								<customIssue>
+									<name>Issue</name>
+									<pattern>I([0-9]+)</pattern>
+								</customIssue>
 							</customIssues>
 							<templateContent>
 <![CDATA[
@@ -249,7 +253,7 @@ Changelog of Git Changelog Maven plugin.
 {{/tags}}
 ]]>
 							</templateContent>
-							<filePath>CHANGELOG_customIssues.md</filePath>
+							<filePath>CHANGELOG_custom.md</filePath>
 						</configuration>
 					</execution>
 				</executions>
