@@ -10,6 +10,8 @@ Changelog of Git Changelog Maven plugin.
 
 
 ### No issue
+   Added variables: messageTitle, messageBody, messageItems #5
+
    Maven Central version badge in README.md
 
    Updating README.md after release

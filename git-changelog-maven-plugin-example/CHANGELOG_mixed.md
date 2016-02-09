@@ -4,9 +4,11 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
+   Added variables: messageTitle, messageBody, messageItems #5 *19:22:40*
+
    Adding example of custom issue without link
 
- * Like I123 *18:08:56*
+ * Like I123 *18:15:25*
 
    Maven Central version badge in README.md *21:14:03*
 
