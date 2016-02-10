@@ -5,7 +5,11 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[00ea4b38b642822](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/00ea4b38b642822) Tomas Bjerre *2016-02-09 19:30:12*
+[a2b34183d51ca75](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a2b34183d51ca75) Tomas Bjerre *2016-02-10 17:53:02*
+
+Using lib 1.25 and updating README.md
+
+[22aa5451b408b76](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/22aa5451b408b76) Tomas Bjerre *2016-02-09 19:30:25*
 
 Updating docs after release
 

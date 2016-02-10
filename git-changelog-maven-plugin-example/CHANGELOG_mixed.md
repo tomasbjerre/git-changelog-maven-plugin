@@ -4,7 +4,9 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
-   Updating docs after release *19:30:12*
+   Using lib 1.25 and updating README.md *17:53:02*
+
+   Updating docs after release *19:30:25*
 
 
 

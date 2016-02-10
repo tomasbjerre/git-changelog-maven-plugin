@@ -4,6 +4,8 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   Using lib 1.25 and updating README.md
+
    Updating docs after release
 
 
