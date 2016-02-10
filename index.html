@@ -35,19 +35,23 @@
 <a id="git-changelog-maven-plugin--" class="anchor" href="#git-changelog-maven-plugin--" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git Changelog Maven Plugin <a href="https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin"><img src="https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin.svg?branch=master" alt="Build Status"></a> <a href="https://maven-badges.herokuapp.com/maven-central/se.bjurr.gitchangelog/git-changelog-maven-plugin"><img src="https://maven-badges.herokuapp.com/maven-central/se.bjurr.gitchangelog/git-changelog-maven-plugin/badge.svg" alt="Maven Central"></a>
 </h1>
 
-<p>This is a Maven plugin for <a href="https://github.com/tomasbjerre/git-changelog-lib">Git Changelog</a>.</p>
+<p>This is a Maven plugin for <a href="https://github.com/tomasbjerre/git-changelog-lib">Git Changelog Lib</a>.</p>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
 
-<p>Here is and example that will generate a CHANGELOG.md. There is also a running example <a href="https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example">here</a> in the <a href="https://github.com/tomasbjerre/git-changelog-maven-plugin/blob/master/git-changelog-maven-plugin-example/pom.xml">pom.xml</a> you will find some examples of how it can be configured.</p>
+<p>There is a running example <a href="https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example">here</a>.</p>
+
+<p>Have a look at the <a href="https://github.com/tomasbjerre/git-changelog-maven-plugin/blob/master/git-changelog-maven-plugin-example/pom.xml">pom.xml</a> where you will find some more examples.</p>
+
+<p>Here is and example that will generate a CHANGELOG.md. </p>
 
 <pre><code>  &lt;build&gt;
     &lt;plugins&gt;
       &lt;plugin&gt;
         &lt;groupId&gt;se.bjurr.gitchangelog&lt;/groupId&gt;
         &lt;artifactId&gt;git-changelog-maven-plugin&lt;/artifactId&gt;
-        &lt;version&gt;1.14&lt;/version&gt;
+        &lt;version&gt;1.15&lt;/version&gt;
         &lt;executions&gt;
           &lt;execution&gt;
             &lt;id&gt;GenerateGitChangelog&lt;/id&gt;
@@ -72,62 +76,12 @@
   &lt;/build&gt;
 </code></pre>
 
-<p>A settings file may be used, <a href="https://github.com/tomasbjerre/git-changelog/blob/master/src/main/java/se/bjurr/gitchangelog/internal/settings/Settings.java">documented here</a>. It may look something like this:</p>
-
-<pre><code>{
- "fromRepo": ".",
- "fromCommit": "0000000000000000000000000000000000000000",
- "toRef": "refs/heads/master",
-
- "ignoreCommitsIfMessageMatches": "^\\[maven-release-plugin\\].*|^\\[Gradle Release Plugin\\].*|^Merge.*",
- "readableTagName": "/([^/]+?)$",
- "dateFormat": "YYYY-MM-dd HH:mm:ss",
- "untaggedName": "Next release",
- "noIssueName": "Other changes",
- "timeZone": "UTC",
- "removeIssueFromMessage": "true",
-
- "jiraServer": "https://jiraserver/jira",
- "jiraIssuePattern": "\\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\\b",
-
- "gitHubApi": "https://api.github.com/repos/tomasbjerre/git-changelog-maven-plugin",
- "gitHubIssuePattern": "#([0-9]+)",
-
- "customIssues": [
-  { "name": "Bugs", "pattern": "#bug" },
-  { "name": "Features", "pattern": "#feature" }
- ]
-}
-</code></pre>
-
-<p>A custom template file may be used and can look like this:</p>
-
-<pre><code># Git Changelog changelog
-
-Changelog of Git Changelog.
-
-{{#tags}}
-## {{name}}
- {{#issues}}
-  {{#hasLink}}
-### {{name}} [{{issue}}]({{link}}) {{title}}
-  {{/hasLink}}
-  {{^hasLink}}
-### {{name}}
-  {{/hasLink}}
-
-   {{#commits}}
-{{{message}}}
-
-   {{/commits}}
- {{/issues}}
-{{/tags}}
-</code></pre>
-
-<p>And then to generate changelog, just run:</p>
+<p>To generate changelog, just run:</p>
 
 <pre><code>mvn generate-sources
 </code></pre>
+
+<p>More documentation can be found in the <a href="https://github.com/tomasbjerre/git-changelog-lib">Git Changelog Lib</a>.</p>
 
 <h2>
 <a id="developer-instructions" class="anchor" href="#developer-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developer instructions</h2>
