@@ -4,7 +4,9 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
-   Updating CHANGELOG.md *09:20:18*
+   Lib 1.28, performance optimizations *16:56:16*
+
+   Updating CHANGELOG.md *09:20:43*
 
 
 
