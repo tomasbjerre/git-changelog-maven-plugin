@@ -15,7 +15,7 @@ Here is and example that will generate a CHANGELOG.md.
       <plugin>
         <groupId>se.bjurr.gitchangelog</groupId>
         <artifactId>git-changelog-maven-plugin</artifactId>
-        <version>1.16</version>
+        <version>1.18</version>
         <executions>
           <execution>
             <id>GenerateGitChangelog</id>
