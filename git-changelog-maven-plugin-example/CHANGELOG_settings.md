@@ -5,6 +5,11 @@ Changelog of Git Changelog Maven plugin.
 ## Next release
 ### Other changes
 
+**Lib 1.30, supporting multiple tags on same commit**
+
+
+[7d648578cd3269f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7d648578cd3269f) Tomas Bjerre *2016-02-15 18:17:02*
+
 **Updating CHANGELOG.md**
 
 

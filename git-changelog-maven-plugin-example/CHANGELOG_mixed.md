@@ -4,6 +4,8 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
+   Lib 1.30, supporting multiple tags on same commit *18:17:02*
+
    Updating CHANGELOG.md *18:00:16*
 
 
