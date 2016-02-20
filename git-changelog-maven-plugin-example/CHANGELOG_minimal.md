@@ -2,8 +2,13 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.19
 ### No issue
+
+**Supplying commit in each issue mentioned in message**
+
+
+[98ce0edaf4f1320](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/98ce0edaf4f1320) Tomas Bjerre *2016-02-20 08:49:31*
 
 **Updating CHANGELOG.md**
 
