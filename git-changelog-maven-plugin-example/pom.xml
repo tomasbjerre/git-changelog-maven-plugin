@@ -215,6 +215,11 @@ Changelog of Git Changelog Maven plugin.
 						<configuration>
 							<customIssues>
 								<customIssue>
+									<name>GitHub</name>
+									<pattern>#([0-9]*)</pattern>
+									<link>https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/issues/${PATTERN_GROUP_1}</link>
+								</customIssue>
+								<customIssue>
 									<name>Incident</name>
 									<pattern>INC[0-9]*</pattern>
 									<link>http://inc/${PATTERN_GROUP}</link>
