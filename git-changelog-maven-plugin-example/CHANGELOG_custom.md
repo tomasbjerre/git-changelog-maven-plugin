@@ -2,6 +2,16 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+   Support GitHub OAuth2 tokens #6
+
+   Adding example with github as custom issue
+
+   Updating CHANGELOG.md
+
+
+
 ## git-changelog-maven-plugin-1.19
 ### No issue
    Supplying commit in each issue mentioned in message

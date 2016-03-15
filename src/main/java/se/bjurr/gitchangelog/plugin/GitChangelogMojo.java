@@ -5,7 +5,6 @@ import static org.apache.maven.plugins.annotations.LifecyclePhase.PROCESS_SOURCE
 import static se.bjurr.gitchangelog.api.GitChangelogApi.gitChangelogApiBuilder;
 
 import java.io.File;
-import java.net.MalformedURLException;
 import java.util.List;
 
 import org.apache.maven.plugin.AbstractMojo;
@@ -59,6 +58,15 @@ public class GitChangelogMojo extends AbstractMojo {
  private String untaggedName;
  @Parameter(property = "noIssueName", required = false)
  private String noIssueName;
+
+ @Parameter(property = "gitHubApi", required = false)
+ private String gitHubApi;
+ @Parameter(property = "gitHubApiIssuePattern", required = false)
+ private String gitHubApiIssuePattern;
+ @Parameter(property = "gitHubToken", required = false)
+ private String gitHubToken;
+ @Parameter(property = "gitHubIssuePattern", required = false)
+ private String gitHubIssuePattern;
 
  @Parameter(property = "customIssues", required = false)
  private List<CustomIssue> customIssues;
@@ -114,6 +122,15 @@ public class GitChangelogMojo extends AbstractMojo {
    for (CustomIssue customIssue : customIssues) {
     builder.withCustomIssue(customIssue.getName(), customIssue.getPattern(), customIssue.getLink());
    }
+   if (isSupplied(gitHubApi)) {
+    builder.withGitHubApi(gitHubApi);
+   }
+   if (isSupplied(gitHubToken)) {
+    builder.withGitHubToken(gitHubToken);
+   }
+   if (isSupplied(gitHubIssuePattern)) {
+    builder.withGitHubIssuePattern(gitHubIssuePattern);
+   }
 
    if (isSupplied(filePath)) {
     builder.toFile(filePath);
@@ -133,7 +150,7 @@ public class GitChangelogMojo extends AbstractMojo {
     getLog().info("# Created: " + mediaWikiUrl + "/index.php/" + mediaWikiTitle);
     getLog().info("#");
    }
-  } catch (MalformedURLException e) {
+  } catch (Exception e) {
    getLog().error("GitChangelog", e);
   }
  }

@@ -2,6 +2,16 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## These commits are not included in any tag
+### These commits have not issue in their commit comment
+   Support GitHub OAuth2 tokens #6 *19:50:05*
+
+   Adding example with github as custom issue *16:16:05*
+
+   Updating CHANGELOG.md *08:52:37*
+
+
+
 ## 1.19
 ### These commits have not issue in their commit comment
    Supplying commit in each issue mentioned in message *08:49:31*

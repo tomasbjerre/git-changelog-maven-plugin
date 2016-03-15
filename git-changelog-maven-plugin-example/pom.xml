@@ -110,6 +110,24 @@ Changelog of Git Changelog Maven plugin.
 						<configuration>
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
+							<filePath>CHANGELOG_templatefile.md</filePath>
+						</configuration>
+					</execution>
+
+
+					<!-- Template from file and GitHub titles in issues // -->
+					<execution>
+						<id>GenerateGitChangelogTemplateFromFileAndToken</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>git-changelog</goal>
+						</goals>
+						<configuration>
+							<gitHubApi>https://api.github.com/repos/tomasbjerre/git-changelog-maven-plugin</gitHubApi>
+							<gitHubToken>${GITHUB_OAUTH2TOKEN}</gitHubToken><!-- Optional //-->
+							<gitHubIssuePattern>#([0-9]*)</gitHubIssuePattern>
+							<templateFile>changelog.mustache</templateFile>
+							<readableTagName>-([^-]+?)$</readableTagName>
 							<filePath>CHANGELOG.md</filePath>
 						</configuration>
 					</execution>
@@ -214,11 +232,6 @@ Changelog of Git Changelog Maven plugin.
 						</goals>
 						<configuration>
 							<customIssues>
-								<customIssue>
-									<name>GitHub</name>
-									<pattern>#([0-9]*)</pattern>
-									<link>https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket/issues/${PATTERN_GROUP_1}</link>
-								</customIssue>
 								<customIssue>
 									<name>Incident</name>
 									<pattern>INC[0-9]*</pattern>

@@ -2,6 +2,22 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+
+[43b533463a5330e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/43b533463a5330e) Tomas Bjerre *2016-03-15 19:50:05*
+
+Support GitHub OAuth2 tokens #6
+
+[3a6d58e08c79bd0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3a6d58e08c79bd0) Tomas Bjerre *2016-03-14 16:16:05*
+
+Adding example with github as custom issue
+
+[0d370369d0c8cdc](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0d370369d0c8cdc) Tomas Bjerre *2016-02-20 08:52:37*
+
+Updating CHANGELOG.md
+
+
 ## git-changelog-maven-plugin-1.19
 ### No issue
 

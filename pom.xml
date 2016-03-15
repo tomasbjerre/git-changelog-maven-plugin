@@ -45,8 +45,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.target>1.6</maven.compiler.target>
-    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
   </properties>
   
   <dependencies>
@@ -69,7 +69,7 @@
     <dependency>
       <groupId>se.bjurr.gitchangelog</groupId>
       <artifactId>git-changelog-lib</artifactId>
-      <version>1.32</version>
+      <version>1.36</version>
     </dependency>
   </dependencies>
 

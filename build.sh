@@ -1,5 +1,5 @@
 #!/bin/bash
-mvn clean install eclipse:eclipse || exit 1
+mvn clean install eclipse:eclipse -DGITHUB_OAUTH2TOKEN=$GITHUB_OAUTH2TOKEN || exit 1
 cd git-changelog-maven-plugin-example
-mvn generate-sources -e
+mvn clean generate-sources -e
 cp CHANGELOG.md ..
