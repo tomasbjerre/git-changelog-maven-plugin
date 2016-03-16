@@ -4,6 +4,8 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   Jira integration to get titles
+
    Update example
 
 

@@ -68,6 +68,15 @@ public class GitChangelogMojo extends AbstractMojo {
  @Parameter(property = "gitHubIssuePattern", required = false)
  private String gitHubIssuePattern;
 
+ @Parameter(property = "jiraIssuePattern", required = false)
+ private String jiraIssuePattern;
+ @Parameter(property = "jiraPassword", required = false)
+ private String jiraPassword;
+ @Parameter(property = "jiraServer", required = false)
+ private String jiraServer;
+ @Parameter(property = "jiraUsername", required = false)
+ private String jiraUsername;
+
  @Parameter(property = "customIssues", required = false)
  private List<CustomIssue> customIssues;
 
@@ -130,6 +139,19 @@ public class GitChangelogMojo extends AbstractMojo {
    }
    if (isSupplied(gitHubIssuePattern)) {
     builder.withGitHubIssuePattern(gitHubIssuePattern);
+   }
+
+   if (isSupplied(jiraUsername)) {
+    builder.withJiraUsername(jiraUsername);
+   }
+   if (isSupplied(jiraPassword)) {
+    builder.withJiraPassword(jiraPassword);
+   }
+   if (isSupplied(jiraIssuePattern)) {
+    builder.withJiraIssuePattern(jiraIssuePattern);
+   }
+   if (isSupplied(jiraServer)) {
+    builder.withJiraServer(jiraServer);
    }
 
    if (isSupplied(filePath)) {

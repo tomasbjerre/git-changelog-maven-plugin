@@ -5,7 +5,11 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[b07f22b722add93](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b07f22b722add93) Tomas Bjerre *2016-03-15 20:45:31*
+[c7af8f07296e40e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c7af8f07296e40e) Tomas Bjerre *2016-03-16 16:09:02*
+
+Jira integration to get titles
+
+[6500722bcebb5a3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6500722bcebb5a3) Tomas Bjerre *2016-03-15 21:16:30*
 
 Update example
 

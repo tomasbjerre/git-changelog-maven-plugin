@@ -133,6 +133,25 @@ Changelog of Git Changelog Maven plugin.
 					</execution>
 
 
+					<!-- Template from file and Jira titles in issues // -->
+					<execution>
+						<id>GenerateGitChangelogTemplateFromFileAndJira</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>git-changelog</goal>
+						</goals>
+						<configuration>
+							<jiraUsername>${JIRA_USERNAME}</jiraUsername>
+							<jiraPassword>${JIRA_PASSWORD}</jiraPassword>
+							<jiraIssuePattern>\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\b</jiraIssuePattern>
+							<jiraServer>https://yourJiraServer.com/jira</jiraServer>
+							<templateFile>changelog.mustache</templateFile>
+							<readableTagName>-([^-]+?)$</readableTagName>
+							<filePath>CHANGELOG_jira.md</filePath>
+						</configuration>
+					</execution>
+
+
 					<!-- Set reference to create changelog for version 1.1 // -->
 					<execution>
 						<id>GenerateGitChangelog11</id>
