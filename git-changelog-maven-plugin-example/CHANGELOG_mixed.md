@@ -4,7 +4,9 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
-   Updating example *08:46:20*
+   Lib 1.39 *09:46:00*
+
+   Updating example *08:46:55*
 
 
 
