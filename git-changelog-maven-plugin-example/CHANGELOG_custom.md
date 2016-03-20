@@ -4,6 +4,12 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   Updating example
+
+
+
+## git-changelog-maven-plugin-1.22
+### No issue / 
    Lib 1.38
 
    Updating README
