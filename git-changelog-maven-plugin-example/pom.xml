@@ -124,7 +124,7 @@ Changelog of Git Changelog Maven plugin.
 						</goals>
 						<configuration>
 							<gitHubApi>https://api.github.com/repos/tomasbjerre/git-changelog-maven-plugin</gitHubApi>
-							<gitHubToken>${GITHUB_OAUTH2TOKEN}</gitHubToken><!-- Optional //-->
+							<gitHubToken>${GITHUB_OAUTH2TOKEN}</gitHubToken><!-- Optional // -->
 							<gitHubIssuePattern>#([0-9]*)</gitHubIssuePattern>
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
@@ -242,6 +242,50 @@ Changelog of Git Changelog Maven plugin.
 					</execution>
 
 
+					<!-- ignoreCommitsWithoutIssue // -->
+					<execution>
+						<id>GenerateGitChangelogIgnoreCommitsWithoutIssue</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>git-changelog</goal>
+						</goals>
+						<configuration>
+							<customIssues>
+								<customIssue>
+									<name>Incident</name>
+									<pattern>INC([0-9]*)</pattern>
+									<link>http://inc/${PATTERN_GROUP}</link>
+									<title>INC${PATTERN_GROUP_1}</title>
+								</customIssue>
+							</customIssues>
+							<!-- If a commit cannot be mapped to a configured issue, it will not 
+								be included if set to true. If set to true, noIssueName has no effect. -->
+							<ignoreCommitsWithoutIssue>true</ignoreCommitsWithoutIssue>
+							<templateContent>
+<![CDATA[
+# Git Changelog Maven plugin changelog
+
+Changelog of Git Changelog Maven plugin.
+
+{{#tags}}
+## {{name}}
+ {{#issues}}
+### {{name}}
+  {{#commits}}
+   {{{message}}} *{{commitTime}}*
+
+  {{/commits}}
+
+ {{/issues}}
+
+{{/tags}}
+]]>
+							</templateContent>
+							<filePath>CHANGELOG_ignoreCommitsWithoutIssue.md</filePath>
+						</configuration>
+					</execution>
+
+
 					<!-- Custom issues // -->
 					<execution>
 						<id>GenerateGitChangelogCustomIssues</id>
@@ -253,13 +297,15 @@ Changelog of Git Changelog Maven plugin.
 							<customIssues>
 								<customIssue>
 									<name>Incident</name>
-									<pattern>INC[0-9]*</pattern>
+									<pattern>INC([0-9]*)</pattern>
 									<link>http://inc/${PATTERN_GROUP}</link>
+									<title>INC${PATTERN_GROUP_1}</title>
 								</customIssue>
 								<customIssue>
 									<name>CQ</name>
 									<pattern>QC([0-9]+)</pattern>
 									<link>http://cq/${PATTERN_GROUP_1}</link>
+									<title>QC${PATTERN_GROUP_1}</title>
 								</customIssue>
 								<customIssue>
 									<name>Issue</name>
@@ -279,7 +325,7 @@ Changelog of Git Changelog Maven plugin.
 ### {{name}} [{{issue}}]({{link}}) {{title}}
   {{/hasLink}}
   {{^hasLink}}
-### {{name}}
+### {{name}} / {{title}}
   {{/hasLink}}
   {{#commits}}
    {{{message}}}

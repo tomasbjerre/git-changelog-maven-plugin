@@ -9,6 +9,8 @@ public class CustomIssue {
  private String pattern;
  @Parameter(property = "link", required = false)
  private String link;
+ @Parameter(property = "title", required = false)
+ private String title;
 
  public void setLink(String link) {
   this.link = link;
@@ -32,5 +34,13 @@ public class CustomIssue {
 
  public String getPattern() {
   return pattern;
+ }
+
+ public void setTitle(String title) {
+  this.title = title;
+ }
+
+ public String getTitle() {
+  return title;
  }
 }
