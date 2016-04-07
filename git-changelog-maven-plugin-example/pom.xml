@@ -215,6 +215,9 @@ Changelog of Git Changelog Maven plugin.
 								issue in the comment. -->
 							<removeIssueFromMessage>false</removeIssueFromMessage>
 							<ignoreCommitsIfMessageMatches>^\[maven-release-plugin\].*</ignoreCommitsIfMessageMatches>
+							<!-- Can be used to ignore release candidates, and only include actual 
+								releases. -->
+							<ignoreTagsIfNameMatches>.*[0-9]{2}$</ignoreTagsIfNameMatches>
 							<untaggedName>These commits are not included in any tag</untaggedName>
 							<noIssueName>These commits have not issue in their commit comment</noIssueName>
 							<templateContent>

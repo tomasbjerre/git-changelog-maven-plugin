@@ -4,40 +4,26 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
-   Lib 1.39 *09:46:00*
+   Updating example *09:48:23*
+
+   Lib 1.39 *09:46:15*
 
    Updating example *08:46:55*
 
-
-
-## 1.22
-### These commits have not issue in their commit comment
    Lib 1.38 *08:43:15*
 
    Updating README *16:12:21*
 
-
-
-## 1.21
-### These commits have not issue in their commit comment
    Jira integration to get titles *16:09:27*
 
    Update example *21:16:30*
 
-
-
-## 1.20
-### These commits have not issue in their commit comment
    Support GitHub OAuth2 tokens #6 *20:38:16*
 
    Adding example with github as custom issue *16:16:05*
 
    Updating CHANGELOG.md *08:52:37*
 
-
-
-## 1.19
-### These commits have not issue in their commit comment
    Supplying commit in each issue mentioned in message *08:49:31*
 
    Updating CHANGELOG.md *18:23:16*
@@ -46,42 +32,22 @@ Changelog of Git Changelog Maven plugin.
 
    Updating CHANGELOG.md *18:00:16*
 
-
-
-## 1.18
-### These commits have not issue in their commit comment
    Lib 1.29 *17:58:28*
 
-
-
-## 1.17
-### These commits have not issue in their commit comment
    Lib 1.28, performance optimizations *16:57:24*
 
    Updating CHANGELOG.md *09:20:43*
 
-
-
-## 1.16
-### These commits have not issue in their commit comment
    Significant performance improvements
 
  * Using lib 1.27. *09:05:15*
 
    Updating example *18:19:16*
 
-
-
-## 1.15
-### These commits have not issue in their commit comment
    Using lib 1.25 and updating README.md *17:53:32*
 
    Updating docs after release *19:30:25*
 
-
-
-## 1.14
-### These commits have not issue in their commit comment
    Added variables: messageTitle, messageBody, messageItems #5 *19:26:45*
 
    Adding example of custom issue without link
@@ -92,10 +58,6 @@ Changelog of Git Changelog Maven plugin.
 
    Updating README.md after release *19:19:40*
 
-
-
-## 1.13
-### These commits have not issue in their commit comment
    Implementing custom issues
 
  * Adding example with
@@ -104,20 +66,12 @@ Changelog of Git Changelog Maven plugin.
 
    Updagint README.md after release *11:14:02*
 
-
-
-## 1.12
-### These commits have not issue in their commit comment
    Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
 
    Correcting example ignoring commits by comment *09:30:03*
 
    Updating README.md after release *07:36:20*
 
-
-
-## 1.11
-### These commits have not issue in their commit comment
    Documentation and more configuration available in pom #3 *07:15:44*
 
    Using lib 1.22 *17:36:44*
@@ -126,10 +80,6 @@ Changelog of Git Changelog Maven plugin.
 
    Using lib 1.19 *18:46:14*
 
-
-
-## 1.10
-### These commits have not issue in their commit comment
    Template can be configured directly in the pom #2 *17:29:26*
 
    Using lib 1.18 *17:11:56*

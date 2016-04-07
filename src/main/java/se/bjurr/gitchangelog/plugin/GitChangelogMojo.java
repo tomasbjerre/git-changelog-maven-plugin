@@ -46,6 +46,8 @@ public class GitChangelogMojo extends AbstractMojo {
 
  @Parameter(property = "readableTagName", required = false)
  private String readableTagName;
+ @Parameter(property = "ignoreTagsIfNameMatches", required = false)
+ private String ignoreTagsIfNameMatches;
  @Parameter(property = "dateFormat", required = false)
  private String dateFormat;
  @Parameter(property = "timeZone", required = false)
@@ -111,6 +113,9 @@ public class GitChangelogMojo extends AbstractMojo {
     builder.withToCommit(toCommit);
    }
 
+   if (isSupplied(ignoreTagsIfNameMatches)) {
+    builder.withIgnoreTagsIfNameMatches(ignoreTagsIfNameMatches);
+   }
    if (isSupplied(readableTagName)) {
     builder.withReadableTagName(readableTagName);
    }
