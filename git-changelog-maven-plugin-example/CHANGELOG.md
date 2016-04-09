@@ -2,8 +2,27 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## 1.25
 ### No issue
+
+**Lib 1.41, Commits added to correct tags**
+
+
+[9705d72cc187897](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9705d72cc187897) Tomas Bjerre *2016-04-09 20:36:03*
+
+**Updating example**
+
+
+[5d0d7a6b10aef68](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5d0d7a6b10aef68) Tomas Bjerre *2016-04-07 19:17:24*
+
+
+## 1.24
+### No issue
+
+**Lib 1.40 can ignore tags by regexp**
+
+
+[c718f71218f8b0e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c718f71218f8b0e) Tomas Bjerre *2016-04-07 19:15:45*
 
 **Updating example**
 

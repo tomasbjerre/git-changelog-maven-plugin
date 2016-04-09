@@ -2,8 +2,18 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.25
 ### No issue / 
+   Lib 1.41, Commits added to correct tags
+
+   Updating example
+
+
+
+## git-changelog-maven-plugin-1.24
+### No issue / 
+   Lib 1.40 can ignore tags by regexp
+
    Updating example
 
 
