@@ -2,6 +2,41 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### Jira
+
+[74952be23e50c69](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/74952be23e50c69) Tomas Bjerre *2016-04-12 16:47:58*
+
+JENKINS-34155 Support short SHA
+
+
+### No issue
+
+[58a319995e182c4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/58a319995e182c4) Tomas Bjerre *2016-04-10 09:12:52*
+
+doc
+
+
+## git-changelog-maven-plugin-1.27
+### No issue
+
+[98ee4c464b9fbf7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/98ee4c464b9fbf7) Tomas Bjerre *2016-04-10 09:10:57*
+
+Lib 1.43, Parsing commits, oldest first
+
+
+## git-changelog-maven-plugin-1.26
+### No issue
+
+[e3f87302631bbf2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e3f87302631bbf2) Tomas Bjerre *2016-04-10 09:02:13*
+
+Lib 1.42, Parsing commits, oldest first
+
+[e95c323034ba6ac](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e95c323034ba6ac) Tomas Bjerre *2016-04-09 20:38:40*
+
+Updating doc
+
+
 ## git-changelog-maven-plugin-1.25
 ### No issue
 

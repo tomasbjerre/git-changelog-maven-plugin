@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### Jira
+   JENKINS-34155 Support short SHA *2016-04-12 16:47:58*
+
+
+
 ## git-changelog-maven-plugin-1.13
 ### Incident
    Implementing custom issues

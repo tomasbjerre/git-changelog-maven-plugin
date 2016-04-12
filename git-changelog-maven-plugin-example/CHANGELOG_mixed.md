@@ -3,7 +3,19 @@
 Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
+### Jira
+   JENKINS-34155 Support short SHA *16:47:58*
+
+
 ### These commits have not issue in their commit comment
+   doc *09:12:52*
+
+   Lib 1.43, Parsing commits, oldest first *09:10:57*
+
+   Lib 1.42, Parsing commits, oldest first *09:02:13*
+
+   Updating doc *20:38:40*
+
    Lib 1.41, Commits added to correct tags *20:36:03*
 
    Updating example *19:17:24*
