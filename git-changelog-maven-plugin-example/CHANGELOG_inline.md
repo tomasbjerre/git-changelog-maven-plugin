@@ -2,10 +2,10 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.28
 ### Jira
 
-[74952be23e50c69](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/74952be23e50c69) Tomas Bjerre *2016-04-12 16:47:58*
+[4089d37fe5508ce](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4089d37fe5508ce) Tomas Bjerre *2016-04-12 16:49:07*
 
 JENKINS-34155 Support short SHA
 
