@@ -2,6 +2,15 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+
+**doc**
+
+
+[6233c51dc3f4396](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6233c51dc3f4396) Tomas Bjerre *2016-04-12 16:55:58*
+
+
 ## git-changelog-maven-plugin-1.28
 ### Jira JENKINS-34155 
 
