@@ -5,6 +5,25 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+**Ignoring trailing slash in JIRA URL**
+
+
+[da2d948cc0cc993](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/da2d948cc0cc993) Tomas Bjerre *2016-05-20 19:10:35*
+
+**doc**
+
+
+[715748793647014](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/715748793647014) Tomas Bjerre *2016-04-13 18:44:20*
+
+
+## 1.29
+### No issue
+
+**Lib 1.45**
+
+
+[6a65a863b245e13](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6a65a863b245e13) Tomas Bjerre *2016-04-13 18:41:03*
+
 **doc**
 
 
