@@ -4,6 +4,12 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   doc
+
+
+
+## git-changelog-maven-plugin-1.31
+### No issue / 
    Lib 1.49, finding first commit as parents from HEAD
 
    doc
