@@ -8,7 +8,9 @@ Changelog of Git Changelog Maven plugin.
 
 
 ### These commits have not issue in their commit comment
-   doc *19:12:34*
+   Lib 1.49, finding first commit as parents from HEAD *18:33:37*
+
+   doc *19:13:05*
 
    Ignoring trailing slash in JIRA URL *19:11:02*
 

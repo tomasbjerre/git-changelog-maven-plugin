@@ -4,6 +4,8 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   Lib 1.49, finding first commit as parents from HEAD
+
    doc
 
 
