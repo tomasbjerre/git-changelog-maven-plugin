@@ -8,7 +8,7 @@ Changelog of Git Changelog Maven plugin.
 **doc**
 
 
-[b9ff1cce2945d3e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b9ff1cce2945d3e) Tomas Bjerre *2016-06-02 19:07:25*
+[e87db20d710a37a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e87db20d710a37a) Tomas Bjerre *2016-06-02 19:07:44*
 
 
 ## git-changelog-maven-plugin-1.31
