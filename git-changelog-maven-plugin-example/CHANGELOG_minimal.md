@@ -2,8 +2,13 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.32
 ### No issue
+
+**Including commits from merges lib issue 49**
+
+
+[ec4a2802a7cc0fd](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ec4a2802a7cc0fd) Tomas Bjerre *2016-06-24 09:29:14*
 
 **doc**
 
