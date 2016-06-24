@@ -8,6 +8,8 @@ Changelog of Git Changelog Maven plugin.
 
 
 ### These commits have not issue in their commit comment
+   doc *09:31:53*
+
    Including commits from merges lib issue 49 *09:29:14*
 
    doc *19:07:44*
@@ -191,8 +193,6 @@ Changelog of Git Changelog Maven plugin.
    doc *14:36:57*
 
    Initial *14:30:51*
-
-   Initial commit *13:18:29*
 
 
 

@@ -69,7 +69,7 @@
     <dependency>
       <groupId>se.bjurr.gitchangelog</groupId>
       <artifactId>git-changelog-lib</artifactId>
-      <version>1.50</version>
+      <version>1.52</version>
     </dependency>
   </dependencies>
 
