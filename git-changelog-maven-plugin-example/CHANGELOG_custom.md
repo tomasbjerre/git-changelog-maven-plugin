@@ -2,8 +2,26 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.35
 ### No issue / 
+   Adding {{hashFull}} variable
+
+   doc
+
+
+
+## git-changelog-maven-plugin-1.34
+### No issue / 
+   Faster
+
+   doc
+
+
+
+## git-changelog-maven-plugin-1.33
+### No issue / 
+   Fixing merge commits... again...
+
    doc
 
 

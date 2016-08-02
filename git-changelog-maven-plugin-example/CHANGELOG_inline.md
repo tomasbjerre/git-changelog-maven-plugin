@@ -2,8 +2,36 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.35
 ### No issue
+
+[275331a0b9c53cb](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/275331a0b9c53cb) Tomas Bjerre *2016-08-02 18:29:54*
+
+Adding {{hashFull}} variable
+
+[cdf8d8bd0430625](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cdf8d8bd0430625) Tomas Bjerre *2016-06-25 00:04:33*
+
+doc
+
+
+## git-changelog-maven-plugin-1.34
+### No issue
+
+[bcc3bb4fab29a51](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bcc3bb4fab29a51) Tomas Bjerre *2016-06-25 00:02:44*
+
+Faster
+
+[46020ec8f0c0e51](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/46020ec8f0c0e51) Tomas Bjerre *2016-06-24 21:16:22*
+
+doc
+
+
+## git-changelog-maven-plugin-1.33
+### No issue
+
+[a0fe3a9afd499da](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a0fe3a9afd499da) Tomas Bjerre *2016-06-24 21:14:36*
+
+Fixing merge commits... again...
 
 [27bbef6d740b133](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/27bbef6d740b133) Tomas Bjerre *2016-06-24 09:31:53*
 
