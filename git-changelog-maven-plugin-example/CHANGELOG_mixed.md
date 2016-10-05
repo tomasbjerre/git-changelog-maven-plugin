@@ -8,6 +8,14 @@ Changelog of Git Changelog Maven plugin.
 
 
 ### These commits have not issue in their commit comment
+   Adding merge boolean to commits *18:43:43*
+
+   doc *14:46:25*
+
+   Lib 1.56 correcting link to Jira *14:41:25*
+
+   doc *18:31:45*
+
    Adding {{hashFull}} variable *18:29:54*
 
    doc *00:04:33*

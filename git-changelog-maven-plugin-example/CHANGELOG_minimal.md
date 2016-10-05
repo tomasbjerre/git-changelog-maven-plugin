@@ -2,6 +2,34 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.37
+### No issue
+
+**Adding merge boolean to commits**
+
+
+[a069cc3cdb19f46](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a069cc3cdb19f46) Tomas Bjerre *2016-10-05 18:43:43*
+
+**doc**
+
+
+[b87d6443dc699b7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b87d6443dc699b7) Tomas Bjerre *2016-08-11 14:46:25*
+
+
+## git-changelog-maven-plugin-1.36
+### No issue
+
+**Lib 1.56 correcting link to Jira**
+
+
+[939f589c477d626](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/939f589c477d626) Tomas Bjerre *2016-08-11 14:41:25*
+
+**doc**
+
+
+[5d60ae6bbfcc275](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5d60ae6bbfcc275) Tomas Bjerre *2016-08-02 18:31:45*
+
+
 ## git-changelog-maven-plugin-1.35
 ### No issue
 

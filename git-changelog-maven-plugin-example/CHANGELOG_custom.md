@@ -2,6 +2,22 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.37
+### No issue / 
+   Adding merge boolean to commits
+
+   doc
+
+
+
+## git-changelog-maven-plugin-1.36
+### No issue / 
+   Lib 1.56 correcting link to Jira
+
+   doc
+
+
+
 ## git-changelog-maven-plugin-1.35
 ### No issue / 
    Adding {{hashFull}} variable
