@@ -8,6 +8,10 @@ Changelog of Git Changelog Maven plugin.
 
 
 ### These commits have not issue in their commit comment
+   Adding annotation to context of tag *10:29:48*
+
+   doc *19:31:25*
+
    Adding merge boolean to commits *18:43:43*
 
    doc *14:46:25*

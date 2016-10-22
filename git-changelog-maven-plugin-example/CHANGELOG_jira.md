@@ -2,6 +2,20 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+
+**Adding annotation to context of tag**
+
+
+[d31d2ab3f1280f1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d31d2ab3f1280f1) Tomas Bjerre *2016-10-22 10:29:48*
+
+**doc**
+
+
+[5200bd71ef1881b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5200bd71ef1881b) Tomas Bjerre *2016-10-05 19:31:25*
+
+
 ## 1.37
 ### No issue
 
