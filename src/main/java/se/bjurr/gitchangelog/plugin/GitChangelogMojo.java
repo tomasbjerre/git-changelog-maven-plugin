@@ -21,9 +21,9 @@ public class GitChangelogMojo extends AbstractMojo {
  @Parameter(property = "toCommit", required = false)
  private String toCommit;
 
- @Parameter(property = "toRef", required = false)
+ @Parameter(property = "fromRef", required = false)
  private String fromRef;
- @Parameter(property = "toCommit", required = false)
+ @Parameter(property = "fromCommit", required = false)
  private String fromCommit;
 
  @Parameter(property = "settingsFile", required = false)
