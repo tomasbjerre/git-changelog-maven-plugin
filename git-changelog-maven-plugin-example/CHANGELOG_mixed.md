@@ -7,8 +7,20 @@ Changelog of Git Changelog Maven plugin.
    JENKINS-34155 Support short SHA *16:49:07*
 
 
+### Jira
+   Merge pull request #7 from dunse/patch-1
+
+Fix fromCommit and fromRef property typo *21:11:26*
+
+
 ### These commits have not issue in their commit comment
-   Adding annotation to context of tag *10:29:48*
+   Fix fromCommit and fromRef property typo
+
+The @Parameter annotation had the wrong property name which makes it impossible to provide parameter on command line. *10:51:15*
+
+   doc *10:33:18*
+
+   Adding annotation to context of tag *10:31:15*
 
    doc *19:31:25*
 
