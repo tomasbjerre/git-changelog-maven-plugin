@@ -4,6 +4,14 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   doc
+
+
+
+## git-changelog-maven-plugin-1.39
+### No issue / 
+   doc
+
    Fix fromCommit and fromRef property typo
 
 The @Parameter annotation had the wrong property name which makes it impossible to provide parameter on command line.

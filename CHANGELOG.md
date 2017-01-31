@@ -5,6 +5,20 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+**doc**
+
+
+[0d361dc2b11dbff](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0d361dc2b11dbff) Tomas Bjerre *2017-01-31 21:16:37*
+
+
+## 1.39
+### No issue
+
+**doc**
+
+
+[be3eaa97605a34a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/be3eaa97605a34a) Tomas Bjerre *2017-01-31 21:14:43*
+
 **Fix fromCommit and fromRef property typo**
 
  * The @Parameter annotation had the wrong property name which makes it impossible to provide parameter on command line. 
