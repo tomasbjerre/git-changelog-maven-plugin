@@ -5,10 +5,20 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+**GitHub timeout 10 seconds**
+
+
+[c95404c4c1ef5bd](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c95404c4c1ef5bd) Tomas Bjerre *2017-03-01 18:28:10*
+
+**Set theme jekyll-theme-slate**
+
+
+[0c9f98d7e826863](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0c9f98d7e826863) Tomas Bjerre *2017-02-07 20:19:20*
+
 **doc**
 
 
-[0d361dc2b11dbff](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0d361dc2b11dbff) Tomas Bjerre *2017-01-31 21:16:37*
+[0f1a9b83bf48e00](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f1a9b83bf48e00) Tomas Bjerre *2017-01-31 21:16:51*
 
 
 ## git-changelog-maven-plugin-1.39

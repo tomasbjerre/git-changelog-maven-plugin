@@ -14,7 +14,11 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
-   doc *21:16:37*
+   GitHub timeout 10 seconds *18:28:10*
+
+   Set theme jekyll-theme-slate *20:19:20*
+
+   doc *21:16:51*
 
    doc *21:14:43*
 

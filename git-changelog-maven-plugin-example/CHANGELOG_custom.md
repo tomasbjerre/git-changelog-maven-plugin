@@ -4,6 +4,10 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   GitHub timeout 10 seconds
+
+   Set theme jekyll-theme-slate
+
    doc
 
 
