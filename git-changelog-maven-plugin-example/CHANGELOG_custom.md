@@ -8,6 +8,17 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.41
+### No issue / 
+   Git Changelog Lib 1.63 -> 1.64
+
+ * Jira issueType and labels
+ * GitHub labels
+
+   doc
+
+
+
 ## git-changelog-maven-plugin-1.40
 ### No issue / 
    GitHub timeout 10 seconds
