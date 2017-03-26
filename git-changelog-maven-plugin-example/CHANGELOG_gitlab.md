@@ -8,6 +8,20 @@ Changelog of Git Changelog Maven plugin.
 **doc**
 
 
+[ccee821db7e8742](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ccee821db7e8742) Tomas Bjerre *2017-03-26 05:20:17*
+
+
+## 1.43
+### No issue
+
+**GitLab integration**
+
+
+[5e61229c0df5bb0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5e61229c0df5bb0) Tomas Bjerre *2017-03-26 05:17:22*
+
+**doc**
+
+
 [0c769316d11827e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0c769316d11827e) Tomas Bjerre *2017-03-20 18:26:05*
 
 
