@@ -133,6 +133,24 @@ Changelog of Git Changelog Maven plugin.
 					</execution>
 
 
+					<!-- Template from file and GitLab titles in issues // -->
+					<execution>
+						<id>GenerateGitChangelogTemplateFromFileAndGitLabToken</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>git-changelog</goal>
+						</goals>
+						<configuration>
+							<gitLabServer>https://gitlab.com/</gitLabServer>
+							<gitLabToken>${GITLAB_TOKEN}</gitLabToken><!-- Optional // -->
+							<gitLabProjectName>violations-test</gitLabProjectName>
+							<templateFile>changelog.mustache</templateFile>
+							<readableTagName>-([^-]+?)$</readableTagName>
+							<filePath>CHANGELOG_gitlab.md</filePath>
+						</configuration>
+					</execution>
+
+
 					<!-- Template from file and Jira titles in issues // -->
 					<execution>
 						<id>GenerateGitChangelogTemplateFromFileAndJira</id>

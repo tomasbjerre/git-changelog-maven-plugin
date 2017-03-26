@@ -14,7 +14,11 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
-   doc *09:36:36*
+   doc *18:26:05*
+
+   Fix Jira labels *18:21:07*
+
+   doc *09:37:04*
 
    Git Changelog Lib 1.63 -> 1.64
 

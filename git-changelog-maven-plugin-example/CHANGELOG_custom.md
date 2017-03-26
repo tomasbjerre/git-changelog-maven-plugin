@@ -8,6 +8,14 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.42
+### No issue / 
+   Fix Jira labels
+
+   doc
+
+
+
 ## git-changelog-maven-plugin-1.41
 ### No issue / 
    Git Changelog Lib 1.63 -> 1.64

@@ -70,6 +70,13 @@ public class GitChangelogMojo extends AbstractMojo {
  @Parameter(property = "gitHubIssuePattern", required = false)
  private String gitHubIssuePattern;
 
+ @Parameter(property = "gitLabServer", required = false)
+ private String gitLabServer;
+ @Parameter(property = "gitLabProjectName", required = false)
+ private String gitLabProjectName;
+ @Parameter(property = "gitLabToken", required = false)
+ private String gitLabToken;
+
  @Parameter(property = "jiraIssuePattern", required = false)
  private String jiraIssuePattern;
  @Parameter(property = "jiraPassword", required = false)
@@ -148,6 +155,16 @@ public class GitChangelogMojo extends AbstractMojo {
    }
    if (isSupplied(gitHubIssuePattern)) {
     builder.withGitHubIssuePattern(gitHubIssuePattern);
+   }
+
+   if (isSupplied(gitLabProjectName)) {
+     builder.withGitLabProjectName(gitLabProjectName);
+   }
+   if (isSupplied(gitLabServer)) {
+     builder.withGitLabServer(gitLabServer);
+   }
+   if (isSupplied(gitLabToken)) {
+     builder.withGitLabToken(gitLabToken);
    }
 
    if (isSupplied(jiraUsername)) {
