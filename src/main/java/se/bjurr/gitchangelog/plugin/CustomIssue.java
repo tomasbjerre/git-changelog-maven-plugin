@@ -3,44 +3,47 @@ package se.bjurr.gitchangelog.plugin;
 import org.apache.maven.plugins.annotations.Parameter;
 
 public class CustomIssue {
- @Parameter(property = "name", required = true)
- private String name;
- @Parameter(property = "pattern", required = true)
- private String pattern;
- @Parameter(property = "link", required = false)
- private String link;
- @Parameter(property = "title", required = false)
- private String title;
+  @Parameter(property = "name", required = true)
+  private String name;
 
- public void setLink(String link) {
-  this.link = link;
- }
+  @Parameter(property = "pattern", required = true)
+  private String pattern;
 
- public void setName(String name) {
-  this.name = name;
- }
+  @Parameter(property = "link", required = false)
+  private String link;
 
- public void setPattern(String pattern) {
-  this.pattern = pattern;
- }
+  @Parameter(property = "title", required = false)
+  private String title;
 
- public String getLink() {
-  return link;
- }
+  public void setLink(String link) {
+    this.link = link;
+  }
 
- public String getName() {
-  return name;
- }
+  public void setName(String name) {
+    this.name = name;
+  }
 
- public String getPattern() {
-  return pattern;
- }
+  public void setPattern(String pattern) {
+    this.pattern = pattern;
+  }
 
- public void setTitle(String title) {
-  this.title = title;
- }
+  public String getLink() {
+    return link;
+  }
 
- public String getTitle() {
-  return title;
- }
+  public String getName() {
+    return name;
+  }
+
+  public String getPattern() {
+    return pattern;
+  }
+
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
+  public String getTitle() {
+    return title;
+  }
 }

@@ -26,7 +26,7 @@
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
-							<filePath>CHANGELOG_minimal.md</filePath>
+							<file>CHANGELOG_minimal.md</file>
 						</configuration>
 					</execution>
 
@@ -40,7 +40,7 @@
 						</goals>
 						<configuration>
 							<settingsFile>changelog.json</settingsFile>
-							<filePath>CHANGELOG_settings.md</filePath>
+							<file>CHANGELOG_settings.md</file>
 						</configuration>
 					</execution>
 
@@ -95,7 +95,7 @@ Changelog of Git Changelog Maven plugin.
 {{/tags}}
 ]]>
 							</templateContent>
-							<filePath>CHANGELOG_inline.md</filePath>
+							<file>CHANGELOG_inline.md</file>
 						</configuration>
 					</execution>
 
@@ -110,7 +110,7 @@ Changelog of Git Changelog Maven plugin.
 						<configuration>
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
-							<filePath>CHANGELOG_templatefile.md</filePath>
+							<file>CHANGELOG_templatefile.md</file>
 						</configuration>
 					</execution>
 
@@ -128,7 +128,7 @@ Changelog of Git Changelog Maven plugin.
 							<gitHubIssuePattern>#([0-9]*)</gitHubIssuePattern>
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
-							<filePath>CHANGELOG.md</filePath>
+							<file>CHANGELOG.md</file>
 						</configuration>
 					</execution>
 
@@ -146,7 +146,7 @@ Changelog of Git Changelog Maven plugin.
 							<gitLabProjectName>violations-test</gitLabProjectName>
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
-							<filePath>CHANGELOG_gitlab.md</filePath>
+							<file>CHANGELOG_gitlab.md</file>
 						</configuration>
 					</execution>
 
@@ -165,7 +165,7 @@ Changelog of Git Changelog Maven plugin.
 							<jiraServer>https://yourJiraServer.com/jira</jiraServer>
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
-							<filePath>CHANGELOG_jira.md</filePath>
+							<file>CHANGELOG_jira.md</file>
 						</configuration>
 					</execution>
 
@@ -178,7 +178,7 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
-							<filePath>CHANGELOG_1_1.md</filePath>
+							<file>CHANGELOG_1_1.md</file>
 							<toRef>git-changelog-maven-plugin-1.1</toRef>
 						</configuration>
 					</execution>
@@ -192,7 +192,7 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
-							<filePath>RELEASENOTES_1_0_1_1.md</filePath>
+							<file>RELEASENOTES_1_0_1_1.md</file>
 							<fromRef>git-changelog-maven-plugin-1.0</fromRef>
 							<toRef>git-changelog-maven-plugin-1.1</toRef>
 						</configuration>
@@ -209,7 +209,7 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
-							<filePath>CHANGELOG_commits.md</filePath>
+							<file>CHANGELOG_commits.md</file>
 							<fromCommit>ca80887d3f53d50bddc10d791ae51e0b5d941108</fromCommit>
 							<toCommit>13c1b74c8329b66aa406bb4d193af522687b8fee</toCommit>
 						</configuration>
@@ -258,7 +258,41 @@ Changelog of Git Changelog Maven plugin.
 {{/tags}}
 ]]>
 							</templateContent>
-							<filePath>CHANGELOG_mixed.md</filePath>
+							<file>CHANGELOG_mixed.md</file>
+						</configuration>
+					</execution>
+
+
+					<!-- Mixed features // -->
+					<execution>
+						<id>GenerateGitChangelogIgnoreCommitsOlderThan</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>git-changelog</goal>
+						</goals>
+						<configuration>
+							<ignoreCommitsOlderThan>2017-03-26 00:00:00</ignoreCommitsOlderThan>
+							<templateContent>
+<![CDATA[
+# Git Changelog Maven plugin changelog
+
+Changelog of Git Changelog Maven plugin.
+
+{{#tags}}
+## {{name}}
+ {{#issues}}
+### {{name}}
+  {{#commits}}
+   {{{message}}} *{{commitTime}}*
+
+  {{/commits}}
+
+ {{/issues}}
+
+{{/tags}}
+]]>
+							</templateContent>
+							<file>CHANGELOG_ignoreCommitsOlderThan.md</file>
 						</configuration>
 					</execution>
 
@@ -302,7 +336,7 @@ Changelog of Git Changelog Maven plugin.
 {{/tags}}
 ]]>
 							</templateContent>
-							<filePath>CHANGELOG_ignoreCommitsWithoutIssue.md</filePath>
+							<file>CHANGELOG_ignoreCommitsWithoutIssue.md</file>
 						</configuration>
 					</execution>
 
@@ -358,7 +392,7 @@ Changelog of Git Changelog Maven plugin.
 {{/tags}}
 ]]>
 							</templateContent>
-							<filePath>CHANGELOG_custom.md</filePath>
+							<file>CHANGELOG_custom.md</file>
 						</configuration>
 					</execution>
 				</executions>

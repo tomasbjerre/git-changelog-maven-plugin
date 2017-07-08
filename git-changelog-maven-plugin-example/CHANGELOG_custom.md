@@ -4,6 +4,16 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   ignoreCommitsOlderThan
+
+   doc
+
+
+
+## git-changelog-maven-plugin-1.44
+### No issue / 
+   tag time added to tag model
+
    doc
 
 
