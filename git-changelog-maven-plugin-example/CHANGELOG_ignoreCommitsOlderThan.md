@@ -4,7 +4,13 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   ignoreCommitsOlderThan *2017-07-08 06:44:59*
+   doc *2017-07-09 13:11:38*
+
+
+
+## git-changelog-maven-plugin-1.45
+### No issue
+   ignoreCommitsOlderThan *2017-07-08 06:45:33*
 
    doc *2017-04-14 09:24:53*
 

@@ -16,7 +16,7 @@
 			<plugin>
 				<groupId>se.bjurr.gitchangelog</groupId>
 				<artifactId>git-changelog-maven-plugin</artifactId>
-				<version>1.45-SNAPSHOT</version>
+				<version>1.46-SNAPSHOT</version>
 				<executions>
 					<!-- Minimal config // -->
 					<execution>
@@ -134,7 +134,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 					<!-- Template from file and GitLab titles in issues // -->
-					<execution>
+					<!--execution>
 						<id>GenerateGitChangelogTemplateFromFileAndGitLabToken</id>
 						<phase>generate-sources</phase>
 						<goals>
@@ -142,13 +142,13 @@ Changelog of Git Changelog Maven plugin.
 						</goals>
 						<configuration>
 							<gitLabServer>https://gitlab.com/</gitLabServer>
-							<gitLabToken>${GITLAB_TOKEN}</gitLabToken><!-- Optional // -->
+							<gitLabToken>${GITLAB_TOKEN}</gitLabToken>
 							<gitLabProjectName>violations-test</gitLabProjectName>
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
 							<file>CHANGELOG_gitlab.md</file>
 						</configuration>
-					</execution>
+					</execution // -->
 
 
 					<!-- Template from file and Jira titles in issues // -->

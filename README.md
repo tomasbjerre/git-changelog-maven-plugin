@@ -25,7 +25,7 @@ Here is and example that will generate a CHANGELOG.md.
             </goals>
             <configuration>
               <!-- A file on filesystem //-->
-              <filePath>CHANGELOG.md</filePath>
+              <file>CHANGELOG.md</file>
 
               <!-- Or post to MediaWiki //-->
               <mediaWikiUsername>tomas</mediaWikiUsername>
