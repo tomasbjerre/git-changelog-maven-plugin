@@ -4,7 +4,7 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   doc *2017-07-09 13:11:38*
+   doc *2017-07-09 19:51:59*
 
 
 

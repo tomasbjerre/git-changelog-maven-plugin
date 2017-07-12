@@ -38,7 +38,7 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "templateContent", required = false)
   private String templateContent;
 
-  @Parameter(property = "filePath", required = false)
+  @Parameter(property = "file", required = false)
   private File file;
 
   @Parameter(property = "mediaWikiUrl", required = false)
