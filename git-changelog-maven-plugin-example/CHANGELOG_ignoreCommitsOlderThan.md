@@ -4,6 +4,14 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   Defaulting to CHANGELOG.md if no output given *2017-07-12 18:48:57*
+
+
+
+## git-changelog-maven-plugin-1.46
+### No issue
+   Reading file parameter correctly *2017-07-12 18:08:20*
+
    doc *2017-07-09 19:51:59*
 
 

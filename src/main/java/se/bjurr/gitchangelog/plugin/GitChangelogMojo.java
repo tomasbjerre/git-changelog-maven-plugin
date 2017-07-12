@@ -17,6 +17,8 @@ import se.bjurr.gitchangelog.api.GitChangelogApi;
 
 @Mojo(name = "git-changelog", defaultPhase = PROCESS_SOURCES)
 public class GitChangelogMojo extends AbstractMojo {
+  private static final String DEFAULT_FILE = "CHANGELOG.md";
+
   @Parameter(property = "toRef", required = false)
   private String toRef;
 
@@ -212,6 +214,11 @@ public class GitChangelogMojo extends AbstractMojo {
       }
       if (isSupplied(jiraServer)) {
         builder.withJiraServer(jiraServer);
+      }
+
+      if (file == null && !isSupplied(mediaWikiUrl)) {
+        getLog().info("No output set, using file " + DEFAULT_FILE);
+        file = new File(DEFAULT_FILE);
       }
 
       if (file != null) {

@@ -5,6 +5,20 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+**Defaulting to CHANGELOG.md if no output given**
+
+
+[d6e65ae5593fa53](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d6e65ae5593fa53) Tomas Bjerre *2017-07-12 18:48:57*
+
+
+## git-changelog-maven-plugin-1.46
+### No issue
+
+**Reading file parameter correctly**
+
+
+[b2fdb96a8929d98](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b2fdb96a8929d98) Tomas Bjerre *2017-07-12 18:08:20*
+
 **doc**
 
 
