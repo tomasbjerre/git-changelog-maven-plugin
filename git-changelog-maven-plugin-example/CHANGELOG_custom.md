@@ -4,6 +4,12 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   doc
+
+
+
+## git-changelog-maven-plugin-1.47
+### No issue / 
    Defaulting to CHANGELOG.md if no output given
 
 

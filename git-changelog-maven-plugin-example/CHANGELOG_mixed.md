@@ -14,7 +14,9 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
-   Defaulting to CHANGELOG.md if no output given *18:48:57*
+   doc *18:53:45*
+
+   Defaulting to CHANGELOG.md if no output given *18:49:28*
 
    Reading file parameter correctly *18:08:20*
 
