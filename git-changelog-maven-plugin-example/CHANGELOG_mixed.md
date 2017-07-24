@@ -42,6 +42,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   Lib 1.70 *19:45:34*
+
    doc *18:54:04*
 
    Defaulting to CHANGELOG.md if no output given *18:49:28*
