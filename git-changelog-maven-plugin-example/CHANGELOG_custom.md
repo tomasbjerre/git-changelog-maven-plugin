@@ -232,9 +232,11 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.20
-### No issue / 
+### GitHub [#6](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/6) GitHub OAuth2 Token support
    Support GitHub OAuth2 tokens #6
 
+
+### No issue / 
    Adding example with github as custom issue
 
    Updating CHANGELOG.md
@@ -286,6 +288,10 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.14
+### GitHub [#5](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/5) One line git commit messege
+   Added variables: messageTitle, messageBody, messageItems #5
+
+
 ### Issue / 
    Adding example of custom issue without link
 
@@ -293,8 +299,6 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ### No issue / 
-   Added variables: messageTitle, messageBody, messageItems #5
-
    Maven Central version badge in README.md
 
    Updating README.md after release
@@ -324,9 +328,11 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.12
-### No issue / 
+### GitHub [#4](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/4) The tags are out of order
    Using lib 1.23 to sort commits by time, not formatted time #4
 
+
+### No issue / 
    Correcting example ignoring commits by comment
 
    Updating README.md after release
@@ -334,35 +340,41 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.11
-### No issue / 
+### GitHub [#3](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/3) Enhance documentation for changelog.json file
    Documentation and more configuration available in pom #3
 
-   Using lib 1.22
-
    Documentation #3
+
+
+### No issue / 
+   Using lib 1.22
 
    Using lib 1.19
 
 
 
 ## git-changelog-maven-plugin-1.10
-### No issue / 
+### GitHub [#2](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/2) Allow for template to be added directly in pom.xml
    Template can be configured directly in the pom #2
 
+
+### No issue / 
    Using lib 1.18
 
 
 
 ## git-changelog-maven-plugin-1.9
-### No issue / 
+### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
    Using lib 1.17 #1
 
+
+### No issue / 
    doc
 
 
 
 ## git-changelog-maven-plugin-1.8
-### No issue / 
+### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
    Using lib 1.15 #1
 
 
@@ -384,7 +396,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.5
-### No issue / 
+### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
    Using lib 1.12 #1
 
 

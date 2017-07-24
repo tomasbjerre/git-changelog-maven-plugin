@@ -8,6 +8,18 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.20
+### GitHub
+   Support GitHub OAuth2 tokens #6 *2016-03-15 20:38:16*
+
+
+
+## git-changelog-maven-plugin-1.14
+### GitHub
+   Added variables: messageTitle, messageBody, messageItems #5 *2016-02-09 19:26:45*
+
+
+
 ## git-changelog-maven-plugin-1.13
 ### Incident
    Implementing custom issues
@@ -15,6 +27,44 @@ Changelog of Git Changelog Maven plugin.
  * Adding example with
   * QC matching QC1234
   * Incident matching INC1234 *2016-01-31 17:03:30*
+
+
+
+## git-changelog-maven-plugin-1.12
+### GitHub
+   Using lib 1.23 to sort commits by time, not formatted time #4 *2016-01-31 11:10:56*
+
+
+
+## git-changelog-maven-plugin-1.11
+### GitHub
+   Documentation and more configuration available in pom #3 *2016-01-31 07:15:44*
+
+   Documentation #3 *2016-01-30 09:22:01*
+
+
+
+## git-changelog-maven-plugin-1.10
+### GitHub
+   Template can be configured directly in the pom #2 *2015-12-20 17:29:26*
+
+
+
+## git-changelog-maven-plugin-1.9
+### GitHub
+   Using lib 1.17 #1 *2015-12-06 07:37:23*
+
+
+
+## git-changelog-maven-plugin-1.8
+### GitHub
+   Using lib 1.15 #1 *2015-12-04 22:18:12*
+
+
+
+## git-changelog-maven-plugin-1.5
+### GitHub
+   Using lib 1.12 #1 *2015-11-23 18:02:24*
 
 
 

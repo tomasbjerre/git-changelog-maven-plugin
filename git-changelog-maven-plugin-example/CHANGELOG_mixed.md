@@ -3,6 +3,34 @@
 Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
+### GitHub
+   Template can be configured directly in the pom #2 *17:29:26*
+
+
+### GitHub
+   Documentation and more configuration available in pom #3 *07:15:44*
+
+   Documentation #3 *09:22:01*
+
+
+### GitHub
+   Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
+
+
+### GitHub
+   Added variables: messageTitle, messageBody, messageItems #5 *19:26:45*
+
+
+### GitHub
+   Support GitHub OAuth2 tokens #6 *20:38:16*
+
+
+### GitHub
+   Merge pull request #7 from dunse/patch-1
+
+Fix fromCommit and fromRef property typo *21:11:26*
+
+
 ### Jira
    JENKINS-34155 Support short SHA *16:49:07*
 
@@ -14,7 +42,7 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
-   doc *18:53:45*
+   doc *18:54:04*
 
    Defaulting to CHANGELOG.md if no output given *18:49:28*
 
@@ -127,8 +155,6 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
    Update example *21:16:30*
 
-   Support GitHub OAuth2 tokens #6 *20:38:16*
-
    Adding example with github as custom issue *16:16:05*
 
    Updating CHANGELOG.md *08:52:37*
@@ -157,8 +183,6 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
    Updating docs after release *19:30:25*
 
-   Added variables: messageTitle, messageBody, messageItems #5 *19:26:45*
-
    Adding example of custom issue without link
 
  * Like I123 *18:15:25*
@@ -175,36 +199,30 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
    Updagint README.md after release *11:14:02*
 
-   Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
-
    Correcting example ignoring commits by comment *09:30:03*
 
    Updating README.md after release *07:36:20*
 
-   Documentation and more configuration available in pom #3 *07:15:44*
-
    Using lib 1.22 *17:36:44*
 
-   Documentation #3 *09:22:01*
-
    Using lib 1.19 *18:46:14*
-
-   Template can be configured directly in the pom #2 *17:29:26*
 
    Using lib 1.18 *17:11:56*
 
 
 
 ## 1.9
-### These commits have not issue in their commit comment
+### GitHub
    Using lib 1.17 #1 *07:37:23*
 
+
+### These commits have not issue in their commit comment
    doc *22:58:13*
 
 
 
 ## 1.8
-### These commits have not issue in their commit comment
+### GitHub
    Using lib 1.15 #1 *22:18:12*
 
 
@@ -226,7 +244,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## 1.5
-### These commits have not issue in their commit comment
+### GitHub
    Using lib 1.12 #1 *18:02:24*
 
 
