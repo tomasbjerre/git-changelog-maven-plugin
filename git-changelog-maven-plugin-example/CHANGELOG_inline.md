@@ -2,6 +2,37 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.50
+### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile
+
+[95221c79b96429c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/95221c79b96429c) Tomas Bjerre *2017-11-18 12:49:36*
+
+Defaulting ignoreCommitsWithoutIssue #9
+
+
+### No issue
+
+[11eacd43400b864](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/11eacd43400b864) Tomas Bjerre *2017-11-18 12:41:20*
+
+Disabling integrations if not used
+
+[9191e2501480b30](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9191e2501480b30) Tomas Bjerre *2017-07-25 18:30:57*
+
+doc
+
+
+## git-changelog-maven-plugin-1.49
+### No issue
+
+[f5751f2b8477962](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f5751f2b8477962) Tomas Bjerre *2017-07-25 18:28:16*
+
+Lib 1.71
+
+[429286e334491bd](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/429286e334491bd) Tomas Bjerre *2017-07-24 20:03:46*
+
+doc
+
+
 ## git-changelog-maven-plugin-1.48
 ### No issue
 

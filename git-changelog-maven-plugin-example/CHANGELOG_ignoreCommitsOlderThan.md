@@ -2,6 +2,26 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.50
+### GitHub
+   Defaulting ignoreCommitsWithoutIssue #9 *2017-11-18 12:49:36*
+
+
+### No issue
+   Disabling integrations if not used *2017-11-18 12:41:20*
+
+   doc *2017-07-25 18:30:57*
+
+
+
+## git-changelog-maven-plugin-1.49
+### No issue
+   Lib 1.71 *2017-07-25 18:28:16*
+
+   doc *2017-07-24 20:03:46*
+
+
+
 ## git-changelog-maven-plugin-1.48
 ### No issue
    Lib 1.70 *2017-07-24 19:45:34*

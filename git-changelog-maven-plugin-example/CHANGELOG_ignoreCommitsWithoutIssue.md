@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.50
+### GitHub
+   Defaulting ignoreCommitsWithoutIssue #9 *2017-11-18 12:49:36*
+
+
+
 ## git-changelog-maven-plugin-1.28
 ### Jira
    JENKINS-34155 Support short SHA *2016-04-12 16:49:07*

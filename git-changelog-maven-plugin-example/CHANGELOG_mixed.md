@@ -31,6 +31,10 @@ Changelog of Git Changelog Maven plugin.
 Fix fromCommit and fromRef property typo *21:11:26*
 
 
+### GitHub
+   Defaulting ignoreCommitsWithoutIssue #9 *12:49:36*
+
+
 ### Jira
    JENKINS-34155 Support short SHA *16:49:07*
 
@@ -42,6 +46,14 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   Disabling integrations if not used *12:41:20*
+
+   doc *18:30:57*
+
+   Lib 1.71 *18:28:16*
+
+   doc *20:03:46*
+
    Lib 1.70 *19:45:34*
 
    doc *18:54:04*
