@@ -116,7 +116,7 @@ public class GitChangelogMojo extends AbstractMojo {
   private String jiraUsername;
 
   @Parameter(property = "ignoreCommitsWithoutIssue", required = false)
-  private boolean ignoreCommitsWithoutIssue;
+  private Boolean ignoreCommitsWithoutIssue;
 
   @Parameter(property = "customIssues", required = false)
   private List<CustomIssue> customIssues;
@@ -175,8 +175,10 @@ public class GitChangelogMojo extends AbstractMojo {
       if (isSupplied(noIssueName)) {
         builder.withNoIssueName(noIssueName);
       }
-      builder.withIgnoreCommitsWithoutIssue(ignoreCommitsWithoutIssue);
-      for (CustomIssue customIssue : customIssues) {
+      if (ignoreCommitsWithoutIssue != null) {
+        builder.withIgnoreCommitsWithoutIssue(ignoreCommitsWithoutIssue);
+      }
+      for (final CustomIssue customIssue : customIssues) {
         builder.withCustomIssue(
             customIssue.getName(),
             customIssue.getPattern(),
@@ -239,7 +241,7 @@ public class GitChangelogMojo extends AbstractMojo {
         getLog().info("# Created: " + mediaWikiUrl + "/index.php/" + mediaWikiTitle);
         getLog().info("#");
       }
-    } catch (Exception e) {
+    } catch (final Exception e) {
       getLog().error("GitChangelog", e);
     }
   }
