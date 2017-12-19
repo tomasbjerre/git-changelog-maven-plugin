@@ -1,4 +1,6 @@
-# Git Changelog Maven Plugin [![Build Status](https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin.svg?branch=master)](https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/se.bjurr.gitchangelog/git-changelog-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/se.bjurr.gitchangelog/git-changelog-maven-plugin)
+# Git Changelog Maven Plugin
+[![Build Status](https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin.svg?branch=master)](https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/se.bjurr.violations/git-changelog-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/se.bjurr.violations/git-changelog-maven-plugin) [ ![Bintray](https://api.bintray.com/packages/tomasbjerre/tomasbjerre/se.bjurr.violations%3Agit-changelog-maven-plugin/images/download.svg) ](https://bintray.com/tomasbjerre/tomasbjerre/se.bjurr.violations%3Agit-changelog-maven-plugin/_latestVersion)
 
 This is a Maven plugin for [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib).
 
@@ -15,7 +17,7 @@ Here is and example that will generate a CHANGELOG.md.
       <plugin>
         <groupId>se.bjurr.gitchangelog</groupId>
         <artifactId>git-changelog-maven-plugin</artifactId>
-        <version>1.50</version>
+        <version>1.51</version>
         <executions>
           <execution>
             <id>GenerateGitChangelog</id>
