@@ -10,9 +10,9 @@ There is a running example [here](https://github.com/tomasbjerre/git-changelog-m
 
 Have a look at the [pom.xml](https://github.com/tomasbjerre/git-changelog-maven-plugin/blob/master/git-changelog-maven-plugin-example/pom.xml) where you will find some more examples.
 
-Here is and example that will generate a CHANGELOG.md. 
+Here is and example that will generate a CHANGELOG.md.
 
-```
+```xml
   <build>
     <plugins>
       <plugin>
