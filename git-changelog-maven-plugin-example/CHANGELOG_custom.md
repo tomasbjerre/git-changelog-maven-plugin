@@ -2,6 +2,42 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.55
+### No issue / 
+   git-changelog-lib 1.82
+
+   docs: Updates README.md to improve readability
+
+
+
+## git-changelog-maven-plugin-1.53
+### Jira / 
+   Closing RevWalk JENKINS-19994
+
+
+### No issue / 
+   Doc
+
+
+
+## git-changelog-maven-plugin-1.52
+### No issue / 
+   Description available for Jira issues
+
+   Doc
+
+
+
+## git-changelog-maven-plugin-1.51
+### No issue / 
+   Description available for Jira issues
+
+   Adjusting to Bintray
+
+   Doc
+
+
+
 ## git-changelog-maven-plugin-1.50
 ### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile
    Defaulting ignoreCommitsWithoutIssue #9

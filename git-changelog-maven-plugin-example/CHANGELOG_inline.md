@@ -2,6 +2,61 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.55
+### No issue
+
+[9e884dfdc1908c4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9e884dfdc1908c4) Tomas Bjerre *2018-09-13 07:18:27*
+
+git-changelog-lib 1.82
+
+[8baa9563c819a8e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8baa9563c819a8e) Lennon Jesus *2018-03-16 14:32:13*
+
+docs: Updates README.md to improve readability
+
+
+## git-changelog-maven-plugin-1.53
+### Jira
+
+[3f33391abf0be4f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3f33391abf0be4f) Tomas Bjerre *2017-12-30 20:21:25*
+
+Closing RevWalk JENKINS-19994
+
+
+### No issue
+
+[db94647868f8973](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/db94647868f8973) Tomas Bjerre *2017-12-19 12:31:16*
+
+Doc
+
+
+## git-changelog-maven-plugin-1.52
+### No issue
+
+[656f149552256d7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/656f149552256d7) Tomas Bjerre *2017-12-19 11:45:02*
+
+Description available for Jira issues
+
+[b52fbcfcf323dcd](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b52fbcfcf323dcd) Tomas Bjerre *2017-12-19 11:22:00*
+
+Doc
+
+
+## git-changelog-maven-plugin-1.51
+### No issue
+
+[d3628277e5388e6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d3628277e5388e6) Tomas Bjerre *2017-12-19 11:17:26*
+
+Description available for Jira issues
+
+[837132aa2c02a36](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/837132aa2c02a36) Tomas Bjerre *2017-12-19 11:17:26*
+
+Adjusting to Bintray
+
+[8756c3643a70fe9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8756c3643a70fe9) Tomas Bjerre *2017-11-19 12:25:21*
+
+Doc
+
+
 ## git-changelog-maven-plugin-1.50
 ### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile
 

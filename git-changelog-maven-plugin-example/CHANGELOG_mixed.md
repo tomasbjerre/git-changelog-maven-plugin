@@ -4,6 +4,12 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### GitHub
+   Merge pull request #10 from lennonjesus/patch-1
+
+docs: Updates README.md to improve readability *14:34:08*
+
+
+### GitHub
    Template can be configured directly in the pom #2 *17:29:26*
 
 
@@ -36,16 +42,40 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### Jira
+   Closing RevWalk JENKINS-19994 *20:21:25*
+
+
+### Jira
    JENKINS-34155 Support short SHA *16:49:07*
 
 
 ### Jira
+   Merge pull request #10 from lennonjesus/patch-1
+
+docs: Updates README.md to improve readability *14:34:08*
+
    Merge pull request #7 from dunse/patch-1
 
 Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   git-changelog-lib 1.82 *07:18:27*
+
+   docs: Updates README.md to improve readability *14:32:13*
+
+   Doc *12:31:16*
+
+   Description available for Jira issues *11:45:02*
+
+   Doc *11:22:00*
+
+   Description available for Jira issues *11:17:26*
+
+   Adjusting to Bintray *11:17:26*
+
+   Doc *12:25:21*
+
    Disabling integrations if not used *12:41:20*
 
    doc *18:30:57*

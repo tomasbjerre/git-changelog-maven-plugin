@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.53
+### Jira
+   Closing RevWalk JENKINS-19994 *2017-12-30 20:21:25*
+
+
+
 ## git-changelog-maven-plugin-1.50
 ### GitHub
    Defaulting ignoreCommitsWithoutIssue #9 *2017-11-18 12:49:36*

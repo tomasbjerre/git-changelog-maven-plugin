@@ -2,6 +2,42 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.55
+### No issue
+   git-changelog-lib 1.82 *2018-09-13 07:18:27*
+
+   docs: Updates README.md to improve readability *2018-03-16 14:32:13*
+
+
+
+## git-changelog-maven-plugin-1.53
+### Jira
+   Closing RevWalk JENKINS-19994 *2017-12-30 20:21:25*
+
+
+### No issue
+   Doc *2017-12-19 12:31:16*
+
+
+
+## git-changelog-maven-plugin-1.52
+### No issue
+   Description available for Jira issues *2017-12-19 11:45:02*
+
+   Doc *2017-12-19 11:22:00*
+
+
+
+## git-changelog-maven-plugin-1.51
+### No issue
+   Description available for Jira issues *2017-12-19 11:17:26*
+
+   Adjusting to Bintray *2017-12-19 11:17:26*
+
+   Doc *2017-11-19 12:25:21*
+
+
+
 ## git-changelog-maven-plugin-1.50
 ### GitHub
    Defaulting ignoreCommitsWithoutIssue #9 *2017-11-18 12:49:36*
