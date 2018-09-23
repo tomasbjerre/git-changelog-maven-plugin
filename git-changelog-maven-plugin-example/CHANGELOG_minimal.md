@@ -2,6 +2,15 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+
+**using latest version in example**
+
+
+[be2f267d93d8004](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/be2f267d93d8004) Tomas Bjerre *2018-09-13 09:05:58*
+
+
 ## git-changelog-maven-plugin-1.55
 ### No issue
 

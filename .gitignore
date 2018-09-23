@@ -1,3 +1,5 @@
+*.versionsBackup
+.factorypath
 .classpath
 .project
 .settings

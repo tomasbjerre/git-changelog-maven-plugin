@@ -1,4 +1,5 @@
 #!/bin/bash
+mvn versions:update-properties
 mvn clean install eclipse:eclipse || exit 1
 cd git-changelog-maven-plugin-example
 mvn versions:update-properties -DallowSnapshots=true

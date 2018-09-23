@@ -60,6 +60,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   using latest version in example *09:05:58*
+
    git-changelog-lib 1.82 *07:18:27*
 
    docs: Updates README.md to improve readability *14:32:13*

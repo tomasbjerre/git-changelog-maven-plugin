@@ -7,12 +7,10 @@ import static se.bjurr.gitchangelog.api.GitChangelogApi.gitChangelogApiBuilder;
 import java.io.File;
 import java.util.Date;
 import java.util.List;
-
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
-
 import se.bjurr.gitchangelog.api.GitChangelogApi;
 
 @Mojo(name = "git-changelog", defaultPhase = PROCESS_SOURCES)
