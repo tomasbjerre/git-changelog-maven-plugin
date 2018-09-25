@@ -10,51 +10,64 @@ There is a running example [here](https://github.com/tomasbjerre/git-changelog-m
 
 Have a look at the [pom.xml](https://github.com/tomasbjerre/git-changelog-maven-plugin/blob/master/git-changelog-maven-plugin-example/pom.xml) where you will find some more examples.
 
-Here is and example that will generate a CHANGELOG.md.
+Here is and example that will generate a CHANGELOG.md when running `mvn generate-resources`.
 
 ```xml
   <build>
     <plugins>
-      <plugin>
-        <groupId>se.bjurr.gitchangelog</groupId>
-        <artifactId>git-changelog-maven-plugin</artifactId>
-        <version>X</version>
-        <executions>
-          <execution>
-            <id>GenerateGitChangelog</id>
-            <phase>generate-sources</phase>
-            <goals>
-              <goal>git-changelog</goal>
-            </goals>
-            <configuration>
-              <!-- A file on filesystem //-->
-              <file>CHANGELOG.md</file>
+     <plugin>
+      <groupId>se.bjurr.gitchangelog</groupId>
+      <artifactId>git-changelog-maven-plugin</artifactId>
+      <version>${changelog}</version>
+      <executions>
+       <execution>
+        <id>GenerateGitChangelog</id>
+        <phase>generate-sources</phase>
+        <goals>
+         <goal>git-changelog</goal>
+        </goals>
+        <configuration>
+         <templateContent>
+         <![CDATA[
+# Changelog
+Changelog of My Project.
 
-              <!-- Or post to MediaWiki //-->
-              <mediaWikiUsername>tomas</mediaWikiUsername>
-              <mediaWikiPassword>tomaskod</mediaWikiPassword>
-              <mediaWikiUrl>http://localhost/mediawiki</mediaWikiUrl>
-              <mediaWikiTitle>Tomas Title</mediaWikiTitle>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
+{{#tags}}
+## {{name}}
+ {{#issues}}
+  {{#hasIssue}}
+   {{#hasLink}}
+### {{name}} [{{issue}}]({{link}}) {{title}} {{#hasIssueType}} *{{issueType}}* {{/hasIssueType}} {{#hasLabels}} {{#labels}} *{{.}}* {{/labels}} {{/hasLabels}}
+   {{/hasLink}}
+   {{^hasLink}}
+### {{name}} {{issue}} {{title}} {{#hasIssueType}} *{{issueType}}* {{/hasIssueType}} {{#hasLabels}} {{#labels}} *{{.}}* {{/labels}} {{/hasLabels}}
+   {{/hasLink}}
+  {{/hasIssue}}
+  {{^hasIssue}}
+### {{name}}
+  {{/hasIssue}}
+
+  {{#commits}}
+**{{{messageTitle}}}**
+
+{{#messageBodyItems}}
+ * {{.}} 
+{{/messageBodyItems}}
+
+[{{hash}}](https://github.com/{{ownerName}}/{{repoName}}/commit/{{hash}}) {{authorName}} *{{commitTime}}*
+
+  {{/commits}}
+
+ {{/issues}}
+{{/tags}}
+         ]]>
+         </templateContent>
+        </configuration>
+       </execution>
+      </executions>
+     </plugin>
     </plugins>
   </build>
 ```
 
-To generate changelog, just run:
-```
-mvn generate-sources
-```
-
 More documentation can be found in the [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib).
-
-## Developer instructions
-
-To make a release, first run:
-```
-mvn release:prepare -DperformRelease=true
-mvn release:perform
-```
-Then release the artifact from [staging](https://oss.sonatype.org/#stagingRepositories). More information [here](http://central.sonatype.org/pages/releasing-the-deployment.html).
