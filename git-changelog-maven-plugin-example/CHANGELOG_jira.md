@@ -2,6 +2,15 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## 1.58
+### No issue
+
+**Correcting GitLab integration after upgrade**
+
+
+[5d2df0daff8411f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5d2df0daff8411f) Tomas Bjerre *2018-10-27 17:52:22*
+
+
 ## 1.57
 ### No issue
 

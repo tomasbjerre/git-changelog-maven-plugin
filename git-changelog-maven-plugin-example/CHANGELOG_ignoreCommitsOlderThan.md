@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.58
+### No issue
+   Correcting GitLab integration after upgrade *2018-10-27 17:52:22*
+
+
+
 ## git-changelog-maven-plugin-1.57
 ### No issue
    GitLab API v4 *2018-10-27 16:29:04*

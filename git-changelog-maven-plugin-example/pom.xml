@@ -10,7 +10,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<maven.compiler.source>1.6</maven.compiler.source>
-		<changelog.version>1.58-SNAPSHOT</changelog.version>
+		<changelog.version>1.59-SNAPSHOT</changelog.version>
 	</properties>
 	<build>
 		<plugins>
@@ -144,7 +144,7 @@ Changelog of Git Changelog Maven plugin.
 						<configuration>
 							<gitLabServer>https://gitlab.com/</gitLabServer>
 							<gitLabToken>${GITLAB_TOKEN}</gitLabToken>
-							<gitLabProjectName>violations-test</gitLabProjectName>
+							<gitLabProjectName>tomas.bjerre85/violations-test</gitLabProjectName>
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
 							<file>CHANGELOG_gitlab.md</file>
