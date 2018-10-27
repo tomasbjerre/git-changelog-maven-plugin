@@ -10,7 +10,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<maven.compiler.source>1.6</maven.compiler.source>
-		<changelog.version>1.56-SNAPSHOT</changelog.version>
+		<changelog.version>1.57-SNAPSHOT</changelog.version>
 	</properties>
 	<build>
 		<plugins>

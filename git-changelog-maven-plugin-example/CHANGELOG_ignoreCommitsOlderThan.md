@@ -2,8 +2,14 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.56
 ### No issue
+   isJira, isGitHub... *2018-10-27 06:09:27*
+
+   Doc *2018-09-25 15:37:37*
+
+   Automatically stepping dependencies *2018-09-23 18:56:12*
+
    using latest version in example *2018-09-13 09:05:58*
 
 

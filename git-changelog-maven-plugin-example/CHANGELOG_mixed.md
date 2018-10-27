@@ -60,6 +60,12 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   isJira, isGitHub... *06:09:27*
+
+   Doc *15:37:37*
+
+   Automatically stepping dependencies *18:56:12*
+
    using latest version in example *09:05:58*
 
    git-changelog-lib 1.82 *07:18:27*

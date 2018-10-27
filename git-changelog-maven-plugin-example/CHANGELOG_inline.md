@@ -2,8 +2,20 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.56
 ### No issue
+
+[20b25df3b929988](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/20b25df3b929988) Tomas Bjerre *2018-10-27 06:09:27*
+
+isJira, isGitHub...
+
+[098c98475d9f91e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/098c98475d9f91e) Tomas Bjerre *2018-09-25 15:37:37*
+
+Doc
+
+[70b4951243a3db1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/70b4951243a3db1) Tomas Bjerre *2018-09-23 18:56:12*
+
+Automatically stepping dependencies
 
 [be2f267d93d8004](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/be2f267d93d8004) Tomas Bjerre *2018-09-13 09:05:58*
 
