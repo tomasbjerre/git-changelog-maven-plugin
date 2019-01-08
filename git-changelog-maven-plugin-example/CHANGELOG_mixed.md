@@ -60,6 +60,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   Jira linked issues *18:10:02*
+
    Correcting GitLab integration after upgrade *17:52:22*
 
    GitLab API v4 *16:29:04*
