@@ -2,6 +2,14 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.60
+### No issue / 
+   Removing dependency on javax.xml
+
+   OpenJDK 11 compatible
+
+
+
 ## git-changelog-maven-plugin-1.59
 ### No issue / 
    Jira linked issues

@@ -2,6 +2,20 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## 1.60
+### No issue
+
+**Removing dependency on javax.xml**
+
+
+[692e73d2f82efbc](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/692e73d2f82efbc) Tomas Bjerre *2019-06-11 17:06:29*
+
+**OpenJDK 11 compatible**
+
+
+[dddee5c323b5bd4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/dddee5c323b5bd4) Tomas Bjerre *2019-06-11 16:38:05*
+
+
 ## 1.59
 ### No issue
 

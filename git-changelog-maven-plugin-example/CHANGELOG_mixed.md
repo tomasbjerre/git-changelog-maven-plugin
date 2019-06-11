@@ -60,6 +60,10 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   Removing dependency on javax.xml *17:06:29*
+
+   OpenJDK 11 compatible *16:38:05*
+
    Jira linked issues *18:10:02*
 
    Correcting GitLab integration after upgrade *17:52:22*
