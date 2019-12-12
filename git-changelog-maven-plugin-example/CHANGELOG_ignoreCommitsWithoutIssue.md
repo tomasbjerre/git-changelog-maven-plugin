@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.61
+### GitHub
+   Adding skip option #12 *2019-12-12 17:22:47*
+
+
+
 ## git-changelog-maven-plugin-1.53
 ### Jira
    Closing RevWalk JENKINS-19994 *2017-12-30 20:21:25*

@@ -2,7 +2,15 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Next release
+## 1.61
+### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option
+
+**Adding skip option #12**
+
+
+[851a62a43f23d17](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/851a62a43f23d17) Tomas Bjerre *2019-12-12 17:22:47*
+
+
 ### Other changes
 
 **Create FUNDING.yml**

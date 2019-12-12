@@ -10,6 +10,10 @@ docs: Updates README.md to improve readability *14:34:08*
 
 
 ### GitHub
+   Adding skip option #12 *17:22:47*
+
+
+### GitHub
    Template can be configured directly in the pom #2 *17:29:26*
 
 

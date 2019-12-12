@@ -2,7 +2,14 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.61
+### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option
+
+[851a62a43f23d17](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/851a62a43f23d17) Tomas Bjerre *2019-12-12 17:22:47*
+
+Adding skip option #12
+
+
 ### No issue
 
 [0db3b2367e4adc5](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0db3b2367e4adc5) Tomas Bjerre *2019-09-28 07:06:15*
