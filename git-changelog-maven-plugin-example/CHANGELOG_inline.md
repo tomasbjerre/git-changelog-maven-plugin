@@ -2,6 +2,14 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+
+[0db3b2367e4adc5](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0db3b2367e4adc5) Tomas Bjerre *2019-09-28 07:06:15*
+
+Create FUNDING.yml
+
+
 ## git-changelog-maven-plugin-1.60
 ### No issue
 

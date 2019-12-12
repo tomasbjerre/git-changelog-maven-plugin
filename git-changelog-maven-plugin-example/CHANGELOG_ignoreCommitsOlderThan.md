@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+   Create FUNDING.yml *2019-09-28 07:06:15*
+
+
+
 ## git-changelog-maven-plugin-1.60
 ### No issue
    Removing dependency on javax.xml *2019-06-11 17:06:29*

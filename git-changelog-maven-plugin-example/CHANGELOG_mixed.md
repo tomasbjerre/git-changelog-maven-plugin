@@ -60,6 +60,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   Create FUNDING.yml *07:06:15*
+
    Removing dependency on javax.xml *17:06:29*
 
    OpenJDK 11 compatible *16:38:05*

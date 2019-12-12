@@ -2,6 +2,15 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Next release
+### Other changes
+
+**Create FUNDING.yml**
+
+
+[0db3b2367e4adc5](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0db3b2367e4adc5) Tomas Bjerre *2019-09-28 07:06:15*
+
+
 ## 1.60
 ### Other changes
 

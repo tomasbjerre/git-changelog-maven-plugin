@@ -32,6 +32,20 @@
 					</execution>
 
 
+					<!-- Skipping // -->
+					<execution>
+						<id>GenerateGitChangelogSkip</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>git-changelog</goal>
+						</goals>
+						<configuration>
+							<file>CHANGELOG_skipped.md</file>
+							<skip>true</skip>
+						</configuration>
+					</execution>
+
+
 					<!-- Settings from file // -->
 					<execution>
 						<id>GenerateGitChangelogSettings</id>

@@ -119,8 +119,15 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "customIssues", required = false)
   private List<CustomIssue> customIssues;
 
+  @Parameter(property = "skip", required = false)
+  private Boolean skip;
+
   @Override
   public void execute() throws MojoExecutionException {
+    if (skip != null && skip == true) {
+      getLog().info("Skipping changelog generation");
+      return;
+    }
     try {
       GitChangelogApi builder;
       builder = gitChangelogApiBuilder();
