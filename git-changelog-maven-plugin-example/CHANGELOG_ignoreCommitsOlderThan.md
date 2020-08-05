@@ -2,6 +2,14 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+   openjdk8 *2020-08-05 04:45:40*
+
+   Add extendedVariables property *2020-08-04 20:33:17*
+
+
+
 ## git-changelog-maven-plugin-1.61
 ### GitHub
    Adding skip option #12 *2019-12-12 17:22:47*

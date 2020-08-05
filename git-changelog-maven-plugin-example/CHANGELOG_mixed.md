@@ -14,6 +14,12 @@ docs: Updates README.md to improve readability *14:34:08*
 
 
 ### GitHub
+   Merge pull request #18 from djn72/master
+
+Add extendedVariables property *04:42:36*
+
+
+### GitHub
    Template can be configured directly in the pom #2 *17:29:26*
 
 
@@ -64,6 +70,10 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   openjdk8 *04:45:40*
+
+   Add extendedVariables property *20:33:17*
+
    Create FUNDING.yml *07:06:15*
 
    Removing dependency on javax.xml *17:06:29*

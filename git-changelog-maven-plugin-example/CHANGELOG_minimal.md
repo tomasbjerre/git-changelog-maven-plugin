@@ -2,6 +2,20 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+
+**openjdk8**
+
+
+[b124cb2868a5f1f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b124cb2868a5f1f) Tomas Bjerre *2020-08-05 04:45:40*
+
+**Add extendedVariables property**
+
+
+[e682c289d432135](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e682c289d432135) David Nicklin *2020-08-04 20:33:17*
+
+
 ## git-changelog-maven-plugin-1.61
 ### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option
 
