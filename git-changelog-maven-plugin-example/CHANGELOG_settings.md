@@ -2,13 +2,13 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Next release
+## 1.62
 ### Other changes
 
 **openjdk8**
 
 
-[b124cb2868a5f1f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b124cb2868a5f1f) Tomas Bjerre *2020-08-05 04:45:40*
+[e45432e14feebff](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e45432e14feebff) Tomas Bjerre *2020-08-05 04:47:39*
 
 **Add extendedVariables property**
 

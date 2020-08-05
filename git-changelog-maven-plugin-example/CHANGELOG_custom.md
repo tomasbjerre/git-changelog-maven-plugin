@@ -2,7 +2,7 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.62
 ### No issue / 
    openjdk8
 

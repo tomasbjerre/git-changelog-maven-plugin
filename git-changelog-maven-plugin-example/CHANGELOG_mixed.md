@@ -70,7 +70,7 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
-   openjdk8 *04:45:40*
+   openjdk8 *04:47:39*
 
    Add extendedVariables property *20:33:17*
 
