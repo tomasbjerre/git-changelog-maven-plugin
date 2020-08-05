@@ -7,6 +7,7 @@ import static se.bjurr.gitchangelog.api.GitChangelogApi.gitChangelogApiBuilder;
 import java.io.File;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Mojo;
@@ -31,6 +32,9 @@ public class GitChangelogMojo extends AbstractMojo {
 
   @Parameter(property = "settingsFile", required = false)
   private String settingsFile;
+
+  @Parameter(property = "extendedVariables", required = false)
+  private Map extendedVariables;
 
   @Parameter(property = "templateFile", required = false)
   private String templateFile;
@@ -133,6 +137,10 @@ public class GitChangelogMojo extends AbstractMojo {
       builder = gitChangelogApiBuilder();
       if (isSupplied(settingsFile)) {
         builder.withSettings(new File(settingsFile).toURI().toURL());
+      }
+
+      if (isSupplied(extendedVariables)) {
+        builder.withExtendedVariables(extendedVariables);
       }
 
       if (isSupplied(toRef)) {
@@ -253,5 +261,9 @@ public class GitChangelogMojo extends AbstractMojo {
 
   private boolean isSupplied(String parameter) {
     return !isNullOrEmpty(parameter);
+  }
+
+  private boolean isSupplied(final Map<?, ?> parameter) {
+    return parameter != null && !parameter.isEmpty();
   }
 }
