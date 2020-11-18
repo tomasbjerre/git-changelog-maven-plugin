@@ -126,6 +126,9 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "skip", required = false)
   private Boolean skip;
 
+  @Parameter(property = "pathFilter", required = false)
+  private String pathFilter;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (skip != null && skip == true) {
@@ -229,6 +232,10 @@ public class GitChangelogMojo extends AbstractMojo {
       }
       if (isSupplied(jiraServer)) {
         builder.withJiraServer(jiraServer);
+      }
+
+      if (isSupplied(pathFilter)) {
+        builder.withPathFilter(pathFilter);
       }
 
       if (file == null && !isSupplied(mediaWikiUrl)) {
