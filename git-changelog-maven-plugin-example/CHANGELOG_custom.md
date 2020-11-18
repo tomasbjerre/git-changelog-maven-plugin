@@ -2,7 +2,11 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.63
+### GitHub [#19](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/19) Add support for pathfilter
+   Adjustments after merge of PR #19
+
+
 ### No issue / 
    Add support for pathfilter
 

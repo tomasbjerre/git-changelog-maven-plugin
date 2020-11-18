@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.63
+### GitHub
+   Adjustments after merge of PR #19 *2020-11-18 17:18:11*
+
+
+
 ## git-changelog-maven-plugin-1.61
 ### GitHub
    Adding skip option #12 *2019-12-12 17:22:47*

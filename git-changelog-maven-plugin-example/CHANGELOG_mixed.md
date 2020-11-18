@@ -20,6 +20,8 @@ Add extendedVariables property *04:42:36*
 
 
 ### GitHub
+   Adjustments after merge of PR #19 *17:18:11*
+
    Merge pull request #19 from gab1one/add-path-filter
 
 Add support for pathfilter *17:17:05*
