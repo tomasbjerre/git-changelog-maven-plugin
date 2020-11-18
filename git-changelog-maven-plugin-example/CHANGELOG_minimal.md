@@ -2,6 +2,15 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue
+
+**Add support for pathfilter**
+
+
+[c0420bec400cac8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c0420bec400cac8) Gabriel Einsdorf *2020-11-17 15:41:30*
+
+
 ## git-changelog-maven-plugin-1.62
 ### No issue
 

@@ -20,6 +20,12 @@ Add extendedVariables property *04:42:36*
 
 
 ### GitHub
+   Merge pull request #19 from gab1one/add-path-filter
+
+Add support for pathfilter *17:17:05*
+
+
+### GitHub
    Template can be configured directly in the pom #2 *17:29:26*
 
 
@@ -70,6 +76,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   Add support for pathfilter *15:41:30*
+
    openjdk8 *04:47:39*
 
    Add extendedVariables property *20:33:17*

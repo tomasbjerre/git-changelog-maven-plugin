@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### No issue / 
+   Add support for pathfilter
+
+
+
 ## git-changelog-maven-plugin-1.62
 ### No issue / 
    openjdk8
