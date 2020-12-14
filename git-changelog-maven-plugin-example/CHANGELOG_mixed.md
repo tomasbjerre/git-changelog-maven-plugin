@@ -32,6 +32,10 @@ Add support for pathfilter *17:17:05*
 
 
 ### GitHub
+   Mark as thread safe #21 *17:13:21*
+
+
+### GitHub
    Documentation and more configuration available in pom #3 *07:15:44*
 
    Documentation #3 *09:22:01*

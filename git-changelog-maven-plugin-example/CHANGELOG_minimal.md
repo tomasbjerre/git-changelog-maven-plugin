@@ -2,6 +2,15 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.64
+### GitHub [#21](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/21) Goal not marked as Thread-safe
+
+**Mark as thread safe #21**
+
+
+[171fad6b9d387d9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/171fad6b9d387d9) Tomas Bjerre *2020-12-14 17:13:21*
+
+
 ## git-changelog-maven-plugin-1.63
 ### GitHub [#19](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/19) Add support for pathfilter
 

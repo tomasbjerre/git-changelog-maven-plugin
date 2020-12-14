@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.64
+### GitHub
+   Mark as thread safe #21 *2020-12-14 17:13:21*
+
+
+
 ## git-changelog-maven-plugin-1.63
 ### GitHub
    Adjustments after merge of PR #19 *2020-11-18 17:18:11*
