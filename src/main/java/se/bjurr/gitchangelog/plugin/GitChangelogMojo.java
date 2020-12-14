@@ -14,7 +14,7 @@ import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 import se.bjurr.gitchangelog.api.GitChangelogApi;
 
-@Mojo(name = "git-changelog", defaultPhase = PROCESS_SOURCES)
+@Mojo(name = "git-changelog", defaultPhase = PROCESS_SOURCES, threadSafe = true)
 public class GitChangelogMojo extends AbstractMojo {
   private static final String DEFAULT_FILE = "CHANGELOG.md";
 
@@ -131,142 +131,142 @@ public class GitChangelogMojo extends AbstractMojo {
 
   @Override
   public void execute() throws MojoExecutionException {
-    if (skip != null && skip == true) {
-      getLog().info("Skipping changelog generation");
+    if (this.skip != null && this.skip == true) {
+      this.getLog().info("Skipping changelog generation");
       return;
     }
     try {
       GitChangelogApi builder;
       builder = gitChangelogApiBuilder();
-      if (isSupplied(settingsFile)) {
-        builder.withSettings(new File(settingsFile).toURI().toURL());
+      if (this.isSupplied(this.settingsFile)) {
+        builder.withSettings(new File(this.settingsFile).toURI().toURL());
       }
 
-      if (isSupplied(extendedVariables)) {
-        builder.withExtendedVariables(extendedVariables);
+      if (this.isSupplied(this.extendedVariables)) {
+        builder.withExtendedVariables(this.extendedVariables);
       }
 
-      if (isSupplied(toRef)) {
-        builder.withToRef(toRef);
+      if (this.isSupplied(this.toRef)) {
+        builder.withToRef(this.toRef);
       }
 
-      if (isSupplied(templateFile)) {
-        builder.withTemplatePath(templateFile);
+      if (this.isSupplied(this.templateFile)) {
+        builder.withTemplatePath(this.templateFile);
       }
-      if (isSupplied(templateContent)) {
-        builder.withTemplateContent(templateContent);
+      if (this.isSupplied(this.templateContent)) {
+        builder.withTemplateContent(this.templateContent);
       }
-      if (isSupplied(fromCommit)) {
-        builder.withFromCommit(fromCommit);
+      if (this.isSupplied(this.fromCommit)) {
+        builder.withFromCommit(this.fromCommit);
       }
-      if (isSupplied(fromRef)) {
-        builder.withFromRef(fromRef);
+      if (this.isSupplied(this.fromRef)) {
+        builder.withFromRef(this.fromRef);
       }
-      if (isSupplied(toCommit)) {
-        builder.withToCommit(toCommit);
+      if (this.isSupplied(this.toCommit)) {
+        builder.withToCommit(this.toCommit);
       }
 
-      if (isSupplied(ignoreTagsIfNameMatches)) {
-        builder.withIgnoreTagsIfNameMatches(ignoreTagsIfNameMatches);
+      if (this.isSupplied(this.ignoreTagsIfNameMatches)) {
+        builder.withIgnoreTagsIfNameMatches(this.ignoreTagsIfNameMatches);
       }
-      if (isSupplied(readableTagName)) {
-        builder.withReadableTagName(readableTagName);
+      if (this.isSupplied(this.readableTagName)) {
+        builder.withReadableTagName(this.readableTagName);
       }
-      if (isSupplied(dateFormat)) {
-        builder.withDateFormat(dateFormat);
+      if (this.isSupplied(this.dateFormat)) {
+        builder.withDateFormat(this.dateFormat);
       }
-      if (isSupplied(timeZone)) {
-        builder.withTimeZone(timeZone);
+      if (this.isSupplied(this.timeZone)) {
+        builder.withTimeZone(this.timeZone);
       }
-      builder.withRemoveIssueFromMessageArgument(removeIssueFromMessage);
-      if (isSupplied(ignoreCommitsIfMessageMatches)) {
-        builder.withIgnoreCommitsWithMessage(ignoreCommitsIfMessageMatches);
+      builder.withRemoveIssueFromMessageArgument(this.removeIssueFromMessage);
+      if (this.isSupplied(this.ignoreCommitsIfMessageMatches)) {
+        builder.withIgnoreCommitsWithMessage(this.ignoreCommitsIfMessageMatches);
       }
-      if (ignoreCommitsOlderThan != null) {
-        builder.withIgnoreCommitsOlderThan(ignoreCommitsOlderThan);
+      if (this.ignoreCommitsOlderThan != null) {
+        builder.withIgnoreCommitsOlderThan(this.ignoreCommitsOlderThan);
       }
-      if (isSupplied(untaggedName)) {
-        builder.withUntaggedName(untaggedName);
+      if (this.isSupplied(this.untaggedName)) {
+        builder.withUntaggedName(this.untaggedName);
       }
-      if (isSupplied(noIssueName)) {
-        builder.withNoIssueName(noIssueName);
+      if (this.isSupplied(this.noIssueName)) {
+        builder.withNoIssueName(this.noIssueName);
       }
-      if (ignoreCommitsWithoutIssue != null) {
-        builder.withIgnoreCommitsWithoutIssue(ignoreCommitsWithoutIssue);
+      if (this.ignoreCommitsWithoutIssue != null) {
+        builder.withIgnoreCommitsWithoutIssue(this.ignoreCommitsWithoutIssue);
       }
-      for (final CustomIssue customIssue : customIssues) {
+      for (final CustomIssue customIssue : this.customIssues) {
         builder.withCustomIssue(
             customIssue.getName(),
             customIssue.getPattern(),
             customIssue.getLink(),
             customIssue.getTitle());
       }
-      if (isSupplied(gitHubApi)) {
-        builder.withGitHubApi(gitHubApi);
+      if (this.isSupplied(this.gitHubApi)) {
+        builder.withGitHubApi(this.gitHubApi);
       }
-      if (isSupplied(gitHubToken)) {
-        builder.withGitHubToken(gitHubToken);
+      if (this.isSupplied(this.gitHubToken)) {
+        builder.withGitHubToken(this.gitHubToken);
       }
-      if (isSupplied(gitHubIssuePattern)) {
-        builder.withGitHubIssuePattern(gitHubIssuePattern);
-      }
-
-      if (isSupplied(gitLabProjectName)) {
-        builder.withGitLabProjectName(gitLabProjectName);
-      }
-      if (isSupplied(gitLabServer)) {
-        builder.withGitLabServer(gitLabServer);
-      }
-      if (isSupplied(gitLabToken)) {
-        builder.withGitLabToken(gitLabToken);
+      if (this.isSupplied(this.gitHubIssuePattern)) {
+        builder.withGitHubIssuePattern(this.gitHubIssuePattern);
       }
 
-      if (isSupplied(jiraUsername)) {
-        builder.withJiraUsername(jiraUsername);
+      if (this.isSupplied(this.gitLabProjectName)) {
+        builder.withGitLabProjectName(this.gitLabProjectName);
       }
-      if (isSupplied(jiraPassword)) {
-        builder.withJiraPassword(jiraPassword);
+      if (this.isSupplied(this.gitLabServer)) {
+        builder.withGitLabServer(this.gitLabServer);
       }
-      if (isSupplied(jiraIssuePattern)) {
-        builder.withJiraIssuePattern(jiraIssuePattern);
-      }
-      if (isSupplied(jiraServer)) {
-        builder.withJiraServer(jiraServer);
+      if (this.isSupplied(this.gitLabToken)) {
+        builder.withGitLabToken(this.gitLabToken);
       }
 
-      if (isSupplied(pathFilter)) {
-        builder.withPathFilter(pathFilter);
+      if (this.isSupplied(this.jiraUsername)) {
+        builder.withJiraUsername(this.jiraUsername);
+      }
+      if (this.isSupplied(this.jiraPassword)) {
+        builder.withJiraPassword(this.jiraPassword);
+      }
+      if (this.isSupplied(this.jiraIssuePattern)) {
+        builder.withJiraIssuePattern(this.jiraIssuePattern);
+      }
+      if (this.isSupplied(this.jiraServer)) {
+        builder.withJiraServer(this.jiraServer);
       }
 
-      if (file == null && !isSupplied(mediaWikiUrl)) {
-        getLog().info("No output set, using file " + DEFAULT_FILE);
-        file = new File(DEFAULT_FILE);
+      if (this.isSupplied(this.pathFilter)) {
+        builder.withPathFilter(this.pathFilter);
       }
 
-      if (file != null) {
-        builder.toFile(file);
-        getLog().info("#");
-        getLog().info("# Wrote: " + file);
-        getLog().info("#");
+      if (this.file == null && !this.isSupplied(this.mediaWikiUrl)) {
+        this.getLog().info("No output set, using file " + DEFAULT_FILE);
+        this.file = new File(DEFAULT_FILE);
       }
 
-      if (isSupplied(mediaWikiUrl)) {
+      if (this.file != null) {
+        builder.toFile(this.file);
+        this.getLog().info("#");
+        this.getLog().info("# Wrote: " + this.file);
+        this.getLog().info("#");
+      }
+
+      if (this.isSupplied(this.mediaWikiUrl)) {
         builder //
             .toMediaWiki( //
-            mediaWikiUsername, //
-            mediaWikiPassword, //
-            mediaWikiUrl, //
-            mediaWikiTitle);
-        getLog().info("#");
-        getLog().info("# Created: " + mediaWikiUrl + "/index.php/" + mediaWikiTitle);
-        getLog().info("#");
+            this.mediaWikiUsername, //
+            this.mediaWikiPassword, //
+            this.mediaWikiUrl, //
+            this.mediaWikiTitle);
+        this.getLog().info("#");
+        this.getLog().info("# Created: " + this.mediaWikiUrl + "/index.php/" + this.mediaWikiTitle);
+        this.getLog().info("#");
       }
     } catch (final Exception e) {
-      getLog().error("GitChangelog", e);
+      this.getLog().error("GitChangelog", e);
     }
   }
 
-  private boolean isSupplied(String parameter) {
+  private boolean isSupplied(final String parameter) {
     return !isNullOrEmpty(parameter);
   }
 
