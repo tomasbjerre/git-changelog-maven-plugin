@@ -8,6 +8,7 @@ import java.io.File;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import java.util.HashMap;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Mojo;
@@ -35,6 +36,10 @@ public class GitChangelogMojo extends AbstractMojo {
 
   @Parameter(property = "extendedVariables", required = false)
   private Map extendedVariables;
+
+  //map variables cannot be passed through maven cli use this property as a workaround
+  @Parameter(property = "extendedVariablesCli", required = false)
+  private String[] extendedVariablesCli;
 
   @Parameter(property = "templateFile", required = false)
   private String templateFile;
@@ -136,6 +141,9 @@ public class GitChangelogMojo extends AbstractMojo {
       return;
     }
     try {
+      Map<String,String> extendedVariablesCliAsMap = this.convertExtendedVariablesCli2Map();
+      this.extendedVariables.putAll(extendedVariablesCliAsMap);
+
       GitChangelogApi builder;
       builder = gitChangelogApiBuilder();
       if (this.isSupplied(this.settingsFile)) {
@@ -272,5 +280,19 @@ public class GitChangelogMojo extends AbstractMojo {
 
   private boolean isSupplied(final Map<?, ?> parameter) {
     return parameter != null && !parameter.isEmpty();
+  }
+
+  private Map<String, String> convertExtendedVariablesCli2Map() {
+	  Map<String, String> map = new HashMap<>();
+	  if (this.extendedVariablesCli != null) {
+		  for (int i=0;i< this.extendedVariablesCli.length;i++) {
+			  String entry = this.extendedVariablesCli[i];
+			  int equalsPosition = entry.indexOf( "=" );
+			  map.put(
+				  entry.substring( 0, equalsPosition ),
+				  entry.substring( equalsPosition + 1 ) );
+		  }
+	  }
+	  return map;
   }
 }
