@@ -285,7 +285,8 @@ public class GitChangelogMojo extends AbstractMojo {
   private Map<String, String> convertExtendedVariablesCli2Map() {
 	  Map<String, String> map = new HashMap<>();
 	  if (this.extendedVariablesCli != null) {
-		  for ( String entry : this.extendedVariablesCli ) {
+		  for (int i=0;i< this.extendedVariablesCli.length;i++) {
+			  String entry = this.extendedVariablesCli[i];
 			  int equalsPosition = entry.indexOf( "=" );
 			  map.put(
 				  entry.substring( 0, equalsPosition ),
