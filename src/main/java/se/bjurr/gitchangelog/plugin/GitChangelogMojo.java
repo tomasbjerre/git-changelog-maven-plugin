@@ -281,15 +281,17 @@ public class GitChangelogMojo extends AbstractMojo {
   private boolean isSupplied(final Map<?, ?> parameter) {
     return parameter != null && !parameter.isEmpty();
   }
-  
+
   private Map<String, String> convertExtendedVariablesCli2Map() {
-	  Map<String, String> map = new HashMap<String, String>( this.extendedVariablesCli.length );
-	  for ( String entry : this.extendedVariablesCli ) {
-		  int equalsPosition = entry.indexOf( "=" );
-		  map.put(
+	  Map<String, String> map = new HashMap<>();
+	  if (this.extendedVariablesCli != null) {
+		  for ( String entry : this.extendedVariablesCli ) {
+			  int equalsPosition = entry.indexOf( "=" );
+			  map.put(
 				  entry.substring( 0, equalsPosition ),
 				  entry.substring( equalsPosition + 1 ) );
-      }
+		  }
+	  }
 	  return map;
-  } 
+  }
 }
