@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### GitHub
+   Allow to pass extendedVariables using maven cli #24 *2021-01-16 06:18:56*
+
+
+
 ## git-changelog-maven-plugin-1.64
 ### GitHub
    Mark as thread safe #21 *2020-12-14 17:13:21*

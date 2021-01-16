@@ -36,6 +36,10 @@ Add support for pathfilter *17:17:05*
 
 
 ### GitHub
+   Allow to pass extendedVariables using maven cli #24 *06:18:56*
+
+
+### GitHub
    Documentation and more configuration available in pom #3 *07:15:44*
 
    Documentation #3 *09:22:01*
