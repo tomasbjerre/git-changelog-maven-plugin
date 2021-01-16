@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### GitHub [#24](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/24) Passing extendedVariables Property using mvn -D Commandline Option
+   Allow to pass extendedVariables using maven cli #24
+
+
+
 ## git-changelog-maven-plugin-1.64
 ### GitHub [#21](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/21) Goal not marked as Thread-safe
    Mark as thread safe #21
