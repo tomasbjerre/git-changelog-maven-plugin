@@ -5,6 +5,10 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### GitHub [#24](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/24) Passing extendedVariables Property using mvn -D Commandline Option
 
+[1cd9f65ba4b21d8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1cd9f65ba4b21d8) Tomas Bjerre *2021-01-16 06:21:39*
+
+Formatting code after merge #24
+
 [b4a1ccc72a3a1ce](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b4a1ccc72a3a1ce) Volker Hochstein *2021-01-16 06:18:56*
 
 Allow to pass extendedVariables using maven cli #24

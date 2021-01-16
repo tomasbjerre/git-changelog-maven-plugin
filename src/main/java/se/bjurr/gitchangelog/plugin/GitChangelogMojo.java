@@ -141,7 +141,7 @@ public class GitChangelogMojo extends AbstractMojo {
       return;
     }
     try {
-      Map<String, String> extendedVariablesCliAsMap = this.convertExtendedVariablesCli2Map();
+      final Map<String, String> extendedVariablesCliAsMap = this.convertExtendedVariablesCli2Map();
       this.extendedVariables.putAll(extendedVariablesCliAsMap);
 
       GitChangelogApi builder;
@@ -283,12 +283,15 @@ public class GitChangelogMojo extends AbstractMojo {
   }
 
   private Map<String, String> convertExtendedVariablesCli2Map() {
-    Map<String, String> map = new HashMap<>();
+    final Map<String, String> map = new HashMap<>();
     if (this.extendedVariablesCli != null) {
-      for (int i = 0; i < this.extendedVariablesCli.length; i++) {
-        String entry = this.extendedVariablesCli[i];
-        int equalsPosition = entry.indexOf("=");
-        map.put(entry.substring(0, equalsPosition), entry.substring(equalsPosition + 1));
+      this.getLog().info("Extended variables:");
+      for (final String entry : this.extendedVariablesCli) {
+        final int equalsPosition = entry.indexOf("=");
+        final String variable = entry.substring(0, equalsPosition);
+        final String value = entry.substring(equalsPosition + 1);
+        this.getLog().info(variable + " = " + value);
+        map.put(variable, value);
       }
     }
     return map;

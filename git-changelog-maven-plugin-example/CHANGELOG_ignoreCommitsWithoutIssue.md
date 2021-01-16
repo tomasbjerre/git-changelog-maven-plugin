@@ -4,6 +4,8 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### GitHub
+   Formatting code after merge #24 *2021-01-16 06:21:39*
+
    Allow to pass extendedVariables using maven cli #24 *2021-01-16 06:18:56*
 
 

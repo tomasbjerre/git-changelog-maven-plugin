@@ -36,6 +36,8 @@ Add support for pathfilter *17:17:05*
 
 
 ### GitHub
+   Formatting code after merge #24 *06:21:39*
+
    Allow to pass extendedVariables using maven cli #24 *06:18:56*
 
 
