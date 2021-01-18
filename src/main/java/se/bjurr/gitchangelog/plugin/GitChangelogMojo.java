@@ -50,18 +50,6 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "file", required = false)
   private File file;
 
-  @Parameter(property = "mediaWikiUrl", required = false)
-  private String mediaWikiUrl;
-
-  @Parameter(property = "mediaWikiTitle", required = false)
-  private String mediaWikiTitle;
-
-  @Parameter(property = "mediaWikiUsername", required = false)
-  private String mediaWikiUsername;
-
-  @Parameter(property = "mediaWikiPassword", required = false)
-  private String mediaWikiPassword;
-
   @Parameter(property = "readableTagName", required = false)
   private String readableTagName;
 
@@ -246,7 +234,7 @@ public class GitChangelogMojo extends AbstractMojo {
         builder.withPathFilter(this.pathFilter);
       }
 
-      if (this.file == null && !this.isSupplied(this.mediaWikiUrl)) {
+      if (this.file == null) {
         this.getLog().info("No output set, using file " + DEFAULT_FILE);
         this.file = new File(DEFAULT_FILE);
       }
@@ -258,17 +246,6 @@ public class GitChangelogMojo extends AbstractMojo {
         this.getLog().info("#");
       }
 
-      if (this.isSupplied(this.mediaWikiUrl)) {
-        builder //
-            .toMediaWiki( //
-            this.mediaWikiUsername, //
-            this.mediaWikiPassword, //
-            this.mediaWikiUrl, //
-            this.mediaWikiTitle);
-        this.getLog().info("#");
-        this.getLog().info("# Created: " + this.mediaWikiUrl + "/index.php/" + this.mediaWikiTitle);
-        this.getLog().info("#");
-      }
     } catch (final Exception e) {
       this.getLog().error("GitChangelog", e);
     }
