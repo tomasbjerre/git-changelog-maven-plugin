@@ -17,6 +17,30 @@ Changelog of Git Changelog Maven plugin.
  
 
 
+## git-changelog-maven-plugin-1.67
+ 
+  
+  
+### Jira / 
+  
+  
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.67
+
+  
+
+ 
+  
+  
+### No issue / 
+  
+  
+   [maven-release-plugin] prepare for next development iteration
+
+  
+
+ 
+
+
 ## git-changelog-maven-plugin-1.66
  
   
