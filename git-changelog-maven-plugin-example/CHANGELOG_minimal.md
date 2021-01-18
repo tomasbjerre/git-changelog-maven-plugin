@@ -11,6 +11,49 @@ Changelog of Git Changelog Maven plugin.
   
 
   
+**[maven-release-plugin] prepare for next development iteration**
+
+
+
+[61211924c940bc1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/61211924c940bc1) Tomas Bjerre *2021-01-18 17:11:49*
+
+  
+
+ 
+
+## git-changelog-maven-plugin-1.66
+ 
+  
+   
+   
+### Jira plugin-1 
+   
+  
+  
+
+  
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.66**
+
+
+
+[29046cfda246729](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/29046cfda246729) Tomas Bjerre *2021-01-18 17:11:39*
+
+  
+
+ 
+  
+  
+### No issue
+  
+
+  
+**Removing default ignore filter on message**
+
+
+
+[f49f018fc2d816a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f49f018fc2d816a) Tomas Bjerre *2021-01-18 17:11:18*
+
+  
 **Locking fmt version**
 
 

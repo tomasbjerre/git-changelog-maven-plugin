@@ -3,12 +3,19 @@
 Changelog of Git Changelog Maven plugin.
 
 
-## Next release
+## 1.66
  
   
   
 ### Other changes
   
+
+  
+**Removing default ignore filter on message**
+
+
+
+[f49f018fc2d816a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f49f018fc2d816a) Tomas Bjerre *2021-01-18 17:11:18*
 
   
 **Locking fmt version**

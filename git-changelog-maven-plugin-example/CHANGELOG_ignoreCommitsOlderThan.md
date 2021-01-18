@@ -7,6 +7,27 @@ Changelog of Git Changelog Maven plugin.
  
 ### No issue
   
+   [maven-release-plugin] prepare for next development iteration *2021-01-18 17:11:49*
+
+  
+
+ 
+
+
+## git-changelog-maven-plugin-1.66
+ 
+### Jira
+  
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.66 *2021-01-18 17:11:39*
+
+  
+
+ 
+### No issue
+  
+   Removing default ignore filter on message *2021-01-18 17:11:18*
+
+  
    Locking fmt version *2021-01-16 06:50:16*
 
   

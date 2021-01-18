@@ -146,6 +146,9 @@ Fix fromCommit and fromRef property typo *21:11:26*
  
 ### These commits have not issue in their commit comment
   
+   Removing default ignore filter on message *17:11:18*
+
+  
    Locking fmt version *06:50:16*
 
   

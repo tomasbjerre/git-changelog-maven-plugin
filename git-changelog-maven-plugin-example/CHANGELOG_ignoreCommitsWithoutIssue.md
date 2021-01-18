@@ -3,6 +3,17 @@
 Changelog of Git Changelog Maven plugin.
 
 
+## git-changelog-maven-plugin-1.66
+ 
+### Jira
+  
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.66 *2021-01-18 17:11:39*
+
+  
+
+ 
+
+
 ## git-changelog-maven-plugin-1.65
  
 ### GitHub
