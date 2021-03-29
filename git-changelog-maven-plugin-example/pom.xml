@@ -144,6 +144,7 @@ Changelog of Git Changelog Maven plugin.
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
 							<file>CHANGELOG.md</file>
+							<ignoreCommitsIfMessageMatches>^\[maven-release-plugin\].*</ignoreCommitsIfMessageMatches>
 						</configuration>
 					</execution>
 
