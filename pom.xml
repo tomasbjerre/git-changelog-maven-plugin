@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.bjurr.gitchangelog</groupId>
 	<artifactId>git-changelog-maven-plugin</artifactId>
-	<version>1.68-SNAPSHOT</version>
+	<version>1.68</version>
 	<packaging>maven-plugin</packaging>
 	<name>git-changelog-maven-plugin</name>
 	<description>Maven plugin that can generate a changelog from git repo.</description>
@@ -12,7 +12,7 @@
 	<scm>
 		<developerConnection>scm:git:git@github.com:tomasbjerre/git-changelog-maven-plugin.git</developerConnection>
 		<url>https://github.com/tomasbjerre/git-changelog-maven-plugin</url>
-		<tag>HEAD</tag>
+		<tag>git-changelog-maven-plugin-1.68</tag>
 	</scm>
 
 	<distributionManagement>
