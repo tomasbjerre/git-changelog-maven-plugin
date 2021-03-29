@@ -80,6 +80,10 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### Jira
+   pretty printing output JENKINS-65252 *15:45:20*
+
+
+### Jira
    Merge pull request #10 from lennonjesus/patch-1
 
 docs: Updates README.md to improve readability *14:34:08*

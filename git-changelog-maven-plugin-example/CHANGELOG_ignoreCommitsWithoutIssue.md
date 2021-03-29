@@ -2,6 +2,16 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.68
+### Jira
+   pretty printing output JENKINS-65252 *2021-03-29 15:45:20*
+
+
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.68 *2021-03-29 15:45:38*
+
+
+
 ## git-changelog-maven-plugin-1.67
 ### Jira
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.67 *2021-01-18 17:13:44*

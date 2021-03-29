@@ -2,6 +2,15 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## 1.68
+### Jira JENKINS-65252 
+
+**pretty printing output JENKINS-65252**
+
+
+[c4a835846d97ac6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c4a835846d97ac6) Tomas Bjerre *2021-03-29 15:45:20*
+
+
 ## 1.66
 ### Other changes
 
