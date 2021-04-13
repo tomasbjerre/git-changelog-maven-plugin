@@ -2,6 +2,20 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## 1.69
+### Other changes
+
+**Support custom headers to JIRA to bypass 2 factor auth**
+
+
+[6b46ff022146e02](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6b46ff022146e02) Yauheni Biruk *2021-04-12 13:15:12*
+
+**removing bintray link**
+
+
+[2bc5c4649a51368](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2bc5c4649a51368) Tomas Bjerre *2021-04-05 11:01:17*
+
+
 ## 1.68
 ### Jira JENKINS-65252 
 

@@ -44,6 +44,12 @@ Add support for pathfilter *17:17:05*
 
 
 ### GitHub
+   Merge pull request #27 from drhip/feature/extended_headers
+
+Support custom headers to JIRA to bypass 2 factor auth *16:28:30*
+
+
+### GitHub
    Documentation and more configuration available in pom #3 *07:15:44*
 
    Documentation #3 *09:22:01*
@@ -94,6 +100,10 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   Support custom headers to JIRA to bypass 2 factor auth *13:15:12*
+
+   removing bintray link *11:01:17*
+
    Removing default ignore filter on message *17:11:18*
 
    Locking fmt version *06:50:16*

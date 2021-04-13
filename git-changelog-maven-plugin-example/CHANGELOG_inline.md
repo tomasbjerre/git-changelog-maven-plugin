@@ -5,6 +5,38 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+[fae9b1216d9facb](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/fae9b1216d9facb) Tomas Bjerre *2021-04-13 16:29:45*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.69
+### GitHub [#27](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/27) Support custom headers to JIRA to bypass 2 factor auth
+
+[bf46943823e8f1c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bf46943823e8f1c) Tomas Bjerre *2021-04-13 16:28:30*
+
+Merge pull request #27 from drhip/feature/extended_headers
+
+Support custom headers to JIRA to bypass 2 factor auth
+
+
+### Jira
+
+[5c82d9423884ca8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5c82d9423884ca8) Tomas Bjerre *2021-04-13 16:29:40*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.69
+
+
+### No issue
+
+[6b46ff022146e02](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6b46ff022146e02) Yauheni Biruk *2021-04-12 13:15:12*
+
+Support custom headers to JIRA to bypass 2 factor auth
+
+[2bc5c4649a51368](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2bc5c4649a51368) Tomas Bjerre *2021-04-05 11:01:17*
+
+removing bintray link
+
 [28ba7f7b83bb29a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/28ba7f7b83bb29a) Tomas Bjerre *2021-03-29 15:47:06*
 
 [maven-release-plugin] prepare for next development iteration

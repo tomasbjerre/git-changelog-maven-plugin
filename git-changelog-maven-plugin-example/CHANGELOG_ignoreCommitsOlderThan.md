@@ -4,6 +4,26 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   [maven-release-plugin] prepare for next development iteration *2021-04-13 16:29:45*
+
+
+
+## git-changelog-maven-plugin-1.69
+### GitHub
+   Merge pull request #27 from drhip/feature/extended_headers
+
+Support custom headers to JIRA to bypass 2 factor auth *2021-04-13 16:28:30*
+
+
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.69 *2021-04-13 16:29:40*
+
+
+### No issue
+   Support custom headers to JIRA to bypass 2 factor auth *2021-04-12 13:15:12*
+
+   removing bintray link *2021-04-05 11:01:17*
+
    [maven-release-plugin] prepare for next development iteration *2021-03-29 15:47:06*
 
 

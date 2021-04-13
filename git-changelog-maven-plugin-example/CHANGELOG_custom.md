@@ -8,6 +8,26 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.69
+### GitHub [#27](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/27) Support custom headers to JIRA to bypass 2 factor auth
+   Merge pull request #27 from drhip/feature/extended_headers
+
+Support custom headers to JIRA to bypass 2 factor auth
+
+
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.69
+
+
+### No issue / 
+   Support custom headers to JIRA to bypass 2 factor auth
+
+   removing bintray link
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.68
 ### Jira / 
    pretty printing output JENKINS-65252
