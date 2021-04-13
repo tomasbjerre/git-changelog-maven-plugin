@@ -37,6 +37,9 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "extendedVariables", required = false)
   private Map extendedVariables;
 
+  @Parameter(property = "extendedHeaders", required = false)
+  private Map extendedHeaders;
+
   // map variables cannot be passed through maven cli use this property as a workaround
   @Parameter(property = "extendedVariablesCli", required = false)
   private String[] extendedVariablesCli;
@@ -140,6 +143,10 @@ public class GitChangelogMojo extends AbstractMojo {
 
       if (this.isSupplied(this.extendedVariables)) {
         builder.withExtendedVariables(this.extendedVariables);
+      }
+
+      if (this.isSupplied(this.extendedHeaders)) {
+        builder.withExtendedHeaders(this.extendedHeaders);
       }
 
       if (this.isSupplied(this.toRef)) {
