@@ -1,0 +1,146 @@
+git-changelog-maven-plugin-example 1.0-SNAPSHOT Changelog
+
+Unreleased
+
+2021.04.13 16:31:03 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2222e58ac9c69ce
+[maven-release-plugin] prepare for next development iteration
+
+
+git-changelog-maven-plugin-1.69
+
+2021.04.13 16:29:40 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5c82d9423884ca8
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.69
+
+2021.04.13 16:28:30 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bf46943823e8f1c
+Merge pull request #27 from drhip/feature/extended_headers
+  Support custom headers to JIRA to bypass 2 factor auth
+
+2021.04.12 13:15:12 - Yauheni Biruk - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6b46ff022146e02
+Support custom headers to JIRA to bypass 2 factor auth
+
+2021.04.05 11:01:17 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2bc5c4649a51368
+removing bintray link
+
+2021.03.29 15:47:06 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/28ba7f7b83bb29a
+[maven-release-plugin] prepare for next development iteration
+
+
+git-changelog-maven-plugin-1.68
+
+2021.03.29 15:45:38 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3c0eac5641f57da
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.68
+
+2021.03.29 15:45:20 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c4a835846d97ac6
+pretty printing output JENKINS-65252
+
+2021.01.18 17:15:04 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/58d04319660c12a
+[maven-release-plugin] prepare for next development iteration
+
+
+git-changelog-maven-plugin-1.67
+
+2021.01.18 17:13:44 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1c8bff35f3d4e29
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.67
+
+2021.01.18 17:13:04 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/97cc8a854f5425b
+[maven-release-plugin] prepare for next development iteration
+
+
+git-changelog-maven-plugin-1.66
+
+2021.01.18 17:11:39 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/29046cfda246729
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.66
+
+2021.01.18 17:11:18 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f49f018fc2d816a
+Removing default ignore filter on message
+
+2021.01.16 06:50:16 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5c5cfd2e38bb107
+Locking fmt version
+
+2021.01.16 06:41:57 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/be45ec6517fcd31
+[maven-release-plugin] prepare for next development iteration
+
+
+git-changelog-maven-plugin-1.65
+
+2021.01.16 06:40:35 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/19a1e91cb9b7d2c
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.65
+
+2021.01.16 06:36:49 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e18d6a7dc74d29d
+More logging of extended variables from CLI #24
+
+2021.01.16 06:21:39 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1cd9f65ba4b21d8
+Formatting code after merge #24
+
+2021.01.16 06:18:56 - Volker Hochstein - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b4a1ccc72a3a1ce
+Allow to pass extendedVariables using maven cli #24
+
+2020.12.14 17:18:35 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0b7016b67a83c97
+[maven-release-plugin] prepare for next development iteration
+
+
+git-changelog-maven-plugin-1.64
+
+2020.12.14 17:13:46 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cfc04e032ae6419
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.64
+
+2020.12.14 17:13:21 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/171fad6b9d387d9
+Mark as thread safe #21
+
+2020.11.18 17:19:52 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6545219ecb3b185
+[maven-release-plugin] prepare for next development iteration
+
+
+git-changelog-maven-plugin-1.63
+
+2020.11.18 17:18:29 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9bc963d8e9b402f
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.63
+
+2020.11.18 17:18:11 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b30f660588ba861
+Adjustments after merge of PR #19
+
+2020.11.18 17:17:05 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d684c775cf23f9b
+Merge pull request #19 from gab1one/add-path-filter
+  Add support for pathfilter
+
+2020.11.17 15:41:30 - Gabriel Einsdorf - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c0420bec400cac8
+Add support for pathfilter
+
+2020.08.05 04:49:50 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d8a503eb14888e4
+[maven-release-plugin] prepare for next development iteration
+
+
+git-changelog-maven-plugin-1.62
+
+2020.08.05 04:47:57 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6e2f4a40a974a9a
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.62
+
+2020.08.05 04:47:39 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e45432e14feebff
+openjdk8
+
+2020.08.05 04:42:36 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b5d8cb431274f5f
+Merge pull request #18 from djn72/master
+  Add extendedVariables property
+
+2020.08.04 20:33:17 - David Nicklin - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e682c289d432135
+Add extendedVariables property
+
+2019.12.12 17:24:31 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1e915376f497591
+[maven-release-plugin] prepare for next development iteration
+
+
+git-changelog-maven-plugin-1.61
+
+2019.12.12 17:23:07 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e54b9f3f3ae6436
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.61
+
+2019.12.12 17:22:47 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/851a62a43f23d17
+Adding skip option #12
+
+2019.09.28 07:06:15 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0db3b2367e4adc5
+Create FUNDING.yml
+
+2019.06.11 17:16:05 - Tomas Bjerre - https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1515ff8b7d634c5
+[maven-release-plugin] prepare for next development iteration
+
+
