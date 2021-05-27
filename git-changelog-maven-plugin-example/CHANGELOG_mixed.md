@@ -106,6 +106,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   chore: updating release-plugins *17:41:42*
+
    chore: release instructions *17:36:20*
 
    Maven central *17:27:33*

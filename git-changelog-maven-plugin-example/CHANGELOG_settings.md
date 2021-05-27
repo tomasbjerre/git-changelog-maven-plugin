@@ -2,6 +2,15 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## 1.72
+### Other changes
+
+**chore: updating release-plugins**
+
+
+[40de6322b599475](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/40de6322b599475) Tomas Bjerre *2021-05-27 17:41:42*
+
+
 ## 1.71
 ### Other changes
 
