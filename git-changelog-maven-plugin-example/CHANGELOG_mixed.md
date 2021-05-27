@@ -106,6 +106,12 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   chore: release instructions *17:36:20*
+
+   Maven central *17:27:33*
+
+   feat: support conventional commits *17:22:23*
+
    Add unescaped simple plain text example *13:57:25*
 
    Support custom headers to JIRA to bypass 2 factor auth *13:15:12*

@@ -3,13 +3,39 @@
 Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
-### GitHub / 
+### No issue / 
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.71
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.71
+
+
+### No issue / 
+   chore: release instructions
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.70
+### GitHub [#31](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/31) Add unescaped simple plain text example
    Merge pull request #31 from edeso/simplePlainTextExample
 
 Add unescaped simple plain text example
 
 
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.70
+
+
 ### No issue / 
+   Maven central
+
+   feat: support conventional commits
+
    Add unescaped simple plain text example
 
    [maven-release-plugin] prepare for next development iteration
@@ -17,7 +43,7 @@ Add unescaped simple plain text example
 
 
 ## git-changelog-maven-plugin-1.69
-### GitHub / 
+### GitHub [#27](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/27) Support custom headers to JIRA to bypass 2 factor auth
    Merge pull request #27 from drhip/feature/extended_headers
 
 Support custom headers to JIRA to bypass 2 factor auth
@@ -75,7 +101,7 @@ Support custom headers to JIRA to bypass 2 factor auth
 
 
 ## git-changelog-maven-plugin-1.65
-### GitHub / 
+### GitHub [#24](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/24) Passing extendedVariables Property using mvn -D Commandline Option
    More logging of extended variables from CLI #24
 
    Formatting code after merge #24
@@ -93,7 +119,7 @@ Support custom headers to JIRA to bypass 2 factor auth
 
 
 ## git-changelog-maven-plugin-1.64
-### GitHub / 
+### GitHub [#21](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/21) Goal not marked as Thread-safe
    Mark as thread safe #21
 
 
@@ -107,7 +133,7 @@ Support custom headers to JIRA to bypass 2 factor auth
 
 
 ## git-changelog-maven-plugin-1.63
-### GitHub / 
+### GitHub [#19](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/19) Add support for pathfilter
    Adjustments after merge of PR #19
 
    Merge pull request #19 from gab1one/add-path-filter
@@ -127,7 +153,7 @@ Add support for pathfilter
 
 
 ## git-changelog-maven-plugin-1.62
-### GitHub / 
+### GitHub [#18](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/18) Add extendedVariables property
    Merge pull request #18 from djn72/master
 
 Add extendedVariables property
@@ -147,7 +173,7 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.61
-### GitHub / 
+### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option
    Adding skip option #12
 
 
@@ -231,7 +257,7 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.55
-### GitHub / 
+### GitHub [#10](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/10) docs: Updates README.md to improve readability
    Merge pull request #10 from lennonjesus/patch-1
 
 docs: Updates README.md to improve readability
@@ -313,7 +339,7 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.50
-### GitHub / 
+### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile
    Defaulting ignoreCommitsWithoutIssue #9
 
 
@@ -474,7 +500,7 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.39
-### GitHub / 
+### GitHub [#7](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/7) Fix fromCommit and fromRef property typo
    Merge pull request #7 from dunse/patch-1
 
 Fix fromCommit and fromRef property typo
@@ -756,7 +782,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.20
-### GitHub / 
+### GitHub [#6](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/6) GitHub OAuth2 Token support
    Support GitHub OAuth2 tokens #6
 
 
@@ -848,7 +874,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.14
-### GitHub / 
+### GitHub [#5](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/5) One line git commit messege
    Added variables: messageTitle, messageBody, messageItems #5
 
 
@@ -900,7 +926,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.12
-### GitHub / 
+### GitHub [#4](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/4) The tags are out of order
    Using lib 1.23 to sort commits by time, not formatted time #4
 
 
@@ -918,7 +944,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.11
-### GitHub / 
+### GitHub [#3](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/3) Enhance documentation for changelog.json file
    Documentation and more configuration available in pom #3
 
    Documentation #3
@@ -938,7 +964,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.10
-### GitHub / 
+### GitHub [#2](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/2) Allow for template to be added directly in pom.xml
    Template can be configured directly in the pom #2
 
 
@@ -954,7 +980,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.9
-### GitHub / 
+### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
    Using lib 1.17 #1
 
 
@@ -970,7 +996,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.8
-### GitHub / 
+### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
    Using lib 1.15 #1
 
 
@@ -1012,7 +1038,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.5
-### GitHub / 
+### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
    Using lib 1.12 #1
 
 

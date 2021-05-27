@@ -2,11 +2,21 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## Unreleased
+## git-changelog-maven-plugin-1.71
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.71 *2021-05-27 17:36:38*
+
+
+
+## git-changelog-maven-plugin-1.70
 ### GitHub
    Merge pull request #31 from edeso/simplePlainTextExample
 
 Add unescaped simple plain text example *2021-05-25 14:07:41*
+
+
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.70 *2021-05-27 17:28:03*
 
 
 

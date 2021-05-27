@@ -3,13 +3,39 @@
 Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
+### No issue
+   [maven-release-plugin] prepare for next development iteration *2021-05-27 17:36:43*
+
+
+
+## git-changelog-maven-plugin-1.71
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.71 *2021-05-27 17:36:38*
+
+
+### No issue
+   chore: release instructions *2021-05-27 17:36:20*
+
+   [maven-release-plugin] prepare for next development iteration *2021-05-27 17:28:10*
+
+
+
+## git-changelog-maven-plugin-1.70
 ### GitHub
    Merge pull request #31 from edeso/simplePlainTextExample
 
 Add unescaped simple plain text example *2021-05-25 14:07:41*
 
 
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.70 *2021-05-27 17:28:03*
+
+
 ### No issue
+   Maven central *2021-05-27 17:27:33*
+
+   feat: support conventional commits *2021-05-27 17:22:23*
+
    Add unescaped simple plain text example *2021-05-25 13:57:25*
 
    [maven-release-plugin] prepare for next development iteration *2021-04-13 16:31:03*
