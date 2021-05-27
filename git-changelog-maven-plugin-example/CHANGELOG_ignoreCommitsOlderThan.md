@@ -3,8 +3,16 @@
 Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
+### GitHub
+   Merge pull request #31 from edeso/simplePlainTextExample
+
+Add unescaped simple plain text example *2021-05-25 14:07:41*
+
+
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2021-04-13 16:29:45*
+   Add unescaped simple plain text example *2021-05-25 13:57:25*
+
+   [maven-release-plugin] prepare for next development iteration *2021-04-13 16:31:03*
 
 
 

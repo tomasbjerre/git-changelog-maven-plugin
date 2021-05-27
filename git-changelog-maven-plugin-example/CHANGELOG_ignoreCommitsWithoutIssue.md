@@ -2,6 +2,14 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## Unreleased
+### GitHub
+   Merge pull request #31 from edeso/simplePlainTextExample
+
+Add unescaped simple plain text example *2021-05-25 14:07:41*
+
+
+
 ## git-changelog-maven-plugin-1.69
 ### GitHub
    Merge pull request #27 from drhip/feature/extended_headers

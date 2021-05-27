@@ -125,6 +125,9 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "pathFilter", required = false)
   private String pathFilter;
 
+  @Parameter(property = "javascriptHelper", required = false)
+  private String javascriptHelper;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (this.skip != null && this.skip == true) {
@@ -137,6 +140,12 @@ public class GitChangelogMojo extends AbstractMojo {
 
       GitChangelogApi builder;
       builder = gitChangelogApiBuilder();
+
+      if (this.isSupplied(this.javascriptHelper)) {
+        builder //
+            .withHandlebarsHelper(this.javascriptHelper);
+      }
+
       if (this.isSupplied(this.settingsFile)) {
         builder.withSettings(new File(this.settingsFile).toURI().toURL());
       }

@@ -3,13 +3,21 @@
 Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
+### GitHub / 
+   Merge pull request #31 from edeso/simplePlainTextExample
+
+Add unescaped simple plain text example
+
+
 ### No issue / 
+   Add unescaped simple plain text example
+
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.69
-### GitHub [#27](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/27) Support custom headers to JIRA to bypass 2 factor auth
+### GitHub / 
    Merge pull request #27 from drhip/feature/extended_headers
 
 Support custom headers to JIRA to bypass 2 factor auth
@@ -67,7 +75,7 @@ Support custom headers to JIRA to bypass 2 factor auth
 
 
 ## git-changelog-maven-plugin-1.65
-### GitHub [#24](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/24) Passing extendedVariables Property using mvn -D Commandline Option
+### GitHub / 
    More logging of extended variables from CLI #24
 
    Formatting code after merge #24
@@ -85,7 +93,7 @@ Support custom headers to JIRA to bypass 2 factor auth
 
 
 ## git-changelog-maven-plugin-1.64
-### GitHub [#21](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/21) Goal not marked as Thread-safe
+### GitHub / 
    Mark as thread safe #21
 
 
@@ -99,7 +107,7 @@ Support custom headers to JIRA to bypass 2 factor auth
 
 
 ## git-changelog-maven-plugin-1.63
-### GitHub [#19](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/19) Add support for pathfilter
+### GitHub / 
    Adjustments after merge of PR #19
 
    Merge pull request #19 from gab1one/add-path-filter
@@ -119,7 +127,7 @@ Add support for pathfilter
 
 
 ## git-changelog-maven-plugin-1.62
-### GitHub [#18](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/18) Add extendedVariables property
+### GitHub / 
    Merge pull request #18 from djn72/master
 
 Add extendedVariables property
@@ -139,7 +147,7 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.61
-### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option
+### GitHub / 
    Adding skip option #12
 
 
@@ -223,7 +231,7 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.55
-### GitHub [#10](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/10) docs: Updates README.md to improve readability
+### GitHub / 
    Merge pull request #10 from lennonjesus/patch-1
 
 docs: Updates README.md to improve readability
@@ -305,7 +313,7 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.50
-### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile
+### GitHub / 
    Defaulting ignoreCommitsWithoutIssue #9
 
 
@@ -466,7 +474,7 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.39
-### GitHub [#7](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/7) Fix fromCommit and fromRef property typo
+### GitHub / 
    Merge pull request #7 from dunse/patch-1
 
 Fix fromCommit and fromRef property typo
@@ -748,7 +756,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.20
-### GitHub [#6](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/6) GitHub OAuth2 Token support
+### GitHub / 
    Support GitHub OAuth2 tokens #6
 
 
@@ -840,7 +848,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.14
-### GitHub [#5](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/5) One line git commit messege
+### GitHub / 
    Added variables: messageTitle, messageBody, messageItems #5
 
 
@@ -892,7 +900,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.12
-### GitHub [#4](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/4) The tags are out of order
+### GitHub / 
    Using lib 1.23 to sort commits by time, not formatted time #4
 
 
@@ -910,7 +918,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.11
-### GitHub [#3](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/3) Enhance documentation for changelog.json file
+### GitHub / 
    Documentation and more configuration available in pom #3
 
    Documentation #3
@@ -930,7 +938,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.10
-### GitHub [#2](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/2) Allow for template to be added directly in pom.xml
+### GitHub / 
    Template can be configured directly in the pom #2
 
 
@@ -946,7 +954,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.9
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
+### GitHub / 
    Using lib 1.17 #1
 
 
@@ -962,7 +970,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.8
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
+### GitHub / 
    Using lib 1.15 #1
 
 
@@ -1004,7 +1012,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.5
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
+### GitHub / 
    Using lib 1.12 #1
 
 

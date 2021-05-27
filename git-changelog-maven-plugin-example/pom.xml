@@ -411,38 +411,42 @@ Changelog of Git Changelog Maven plugin.
 							<file>CHANGELOG_custom.md</file>
 						</configuration>
 					</execution>
+
 					<execution>
-						<id>GenerateGitChangelogSimplePlainText</id>
+						<id>GenerateGitChangelogCustomHelper</id>
 						<phase>generate-sources</phase>
 						<goals>
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
-							<file>CHANGELOG_simplePlainText.txt</file>
-							<!-- NOTE: give toRef HEAD if you don't have a branch master -->
-							<toRef>HEAD</toRef>
-							<fromCommit>fa1e4de4ad8d97da1cb3c00cbfc9c8679b44241c</fromCommit>
-							<!-- needs 'git fetch __tags', rather use commit hash above 
-							<fromRef>it-changelog-maven-plugin-1.60</fromRef> -->
-							<dateFormat>yyyy.MM.dd HH:mm:ss</dateFormat>
-							<!-- NOTE: triple {{{}}} will prevent html escaping placeholder values -->
+							<file>CHANGELOG_customHelper.txt</file>
+							<fromRef>git-changelog-maven-plugin-1.65</fromRef>
+							<toRef>git-changelog-maven-plugin-1.68</toRef>
+							<javascriptHelper>
+<![CDATA[
+Handlebars.registerHelper('startsWith', function(messageTitle, options) {
+	const s = options.hash['s']
+	if (new RegExp('^' + s + '.*').test(messageTitle)) {
+		return options.fn(this);
+	} else {
+		return options.inverse(this);
+	}
+});
+
+Handlebars.registerHelper('firstLetters', function(from, options) {
+	const num = parseInt(options.hash['number'])
+	return from.substring(0,num)
+});
+]]>
+							</javascriptHelper>
 							<templateContent>
 <![CDATA[
-${project.artifactId} ${project.version} Changelog
-
-{{#tags}}
-{{name}}
-
 {{#commits}}
-{{{commitTime}}} - {{{authorName}}} - https://github.com/{{{ownerName}}}/{{{repoName}}}/commit/{{{hash}}}
-{{{messageTitle}}}
-{{#messageBodyItems}}
-  {{{.}}}
-{{/messageBodyItems}}
-
+  {{#startsWith messageTitle s='Removing'}}
+    Starts with Removing: "{{messageTitle}}"
+    first 10 letters of hash is: {{firstLetters hash number='10'}}
+  {{/startsWith}}
 {{/commits}}
-
-{{/tags}}
 ]]>
 							</templateContent>
 						</configuration>
