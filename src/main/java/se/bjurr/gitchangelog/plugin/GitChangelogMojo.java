@@ -1,6 +1,5 @@
 package se.bjurr.gitchangelog.plugin;
 
-import static com.google.common.base.Strings.isNullOrEmpty;
 import static org.apache.maven.plugins.annotations.LifecyclePhase.PROCESS_SOURCES;
 import static se.bjurr.gitchangelog.api.GitChangelogApi.gitChangelogApiBuilder;
 
@@ -267,8 +266,8 @@ public class GitChangelogMojo extends AbstractMojo {
     }
   }
 
-  private boolean isSupplied(final String parameter) {
-    return !isNullOrEmpty(parameter);
+  private boolean isSupplied(final String param) {
+    return param != null && !param.isEmpty();
   }
 
   private boolean isSupplied(final Map<?, ?> parameter) {
