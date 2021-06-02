@@ -5,6 +5,10 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+[ece25e5eb5a5a34](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ece25e5eb5a5a34) Tomas Bjerre *2021-06-01 16:09:07*
+
+chore: stepping dependencies
+
 [ff592b7413b460e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ff592b7413b460e) Tomas Bjerre *2021-05-30 19:46:52*
 
 [maven-release-plugin] prepare for next development iteration

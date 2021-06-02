@@ -4,6 +4,8 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   chore: stepping dependencies *2021-06-01 16:09:07*
+
    [maven-release-plugin] prepare for next development iteration *2021-05-30 19:46:52*
 
 
