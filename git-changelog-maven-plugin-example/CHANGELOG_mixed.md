@@ -106,6 +106,10 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   feat: subString and ifMatches helpers *13:05:10*
+
+   feat: regexp in ifCommitType and ifCommitScope *19:18:30*
+
    chore: stepping dependencies *16:09:07*
 
    chore: updating release-plugins *17:41:42*

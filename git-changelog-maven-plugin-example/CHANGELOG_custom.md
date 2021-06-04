@@ -4,6 +4,20 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   feat: subString and ifMatches helpers
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.73
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.73
+
+
+### No issue / 
+   feat: regexp in ifCommitType and ifCommitScope
+
    chore: stepping dependencies
 
    [maven-release-plugin] prepare for next development iteration

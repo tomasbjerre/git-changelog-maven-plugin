@@ -5,6 +5,29 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+[a3402dda350af6b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a3402dda350af6b) Tomas Bjerre *2021-06-04 13:05:10*
+
+feat: subString and ifMatches helpers
+
+[7ca093b09c8cfa8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7ca093b09c8cfa8) Tomas Bjerre *2021-06-02 19:19:08*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.73
+### Jira
+
+[ff4bde372d4cc28](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ff4bde372d4cc28) Tomas Bjerre *2021-06-02 19:19:02*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.73
+
+
+### No issue
+
+[27665d7653a8e09](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/27665d7653a8e09) Tomas Bjerre *2021-06-02 19:18:30*
+
+feat: regexp in ifCommitType and ifCommitScope
+
 [ece25e5eb5a5a34](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ece25e5eb5a5a34) Tomas Bjerre *2021-06-01 16:09:07*
 
 chore: stepping dependencies
