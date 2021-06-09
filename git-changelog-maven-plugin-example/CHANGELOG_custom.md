@@ -8,6 +8,18 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.75
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.75
+
+
+### No issue / 
+   fix: NPE when given file has no parent
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.74
 ### Jira / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.74

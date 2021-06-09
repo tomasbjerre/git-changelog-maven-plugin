@@ -5,7 +5,26 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[e48fe177d4cb3ac](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e48fe177d4cb3ac) Tomas Bjerre *2021-06-09 14:34:07*
+[8509759d52d44ae](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8509759d52d44ae) Tomas Bjerre *2021-06-09 14:50:09*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.75
+### Jira
+
+[6ec4ca1a8d27188](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6ec4ca1a8d27188) Tomas Bjerre *2021-06-09 14:50:00*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.75
+
+
+### No issue
+
+[64564290a37b5b6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/64564290a37b5b6) Tomas Bjerre *2021-06-09 14:49:36*
+
+fix: NPE when given file has no parent
+
+[0e19e9669e7ad1b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0e19e9669e7ad1b) Tomas Bjerre *2021-06-09 14:35:54*
 
 [maven-release-plugin] prepare for next development iteration
 

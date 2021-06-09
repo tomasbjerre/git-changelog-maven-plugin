@@ -4,7 +4,19 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2021-06-09 14:34:07*
+   [maven-release-plugin] prepare for next development iteration *2021-06-09 14:50:09*
+
+
+
+## git-changelog-maven-plugin-1.75
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.75 *2021-06-09 14:50:00*
+
+
+### No issue
+   fix: NPE when given file has no parent *2021-06-09 14:49:36*
+
+   [maven-release-plugin] prepare for next development iteration *2021-06-09 14:35:54*
 
 
 
