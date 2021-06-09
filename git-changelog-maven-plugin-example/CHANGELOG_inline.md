@@ -5,7 +5,26 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[8509759d52d44ae](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8509759d52d44ae) Tomas Bjerre *2021-06-09 14:50:09*
+[ff6bc57b36a7d9b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ff6bc57b36a7d9b) Tomas Bjerre *2021-06-09 17:12:21*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.76
+### Jira
+
+[e95f28786cf40a1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e95f28786cf40a1) Tomas Bjerre *2021-06-09 17:12:14*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.76
+
+
+### No issue
+
+[6d0a92ed2dac5e2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6d0a92ed2dac5e2) Tomas Bjerre *2021-06-09 17:11:56*
+
+fix: semantic version stepping
+
+[cd5471933282f67](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cd5471933282f67) Tomas Bjerre *2021-06-09 14:52:05*
 
 [maven-release-plugin] prepare for next development iteration
 

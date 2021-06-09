@@ -4,7 +4,19 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2021-06-09 14:50:09*
+   [maven-release-plugin] prepare for next development iteration *2021-06-09 17:12:21*
+
+
+
+## git-changelog-maven-plugin-1.76
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.76 *2021-06-09 17:12:14*
+
+
+### No issue
+   fix: semantic version stepping *2021-06-09 17:11:56*
+
+   [maven-release-plugin] prepare for next development iteration *2021-06-09 14:52:05*
 
 
 

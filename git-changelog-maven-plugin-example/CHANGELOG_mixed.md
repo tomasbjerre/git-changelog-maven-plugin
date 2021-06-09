@@ -106,6 +106,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   fix: semantic version stepping *17:11:56*
+
    fix: NPE when given file has no parent *14:49:36*
 
    fix: when file was in a new folder, it created folder *14:33:39*

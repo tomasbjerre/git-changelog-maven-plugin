@@ -8,6 +8,18 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.76
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.76
+
+
+### No issue / 
+   fix: semantic version stepping
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.75
 ### Jira / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.75
