@@ -4,6 +4,18 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.74
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.74
+
+
+### No issue / 
+   fix: when file was in a new folder, it created folder
+
    feat: subString and ifMatches helpers
 
    [maven-release-plugin] prepare for next development iteration

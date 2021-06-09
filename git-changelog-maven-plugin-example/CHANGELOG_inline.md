@@ -5,7 +5,26 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[a3402dda350af6b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a3402dda350af6b) Tomas Bjerre *2021-06-04 13:05:10*
+[e48fe177d4cb3ac](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e48fe177d4cb3ac) Tomas Bjerre *2021-06-09 14:34:07*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.74
+### Jira
+
+[9a2970e5d94f73b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9a2970e5d94f73b) Tomas Bjerre *2021-06-09 14:33:57*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.74
+
+
+### No issue
+
+[cf71f3bc966a95c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cf71f3bc966a95c) Tomas Bjerre *2021-06-09 14:33:39*
+
+fix: when file was in a new folder, it created folder
+
+[d3fb0749dc377f7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d3fb0749dc377f7) Tomas Bjerre *2021-06-04 13:51:31*
 
 feat: subString and ifMatches helpers
 
