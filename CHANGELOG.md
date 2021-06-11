@@ -2,6 +2,15 @@
 
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
+## 1.77
+### GitHub #58   
+
+**fix: adding default changelog template jenkinsci/git-changelog-plugin#58**
+
+
+[8abd8acb2f17875](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8abd8acb2f17875) Tomas Bjerre *2021-06-11 18:02:26*
+
+
 ## 1.76
 ### No issue
 

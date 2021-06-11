@@ -70,6 +70,10 @@ Add unescaped simple plain text example *14:07:41*
 
 
 ### GitHub
+   fix: adding default changelog template jenkinsci/git-changelog-plugin#58 *18:02:26*
+
+
+### GitHub
    Support GitHub OAuth2 tokens #6 *20:38:16*
 
 

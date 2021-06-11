@@ -8,6 +8,31 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 **[maven-release-plugin] prepare for next development iteration**
 
 
+[9d9046820c7d46b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9d9046820c7d46b) Tomas Bjerre *2021-06-11 18:03:15*
+
+
+## git-changelog-maven-plugin-1.77
+### GitHub #58   
+
+**fix: adding default changelog template jenkinsci/git-changelog-plugin#58**
+
+
+[8abd8acb2f17875](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8abd8acb2f17875) Tomas Bjerre *2021-06-11 18:02:26*
+
+
+### Jira plugin-1   
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.77**
+
+
+[c0871a2ad520067](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c0871a2ad520067) Tomas Bjerre *2021-06-11 18:03:08*
+
+
+### No issue
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
 [d7b1587c06d46c3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d7b1587c06d46c3) Tomas Bjerre *2021-06-09 17:13:49*
 
 
