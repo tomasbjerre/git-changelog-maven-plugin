@@ -8,8 +8,8 @@
 	<version>1.0-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.target>1.6</maven.compiler.target>
-		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
 		<changelog.version>1.77-SNAPSHOT</changelog.version>
 	</properties>
 	<build>
@@ -175,10 +175,10 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
-							<jiraUsername>${JIRA_USERNAME}</jiraUsername>
+							<!--jiraUsername>${JIRA_USERNAME}</jiraUsername>
 							<jiraPassword>${JIRA_PASSWORD}</jiraPassword>
 							<jiraIssuePattern>\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\b</jiraIssuePattern>
-							<jiraServer>https://yourJiraServer.com/jira</jiraServer>
+							<jiraServer>https://yourJiraServer.com/jira</jiraServer//-->
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
 							<file>CHANGELOG_jira.md</file>

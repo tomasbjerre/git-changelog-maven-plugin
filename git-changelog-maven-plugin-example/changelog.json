@@ -11,10 +11,10 @@
  "timeZone": "UTC",
  "removeIssueFromMessage": "true",
 
- "jiraServer": "https://jiraserver/jira",
- "jiraIssuePattern": "\\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\\b",
+ "jiraServer": "",
+ "jiraIssuePattern": "",
 
- "gitHubApi": "https://api.github.com/repos/tomasbjerre/git-changelog-maven-plugin",
+ "gitHubApi": "",
  "gitHubIssuePattern": "#([0-9]+)",
 
  "customIssues": [

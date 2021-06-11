@@ -1,6 +1,52 @@
-# Git Changelog Maven plugin changelog
+# Changelog
 
-Changelog of Git Changelog Maven plugin.
+Changelog for tomasbjerre git-changelog-maven-plugin.
+
+## 1.76
+### Other changes
+
+**fix: semantic version stepping**
+
+
+[6d0a92ed2dac5e2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6d0a92ed2dac5e2) Tomas Bjerre *2021-06-09 17:11:56*
+
+
+## 1.75
+### Other changes
+
+**fix: NPE when given file has no parent**
+
+
+[64564290a37b5b6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/64564290a37b5b6) Tomas Bjerre *2021-06-09 14:49:36*
+
+
+## 1.74
+### Other changes
+
+**fix: when file was in a new folder, it created folder**
+
+
+[cf71f3bc966a95c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cf71f3bc966a95c) Tomas Bjerre *2021-06-09 14:33:39*
+
+**feat: subString and ifMatches helpers**
+
+
+[d3fb0749dc377f7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d3fb0749dc377f7) Tomas Bjerre *2021-06-04 13:51:31*
+
+
+## 1.73
+### Other changes
+
+**feat: regexp in ifCommitType and ifCommitScope**
+
+
+[27665d7653a8e09](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/27665d7653a8e09) Tomas Bjerre *2021-06-02 19:18:30*
+
+**chore: stepping dependencies**
+
+
+[ece25e5eb5a5a34](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ece25e5eb5a5a34) Tomas Bjerre *2021-06-01 16:09:07*
+
 
 ## 1.72
 ### Other changes
@@ -54,7 +100,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.68
-### Jira JENKINS-65252 
+### Jira JENKINS-65252   
 
 **pretty printing output JENKINS-65252**
 
@@ -77,7 +123,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.65
-### GitHub [#24](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/24) Passing extendedVariables Property using mvn -D Commandline Option
+### GitHub [#24](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/24) Passing extendedVariables Property using mvn -D Commandline Option  
 
 **More logging of extended variables from CLI #24**
 
@@ -96,7 +142,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.64
-### GitHub [#21](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/21) Goal not marked as Thread-safe
+### GitHub [#21](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/21) Goal not marked as Thread-safe  
 
 **Mark as thread safe #21**
 
@@ -105,7 +151,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.63
-### GitHub [#19](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/19) Add support for pathfilter
+### GitHub [#19](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/19) Add support for pathfilter  
 
 **Adjustments after merge of PR #19**
 
@@ -136,7 +182,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.61
-### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option
+### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option  
 
 **Adding skip option #12**
 
@@ -232,7 +278,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.53
-### Jira JENKINS-19994 
+### Jira JENKINS-19994   
 
 **Closing RevWalk JENKINS-19994**
 
@@ -282,7 +328,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.50
-### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile
+### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile    *bug*  
 
 **Defaulting ignoreCommitsWithoutIssue #9**
 
@@ -606,7 +652,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.28
-### Jira JENKINS-34155 
+### Jira JENKINS-34155   
 
 **JENKINS-34155 Support short SHA**
 
@@ -716,7 +762,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.20
-### GitHub [#6](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/6) GitHub OAuth2 Token support
+### GitHub [#6](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/6) GitHub OAuth2 Token support  
 
 **Support GitHub OAuth2 tokens #6**
 
@@ -814,7 +860,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.14
-### GitHub [#5](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/5) One line git commit messege
+### GitHub [#5](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/5) One line git commit messege    *enhancement*  
 
 **Added variables: messageTitle, messageBody, messageItems #5**
 
@@ -859,7 +905,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.12
-### GitHub [#4](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/4) The tags are out of order
+### GitHub [#4](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/4) The tags are out of order    *bug*  
 
 **Using lib 1.23 to sort commits by time, not formatted time #4**
 
@@ -881,7 +927,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.11
-### GitHub [#3](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/3) Enhance documentation for changelog.json file
+### GitHub [#3](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/3) Enhance documentation for changelog.json file    *enhancement*  
 
 **Documentation and more configuration available in pom #3**
 
@@ -908,7 +954,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.10
-### GitHub [#2](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/2) Allow for template to be added directly in pom.xml
+### GitHub [#2](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/2) Allow for template to be added directly in pom.xml    *enhancement*  
 
 **Template can be configured directly in the pom #2**
 
@@ -925,7 +971,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.9
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
+### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version    *enhancement*  
 
 **Using lib 1.17 #1**
 
@@ -942,7 +988,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.8
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
+### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version    *enhancement*  
 
 **Using lib 1.15 #1**
 
@@ -979,7 +1025,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.5
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
+### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version    *enhancement*  
 
 **Using lib 1.12 #1**
 
@@ -997,7 +1043,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.3
-### Features #feature 
+### Features #feature   
 
 **lib 1.9 #feature**
 
@@ -1011,7 +1057,7 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## 1.2
-### Features #feature 
+### Features #feature   
 
 **lib 1.3 #feature**
 

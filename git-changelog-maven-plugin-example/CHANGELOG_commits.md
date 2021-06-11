@@ -1,9 +1,9 @@
-# Git Changelog Maven plugin changelog
+# Changelog
 
-Changelog of Git Changelog Maven plugin.
+Changelog for tomasbjerre git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.1
-### Jira plugin-1 
+### Jira plugin-1   
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.1**
 
