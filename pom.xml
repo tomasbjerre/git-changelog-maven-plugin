@@ -43,7 +43,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<changelog-lib>1.156.2</changelog-lib>
+		<changelog-lib>1.156.4</changelog-lib>
 	</properties>
 
 	<dependencies>
