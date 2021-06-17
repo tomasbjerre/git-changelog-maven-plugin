@@ -5,7 +5,26 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[9d9046820c7d46b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9d9046820c7d46b) Tomas Bjerre *2021-06-11 18:03:15*
+[1507ad0ed6cc538](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1507ad0ed6cc538) Tomas Bjerre *2021-06-17 16:38:14*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.78
+### Jira
+
+[3ad14b59b270042](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3ad14b59b270042) Tomas Bjerre *2021-06-17 16:38:05*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.78
+
+
+### No issue
+
+[f9f68c745652f43](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f9f68c745652f43) Tomas Bjerre *2021-06-17 16:37:46*
+
+fix: read template from file
+
+[7b7777af8484f9a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7b7777af8484f9a) Tomas Bjerre *2021-06-11 18:04:19*
 
 [maven-release-plugin] prepare for next development iteration
 

@@ -2,6 +2,15 @@
 
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
+## 1.78
+### No issue
+
+**fix: read template from file**
+
+
+[f9f68c745652f43](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f9f68c745652f43) Tomas Bjerre *2021-06-17 16:37:46*
+
+
 ## 1.77
 ### GitHub #58   
 
