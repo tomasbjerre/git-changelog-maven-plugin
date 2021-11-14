@@ -112,6 +112,21 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "jiraUsername", required = false)
   private String jiraUsername;
 
+  @Parameter(property = "redmineIssuePattern", required = false)
+  private String redmineIssuePattern;
+
+  @Parameter(property = "redminePassword", required = false)
+  private String redminePassword;
+
+  @Parameter(property = "redmineServer", required = false)
+  private String redmineServer;
+
+  @Parameter(property = "redmineUsername", required = false)
+  private String redmineUsername;
+
+  @Parameter(property = "redmineToken", required = false)
+  private String redmineToken;
+
   @Parameter(property = "ignoreCommitsWithoutIssue", required = false)
   private Boolean ignoreCommitsWithoutIssue;
 
@@ -243,6 +258,22 @@ public class GitChangelogMojo extends AbstractMojo {
       }
       if (this.isSupplied(this.jiraServer)) {
         builder.withJiraServer(this.jiraServer);
+      }
+
+      if (this.isSupplied(this.redmineUsername)) {
+        builder.withRedmineUsername(this.redmineUsername);
+      }
+      if (this.isSupplied(this.redminePassword)) {
+        builder.withRedminePassword(this.redminePassword);
+      }
+      if (this.isSupplied(this.redmineToken)) {
+        builder.withRedmineToken(this.redmineToken);
+      }
+      if (this.isSupplied(this.redmineIssuePattern)) {
+        builder.withRedmineIssuePattern(this.redmineIssuePattern);
+      }
+      if (this.isSupplied(this.redmineServer)) {
+        builder.withRedmineServer(this.redmineServer);
       }
 
       if (this.isSupplied(this.pathFilter)) {
