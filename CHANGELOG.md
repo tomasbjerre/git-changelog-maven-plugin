@@ -2,6 +2,29 @@
 
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
+## 1.79
+### GitHub [#33](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/33) feat: Redmine Support  
+
+**Merge pull request #33 from huygun/feature/redmine**
+
+ * feat: Redmine Support 
+
+[759b9eaf436ec97](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/759b9eaf436ec97) Tomas Bjerre *2021-11-16 17:11:19*
+
+
+### No issue
+
+**feat stepping lib**
+
+
+[6134136253e044d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6134136253e044d) Tomas Bjerre *2021-11-16 17:12:35*
+
+**feat: Redmine Support**
+
+
+[78930887dfe236c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/78930887dfe236c) Hakan Uygun *2021-11-14 12:20:16*
+
+
 ## 1.78
 ### No issue
 

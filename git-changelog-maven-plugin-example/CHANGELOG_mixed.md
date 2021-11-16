@@ -62,6 +62,12 @@ Add unescaped simple plain text example *14:07:41*
 
 
 ### GitHub
+   Merge pull request #33 from huygun/feature/redmine
+
+feat: Redmine Support *17:11:19*
+
+
+### GitHub
    Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
 
 
@@ -110,6 +116,10 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   feat stepping lib *17:12:35*
+
+   feat: Redmine Support *12:20:16*
+
    fix: read template from file *16:37:46*
 
    fix: semantic version stepping *17:11:56*

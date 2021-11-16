@@ -8,6 +8,26 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.79
+### GitHub [#33](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/33) feat: Redmine Support
+   Merge pull request #33 from huygun/feature/redmine
+
+feat: Redmine Support
+
+
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.79
+
+
+### No issue / 
+   feat stepping lib
+
+   feat: Redmine Support
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.78
 ### Jira / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.78

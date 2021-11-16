@@ -8,7 +8,43 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 **[maven-release-plugin] prepare for next development iteration**
 
 
-[1507ad0ed6cc538](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1507ad0ed6cc538) Tomas Bjerre *2021-06-17 16:38:14*
+[d6332b18c833d44](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d6332b18c833d44) Tomas Bjerre *2021-11-16 17:13:34*
+
+
+## git-changelog-maven-plugin-1.79
+### GitHub [#33](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/33) feat: Redmine Support  
+
+**Merge pull request #33 from huygun/feature/redmine**
+
+ * feat: Redmine Support 
+
+[759b9eaf436ec97](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/759b9eaf436ec97) Tomas Bjerre *2021-11-16 17:11:19*
+
+
+### Jira plugin-1   
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.79**
+
+
+[3e68fa37ff0d9ec](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3e68fa37ff0d9ec) Tomas Bjerre *2021-11-16 17:13:30*
+
+
+### No issue
+
+**feat stepping lib**
+
+
+[6134136253e044d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6134136253e044d) Tomas Bjerre *2021-11-16 17:12:35*
+
+**feat: Redmine Support**
+
+
+[78930887dfe236c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/78930887dfe236c) Hakan Uygun *2021-11-14 12:20:16*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[61d483354e551ea](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/61d483354e551ea) Tomas Bjerre *2021-06-17 16:39:38*
 
 
 ## git-changelog-maven-plugin-1.78
