@@ -2,6 +2,24 @@
 
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
+## 1.80
+### GitHub [#35](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/35) feat: Add support for including partials in mustache templates  
+
+**Merge pull request #35 from chme/feat/partials**
+
+ * feat: Add support for including partials in mustache templates 
+
+[b3a7fe82cb9d36a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b3a7fe82cb9d36a) Tomas Bjerre *2021-11-27 20:01:23*
+
+
+### No issue
+
+**feat: Add support for including partials in mustache templates**
+
+
+[979ec1134be3078](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/979ec1134be3078) chme *2021-11-27 14:27:51*
+
+
 ## 1.79
 ### GitHub [#33](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/33) feat: Redmine Support  
 

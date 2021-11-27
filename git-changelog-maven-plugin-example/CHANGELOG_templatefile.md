@@ -8,7 +8,38 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 **[maven-release-plugin] prepare for next development iteration**
 
 
-[d6332b18c833d44](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d6332b18c833d44) Tomas Bjerre *2021-11-16 17:13:34*
+[0298dacf313e192](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0298dacf313e192) Tomas Bjerre *2021-11-27 20:03:50*
+
+
+## 1.80
+### GitHub [#35](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/35) feat: Add support for including partials in mustache templates  
+
+**Merge pull request #35 from chme/feat/partials**
+
+ * feat: Add support for including partials in mustache templates 
+
+[b3a7fe82cb9d36a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b3a7fe82cb9d36a) Tomas Bjerre *2021-11-27 20:01:23*
+
+
+### Jira plugin-1   
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.80**
+
+
+[d0e326b1a31d130](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d0e326b1a31d130) Tomas Bjerre *2021-11-27 20:03:45*
+
+
+### No issue
+
+**feat: Add support for including partials in mustache templates**
+
+
+[979ec1134be3078](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/979ec1134be3078) chme *2021-11-27 14:27:51*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[ce44e6f8ef8c02c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ce44e6f8ef8c02c) Tomas Bjerre *2021-11-16 17:18:21*
 
 
 ## 1.79

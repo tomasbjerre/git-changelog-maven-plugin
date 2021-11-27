@@ -68,6 +68,12 @@ feat: Redmine Support *17:11:19*
 
 
 ### GitHub
+   Merge pull request #35 from chme/feat/partials
+
+feat: Add support for including partials in mustache templates *20:01:23*
+
+
+### GitHub
    Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
 
 
@@ -116,6 +122,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   feat: Add support for including partials in mustache templates *14:27:51*
+
    feat stepping lib *17:12:35*
 
    feat: Redmine Support *12:20:16*

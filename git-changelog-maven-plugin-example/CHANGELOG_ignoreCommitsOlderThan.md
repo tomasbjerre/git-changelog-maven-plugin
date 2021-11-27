@@ -4,7 +4,25 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2021-11-16 17:13:34*
+   [maven-release-plugin] prepare for next development iteration *2021-11-27 20:03:50*
+
+
+
+## git-changelog-maven-plugin-1.80
+### GitHub
+   Merge pull request #35 from chme/feat/partials
+
+feat: Add support for including partials in mustache templates *2021-11-27 20:01:23*
+
+
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.80 *2021-11-27 20:03:45*
+
+
+### No issue
+   feat: Add support for including partials in mustache templates *2021-11-27 14:27:51*
+
+   [maven-release-plugin] prepare for next development iteration *2021-11-16 17:18:21*
 
 
 

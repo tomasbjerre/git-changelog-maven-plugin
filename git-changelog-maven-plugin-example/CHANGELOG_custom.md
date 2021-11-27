@@ -8,6 +8,24 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.80
+### GitHub [#35](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/35) feat: Add support for including partials in mustache templates
+   Merge pull request #35 from chme/feat/partials
+
+feat: Add support for including partials in mustache templates
+
+
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.80
+
+
+### No issue / 
+   feat: Add support for including partials in mustache templates
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.79
 ### GitHub [#33](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/33) feat: Redmine Support
    Merge pull request #33 from huygun/feature/redmine
