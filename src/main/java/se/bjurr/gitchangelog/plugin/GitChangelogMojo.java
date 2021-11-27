@@ -49,6 +49,12 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "templateContent", required = false)
   private String templateContent;
 
+  @Parameter(property = "templateBaseDir", required = false)
+  private String templateBaseDir;
+
+  @Parameter(property = "templateSuffix", required = false)
+  private String templateSuffix;
+
   @Parameter(property = "file", required = false)
   private File file;
 
@@ -181,6 +187,12 @@ public class GitChangelogMojo extends AbstractMojo {
       }
       if (this.isSupplied(this.templateContent)) {
         builder.withTemplateContent(this.templateContent);
+      }
+      if (this.isSupplied(this.templateBaseDir)) {
+        builder.withTemplateBaseDir(templateBaseDir);
+      }
+      if (this.isSupplied(this.templateSuffix)) {
+        builder.withTemplateSuffix(templateSuffix);
       }
       if (this.isSupplied(this.fromCommit)) {
         builder.withFromCommit(this.fromCommit);
