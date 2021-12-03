@@ -2,6 +2,24 @@
 
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
+## 1.81
+### GitHub [#36](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/36) feat Support Jira Bearer authorization  
+
+**Merge pull request #36 from rimuln/feature/13**
+
+ * feat Support Jira Bearer authorization 
+
+[7714d28c1585441](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7714d28c1585441) Tomas Bjerre *2021-12-03 17:27:06*
+
+
+### No issue
+
+**feat Support Jira Bearer authorization**
+
+
+[e45967ad22e6db2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e45967ad22e6db2) Lumír Návrat *2021-12-01 23:49:06*
+
+
 ## 1.80
 ### GitHub [#35](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/35) feat: Add support for including partials in mustache templates  
 

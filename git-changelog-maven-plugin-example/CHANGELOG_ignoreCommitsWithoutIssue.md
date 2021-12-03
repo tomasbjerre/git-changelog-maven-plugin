@@ -2,6 +2,18 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.81
+### GitHub
+   Merge pull request #36 from rimuln/feature/13
+
+feat Support Jira Bearer authorization *2021-12-03 17:27:06*
+
+
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.81 *2021-12-03 17:28:26*
+
+
+
 ## git-changelog-maven-plugin-1.80
 ### GitHub
    Merge pull request #35 from chme/feat/partials

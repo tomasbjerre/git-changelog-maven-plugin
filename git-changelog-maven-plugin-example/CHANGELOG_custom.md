@@ -8,6 +8,24 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.81
+### GitHub [#36](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/36) feat Support Jira Bearer authorization
+   Merge pull request #36 from rimuln/feature/13
+
+feat Support Jira Bearer authorization
+
+
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.81
+
+
+### No issue / 
+   feat Support Jira Bearer authorization
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.80
 ### GitHub [#35](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/35) feat: Add support for including partials in mustache templates
    Merge pull request #35 from chme/feat/partials

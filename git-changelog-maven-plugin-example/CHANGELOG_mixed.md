@@ -74,6 +74,12 @@ feat: Add support for including partials in mustache templates *20:01:23*
 
 
 ### GitHub
+   Merge pull request #36 from rimuln/feature/13
+
+feat Support Jira Bearer authorization *17:27:06*
+
+
+### GitHub
    Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
 
 
@@ -122,6 +128,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   feat Support Jira Bearer authorization *23:49:06*
+
    feat: Add support for including partials in mustache templates *14:27:51*
 
    feat stepping lib *17:12:35*

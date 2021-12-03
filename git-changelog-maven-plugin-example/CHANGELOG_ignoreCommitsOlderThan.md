@@ -4,7 +4,25 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2021-11-27 20:03:50*
+   [maven-release-plugin] prepare for next development iteration *2021-12-03 17:28:29*
+
+
+
+## git-changelog-maven-plugin-1.81
+### GitHub
+   Merge pull request #36 from rimuln/feature/13
+
+feat Support Jira Bearer authorization *2021-12-03 17:27:06*
+
+
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.81 *2021-12-03 17:28:26*
+
+
+### No issue
+   feat Support Jira Bearer authorization *2021-12-01 23:49:06*
+
+   [maven-release-plugin] prepare for next development iteration *2021-11-27 20:04:35*
 
 
 

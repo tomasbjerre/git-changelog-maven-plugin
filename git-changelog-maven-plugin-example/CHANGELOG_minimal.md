@@ -8,7 +8,38 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 **[maven-release-plugin] prepare for next development iteration**
 
 
-[0298dacf313e192](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0298dacf313e192) Tomas Bjerre *2021-11-27 20:03:50*
+[0d291b2d813076c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0d291b2d813076c) Tomas Bjerre *2021-12-03 17:28:29*
+
+
+## git-changelog-maven-plugin-1.81
+### GitHub [#36](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/36) feat Support Jira Bearer authorization  
+
+**Merge pull request #36 from rimuln/feature/13**
+
+ * feat Support Jira Bearer authorization 
+
+[7714d28c1585441](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7714d28c1585441) Tomas Bjerre *2021-12-03 17:27:06*
+
+
+### Jira plugin-1   
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.81**
+
+
+[f4e0a5600602228](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f4e0a5600602228) Tomas Bjerre *2021-12-03 17:28:26*
+
+
+### No issue
+
+**feat Support Jira Bearer authorization**
+
+
+[e45967ad22e6db2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e45967ad22e6db2) Lumír Návrat *2021-12-01 23:49:06*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[ee26029deaaa9f2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ee26029deaaa9f2) Tomas Bjerre *2021-11-27 20:04:35*
 
 
 ## git-changelog-maven-plugin-1.80
