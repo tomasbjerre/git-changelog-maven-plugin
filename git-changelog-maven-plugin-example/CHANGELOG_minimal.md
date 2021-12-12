@@ -8,7 +8,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 **[maven-release-plugin] prepare for next development iteration**
 
 
-[0d291b2d813076c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0d291b2d813076c) Tomas Bjerre *2021-12-03 17:28:29*
+[8735074a445bb4a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8735074a445bb4a) Tomas Bjerre *2021-12-03 17:29:19*
 
 
 ## git-changelog-maven-plugin-1.81

@@ -4,6 +4,9 @@ import static org.apache.maven.plugins.annotations.LifecyclePhase.PROCESS_SOURCE
 import static se.bjurr.gitchangelog.api.GitChangelogApi.gitChangelogApiBuilder;
 
 import java.io.File;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -151,6 +154,9 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "javascriptHelper", required = false)
   private String javascriptHelper;
 
+  @Parameter(property = "handlebarsHelperFile", required = false)
+  private String handlebarsHelperFile;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (this.skip != null && this.skip == true) {
@@ -167,6 +173,13 @@ public class GitChangelogMojo extends AbstractMojo {
       if (this.isSupplied(this.javascriptHelper)) {
         builder //
             .withHandlebarsHelper(this.javascriptHelper);
+      }
+
+      if (this.isSupplied(this.handlebarsHelperFile)) {
+        final byte[] content = Files.readAllBytes(Paths.get(this.handlebarsHelperFile));
+        final String contentString = new String(content, StandardCharsets.UTF_8);
+        builder //
+            .withHandlebarsHelper(contentString);
       }
 
       if (this.isSupplied(this.settingsFile)) {
@@ -192,10 +205,10 @@ public class GitChangelogMojo extends AbstractMojo {
         builder.withTemplateContent(this.templateContent);
       }
       if (this.isSupplied(this.templateBaseDir)) {
-        builder.withTemplateBaseDir(templateBaseDir);
+        builder.withTemplateBaseDir(this.templateBaseDir);
       }
       if (this.isSupplied(this.templateSuffix)) {
-        builder.withTemplateSuffix(templateSuffix);
+        builder.withTemplateSuffix(this.templateSuffix);
       }
       if (this.isSupplied(this.fromCommit)) {
         builder.withFromCommit(this.fromCommit);
