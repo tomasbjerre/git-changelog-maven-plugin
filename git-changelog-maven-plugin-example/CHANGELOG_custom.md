@@ -8,6 +8,18 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.82
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.82
+
+
+### No issue / 
+   feat: handlebarsHelperFile
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.81
 ### GitHub [#36](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/36) feat Support Jira Bearer authorization
    Merge pull request #36 from rimuln/feature/13

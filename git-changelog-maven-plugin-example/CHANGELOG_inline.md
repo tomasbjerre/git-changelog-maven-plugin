@@ -5,6 +5,25 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+[de388eb573bc41d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/de388eb573bc41d) Tomas Bjerre *2021-12-12 15:43:27*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.82
+### Jira
+
+[e030a13a1113e9a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e030a13a1113e9a) Tomas Bjerre *2021-12-12 15:43:24*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.82
+
+
+### No issue
+
+[de8f292ea0c51df](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/de8f292ea0c51df) Tomas Bjerre *2021-12-12 15:42:59*
+
+feat: handlebarsHelperFile
+
 [8735074a445bb4a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8735074a445bb4a) Tomas Bjerre *2021-12-03 17:29:19*
 
 [maven-release-plugin] prepare for next development iteration

@@ -2,6 +2,15 @@
 
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
+## 1.82
+### No issue
+
+**feat: handlebarsHelperFile**
+
+
+[de8f292ea0c51df](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/de8f292ea0c51df) Tomas Bjerre *2021-12-12 15:42:59*
+
+
 ## 1.81
 ### GitHub [#36](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/36) feat Support Jira Bearer authorization  
 

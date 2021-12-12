@@ -4,6 +4,18 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   [maven-release-plugin] prepare for next development iteration *2021-12-12 15:43:27*
+
+
+
+## git-changelog-maven-plugin-1.82
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.82 *2021-12-12 15:43:24*
+
+
+### No issue
+   feat: handlebarsHelperFile *2021-12-12 15:42:59*
+
    [maven-release-plugin] prepare for next development iteration *2021-12-03 17:29:19*
 
 

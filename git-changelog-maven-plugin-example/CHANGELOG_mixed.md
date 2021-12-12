@@ -128,6 +128,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   feat: handlebarsHelperFile *15:42:59*
+
    feat Support Jira Bearer authorization *23:49:06*
 
    feat: Add support for including partials in mustache templates *14:27:51*

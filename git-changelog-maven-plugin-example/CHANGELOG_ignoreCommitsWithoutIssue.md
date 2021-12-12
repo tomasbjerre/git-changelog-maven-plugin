@@ -2,6 +2,12 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## git-changelog-maven-plugin-1.82
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.82 *2021-12-12 15:43:24*
+
+
+
 ## git-changelog-maven-plugin-1.81
 ### GitHub
    Merge pull request #36 from rimuln/feature/13
