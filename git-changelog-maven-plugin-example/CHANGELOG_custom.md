@@ -8,6 +8,24 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.83
+### GitHub [#37](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/37) Upgraded changelog-lib version to 1.163.2
+   Merge pull request #37 from clockworkorange/master
+
+Upgraded changelog-lib version to 1.163.2
+
+
+### Jira / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.83
+
+
+### No issue / 
+   Upgraded changelog-lib version to 1.163.2
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.82
 ### Jira / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.82

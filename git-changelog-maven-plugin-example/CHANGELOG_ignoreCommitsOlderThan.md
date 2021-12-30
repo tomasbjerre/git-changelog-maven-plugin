@@ -4,7 +4,25 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2021-12-12 15:43:27*
+   [maven-release-plugin] prepare for next development iteration *2021-12-30 08:21:21*
+
+
+
+## git-changelog-maven-plugin-1.83
+### GitHub
+   Merge pull request #37 from clockworkorange/master
+
+Upgraded changelog-lib version to 1.163.2 *2021-12-30 08:19:49*
+
+
+### Jira
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.83 *2021-12-30 08:21:18*
+
+
+### No issue
+   Upgraded changelog-lib version to 1.163.2 *2021-12-29 08:41:11*
+
+   [maven-release-plugin] prepare for next development iteration *2021-12-12 15:46:44*
 
 
 

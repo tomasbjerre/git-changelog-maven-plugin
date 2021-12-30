@@ -80,6 +80,12 @@ feat Support Jira Bearer authorization *17:27:06*
 
 
 ### GitHub
+   Merge pull request #37 from clockworkorange/master
+
+Upgraded changelog-lib version to 1.163.2 *08:19:49*
+
+
+### GitHub
    Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
 
 
@@ -128,6 +134,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
 
 ### These commits have not issue in their commit comment
+   Upgraded changelog-lib version to 1.163.2 *08:41:11*
+
    feat: handlebarsHelperFile *15:42:59*
 
    feat Support Jira Bearer authorization *23:49:06*

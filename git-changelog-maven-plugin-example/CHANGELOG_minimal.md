@@ -8,7 +8,38 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 **[maven-release-plugin] prepare for next development iteration**
 
 
-[de388eb573bc41d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/de388eb573bc41d) Tomas Bjerre *2021-12-12 15:43:27*
+[91e4651d0433cf7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/91e4651d0433cf7) Tomas Bjerre *2021-12-30 08:21:21*
+
+
+## git-changelog-maven-plugin-1.83
+### GitHub [#37](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/37) Upgraded changelog-lib version to 1.163.2  
+
+**Merge pull request #37 from clockworkorange/master**
+
+ * Upgraded changelog-lib version to 1.163.2 
+
+[9cb13cda557800d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9cb13cda557800d) Tomas Bjerre *2021-12-30 08:19:49*
+
+
+### Jira plugin-1   
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.83**
+
+
+[6c7f531d3c7b774](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6c7f531d3c7b774) Tomas Bjerre *2021-12-30 08:21:18*
+
+
+### No issue
+
+**Upgraded changelog-lib version to 1.163.2**
+
+
+[775d9c90f8f478e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/775d9c90f8f478e) Julio Ripoll *2021-12-29 08:41:11*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[41579a301446295](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/41579a301446295) Tomas Bjerre *2021-12-12 15:46:44*
 
 
 ## git-changelog-maven-plugin-1.82
