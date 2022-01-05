@@ -2,6 +2,15 @@
 
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
+## 1.84
+### No issue
+
+**fix: only parse enabled issues**
+
+
+[2f8b52acc8009b5](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2f8b52acc8009b5) Tomas Bjerre *2022-01-05 15:15:55*
+
+
 ## 1.83
 ### GitHub #37   
 
