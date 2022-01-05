@@ -9,17 +9,13 @@ Changelog of Git Changelog Maven plugin.
 
 
 ## git-changelog-maven-plugin-1.83
-### GitHub [#37](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/37) Upgraded changelog-lib version to 1.163.2
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.83
+
    Merge pull request #37 from clockworkorange/master
 
 Upgraded changelog-lib version to 1.163.2
 
-
-### Jira / 
-   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.83
-
-
-### No issue / 
    Upgraded changelog-lib version to 1.163.2
 
    [maven-release-plugin] prepare for next development iteration
@@ -27,11 +23,9 @@ Upgraded changelog-lib version to 1.163.2
 
 
 ## git-changelog-maven-plugin-1.82
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.82
 
-
-### No issue / 
    feat: handlebarsHelperFile
 
    [maven-release-plugin] prepare for next development iteration
@@ -39,17 +33,13 @@ Upgraded changelog-lib version to 1.163.2
 
 
 ## git-changelog-maven-plugin-1.81
-### GitHub [#36](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/36) feat Support Jira Bearer authorization
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.81
+
    Merge pull request #36 from rimuln/feature/13
 
 feat Support Jira Bearer authorization
 
-
-### Jira / 
-   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.81
-
-
-### No issue / 
    feat Support Jira Bearer authorization
 
    [maven-release-plugin] prepare for next development iteration
@@ -57,17 +47,13 @@ feat Support Jira Bearer authorization
 
 
 ## git-changelog-maven-plugin-1.80
-### GitHub [#35](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/35) feat: Add support for including partials in mustache templates
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.80
+
    Merge pull request #35 from chme/feat/partials
 
 feat: Add support for including partials in mustache templates
 
-
-### Jira / 
-   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.80
-
-
-### No issue / 
    feat: Add support for including partials in mustache templates
 
    [maven-release-plugin] prepare for next development iteration
@@ -75,18 +61,14 @@ feat: Add support for including partials in mustache templates
 
 
 ## git-changelog-maven-plugin-1.79
-### GitHub [#33](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/33) feat: Redmine Support
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.79
+
+   feat stepping lib
+
    Merge pull request #33 from huygun/feature/redmine
 
 feat: Redmine Support
-
-
-### Jira / 
-   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.79
-
-
-### No issue / 
-   feat stepping lib
 
    feat: Redmine Support
 
@@ -95,11 +77,9 @@ feat: Redmine Support
 
 
 ## git-changelog-maven-plugin-1.78
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.78
 
-
-### No issue / 
    fix: read template from file
 
    [maven-release-plugin] prepare for next development iteration
@@ -107,25 +87,19 @@ feat: Redmine Support
 
 
 ## git-changelog-maven-plugin-1.77
-### GitHub / 
-   fix: adding default changelog template jenkinsci/git-changelog-plugin#58
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.77
 
+   fix: adding default changelog template jenkinsci/git-changelog-plugin#58
 
-### No issue / 
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.76
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.76
 
-
-### No issue / 
    fix: semantic version stepping
 
    [maven-release-plugin] prepare for next development iteration
@@ -133,11 +107,9 @@ feat: Redmine Support
 
 
 ## git-changelog-maven-plugin-1.75
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.75
 
-
-### No issue / 
    fix: NPE when given file has no parent
 
    [maven-release-plugin] prepare for next development iteration
@@ -145,11 +117,9 @@ feat: Redmine Support
 
 
 ## git-changelog-maven-plugin-1.74
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.74
 
-
-### No issue / 
    fix: when file was in a new folder, it created folder
 
    feat: subString and ifMatches helpers
@@ -159,11 +129,9 @@ feat: Redmine Support
 
 
 ## git-changelog-maven-plugin-1.73
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.73
 
-
-### No issue / 
    feat: regexp in ifCommitType and ifCommitScope
 
    chore: stepping dependencies
@@ -173,11 +141,9 @@ feat: Redmine Support
 
 
 ## git-changelog-maven-plugin-1.72
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.72
 
-
-### No issue / 
    chore: updating release-plugins
 
    [maven-release-plugin] prepare for next development iteration
@@ -185,11 +151,9 @@ feat: Redmine Support
 
 
 ## git-changelog-maven-plugin-1.71
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.71
 
-
-### No issue / 
    chore: release instructions
 
    [maven-release-plugin] prepare for next development iteration
@@ -197,20 +161,16 @@ feat: Redmine Support
 
 
 ## git-changelog-maven-plugin-1.70
-### GitHub [#31](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/31) Add unescaped simple plain text example
-   Merge pull request #31 from edeso/simplePlainTextExample
-
-Add unescaped simple plain text example
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.70
 
-
-### No issue / 
    Maven central
 
    feat: support conventional commits
+
+   Merge pull request #31 from edeso/simplePlainTextExample
+
+Add unescaped simple plain text example
 
    Add unescaped simple plain text example
 
@@ -219,17 +179,13 @@ Add unescaped simple plain text example
 
 
 ## git-changelog-maven-plugin-1.69
-### GitHub [#27](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/27) Support custom headers to JIRA to bypass 2 factor auth
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.69
+
    Merge pull request #27 from drhip/feature/extended_headers
 
 Support custom headers to JIRA to bypass 2 factor auth
 
-
-### Jira / 
-   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.69
-
-
-### No issue / 
    Support custom headers to JIRA to bypass 2 factor auth
 
    removing bintray link
@@ -239,35 +195,27 @@ Support custom headers to JIRA to bypass 2 factor auth
 
 
 ## git-changelog-maven-plugin-1.68
-### Jira / 
-   pretty printing output JENKINS-65252
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.68
 
+   pretty printing output JENKINS-65252
 
-### No issue / 
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.67
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.67
 
-
-### No issue / 
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.66
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.66
 
-
-### No issue / 
    Removing default ignore filter on message
 
    Locking fmt version
@@ -277,51 +225,39 @@ Support custom headers to JIRA to bypass 2 factor auth
 
 
 ## git-changelog-maven-plugin-1.65
-### GitHub [#24](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/24) Passing extendedVariables Property using mvn -D Commandline Option
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.65
+
    More logging of extended variables from CLI #24
 
    Formatting code after merge #24
 
    Allow to pass extendedVariables using maven cli #24
 
-
-### Jira / 
-   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.65
-
-
-### No issue / 
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.64
-### GitHub [#21](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/21) Goal not marked as Thread-safe
-   Mark as thread safe #21
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.64
 
+   Mark as thread safe #21
 
-### No issue / 
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.63
-### GitHub [#19](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/19) Add support for pathfilter
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.63
+
    Adjustments after merge of PR #19
 
    Merge pull request #19 from gab1one/add-path-filter
 
 Add support for pathfilter
 
-
-### Jira / 
-   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.63
-
-
-### No issue / 
    Add support for pathfilter
 
    [maven-release-plugin] prepare for next development iteration
@@ -329,18 +265,14 @@ Add support for pathfilter
 
 
 ## git-changelog-maven-plugin-1.62
-### GitHub [#18](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/18) Add extendedVariables property
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.62
+
+   openjdk8
+
    Merge pull request #18 from djn72/master
 
 Add extendedVariables property
-
-
-### Jira / 
-   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.62
-
-
-### No issue / 
-   openjdk8
 
    Add extendedVariables property
 
@@ -349,15 +281,11 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.61
-### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option
-   Adding skip option #12
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.61
 
+   Adding skip option #12
 
-### No issue / 
    Create FUNDING.yml
 
    [maven-release-plugin] prepare for next development iteration
@@ -365,11 +293,9 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.60
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.60
 
-
-### No issue / 
    Removing dependency on javax.xml
 
    OpenJDK 11 compatible
@@ -379,11 +305,9 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.59
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.59
 
-
-### No issue / 
    Jira linked issues
 
    [maven-release-plugin] prepare for next development iteration
@@ -391,11 +315,9 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.58
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.58
 
-
-### No issue / 
    Correcting GitLab integration after upgrade
 
    [maven-release-plugin] prepare for next development iteration
@@ -403,11 +325,9 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.57
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.57
 
-
-### No issue / 
    GitLab API v4
 
    [maven-release-plugin] prepare for next development iteration
@@ -415,11 +335,9 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.56
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.56
 
-
-### No issue / 
    isJira, isGitHub...
 
    Doc
@@ -433,24 +351,14 @@ Add extendedVariables property
 
 
 ## git-changelog-maven-plugin-1.55
-### GitHub [#10](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/10) docs: Updates README.md to improve readability
-   Merge pull request #10 from lennonjesus/patch-1
-
-docs: Updates README.md to improve readability
-
-
-### Jira / 
-   Merge pull request #10 from lennonjesus/patch-1
-
-docs: Updates README.md to improve readability
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.55
 
-
-### No issue / 
    git-changelog-lib 1.82
+
+   Merge pull request #10 from lennonjesus/patch-1
+
+docs: Updates README.md to improve readability
 
    docs: Updates README.md to improve readability
 
@@ -459,25 +367,19 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.54
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.54
 
-
-### No issue / 
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.53
-### Jira / 
-   Closing RevWalk JENKINS-19994
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.53
 
+   Closing RevWalk JENKINS-19994
 
-### No issue / 
    Doc
 
    [maven-release-plugin] prepare for next development iteration
@@ -485,11 +387,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.52
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.52
 
-
-### No issue / 
    Description available for Jira issues
 
    Doc
@@ -499,11 +399,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.51
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.51
 
-
-### No issue / 
    Description available for Jira issues
 
    Adjusting to Bintray
@@ -515,15 +413,11 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.50
-### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile
-   Defaulting ignoreCommitsWithoutIssue #9
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.50
 
+   Defaulting ignoreCommitsWithoutIssue #9
 
-### No issue / 
    Disabling integrations if not used
 
    doc
@@ -533,11 +427,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.49
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.49
 
-
-### No issue / 
    Lib 1.71
 
    doc
@@ -547,11 +439,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.48
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.48
 
-
-### No issue / 
    Lib 1.70
 
    doc
@@ -561,11 +451,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.47
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.47
 
-
-### No issue / 
    Defaulting to CHANGELOG.md if no output given
 
    [maven-release-plugin] prepare for next development iteration
@@ -573,11 +461,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.46
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.46
 
-
-### No issue / 
    Reading file parameter correctly
 
    doc
@@ -587,11 +473,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.45
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.45
 
-
-### No issue / 
    ignoreCommitsOlderThan
 
    doc
@@ -601,11 +485,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.44
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.44
 
-
-### No issue / 
    tag time added to tag model
 
    doc
@@ -615,11 +497,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.43
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.43
 
-
-### No issue / 
    GitLab integration
 
    doc
@@ -629,11 +509,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.42
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.42
 
-
-### No issue / 
    Fix Jira labels
 
    doc
@@ -643,11 +521,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.41
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.41
 
-
-### No issue / 
    Git Changelog Lib 1.63 -> 1.64
 
  * Jira issueType and labels
@@ -660,11 +536,9 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.40
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.40
 
-
-### No issue / 
    GitHub timeout 10 seconds
 
    Set theme jekyll-theme-slate
@@ -676,24 +550,14 @@ docs: Updates README.md to improve readability
 
 
 ## git-changelog-maven-plugin-1.39
-### GitHub [#7](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/7) Fix fromCommit and fromRef property typo
-   Merge pull request #7 from dunse/patch-1
-
-Fix fromCommit and fromRef property typo
-
-
-### Jira / 
-   Merge pull request #7 from dunse/patch-1
-
-Fix fromCommit and fromRef property typo
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.39
 
-
-### No issue / 
    doc
+
+   Merge pull request #7 from dunse/patch-1
+
+Fix fromCommit and fromRef property typo
 
    Fix fromCommit and fromRef property typo
 
@@ -706,11 +570,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.38
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.38
 
-
-### No issue / 
    Adding annotation to context of tag
 
    doc
@@ -720,11 +582,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.37
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.37
 
-
-### No issue / 
    Adding merge boolean to commits
 
    doc
@@ -734,11 +594,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.36
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.36
 
-
-### No issue / 
    Lib 1.56 correcting link to Jira
 
    doc
@@ -748,11 +606,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.35
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.35
 
-
-### No issue / 
    Adding {{hashFull}} variable
 
    doc
@@ -762,11 +618,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.34
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.34
 
-
-### No issue / 
    Faster
 
    doc
@@ -776,11 +630,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.33
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.33
 
-
-### No issue / 
    Fixing merge commits... again...
 
    doc
@@ -790,11 +642,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.32
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.32
 
-
-### No issue / 
    Including commits from merges lib issue 49
 
    doc
@@ -804,11 +654,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.31
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.31
 
-
-### No issue / 
    Lib 1.49, finding first commit as parents from HEAD
 
    doc
@@ -818,11 +666,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.30
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.30
 
-
-### No issue / 
    Ignoring trailing slash in JIRA URL
 
    doc
@@ -832,11 +678,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.29
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.29
 
-
-### No issue / 
    Lib 1.45
 
    doc
@@ -846,15 +690,11 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.28
-### Jira / 
-   JENKINS-34155 Support short SHA
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.28
 
+   JENKINS-34155 Support short SHA
 
-### No issue / 
    doc
 
    [maven-release-plugin] prepare for next development iteration
@@ -862,11 +702,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.27
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.27
 
-
-### No issue / 
    Lib 1.43, Parsing commits, oldest first
 
    [maven-release-plugin] prepare for next development iteration
@@ -874,11 +712,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.26
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.26
 
-
-### No issue / 
    Lib 1.42, Parsing commits, oldest first
 
    Updating doc
@@ -888,11 +724,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.25
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.25
 
-
-### No issue / 
    Lib 1.41, Commits added to correct tags
 
    Updating example
@@ -902,11 +736,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.24
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.24
 
-
-### No issue / 
    Lib 1.40 can ignore tags by regexp
 
    Updating example
@@ -916,11 +748,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.23
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.23
 
-
-### No issue / 
    Lib 1.39
 
    Updating example
@@ -930,11 +760,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.22
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.22
 
-
-### No issue / 
    Lib 1.38
 
    Updating README
@@ -944,11 +772,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.21
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.21
 
-
-### No issue / 
    Jira integration to get titles
 
    Update example
@@ -958,15 +784,11 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.20
-### GitHub [#6](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/6) GitHub OAuth2 Token support
-   Support GitHub OAuth2 tokens #6
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.20
 
+   Support GitHub OAuth2 tokens #6
 
-### No issue / 
    Adding example with github as custom issue
 
    Updating CHANGELOG.md
@@ -976,11 +798,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.19
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.19
 
-
-### No issue / 
    Supplying commit in each issue mentioned in message
 
    Updating CHANGELOG.md
@@ -994,11 +814,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.18
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.18
 
-
-### No issue / 
    Lib 1.29
 
    [maven-release-plugin] prepare for next development iteration
@@ -1006,11 +824,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.17
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.17
 
-
-### No issue / 
    Lib 1.28, performance optimizations
 
    Updating CHANGELOG.md
@@ -1020,11 +836,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.16
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.16
 
-
-### No issue / 
    Significant performance improvements
 
  * Using lib 1.27.
@@ -1036,11 +850,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.15
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.15
 
-
-### No issue / 
    Using lib 1.25 and updating README.md
 
    Updating docs after release
@@ -1050,21 +862,17 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.14
-### GitHub [#5](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/5) One line git commit messege
-   Added variables: messageTitle, messageBody, messageItems #5
-
-
 ### Issue / 
    Adding example of custom issue without link
 
  * Like I123
 
 
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.14
 
+   Added variables: messageTitle, messageBody, messageItems #5
 
-### No issue / 
    Maven Central version badge in README.md
 
    Updating README.md after release
@@ -1090,11 +898,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
   * Incident matching INC1234
 
 
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.13
 
-
-### No issue / 
    Updagint README.md after release
 
    [maven-release-plugin] prepare for next development iteration
@@ -1102,15 +908,11 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.12
-### GitHub [#4](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/4) The tags are out of order
-   Using lib 1.23 to sort commits by time, not formatted time #4
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.12
 
+   Using lib 1.23 to sort commits by time, not formatted time #4
 
-### No issue / 
    Correcting example ignoring commits by comment
 
    Updating README.md after release
@@ -1120,18 +922,14 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.11
-### GitHub [#3](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/3) Enhance documentation for changelog.json file
-   Documentation and more configuration available in pom #3
-
-   Documentation #3
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.11
 
+   Documentation and more configuration available in pom #3
 
-### No issue / 
    Using lib 1.22
+
+   Documentation #3
 
    Using lib 1.19
 
@@ -1140,15 +938,11 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.10
-### GitHub [#2](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/2) Allow for template to be added directly in pom.xml
-   Template can be configured directly in the pom #2
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.10
 
+   Template can be configured directly in the pom #2
 
-### No issue / 
    Using lib 1.18
 
    [maven-release-plugin] prepare for next development iteration
@@ -1156,15 +950,11 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.9
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
-   Using lib 1.17 #1
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.9
 
+   Using lib 1.17 #1
 
-### No issue / 
    doc
 
    [maven-release-plugin] prepare for next development iteration
@@ -1172,25 +962,19 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.8
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
-   Using lib 1.15 #1
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.8
 
+   Using lib 1.15 #1
 
-### No issue / 
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.7
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.7
 
-
-### No issue / 
    using lib 1.14
 
    doc
@@ -1200,11 +984,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.6
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.6
 
-
-### No issue / 
    using lib 1.13
 
    doc
@@ -1214,25 +996,19 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.5
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version
-   Using lib 1.12 #1
-
-
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.5
 
+   Using lib 1.12 #1
 
-### No issue / 
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.4
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.4
 
-
-### No issue / 
    lib 1.10
 
    [maven-release-plugin] prepare for next development iteration
@@ -1240,11 +1016,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.3
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.3
 
-
-### No issue / 
    lib 1.9 #feature
 
    Setting exampe version to 1.2 #feature
@@ -1254,11 +1028,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.2
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.2
 
-
-### No issue / 
    lib 1.3 #feature
 
    doc
@@ -1268,11 +1040,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.1
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.1
 
-
-### No issue / 
    MediaWiki support, using lib 1.2
 
    doc
@@ -1282,11 +1052,9 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## git-changelog-maven-plugin-1.0
-### Jira / 
+### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.0
 
-
-### No issue / 
    doc
 
    Initial

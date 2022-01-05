@@ -3,15 +3,12 @@
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.1
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.1**
 
 
 [13c1b74c8329b66](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/13c1b74c8329b66) Tomas Bjerre *2015-11-17 20:16:06*
-
-
-### No issue
 
 **MediaWiki support, using lib 1.2**
 

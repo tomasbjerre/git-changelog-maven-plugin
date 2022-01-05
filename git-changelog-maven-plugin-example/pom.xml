@@ -138,6 +138,7 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
+							<gitHubEnabled>true</gitHubEnabled>
 							<gitHubApi>https://api.github.com/repos/tomasbjerre/git-changelog-maven-plugin</gitHubApi>
 							<gitHubToken>${GITHUB_OAUTH2TOKEN}</gitHubToken><!-- Optional // -->
 							<gitHubIssuePattern>#([0-9]*)</gitHubIssuePattern>
@@ -157,6 +158,7 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
+							<gitLabEnabled>true</gitLabEnabled>
 							<gitLabServer>https://gitlab.com/</gitLabServer>
 							<gitLabToken>${GITLAB_TOKEN}</gitLabToken>
 							<gitLabProjectName>tomas.bjerre85/violations-test</gitLabProjectName>
@@ -175,6 +177,7 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
+							<!-- <jiraEnabled>true</jiraEnabled> -->
 							<!--jiraUsername>${JIRA_USERNAME}</jiraUsername>
 							<jiraPassword>${JIRA_PASSWORD}</jiraPassword>
 							<jiraIssuePattern>\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\b</jiraIssuePattern>

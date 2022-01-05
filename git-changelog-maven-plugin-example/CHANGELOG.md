@@ -3,7 +3,7 @@
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
 ## 1.83
-### GitHub [#37](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/37) Upgraded changelog-lib version to 1.163.2  
+### GitHub #37   
 
 **Merge pull request #37 from clockworkorange/master**
 
@@ -30,7 +30,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.81
-### GitHub [#36](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/36) feat Support Jira Bearer authorization  
+### GitHub #36   
 
 **Merge pull request #36 from rimuln/feature/13**
 
@@ -48,7 +48,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.80
-### GitHub [#35](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/35) feat: Add support for including partials in mustache templates  
+### GitHub #35   
 
 **Merge pull request #35 from chme/feat/partials**
 
@@ -66,7 +66,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.79
-### GitHub [#33](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/33) feat: Redmine Support  
+### GitHub #33   
 
 **Merge pull request #33 from huygun/feature/redmine**
 
@@ -171,7 +171,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.70
-### GitHub [#31](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/31) Add unescaped simple plain text example  
+### GitHub #31   
 
 **Merge pull request #31 from edeso/simplePlainTextExample**
 
@@ -199,7 +199,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.69
-### GitHub [#27](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/27) Support custom headers to JIRA to bypass 2 factor auth  
+### GitHub #27   
 
 **Merge pull request #27 from drhip/feature/extended_headers**
 
@@ -222,7 +222,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.68
-### Jira JENKINS-65252   
+### No issue
 
 **pretty printing output JENKINS-65252**
 
@@ -245,7 +245,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.65
-### GitHub [#24](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/24) Passing extendedVariables Property using mvn -D Commandline Option  
+### GitHub #24   
 
 **More logging of extended variables from CLI #24**
 
@@ -264,7 +264,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.64
-### GitHub [#21](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/21) Goal not marked as Thread-safe  
+### GitHub #21   
 
 **Mark as thread safe #21**
 
@@ -273,7 +273,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.63
-### GitHub [#19](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/19) Add support for pathfilter  
+### GitHub #19   
 
 **Adjustments after merge of PR #19**
 
@@ -296,7 +296,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.62
-### GitHub [#18](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/18) Add extendedVariables property  
+### GitHub #18   
 
 **Merge pull request #18 from djn72/master**
 
@@ -319,7 +319,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.61
-### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option  
+### GitHub #12   
 
 **Adding skip option #12**
 
@@ -401,16 +401,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.55
-### GitHub [#10](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/10) docs: Updates README.md to improve readability  
-
-**Merge pull request #10 from lennonjesus/patch-1**
-
- * docs: Updates README.md to improve readability 
-
-[151869767aebebe](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/151869767aebebe) Tomas Bjerre *2018-03-16 14:34:08*
-
-
-### Jira patch-1   
+### GitHub #10   
 
 **Merge pull request #10 from lennonjesus/patch-1**
 
@@ -433,15 +424,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.53
-### Jira JENKINS-19994   
+### No issue
 
 **Closing RevWalk JENKINS-19994**
 
 
 [3f33391abf0be4f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3f33391abf0be4f) Tomas Bjerre *2017-12-30 20:21:25*
-
-
-### No issue
 
 **Doc**
 
@@ -483,7 +471,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.50
-### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile    *bug*  
+### GitHub #9   
 
 **Defaulting ignoreCommitsWithoutIssue #9**
 
@@ -647,16 +635,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.39
-### GitHub [#7](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/7) Fix fromCommit and fromRef property typo  
-
-**Merge pull request #7 from dunse/patch-1**
-
- * Fix fromCommit and fromRef property typo 
-
-[646488622fbdcbf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/646488622fbdcbf) Tomas Bjerre *2017-01-31 21:11:26*
-
-
-### Jira patch-1   
+### GitHub #7   
 
 **Merge pull request #7 from dunse/patch-1**
 
@@ -825,15 +804,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.28
-### Jira JENKINS-34155   
+### No issue
 
 **JENKINS-34155 Support short SHA**
 
 
 [4089d37fe5508ce](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4089d37fe5508ce) Tomas Bjerre *2016-04-12 16:49:07*
-
-
-### No issue
 
 **doc**
 
@@ -935,7 +911,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.20
-### GitHub [#6](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/6) GitHub OAuth2 Token support  
+### GitHub #6   
 
 **Support GitHub OAuth2 tokens #6**
 
@@ -1033,7 +1009,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.14
-### GitHub [#5](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/5) One line git commit messege    *enhancement*  
+### GitHub #5   
 
 **Added variables: messageTitle, messageBody, messageItems #5**
 
@@ -1078,7 +1054,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.12
-### GitHub [#4](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/4) The tags are out of order    *bug*  
+### GitHub #4   
 
 **Using lib 1.23 to sort commits by time, not formatted time #4**
 
@@ -1100,7 +1076,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.11
-### GitHub [#3](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/3) Enhance documentation for changelog.json file    *enhancement*  
+### GitHub #3   
 
 **Documentation and more configuration available in pom #3**
 
@@ -1127,7 +1103,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.10
-### GitHub [#2](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/2) Allow for template to be added directly in pom.xml    *enhancement*  
+### GitHub #2   
 
 **Template can be configured directly in the pom #2**
 
@@ -1144,7 +1120,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.9
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version    *enhancement*  
+### GitHub #1   
 
 **Using lib 1.17 #1**
 
@@ -1161,7 +1137,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.8
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version    *enhancement*  
+### GitHub #1   
 
 **Using lib 1.15 #1**
 
@@ -1198,7 +1174,7 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## 1.5
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version    *enhancement*  
+### GitHub #1   
 
 **Using lib 1.12 #1**
 

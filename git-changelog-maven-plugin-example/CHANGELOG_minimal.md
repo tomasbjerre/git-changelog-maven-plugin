@@ -8,28 +8,22 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 **[maven-release-plugin] prepare for next development iteration**
 
 
-[91e4651d0433cf7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/91e4651d0433cf7) Tomas Bjerre *2021-12-30 08:21:21*
+[9b663febb4255b9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9b663febb4255b9) Tomas Bjerre *2021-12-30 08:22:05*
 
 
 ## git-changelog-maven-plugin-1.83
-### GitHub [#37](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/37) Upgraded changelog-lib version to 1.163.2  
-
-**Merge pull request #37 from clockworkorange/master**
-
- * Upgraded changelog-lib version to 1.163.2 
-
-[9cb13cda557800d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9cb13cda557800d) Tomas Bjerre *2021-12-30 08:19:49*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.83**
 
 
 [6c7f531d3c7b774](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6c7f531d3c7b774) Tomas Bjerre *2021-12-30 08:21:18*
 
+**Merge pull request #37 from clockworkorange/master**
 
-### No issue
+ * Upgraded changelog-lib version to 1.163.2 
+
+[9cb13cda557800d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9cb13cda557800d) Tomas Bjerre *2021-12-30 08:19:49*
 
 **Upgraded changelog-lib version to 1.163.2**
 
@@ -43,15 +37,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.82
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.82**
 
 
 [e030a13a1113e9a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e030a13a1113e9a) Tomas Bjerre *2021-12-12 15:43:24*
-
-
-### No issue
 
 **feat: handlebarsHelperFile**
 
@@ -65,24 +56,18 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.81
-### GitHub [#36](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/36) feat Support Jira Bearer authorization  
-
-**Merge pull request #36 from rimuln/feature/13**
-
- * feat Support Jira Bearer authorization 
-
-[7714d28c1585441](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7714d28c1585441) Tomas Bjerre *2021-12-03 17:27:06*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.81**
 
 
 [f4e0a5600602228](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f4e0a5600602228) Tomas Bjerre *2021-12-03 17:28:26*
 
+**Merge pull request #36 from rimuln/feature/13**
 
-### No issue
+ * feat Support Jira Bearer authorization 
+
+[7714d28c1585441](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7714d28c1585441) Tomas Bjerre *2021-12-03 17:27:06*
 
 **feat Support Jira Bearer authorization**
 
@@ -96,24 +81,18 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.80
-### GitHub [#35](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/35) feat: Add support for including partials in mustache templates  
-
-**Merge pull request #35 from chme/feat/partials**
-
- * feat: Add support for including partials in mustache templates 
-
-[b3a7fe82cb9d36a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b3a7fe82cb9d36a) Tomas Bjerre *2021-11-27 20:01:23*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.80**
 
 
 [d0e326b1a31d130](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d0e326b1a31d130) Tomas Bjerre *2021-11-27 20:03:45*
 
+**Merge pull request #35 from chme/feat/partials**
 
-### No issue
+ * feat: Add support for including partials in mustache templates 
+
+[b3a7fe82cb9d36a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b3a7fe82cb9d36a) Tomas Bjerre *2021-11-27 20:01:23*
 
 **feat: Add support for including partials in mustache templates**
 
@@ -127,29 +106,23 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.79
-### GitHub [#33](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/33) feat: Redmine Support  
-
-**Merge pull request #33 from huygun/feature/redmine**
-
- * feat: Redmine Support 
-
-[759b9eaf436ec97](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/759b9eaf436ec97) Tomas Bjerre *2021-11-16 17:11:19*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.79**
 
 
 [3e68fa37ff0d9ec](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3e68fa37ff0d9ec) Tomas Bjerre *2021-11-16 17:13:30*
 
-
-### No issue
-
 **feat stepping lib**
 
 
 [6134136253e044d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6134136253e044d) Tomas Bjerre *2021-11-16 17:12:35*
+
+**Merge pull request #33 from huygun/feature/redmine**
+
+ * feat: Redmine Support 
+
+[759b9eaf436ec97](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/759b9eaf436ec97) Tomas Bjerre *2021-11-16 17:11:19*
 
 **feat: Redmine Support**
 
@@ -163,15 +136,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.78
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.78**
 
 
 [3ad14b59b270042](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3ad14b59b270042) Tomas Bjerre *2021-06-17 16:38:05*
-
-
-### No issue
 
 **fix: read template from file**
 
@@ -185,23 +155,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.77
-### GitHub #58   
-
-**fix: adding default changelog template jenkinsci/git-changelog-plugin#58**
-
-
-[8abd8acb2f17875](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8abd8acb2f17875) Tomas Bjerre *2021-06-11 18:02:26*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.77**
 
 
 [c0871a2ad520067](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c0871a2ad520067) Tomas Bjerre *2021-06-11 18:03:08*
 
+**fix: adding default changelog template jenkinsci/git-changelog-plugin#58**
 
-### No issue
+
+[8abd8acb2f17875](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8abd8acb2f17875) Tomas Bjerre *2021-06-11 18:02:26*
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -210,15 +174,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.76
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.76**
 
 
 [e95f28786cf40a1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e95f28786cf40a1) Tomas Bjerre *2021-06-09 17:12:14*
-
-
-### No issue
 
 **fix: semantic version stepping**
 
@@ -232,15 +193,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.75
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.75**
 
 
 [6ec4ca1a8d27188](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6ec4ca1a8d27188) Tomas Bjerre *2021-06-09 14:50:00*
-
-
-### No issue
 
 **fix: NPE when given file has no parent**
 
@@ -254,15 +212,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.74
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.74**
 
 
 [9a2970e5d94f73b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9a2970e5d94f73b) Tomas Bjerre *2021-06-09 14:33:57*
-
-
-### No issue
 
 **fix: when file was in a new folder, it created folder**
 
@@ -281,15 +236,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.73
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.73**
 
 
 [ff4bde372d4cc28](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ff4bde372d4cc28) Tomas Bjerre *2021-06-02 19:19:02*
-
-
-### No issue
 
 **feat: regexp in ifCommitType and ifCommitScope**
 
@@ -308,15 +260,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.72
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.72**
 
 
 [5e32c16f688c43f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5e32c16f688c43f) Tomas Bjerre *2021-05-27 17:42:10*
-
-
-### No issue
 
 **chore: updating release-plugins**
 
@@ -330,15 +279,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.71
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.71**
 
 
 [bb83cdf8120c64b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bb83cdf8120c64b) Tomas Bjerre *2021-05-27 17:36:38*
-
-
-### No issue
 
 **chore: release instructions**
 
@@ -352,24 +298,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.70
-### GitHub [#31](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/31) Add unescaped simple plain text example  
-
-**Merge pull request #31 from edeso/simplePlainTextExample**
-
- * Add unescaped simple plain text example 
-
-[b22f0da746acfa7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b22f0da746acfa7) Tomas Bjerre *2021-05-25 14:07:41*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.70**
 
 
 [8732037c974be43](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8732037c974be43) Tomas Bjerre *2021-05-27 17:28:03*
-
-
-### No issue
 
 **Maven central**
 
@@ -380,6 +314,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 [d5400912ff9fdbb](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d5400912ff9fdbb) Tomas Bjerre *2021-05-27 17:22:23*
+
+**Merge pull request #31 from edeso/simplePlainTextExample**
+
+ * Add unescaped simple plain text example 
+
+[b22f0da746acfa7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b22f0da746acfa7) Tomas Bjerre *2021-05-25 14:07:41*
 
 **Add unescaped simple plain text example**
 
@@ -393,24 +333,18 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.69
-### GitHub [#27](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/27) Support custom headers to JIRA to bypass 2 factor auth  
-
-**Merge pull request #27 from drhip/feature/extended_headers**
-
- * Support custom headers to JIRA to bypass 2 factor auth 
-
-[bf46943823e8f1c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bf46943823e8f1c) Tomas Bjerre *2021-04-13 16:28:30*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.69**
 
 
 [5c82d9423884ca8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5c82d9423884ca8) Tomas Bjerre *2021-04-13 16:29:40*
 
+**Merge pull request #27 from drhip/feature/extended_headers**
 
-### No issue
+ * Support custom headers to JIRA to bypass 2 factor auth 
+
+[bf46943823e8f1c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bf46943823e8f1c) Tomas Bjerre *2021-04-13 16:28:30*
 
 **Support custom headers to JIRA to bypass 2 factor auth**
 
@@ -429,23 +363,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.68
-### Jira JENKINS-65252   
-
-**pretty printing output JENKINS-65252**
-
-
-[c4a835846d97ac6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c4a835846d97ac6) Tomas Bjerre *2021-03-29 15:45:20*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.68**
 
 
 [3c0eac5641f57da](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3c0eac5641f57da) Tomas Bjerre *2021-03-29 15:45:38*
 
+**pretty printing output JENKINS-65252**
 
-### No issue
+
+[c4a835846d97ac6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c4a835846d97ac6) Tomas Bjerre *2021-03-29 15:45:20*
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -454,15 +382,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.67
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.67**
 
 
 [1c8bff35f3d4e29](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1c8bff35f3d4e29) Tomas Bjerre *2021-01-18 17:13:44*
-
-
-### No issue
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -471,15 +396,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.66
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.66**
 
 
 [29046cfda246729](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/29046cfda246729) Tomas Bjerre *2021-01-18 17:11:39*
-
-
-### No issue
 
 **Removing default ignore filter on message**
 
@@ -498,7 +420,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.65
-### GitHub [#24](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/24) Passing extendedVariables Property using mvn -D Commandline Option  
+### No issue
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.65**
+
+
+[19a1e91cb9b7d2c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/19a1e91cb9b7d2c) Tomas Bjerre *2021-01-16 06:40:35*
 
 **More logging of extended variables from CLI #24**
 
@@ -515,17 +442,6 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 [b4a1ccc72a3a1ce](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b4a1ccc72a3a1ce) Volker Hochstein *2021-01-16 06:18:56*
 
-
-### Jira plugin-1   
-
-**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.65**
-
-
-[19a1e91cb9b7d2c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/19a1e91cb9b7d2c) Tomas Bjerre *2021-01-16 06:40:35*
-
-
-### No issue
-
 **[maven-release-plugin] prepare for next development iteration**
 
 
@@ -533,23 +449,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.64
-### GitHub [#21](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/21) Goal not marked as Thread-safe  
-
-**Mark as thread safe #21**
-
-
-[171fad6b9d387d9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/171fad6b9d387d9) Tomas Bjerre *2020-12-14 17:13:21*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.64**
 
 
 [cfc04e032ae6419](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cfc04e032ae6419) Tomas Bjerre *2020-12-14 17:13:46*
 
+**Mark as thread safe #21**
 
-### No issue
+
+[171fad6b9d387d9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/171fad6b9d387d9) Tomas Bjerre *2020-12-14 17:13:21*
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -558,7 +468,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.63
-### GitHub [#19](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/19) Add support for pathfilter  
+### No issue
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.63**
+
+
+[9bc963d8e9b402f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9bc963d8e9b402f) Tomas Bjerre *2020-11-18 17:18:29*
 
 **Adjustments after merge of PR #19**
 
@@ -570,17 +485,6 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
  * Add support for pathfilter 
 
 [d684c775cf23f9b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d684c775cf23f9b) Tomas Bjerre *2020-11-18 17:17:05*
-
-
-### Jira plugin-1   
-
-**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.63**
-
-
-[9bc963d8e9b402f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9bc963d8e9b402f) Tomas Bjerre *2020-11-18 17:18:29*
-
-
-### No issue
 
 **Add support for pathfilter**
 
@@ -594,29 +498,23 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.62
-### GitHub [#18](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/18) Add extendedVariables property  
-
-**Merge pull request #18 from djn72/master**
-
- * Add extendedVariables property 
-
-[b5d8cb431274f5f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b5d8cb431274f5f) Tomas Bjerre *2020-08-05 04:42:36*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.62**
 
 
 [6e2f4a40a974a9a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6e2f4a40a974a9a) Tomas Bjerre *2020-08-05 04:47:57*
 
-
-### No issue
-
 **openjdk8**
 
 
 [e45432e14feebff](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e45432e14feebff) Tomas Bjerre *2020-08-05 04:47:39*
+
+**Merge pull request #18 from djn72/master**
+
+ * Add extendedVariables property 
+
+[b5d8cb431274f5f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b5d8cb431274f5f) Tomas Bjerre *2020-08-05 04:42:36*
 
 **Add extendedVariables property**
 
@@ -630,23 +528,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.61
-### GitHub [#12](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/12) Add a skip configration option  
-
-**Adding skip option #12**
-
-
-[851a62a43f23d17](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/851a62a43f23d17) Tomas Bjerre *2019-12-12 17:22:47*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.61**
 
 
 [e54b9f3f3ae6436](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e54b9f3f3ae6436) Tomas Bjerre *2019-12-12 17:23:07*
 
+**Adding skip option #12**
 
-### No issue
+
+[851a62a43f23d17](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/851a62a43f23d17) Tomas Bjerre *2019-12-12 17:22:47*
 
 **Create FUNDING.yml**
 
@@ -660,15 +552,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.60
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.60**
 
 
 [fa1e4de4ad8d97d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/fa1e4de4ad8d97d) Tomas Bjerre *2019-06-11 17:06:53*
-
-
-### No issue
 
 **Removing dependency on javax.xml**
 
@@ -687,15 +576,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.59
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.59**
 
 
 [36e9fd2ed5d1d09](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/36e9fd2ed5d1d09) Tomas Bjerre *2019-01-08 18:10:34*
-
-
-### No issue
 
 **Jira linked issues**
 
@@ -709,15 +595,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.58
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.58**
 
 
 [c190c13bb332850](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c190c13bb332850) Tomas Bjerre *2018-10-27 17:52:42*
-
-
-### No issue
 
 **Correcting GitLab integration after upgrade**
 
@@ -731,15 +614,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.57
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.57**
 
 
 [839ee6ad49bac37](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/839ee6ad49bac37) Tomas Bjerre *2018-10-27 16:29:24*
-
-
-### No issue
 
 **GitLab API v4**
 
@@ -753,15 +633,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.56
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.56**
 
 
 [9503642e72e26a2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9503642e72e26a2) Tomas Bjerre *2018-10-27 06:09:58*
-
-
-### No issue
 
 **isJira, isGitHub...**
 
@@ -790,38 +667,23 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.55
-### GitHub [#10](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/10) docs: Updates README.md to improve readability  
-
-**Merge pull request #10 from lennonjesus/patch-1**
-
- * docs: Updates README.md to improve readability 
-
-[151869767aebebe](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/151869767aebebe) Tomas Bjerre *2018-03-16 14:34:08*
-
-
-### Jira patch-1   
-
-**Merge pull request #10 from lennonjesus/patch-1**
-
- * docs: Updates README.md to improve readability 
-
-[151869767aebebe](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/151869767aebebe) Tomas Bjerre *2018-03-16 14:34:08*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.55**
 
 
 [4cb5b131306391e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4cb5b131306391e) Tomas Bjerre *2018-09-13 07:18:50*
 
-
-### No issue
-
 **git-changelog-lib 1.82**
 
 
 [9e884dfdc1908c4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9e884dfdc1908c4) Tomas Bjerre *2018-09-13 07:18:27*
+
+**Merge pull request #10 from lennonjesus/patch-1**
+
+ * docs: Updates README.md to improve readability 
+
+[151869767aebebe](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/151869767aebebe) Tomas Bjerre *2018-03-16 14:34:08*
 
 **docs: Updates README.md to improve readability**
 
@@ -835,15 +697,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.54
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.54**
 
 
 [6f4fc0c1556c782](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6f4fc0c1556c782) Tomas Bjerre *2017-12-30 20:29:29*
-
-
-### No issue
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -852,23 +711,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.53
-### Jira JENKINS-19994   
-
-**Closing RevWalk JENKINS-19994**
-
-
-[3f33391abf0be4f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3f33391abf0be4f) Tomas Bjerre *2017-12-30 20:21:25*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.53**
 
 
 [b92342e1646b8cc](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b92342e1646b8cc) Tomas Bjerre *2017-12-30 20:21:59*
 
+**Closing RevWalk JENKINS-19994**
 
-### No issue
+
+[3f33391abf0be4f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3f33391abf0be4f) Tomas Bjerre *2017-12-30 20:21:25*
 
 **Doc**
 
@@ -882,15 +735,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.52
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.52**
 
 
 [1271b8c4145d19f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1271b8c4145d19f) Tomas Bjerre *2017-12-19 11:45:26*
-
-
-### No issue
 
 **Description available for Jira issues**
 
@@ -909,15 +759,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.51
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.51**
 
 
 [ae763fd4b57a54d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ae763fd4b57a54d) Tomas Bjerre *2017-12-19 11:17:50*
-
-
-### No issue
 
 **Description available for Jira issues**
 
@@ -941,23 +788,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.50
-### GitHub [#9](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/9) Issue when using removeIssueFromMessage and settingFile    *bug*  
-
-**Defaulting ignoreCommitsWithoutIssue #9**
-
-
-[95221c79b96429c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/95221c79b96429c) Tomas Bjerre *2017-11-18 12:49:36*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.50**
 
 
 [e0fe91be920886f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e0fe91be920886f) Tomas Bjerre *2017-11-18 12:51:21*
 
+**Defaulting ignoreCommitsWithoutIssue #9**
 
-### No issue
+
+[95221c79b96429c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/95221c79b96429c) Tomas Bjerre *2017-11-18 12:49:36*
 
 **Disabling integrations if not used**
 
@@ -976,15 +817,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.49
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.49**
 
 
 [1adfa370f559345](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1adfa370f559345) Tomas Bjerre *2017-07-25 18:28:46*
-
-
-### No issue
 
 **Lib 1.71**
 
@@ -1003,15 +841,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.48
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.48**
 
 
 [f804da4212471e7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f804da4212471e7) Tomas Bjerre *2017-07-24 19:46:00*
-
-
-### No issue
 
 **Lib 1.70**
 
@@ -1030,15 +865,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.47
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.47**
 
 
 [e7cf90b16459b57](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e7cf90b16459b57) Tomas Bjerre *2017-07-12 18:50:32*
-
-
-### No issue
 
 **Defaulting to CHANGELOG.md if no output given**
 
@@ -1052,15 +884,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.46
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.46**
 
 
 [d85b4876e25b6cc](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d85b4876e25b6cc) Tomas Bjerre *2017-07-12 18:08:50*
-
-
-### No issue
 
 **Reading file parameter correctly**
 
@@ -1079,15 +908,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.45
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.45**
 
 
 [bd1a0a0b5341a58](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bd1a0a0b5341a58) Tomas Bjerre *2017-07-08 06:57:35*
-
-
-### No issue
 
 **ignoreCommitsOlderThan**
 
@@ -1106,15 +932,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.44
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.44**
 
 
 [57e6adb69d30f76](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/57e6adb69d30f76) Tomas Bjerre *2017-04-14 09:21:44*
-
-
-### No issue
 
 **tag time added to tag model**
 
@@ -1133,15 +956,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.43
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.43**
 
 
 [b0a38166bdff1b8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b0a38166bdff1b8) Tomas Bjerre *2017-03-26 05:17:49*
-
-
-### No issue
 
 **GitLab integration**
 
@@ -1160,15 +980,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.42
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.42**
 
 
 [a7ac6837b0ad0fc](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a7ac6837b0ad0fc) Tomas Bjerre *2017-03-20 18:21:29*
-
-
-### No issue
 
 **Fix Jira labels**
 
@@ -1187,15 +1004,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.41
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.41**
 
 
 [46dbec994809fd5](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/46dbec994809fd5) Tomas Bjerre *2017-03-18 09:35:08*
-
-
-### No issue
 
 **Git Changelog Lib 1.63 -> 1.64**
 
@@ -1216,15 +1030,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.40
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.40**
 
 
 [a69c4d07ba67cfe](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a69c4d07ba67cfe) Tomas Bjerre *2017-03-01 18:34:10*
-
-
-### No issue
 
 **GitHub timeout 10 seconds**
 
@@ -1248,38 +1059,23 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.39
-### GitHub [#7](https://github.com/tomasbjerre/git-changelog-maven-plugin/pull/7) Fix fromCommit and fromRef property typo  
-
-**Merge pull request #7 from dunse/patch-1**
-
- * Fix fromCommit and fromRef property typo 
-
-[646488622fbdcbf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/646488622fbdcbf) Tomas Bjerre *2017-01-31 21:11:26*
-
-
-### Jira patch-1   
-
-**Merge pull request #7 from dunse/patch-1**
-
- * Fix fromCommit and fromRef property typo 
-
-[646488622fbdcbf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/646488622fbdcbf) Tomas Bjerre *2017-01-31 21:11:26*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.39**
 
 
 [ad5e2be6ba450bf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ad5e2be6ba450bf) Tomas Bjerre *2017-01-31 21:15:00*
 
-
-### No issue
-
 **doc**
 
 
 [be3eaa97605a34a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/be3eaa97605a34a) Tomas Bjerre *2017-01-31 21:14:43*
+
+**Merge pull request #7 from dunse/patch-1**
+
+ * Fix fromCommit and fromRef property typo 
+
+[646488622fbdcbf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/646488622fbdcbf) Tomas Bjerre *2017-01-31 21:11:26*
 
 **Fix fromCommit and fromRef property typo**
 
@@ -1299,15 +1095,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.38
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.38**
 
 
 [f2ba92ee93a7fea](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f2ba92ee93a7fea) Tomas Bjerre *2016-10-22 10:31:37*
-
-
-### No issue
 
 **Adding annotation to context of tag**
 
@@ -1326,15 +1119,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.37
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.37**
 
 
 [50bed16e1f3f188](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/50bed16e1f3f188) Tomas Bjerre *2016-10-05 18:44:05*
-
-
-### No issue
 
 **Adding merge boolean to commits**
 
@@ -1353,15 +1143,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.36
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.36**
 
 
 [d10af6cbd237bb7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d10af6cbd237bb7) Tomas Bjerre *2016-08-11 14:43:55*
-
-
-### No issue
 
 **Lib 1.56 correcting link to Jira**
 
@@ -1380,15 +1167,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.35
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.35**
 
 
 [9c1414f470c363a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9c1414f470c363a) Tomas Bjerre *2016-08-02 18:30:12*
-
-
-### No issue
 
 **Adding {{hashFull}} variable**
 
@@ -1407,15 +1191,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.34
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.34**
 
 
 [95a03901c4d36d6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/95a03901c4d36d6) Tomas Bjerre *2016-06-25 00:03:27*
-
-
-### No issue
 
 **Faster**
 
@@ -1434,15 +1215,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.33
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.33**
 
 
 [555ffa353ae9f31](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/555ffa353ae9f31) Tomas Bjerre *2016-06-24 21:14:52*
-
-
-### No issue
 
 **Fixing merge commits... again...**
 
@@ -1461,15 +1239,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.32
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.32**
 
 
 [bcd77b44475d125](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bcd77b44475d125) Tomas Bjerre *2016-06-24 09:29:30*
-
-
-### No issue
 
 **Including commits from merges lib issue 49**
 
@@ -1488,15 +1263,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.31
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.31**
 
 
 [9171c0a6bebc6f0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9171c0a6bebc6f0) Tomas Bjerre *2016-06-02 18:34:42*
-
-
-### No issue
 
 **Lib 1.49, finding first commit as parents from HEAD**
 
@@ -1515,15 +1287,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.30
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.30**
 
 
 [209ff4e76d8ff3d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/209ff4e76d8ff3d) Tomas Bjerre *2016-05-20 19:11:19*
-
-
-### No issue
 
 **Ignoring trailing slash in JIRA URL**
 
@@ -1542,15 +1311,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.29
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.29**
 
 
 [7a6c9c4f0804cdf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7a6c9c4f0804cdf) Tomas Bjerre *2016-04-13 18:43:16*
-
-
-### No issue
 
 **Lib 1.45**
 
@@ -1569,23 +1335,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.28
-### Jira JENKINS-34155   
-
-**JENKINS-34155 Support short SHA**
-
-
-[4089d37fe5508ce](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4089d37fe5508ce) Tomas Bjerre *2016-04-12 16:49:07*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.28**
 
 
 [8e86990007b6802](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8e86990007b6802) Tomas Bjerre *2016-04-12 16:53:33*
 
+**JENKINS-34155 Support short SHA**
 
-### No issue
+
+[4089d37fe5508ce](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4089d37fe5508ce) Tomas Bjerre *2016-04-12 16:49:07*
 
 **doc**
 
@@ -1599,15 +1359,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.27
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.27**
 
 
 [cbedb25571f834a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cbedb25571f834a) Tomas Bjerre *2016-04-10 09:11:29*
-
-
-### No issue
 
 **Lib 1.43, Parsing commits, oldest first**
 
@@ -1621,15 +1378,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.26
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.26**
 
 
 [9f1d1002c40f7c4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9f1d1002c40f7c4) Tomas Bjerre *2016-04-10 09:02:40*
-
-
-### No issue
 
 **Lib 1.42, Parsing commits, oldest first**
 
@@ -1648,15 +1402,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.25
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.25**
 
 
 [d64bb8c4bac3569](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d64bb8c4bac3569) Tomas Bjerre *2016-04-09 20:36:20*
-
-
-### No issue
 
 **Lib 1.41, Commits added to correct tags**
 
@@ -1675,15 +1426,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.24
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.24**
 
 
 [2efb284b01e9dad](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2efb284b01e9dad) Tomas Bjerre *2016-04-07 19:16:09*
-
-
-### No issue
 
 **Lib 1.40 can ignore tags by regexp**
 
@@ -1702,15 +1450,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.23
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.23**
 
 
 [bedab6baf13e7b2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bedab6baf13e7b2) Tomas Bjerre *2016-03-20 09:46:37*
-
-
-### No issue
 
 **Lib 1.39**
 
@@ -1729,15 +1474,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.22
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.22**
 
 
 [641382645514837](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/641382645514837) Tomas Bjerre *2016-03-20 08:43:50*
-
-
-### No issue
 
 **Lib 1.38**
 
@@ -1756,15 +1498,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.21
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.21**
 
 
 [845c82020978cbf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/845c82020978cbf) Tomas Bjerre *2016-03-16 16:10:15*
-
-
-### No issue
 
 **Jira integration to get titles**
 
@@ -1783,23 +1522,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.20
-### GitHub [#6](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/6) GitHub OAuth2 Token support  
-
-**Support GitHub OAuth2 tokens #6**
-
-
-[a0aea6800972c3c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a0aea6800972c3c) Tomas Bjerre *2016-03-15 20:38:16*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.20**
 
 
 [cc2cda2dbe76b03](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cc2cda2dbe76b03) Tomas Bjerre *2016-03-15 20:39:51*
 
+**Support GitHub OAuth2 tokens #6**
 
-### No issue
+
+[a0aea6800972c3c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a0aea6800972c3c) Tomas Bjerre *2016-03-15 20:38:16*
 
 **Adding example with github as custom issue**
 
@@ -1818,15 +1551,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.19
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.19**
 
 
 [adfb8421e82984f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/adfb8421e82984f) Tomas Bjerre *2016-02-20 08:49:59*
-
-
-### No issue
 
 **Supplying commit in each issue mentioned in message**
 
@@ -1855,15 +1585,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.18
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.18**
 
 
 [a19ef5048fee499](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a19ef5048fee499) Tomas Bjerre *2016-02-14 17:58:45*
-
-
-### No issue
 
 **Lib 1.29**
 
@@ -1877,15 +1604,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.17
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.17**
 
 
 [e9bc2ac3e5d0ed7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e9bc2ac3e5d0ed7) Tomas Bjerre *2016-02-14 16:58:07*
-
-
-### No issue
 
 **Lib 1.28, performance optimizations**
 
@@ -1904,15 +1628,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.16
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.16**
 
 
 [9b1cdfbb07e4c76](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9b1cdfbb07e4c76) Tomas Bjerre *2016-02-13 09:15:47*
-
-
-### No issue
 
 **Significant performance improvements**
 
@@ -1932,15 +1653,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.15
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.15**
 
 
 [40d04f3ab073196](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/40d04f3ab073196) Tomas Bjerre *2016-02-10 17:54:23*
-
-
-### No issue
 
 **Using lib 1.25 and updating README.md**
 
@@ -1959,23 +1677,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.14
-### GitHub [#5](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/5) One line git commit messege    *enhancement*  
-
-**Added variables: messageTitle, messageBody, messageItems #5**
-
-
-[0a7a9a1aa672414](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0a7a9a1aa672414) Tomas Bjerre *2016-02-09 19:26:45*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.14**
 
 
 [bfa17c7f996ffd7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bfa17c7f996ffd7) Tomas Bjerre *2016-02-09 19:27:16*
 
+**Added variables: messageTitle, messageBody, messageItems #5**
 
-### No issue
+
+[0a7a9a1aa672414](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0a7a9a1aa672414) Tomas Bjerre *2016-02-09 19:26:45*
 
 **Adding example of custom issue without link**
 
@@ -2000,15 +1712,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.13
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.13**
 
 
 [9717933e5d89246](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9717933e5d89246) Tomas Bjerre *2016-01-31 17:05:52*
-
-
-### No issue
 
 **Implementing custom issues**
 
@@ -2030,23 +1739,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.12
-### GitHub [#4](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/4) The tags are out of order    *bug*  
-
-**Using lib 1.23 to sort commits by time, not formatted time #4**
-
-
-[5fbc5f762d90669](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5fbc5f762d90669) Tomas Bjerre *2016-01-31 11:10:56*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.12**
 
 
 [a5a6db6e40d7e9a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a5a6db6e40d7e9a) Tomas Bjerre *2016-01-31 11:12:31*
 
+**Using lib 1.23 to sort commits by time, not formatted time #4**
 
-### No issue
+
+[5fbc5f762d90669](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5fbc5f762d90669) Tomas Bjerre *2016-01-31 11:10:56*
 
 **Correcting example ignoring commits by comment**
 
@@ -2065,33 +1768,27 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.11
-### GitHub [#3](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/3) Enhance documentation for changelog.json file    *enhancement*  
-
-**Documentation and more configuration available in pom #3**
-
-
-[0f143a30469db4b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f143a30469db4b) Tomas Bjerre *2016-01-31 07:15:44*
-
-**Documentation #3**
-
-
-[adc959a530801da](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/adc959a530801da) Tomas Bjerre *2016-01-30 09:22:01*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.11**
 
 
 [d11bc37b5e536ab](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d11bc37b5e536ab) Tomas Bjerre *2016-01-31 07:25:47*
 
+**Documentation and more configuration available in pom #3**
 
-### No issue
+
+[0f143a30469db4b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f143a30469db4b) Tomas Bjerre *2016-01-31 07:15:44*
 
 **Using lib 1.22**
 
 
 [d18efc576edcaff](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d18efc576edcaff) Tomas Bjerre *2016-01-30 17:36:44*
+
+**Documentation #3**
+
+
+[adc959a530801da](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/adc959a530801da) Tomas Bjerre *2016-01-30 09:22:01*
 
 **Using lib 1.19**
 
@@ -2105,23 +1802,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.10
-### GitHub [#2](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/2) Allow for template to be added directly in pom.xml    *enhancement*  
-
-**Template can be configured directly in the pom #2**
-
-
-[ed405f4ff98b9ec](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ed405f4ff98b9ec) Tomas Bjerre *2015-12-20 17:29:26*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.10**
 
 
 [61a35d032f25cfd](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/61a35d032f25cfd) Tomas Bjerre *2015-12-20 17:31:10*
 
+**Template can be configured directly in the pom #2**
 
-### No issue
+
+[ed405f4ff98b9ec](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ed405f4ff98b9ec) Tomas Bjerre *2015-12-20 17:29:26*
 
 **Using lib 1.18**
 
@@ -2135,23 +1826,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.9
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version    *enhancement*  
-
-**Using lib 1.17 #1**
-
-
-[012e716f4ac9081](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/012e716f4ac9081) Tomas Bjerre *2015-12-06 07:37:23*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.9**
 
 
 [9e8fd24ea5cbe55](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9e8fd24ea5cbe55) Tomas Bjerre *2015-12-06 07:37:59*
 
+**Using lib 1.17 #1**
 
-### No issue
+
+[012e716f4ac9081](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/012e716f4ac9081) Tomas Bjerre *2015-12-06 07:37:23*
 
 **doc**
 
@@ -2165,23 +1850,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.8
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version    *enhancement*  
-
-**Using lib 1.15 #1**
-
-
-[e2a14b2192b18a6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e2a14b2192b18a6) Tomas Bjerre *2015-12-04 22:18:12*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.8**
 
 
 [4b7ddf0a21ac734](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4b7ddf0a21ac734) Tomas Bjerre *2015-12-04 22:23:54*
 
+**Using lib 1.15 #1**
 
-### No issue
+
+[e2a14b2192b18a6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e2a14b2192b18a6) Tomas Bjerre *2015-12-04 22:18:12*
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -2190,15 +1869,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.7
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.7**
 
 
 [cc6e7b9765122f1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cc6e7b9765122f1) Tomas Bjerre *2015-12-01 21:41:37*
-
-
-### No issue
 
 **using lib 1.14**
 
@@ -2217,15 +1893,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.6
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.6**
 
 
 [b88db60583e98ed](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b88db60583e98ed) Tomas Bjerre *2015-11-23 22:02:45*
-
-
-### No issue
 
 **using lib 1.13**
 
@@ -2244,23 +1917,17 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.5
-### GitHub [#1](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/1) Update to lates lib version    *enhancement*  
-
-**Using lib 1.12 #1**
-
-
-[e613d7724e87254](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e613d7724e87254) Tomas Bjerre *2015-11-23 18:02:24*
-
-
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.5**
 
 
 [22db80f51169462](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/22db80f51169462) Tomas Bjerre *2015-11-23 18:02:51*
 
+**Using lib 1.12 #1**
 
-### No issue
+
+[e613d7724e87254](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e613d7724e87254) Tomas Bjerre *2015-11-23 18:02:24*
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -2269,15 +1936,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.4
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.4**
 
 
 [f098e245eb3f8ed](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f098e245eb3f8ed) Tomas Bjerre *2015-11-21 14:28:45*
-
-
-### No issue
 
 **lib 1.10**
 
@@ -2291,15 +1955,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.3
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.3**
 
 
 [0f6b76b83f0542c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f6b76b83f0542c) Tomas Bjerre *2015-11-20 22:06:58*
-
-
-### No issue
 
 **lib 1.9 #feature**
 
@@ -2318,15 +1979,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.2
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.2**
 
 
 [dbe6a08c9e9805e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/dbe6a08c9e9805e) Tomas Bjerre *2015-11-18 19:48:40*
-
-
-### No issue
 
 **lib 1.3 #feature**
 
@@ -2345,15 +2003,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.1
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.1**
 
 
 [13c1b74c8329b66](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/13c1b74c8329b66) Tomas Bjerre *2015-11-17 20:16:06*
-
-
-### No issue
 
 **MediaWiki support, using lib 1.2**
 
@@ -2372,15 +2027,12 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.0
-### Jira plugin-1   
+### No issue
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.0**
 
 
 [ca80887d3f53d50](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ca80887d3f53d50) Tomas Bjerre *2015-11-15 14:41:44*
-
-
-### No issue
 
 **doc**
 

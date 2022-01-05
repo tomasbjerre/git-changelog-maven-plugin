@@ -3,150 +3,38 @@
 Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
-### GitHub
-   Merge pull request #10 from lennonjesus/patch-1
-
-docs: Updates README.md to improve readability *14:34:08*
-
-
-### GitHub
-   Adding skip option #12 *17:22:47*
-
-
-### GitHub
-   Merge pull request #18 from djn72/master
-
-Add extendedVariables property *04:42:36*
-
-
-### GitHub
-   Adjustments after merge of PR #19 *17:18:11*
-
-   Merge pull request #19 from gab1one/add-path-filter
-
-Add support for pathfilter *17:17:05*
-
-
-### GitHub
-   Template can be configured directly in the pom #2 *17:29:26*
-
-
-### GitHub
-   Mark as thread safe #21 *17:13:21*
-
-
-### GitHub
-   More logging of extended variables from CLI #24 *06:36:49*
-
-   Formatting code after merge #24 *06:21:39*
-
-   Allow to pass extendedVariables using maven cli #24 *06:18:56*
-
-
-### GitHub
-   Merge pull request #27 from drhip/feature/extended_headers
-
-Support custom headers to JIRA to bypass 2 factor auth *16:28:30*
-
-
-### GitHub
-   Documentation and more configuration available in pom #3 *07:15:44*
-
-   Documentation #3 *09:22:01*
-
-
-### GitHub
-   Merge pull request #31 from edeso/simplePlainTextExample
-
-Add unescaped simple plain text example *14:07:41*
-
-
-### GitHub
-   Merge pull request #33 from huygun/feature/redmine
-
-feat: Redmine Support *17:11:19*
-
-
-### GitHub
-   Merge pull request #35 from chme/feat/partials
-
-feat: Add support for including partials in mustache templates *20:01:23*
-
-
-### GitHub
-   Merge pull request #36 from rimuln/feature/13
-
-feat Support Jira Bearer authorization *17:27:06*
-
-
-### GitHub
+### These commits have not issue in their commit comment
    Merge pull request #37 from clockworkorange/master
 
 Upgraded changelog-lib version to 1.163.2 *08:19:49*
 
-
-### GitHub
-   Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
-
-
-### GitHub
-   Added variables: messageTitle, messageBody, messageItems #5 *19:26:45*
-
-
-### GitHub
-   fix: adding default changelog template jenkinsci/git-changelog-plugin#58 *18:02:26*
-
-
-### GitHub
-   Support GitHub OAuth2 tokens #6 *20:38:16*
-
-
-### GitHub
-   Merge pull request #7 from dunse/patch-1
-
-Fix fromCommit and fromRef property typo *21:11:26*
-
-
-### GitHub
-   Defaulting ignoreCommitsWithoutIssue #9 *12:49:36*
-
-
-### Jira
-   Closing RevWalk JENKINS-19994 *20:21:25*
-
-
-### Jira
-   JENKINS-34155 Support short SHA *16:49:07*
-
-
-### Jira
-   pretty printing output JENKINS-65252 *15:45:20*
-
-
-### Jira
-   Merge pull request #10 from lennonjesus/patch-1
-
-docs: Updates README.md to improve readability *14:34:08*
-
-   Merge pull request #7 from dunse/patch-1
-
-Fix fromCommit and fromRef property typo *21:11:26*
-
-
-### These commits have not issue in their commit comment
    Upgraded changelog-lib version to 1.163.2 *08:41:11*
 
    feat: handlebarsHelperFile *15:42:59*
 
+   Merge pull request #36 from rimuln/feature/13
+
+feat Support Jira Bearer authorization *17:27:06*
+
    feat Support Jira Bearer authorization *23:49:06*
+
+   Merge pull request #35 from chme/feat/partials
+
+feat: Add support for including partials in mustache templates *20:01:23*
 
    feat: Add support for including partials in mustache templates *14:27:51*
 
    feat stepping lib *17:12:35*
 
+   Merge pull request #33 from huygun/feature/redmine
+
+feat: Redmine Support *17:11:19*
+
    feat: Redmine Support *12:20:16*
 
    fix: read template from file *16:37:46*
+
+   fix: adding default changelog template jenkinsci/git-changelog-plugin#58 *18:02:26*
 
    fix: semantic version stepping *17:11:56*
 
@@ -168,21 +56,51 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
    feat: support conventional commits *17:22:23*
 
+   Merge pull request #31 from edeso/simplePlainTextExample
+
+Add unescaped simple plain text example *14:07:41*
+
    Add unescaped simple plain text example *13:57:25*
+
+   Merge pull request #27 from drhip/feature/extended_headers
+
+Support custom headers to JIRA to bypass 2 factor auth *16:28:30*
 
    Support custom headers to JIRA to bypass 2 factor auth *13:15:12*
 
    removing bintray link *11:01:17*
 
+   pretty printing output JENKINS-65252 *15:45:20*
+
    Removing default ignore filter on message *17:11:18*
 
    Locking fmt version *06:50:16*
+
+   More logging of extended variables from CLI #24 *06:36:49*
+
+   Formatting code after merge #24 *06:21:39*
+
+   Allow to pass extendedVariables using maven cli #24 *06:18:56*
+
+   Mark as thread safe #21 *17:13:21*
+
+   Adjustments after merge of PR #19 *17:18:11*
+
+   Merge pull request #19 from gab1one/add-path-filter
+
+Add support for pathfilter *17:17:05*
 
    Add support for pathfilter *15:41:30*
 
    openjdk8 *04:47:39*
 
+   Merge pull request #18 from djn72/master
+
+Add extendedVariables property *04:42:36*
+
    Add extendedVariables property *20:33:17*
+
+   Adding skip option #12 *17:22:47*
 
    Create FUNDING.yml *07:06:15*
 
@@ -206,7 +124,13 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
    git-changelog-lib 1.82 *07:18:27*
 
+   Merge pull request #10 from lennonjesus/patch-1
+
+docs: Updates README.md to improve readability *14:34:08*
+
    docs: Updates README.md to improve readability *14:32:13*
+
+   Closing RevWalk JENKINS-19994 *20:21:25*
 
    Doc *12:31:16*
 
@@ -219,6 +143,8 @@ Fix fromCommit and fromRef property typo *21:11:26*
    Adjusting to Bintray *11:17:26*
 
    Doc *12:25:21*
+
+   Defaulting ignoreCommitsWithoutIssue #9 *12:49:36*
 
    Disabling integrations if not used *12:41:20*
 
@@ -269,6 +195,10 @@ Fix fromCommit and fromRef property typo *21:11:26*
 
    doc *21:14:43*
 
+   Merge pull request #7 from dunse/patch-1
+
+Fix fromCommit and fromRef property typo *21:11:26*
+
    Fix fromCommit and fromRef property typo
 
 The @Parameter annotation had the wrong property name which makes it impossible to provide parameter on command line. *10:51:15*
@@ -315,6 +245,8 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
    doc *16:55:58*
 
+   JENKINS-34155 Support short SHA *16:49:07*
+
    doc *09:12:52*
 
    Lib 1.43, Parsing commits, oldest first *09:10:57*
@@ -342,6 +274,8 @@ The @Parameter annotation had the wrong property name which makes it impossible 
    Jira integration to get titles *16:09:27*
 
    Update example *21:16:30*
+
+   Support GitHub OAuth2 tokens #6 *20:38:16*
 
    Adding example with github as custom issue *16:16:05*
 
@@ -371,6 +305,8 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
    Updating docs after release *19:30:25*
 
+   Added variables: messageTitle, messageBody, messageItems #5 *19:26:45*
+
    Adding example of custom issue without link
 
  * Like I123 *18:15:25*
@@ -387,30 +323,36 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
    Updagint README.md after release *11:14:02*
 
+   Using lib 1.23 to sort commits by time, not formatted time #4 *11:10:56*
+
    Correcting example ignoring commits by comment *09:30:03*
 
    Updating README.md after release *07:36:20*
 
+   Documentation and more configuration available in pom #3 *07:15:44*
+
    Using lib 1.22 *17:36:44*
 
+   Documentation #3 *09:22:01*
+
    Using lib 1.19 *18:46:14*
+
+   Template can be configured directly in the pom #2 *17:29:26*
 
    Using lib 1.18 *17:11:56*
 
 
 
 ## 1.9
-### GitHub
+### These commits have not issue in their commit comment
    Using lib 1.17 #1 *07:37:23*
 
-
-### These commits have not issue in their commit comment
    doc *22:58:13*
 
 
 
 ## 1.8
-### GitHub
+### These commits have not issue in their commit comment
    Using lib 1.15 #1 *22:18:12*
 
 
@@ -432,7 +374,7 @@ The @Parameter annotation had the wrong property name which makes it impossible 
 
 
 ## 1.5
-### GitHub
+### These commits have not issue in their commit comment
    Using lib 1.12 #1 *18:02:24*
 
 

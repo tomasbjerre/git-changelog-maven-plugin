@@ -157,6 +157,18 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "handlebarsHelperFile", required = false)
   private String handlebarsHelperFile;
 
+  @Parameter(property = "redmineEnabled", required = false)
+  public Boolean redmineEnabled;
+
+  @Parameter(property = "gitHubEnabled", required = false)
+  public Boolean gitHubEnabled;
+
+  @Parameter(property = "jiraEnabled", required = false)
+  public Boolean jiraEnabled;
+
+  @Parameter(property = "gitLabEnabled", required = false)
+  public Boolean gitLabEnabled;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (this.skip != null && this.skip == true) {
@@ -168,7 +180,12 @@ public class GitChangelogMojo extends AbstractMojo {
       this.extendedVariables.putAll(extendedVariablesCliAsMap);
 
       GitChangelogApi builder;
-      builder = gitChangelogApiBuilder();
+      builder =
+          gitChangelogApiBuilder()
+              .withJiraEnabled(this.isSuppliedAndTrue(this.jiraEnabled))
+              .withRedmineEnabled(this.isSuppliedAndTrue(this.redmineEnabled))
+              .withGitHubEnabled(this.isSuppliedAndTrue(this.gitHubEnabled))
+              .withGitLabEnabled(this.isSuppliedAndTrue(this.gitLabEnabled));
 
       if (this.isSupplied(this.javascriptHelper)) {
         builder //
@@ -326,6 +343,10 @@ public class GitChangelogMojo extends AbstractMojo {
     } catch (final Exception e) {
       this.getLog().error("GitChangelog", e);
     }
+  }
+
+  private boolean isSuppliedAndTrue(final Boolean b) {
+    return b != null && b;
   }
 
   private boolean isSupplied(final String param) {
