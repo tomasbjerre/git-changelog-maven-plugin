@@ -4,6 +4,8 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
+   fix: disable integrations with a boolean useIntegrations *07:57:40*
+
    fix: only parse enabled issues *15:15:55*
 
    Merge pull request #37 from clockworkorange/master

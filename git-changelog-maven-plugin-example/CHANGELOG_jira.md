@@ -8,6 +8,25 @@ Changelog for tomasbjerre git-changelog-maven-plugin.
 **[maven-release-plugin] prepare for next development iteration**
 
 
+[c75ef6fae9f4762](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c75ef6fae9f4762) Tomas Bjerre *2022-01-16 07:58:17*
+
+
+## 1.85
+### No issue
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.85**
+
+
+[bd1307802b5c064](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bd1307802b5c064) Tomas Bjerre *2022-01-16 07:58:14*
+
+**fix: disable integrations with a boolean useIntegrations**
+
+
+[07c1e5b9f12b28d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/07c1e5b9f12b28d) Tomas Bjerre *2022-01-16 07:57:40*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
 [25ef354e7778dd8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/25ef354e7778dd8) Tomas Bjerre *2022-01-05 15:17:18*
 
 

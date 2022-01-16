@@ -8,6 +8,16 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.85
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.85
+
+   fix: disable integrations with a boolean useIntegrations
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.84
 ### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.84

@@ -4,6 +4,16 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   [maven-release-plugin] prepare for next development iteration *2022-01-16 07:58:17*
+
+
+
+## git-changelog-maven-plugin-1.85
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.85 *2022-01-16 07:58:14*
+
+   fix: disable integrations with a boolean useIntegrations *2022-01-16 07:57:40*
+
    [maven-release-plugin] prepare for next development iteration *2022-01-05 15:17:18*
 
 

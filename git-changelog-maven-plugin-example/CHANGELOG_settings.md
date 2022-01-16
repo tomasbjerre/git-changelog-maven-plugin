@@ -2,6 +2,15 @@
 
 Changelog for tomasbjerre git-changelog-maven-plugin.
 
+## 1.85
+### Other changes
+
+**fix: disable integrations with a boolean useIntegrations**
+
+
+[07c1e5b9f12b28d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/07c1e5b9f12b28d) Tomas Bjerre *2022-01-16 07:57:40*
+
+
 ## 1.84
 ### Other changes
 
