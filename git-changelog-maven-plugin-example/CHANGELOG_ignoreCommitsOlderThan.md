@@ -4,7 +4,17 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2022-01-16 07:58:17*
+   [maven-release-plugin] prepare for next development iteration *2022-01-16 08:52:14*
+
+
+
+## git-changelog-maven-plugin-1.86
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.86 *2022-01-16 08:52:11*
+
+   chore: using default changelog template *2022-01-16 08:51:50*
+
+   [maven-release-plugin] prepare for next development iteration *2022-01-16 07:59:36*
 
 
 
