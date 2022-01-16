@@ -169,6 +169,9 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "gitLabEnabled", required = false)
   public Boolean gitLabEnabled;
 
+  @Parameter(property = "useIntegrations", required = false)
+  public Boolean useIntegrations;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (this.skip != null && this.skip == true) {
@@ -182,6 +185,7 @@ public class GitChangelogMojo extends AbstractMojo {
       GitChangelogApi builder;
       builder =
           gitChangelogApiBuilder()
+              .withUseIntegrations(this.isSuppliedAndTrue(this.useIntegrations))
               .withJiraEnabled(this.isSuppliedAndTrue(this.jiraEnabled))
               .withRedmineEnabled(this.isSuppliedAndTrue(this.redmineEnabled))
               .withGitHubEnabled(this.isSuppliedAndTrue(this.gitHubEnabled))

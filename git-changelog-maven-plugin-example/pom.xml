@@ -83,6 +83,9 @@
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
+							<useIntegrations>true</useIntegrations>
+							<gitHubEnabled>trye</gitHubEnabled>
+							<gitHubIssuePattern>#([0-9]*)</gitHubIssuePattern>
 							<templateContent>
 <![CDATA[
 # Git Changelog Maven plugin changelog
@@ -123,6 +126,9 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
+							<useIntegrations>true</useIntegrations>
+							<gitHubEnabled>trye</gitHubEnabled>
+							<gitHubIssuePattern>#([0-9]*)</gitHubIssuePattern>
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
 							<file>CHANGELOG_templatefile.md</file>
@@ -138,7 +144,8 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
-							<gitHubEnabled>true</gitHubEnabled>
+							<useIntegrations>true</useIntegrations>
+							<gitHubEnabled>trye</gitHubEnabled>
 							<gitHubApi>https://api.github.com/repos/tomasbjerre/git-changelog-maven-plugin</gitHubApi>
 							<gitHubToken>${GITHUB_OAUTH2TOKEN}</gitHubToken><!-- Optional // -->
 							<gitHubIssuePattern>#([0-9]*)</gitHubIssuePattern>
@@ -158,6 +165,7 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
+							<useIntegrations>true</useIntegrations>
 							<gitLabEnabled>true</gitLabEnabled>
 							<gitLabServer>https://gitlab.com/</gitLabServer>
 							<gitLabToken>${GITLAB_TOKEN}</gitLabToken>
@@ -177,6 +185,7 @@ Changelog of Git Changelog Maven plugin.
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
+							<!-- useIntegrations>true</useIntegrations -->
 							<!-- <jiraEnabled>true</jiraEnabled> -->
 							<!--jiraUsername>${JIRA_USERNAME}</jiraUsername>
 							<jiraPassword>${JIRA_PASSWORD}</jiraPassword>
