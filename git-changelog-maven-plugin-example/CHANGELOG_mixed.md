@@ -4,6 +4,8 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
+   fix: match first semantic combination *15:45:22*
+
    chore: using default changelog template *08:51:50*
 
    fix: disable integrations with a boolean useIntegrations *07:57:40*

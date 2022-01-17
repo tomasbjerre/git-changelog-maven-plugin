@@ -2,6 +2,30 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.87 (2022-01-17)
+
+
+
+
+
+### Bug Fixes
+
+-  match first semantic combination ([63b79](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/63b79929030122d) Tomas Bjerre)  
+
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.87**
+
+
+[2f18b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2f18bd2cf92e80b) Tomas Bjerre *2022-01-17 15:45:59*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[452e2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/452e2d8ed73da6a) Tomas Bjerre *2022-01-16 08:54:13*
+
+
 ## git-changelog-maven-plugin-1.86 (2022-01-16)
 
 

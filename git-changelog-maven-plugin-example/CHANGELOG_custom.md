@@ -8,6 +8,16 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.87
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.87
+
+   fix: match first semantic combination
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.86
 ### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.86
