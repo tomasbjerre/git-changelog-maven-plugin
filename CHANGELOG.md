@@ -2,6 +2,18 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## 1.88 (2022-01-20)
+
+
+
+
+
+### Bug Fixes
+
+-  parsing scopes ([2c8ad](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2c8ad2e4a516307) Tomas Bjerre)  
+
+
+
 ## 1.87 (2022-01-17)
 
 

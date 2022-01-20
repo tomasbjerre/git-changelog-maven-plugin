@@ -5,7 +5,23 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[724923eec39e0aa](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/724923eec39e0aa) Tomas Bjerre *2022-01-17 15:46:03*
+[5f87425739eafe2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5f87425739eafe2) Tomas Bjerre *2022-01-20 15:21:50*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.88
+### No issue
+
+[6e99da07ace7ee0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6e99da07ace7ee0) Tomas Bjerre *2022-01-20 15:21:47*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.88
+
+[2c8ad2e4a516307](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2c8ad2e4a516307) Tomas Bjerre *2022-01-20 15:21:32*
+
+fix: parsing scopes
+
+[1e92dd134196a2d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1e92dd134196a2d) Tomas Bjerre *2022-01-17 15:46:49*
 
 [maven-release-plugin] prepare for next development iteration
 
