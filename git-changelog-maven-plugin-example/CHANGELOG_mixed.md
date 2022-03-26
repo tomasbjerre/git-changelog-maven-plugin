@@ -4,6 +4,8 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
+   fix: include first commit (refs #40) *05:52:13*
+
    fix: parsing scopes *15:21:32*
 
    fix: match first semantic combination *15:45:22*
