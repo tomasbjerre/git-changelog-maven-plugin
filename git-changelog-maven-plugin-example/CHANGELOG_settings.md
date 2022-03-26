@@ -1701,4 +1701,9 @@ Changelog of git-changelog-maven-plugin.
 
 [044b3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/044b3a76a1ab650) Tomas Bjerre *2015-11-15 14:30:51*
 
+**Initial commit**
+
+
+[3c470](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3c47076c0ecb2de) Tomas Bjerre *2015-11-15 13:18:29*
+
 
