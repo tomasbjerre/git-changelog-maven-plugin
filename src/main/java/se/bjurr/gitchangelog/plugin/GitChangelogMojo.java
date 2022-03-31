@@ -172,6 +172,9 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "useIntegrations", required = false)
   public Boolean useIntegrations;
 
+  @Parameter(property = "prependToFile", required = false)
+  public Boolean prependToFile;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (this.skip != null && this.skip == true) {
@@ -338,7 +341,11 @@ public class GitChangelogMojo extends AbstractMojo {
       }
 
       if (this.file != null) {
-        builder.toFile(this.file);
+        if (this.prependToFile) {
+          builder.prependToFile(this.file);
+        } else {
+          builder.toFile(this.file);
+        }
         this.getLog().info("#");
         this.getLog().info("# Wrote: " + this.file);
         this.getLog().info("#");

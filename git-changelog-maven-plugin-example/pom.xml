@@ -83,6 +83,7 @@
 							<goal>git-changelog</goal>
 						</goals>
 						<configuration>
+							<prependToFile>false</prependToFile>
 							<useIntegrations>true</useIntegrations>
 							<gitHubEnabled>trye</gitHubEnabled>
 							<gitHubIssuePattern>#([0-9]*)</gitHubIssuePattern>
