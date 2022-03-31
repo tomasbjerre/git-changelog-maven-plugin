@@ -5,6 +5,22 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+[ce5f65062a7fb50](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ce5f65062a7fb50) Tomas Bjerre *2022-03-31 15:47:52*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.90
+### No issue
+
+[95362de14fc461c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/95362de14fc461c) Tomas Bjerre *2022-03-31 15:47:48*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.90
+
+[f6e7642a26fa114](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f6e7642a26fa114) Tomas Bjerre *2022-03-31 15:46:01*
+
+feat: prependToFile (refs #41)
+
 [d22ecc7fee29b2d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d22ecc7fee29b2d) Tomas Bjerre *2022-03-26 05:53:50*
 
 [maven-release-plugin] prepare for next development iteration
