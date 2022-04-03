@@ -4,7 +4,27 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2022-03-26 05:53:09*
+   [maven-release-plugin] prepare for next development iteration *2022-04-03 10:20:09*
+
+
+
+## git-changelog-maven-plugin-1.91
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.91 *2022-04-03 10:19:19*
+
+   feat: new variable urlParts *2022-04-03 10:18:24*
+
+   [maven-release-plugin] prepare for next development iteration *2022-03-31 15:48:41*
+
+
+
+## git-changelog-maven-plugin-1.90
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.90 *2022-03-31 15:47:48*
+
+   feat: prependToFile (refs #41) *2022-03-31 15:46:01*
+
+   [maven-release-plugin] prepare for next development iteration *2022-03-26 05:53:50*
 
 
 

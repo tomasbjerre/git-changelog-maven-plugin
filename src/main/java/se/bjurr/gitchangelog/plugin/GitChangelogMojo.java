@@ -341,7 +341,7 @@ public class GitChangelogMojo extends AbstractMojo {
       }
 
       if (this.file != null) {
-        if (this.prependToFile) {
+        if (this.isSuppliedAndTrue(this.prependToFile)) {
           builder.prependToFile(this.file);
         } else {
           builder.toFile(this.file);

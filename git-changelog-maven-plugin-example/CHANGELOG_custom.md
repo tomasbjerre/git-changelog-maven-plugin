@@ -8,6 +8,26 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.91
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.91
+
+   feat: new variable urlParts
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.90
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.90
+
+   feat: prependToFile (refs #41)
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.89
 ### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.89

@@ -2,6 +2,30 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## 1.91 (2022-04-03)
+
+
+
+### Features
+
+-  new variable urlParts ([79a02](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/79a02f9814bff36) Tomas Bjerre)  
+
+
+
+
+
+## 1.90 (2022-03-31)
+
+
+
+### Features
+
+-  prependToFile ([f6e76](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f6e7642a26fa114) Tomas Bjerre)  [#41](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/41)  
+
+
+
+
+
 ## 1.89 (2022-03-26)
 
 

@@ -2,6 +2,54 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## 1.91 (2022-04-03)
+
+
+
+### Features
+
+-  new variable urlParts ([79a02](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/79a02f9814bff36) Tomas Bjerre)  
+
+
+
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.91**
+
+
+[e5f36](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e5f3623a7d37452) Tomas Bjerre *2022-04-03 10:19:19*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[25957](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2595798105e330f) Tomas Bjerre *2022-03-31 15:48:41*
+
+
+## 1.90 (2022-03-31)
+
+
+
+### Features
+
+-  prependToFile ([f6e76](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f6e7642a26fa114) Tomas Bjerre)  [#41](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/41)  
+
+
+
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.90**
+
+
+[95362](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/95362de14fc461c) Tomas Bjerre *2022-03-31 15:47:48*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[d22ec](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d22ecc7fee29b2d) Tomas Bjerre *2022-03-26 05:53:50*
+
+
 ## 1.89 (2022-03-26)
 
 
