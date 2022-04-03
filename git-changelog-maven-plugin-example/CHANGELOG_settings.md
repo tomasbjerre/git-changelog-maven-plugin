@@ -2,6 +2,18 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## 1.92 (2022-04-03)
+
+
+
+
+
+### Bug Fixes
+
+-  npe ([a59bf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a59bfa7ad4215d4) Tomas Bjerre)  
+
+
+
 ## 1.91 (2022-04-03)
 
 
