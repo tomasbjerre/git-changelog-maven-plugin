@@ -41,6 +41,8 @@ Here is and example that will generate a CHANGELOG.md when running `mvn generate
   </build>
 ```
 
+If you have a multimodule you may want to put `<inherited>false</inherited>` within the `<plugin>` tag to avoid it being applied to all child projects.
+
 ### Template - Simple
 
 ```hbs
