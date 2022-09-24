@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.bjurr.gitchangelog</groupId>
 	<artifactId>git-changelog-maven-plugin</artifactId>
-	<version>0.1.0</version>
+	<version>1.92.1-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 	<name>git-changelog-maven-plugin</name>
 	<description>Maven plugin that can generate a changelog from git repo.</description>
@@ -75,7 +75,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-plugin-plugin</artifactId>
-				<version>3.4</version>
+				<version>3.6.4</version>
 				<configuration>
 					<goalPrefix>git-changelog-maven-plugin</goalPrefix>
 					<skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
@@ -104,6 +104,9 @@
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<releaseProfiles>release-sign-artifacts</releaseProfiles>
 					<goals>deploy</goals>
+					<checkModificationExcludes>
+						<checkModificationExclude>pom.xml</checkModificationExclude>
+					</checkModificationExcludes>
 				</configuration>
 			</plugin>
 			<plugin>
