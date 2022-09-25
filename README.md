@@ -193,7 +193,12 @@ The version in `pom.xml` can be automatically updated based on [conventional com
 	<!-- Update the <version> tag //-->
 	<updatePomWithNextSemanticVersion>true</updatePomWithNextSemanticVersion>
 
-	<!-- suffix version with -SNAPSHOT //-->
+	<!-- Suffix version with -SNAPSHOT //-->
 	<updatePomWithNextSemanticVersionSuffixSnapshot>true</updatePomWithNextSemanticVersionSuffixSnapshot>
+
+	<!-- Regexp patterns used to identify next version can optionally be adjusted //-->
+	<semanticMajorVersionPattern>^[Bb]reaking</semanticMajorVersionPattern>
+	<semanticMinorVersionPattern>[Ff]eature</semanticMinorVersionPattern>
+	<semanticPatchVersionPattern>[Ff]ix</semanticPatchVersionPattern>
 </configuration>
 ```

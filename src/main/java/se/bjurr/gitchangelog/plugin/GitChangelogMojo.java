@@ -194,12 +194,30 @@ public class GitChangelogMojo extends AbstractMojo {
       defaultValue = "true")
   private boolean updatePomWithNextSemanticVersionSuffixSnapshot;
 
+  @Parameter(property = "semanticMajorVersionPattern", required = false)
+  private String semanticMajorVersionPattern;
+
+  @Parameter(property = "semanticMinorVersionPattern", required = false)
+  private String semanticMinorVersionPattern;
+
+  @Parameter(property = "semanticPatchVersionPattern", required = false)
+  private String semanticPatchVersionPattern;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (this.updatePomWithNextSemanticVersion) {
       try {
-        final SemanticVersion nextSemanticVersion =
-            gitChangelogApiBuilder().getNextSemanticVersion();
+        final GitChangelogApi gitChangelogApiBuilder = gitChangelogApiBuilder();
+        if (this.isSupplied(this.semanticMajorVersionPattern)) {
+          gitChangelogApiBuilder.withSemanticMajorVersionPattern(this.semanticMajorVersionPattern);
+        }
+        if (this.isSupplied(this.semanticMinorVersionPattern)) {
+          gitChangelogApiBuilder.withSemanticMinorVersionPattern(this.semanticMinorVersionPattern);
+        }
+        if (this.isSupplied(this.semanticPatchVersionPattern)) {
+          gitChangelogApiBuilder.withSemanticPatchVersionPattern(this.semanticPatchVersionPattern);
+        }
+        final SemanticVersion nextSemanticVersion = gitChangelogApiBuilder.getNextSemanticVersion();
         final String nextVersion =
             this.updatePomWithNextSemanticVersionSuffixSnapshot
                 ? nextSemanticVersion.getVersion() + "-SNAPSHOT"

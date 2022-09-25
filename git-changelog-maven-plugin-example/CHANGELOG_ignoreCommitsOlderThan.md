@@ -4,6 +4,20 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   chore: updating changelog *2022-09-25 13:26:11*
+
+   [maven-release-plugin] prepare for next development iteration *2022-09-25 13:25:40*
+
+
+
+## git-changelog-maven-plugin-1.93.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.93.0 *2022-09-25 13:25:36*
+
+   chore: setting version 1.93.0-SNAPSHOT *2022-09-25 13:25:26*
+
+   feat: update version based on conventional commits *2022-09-25 13:24:58*
+
    chore: build script *2022-09-25 09:55:05*
 
    chore: updating changelog *2022-09-24 13:38:39*
