@@ -4,7 +4,7 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   feat: enable updating version in pom based on conventional commits *2022-09-25 09:53:19*
+   chore: build script *2022-09-25 09:55:05*
 
    chore: updating changelog *2022-09-24 13:38:39*
 

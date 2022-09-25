@@ -7,9 +7,9 @@ This is a Maven plugin for [Git Changelog Lib](https://github.com/tomasbjerre/gi
 
 ## Usage
 
-There is a running example [here](https://github.com/tomasbjerre/git-changelog-maven-plugin/tree/master/git-changelog-maven-plugin-example).
+There is a running example [here](/git-changelog-maven-plugin-example).
 
-Have a look at the [pom.xml](https://github.com/tomasbjerre/git-changelog-maven-plugin/blob/master/git-changelog-maven-plugin-example/pom.xml) where you will find some more examples.
+Have a look at the [pom.xml](/git-changelog-maven-plugin-example/pom.xml) where you will find some more examples.
 
 Here is and example that will generate a CHANGELOG.md when running `mvn generate-resources`.
 
@@ -176,3 +176,24 @@ Handlebars.registerHelper('firstLetters', function(from, options) {
 ```
 
 More documentation can be found in the [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib).
+
+### Configuration
+
+Have a look at the [pom.xml](/git-changelog-maven-plugin-example/pom.xml) where you will find some more examples.
+
+#### Update version based on conventional commits
+
+The version in `pom.xml` can be automatically updated based on [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+
+```xml
+<configuration>
+	<!-- Skip changelog generation //-->
+	<skip>true</skip>
+
+	<!-- Update the <version> tag //-->
+	<updatePomWithNextSemanticVersion>true</updatePomWithNextSemanticVersion>
+
+	<!-- suffix version with -SNAPSHOT //-->
+	<updatePomWithNextSemanticVersionSuffixSnapshot>true</updatePomWithNextSemanticVersionSuffixSnapshot>
+</configuration>
+```

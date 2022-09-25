@@ -5,9 +5,9 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[0f849cb7d7597c6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f849cb7d7597c6) Tomas Bjerre *2022-09-25 09:53:19*
+[52bb4c3f9e02589](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/52bb4c3f9e02589) Tomas Bjerre *2022-09-25 09:55:05*
 
-feat: enable updating version in pom based on conventional commits
+chore: build script
 
 [9a6f68a7468860f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9a6f68a7468860f) Tomas Bjerre *2022-09-24 13:38:39*
 

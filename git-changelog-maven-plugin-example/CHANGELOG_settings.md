@@ -4,10 +4,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## Next release ()
 
-### Features
-
--  enable updating version in pom based on conventional commits ([0f849](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f849cb7d7597c6) Tomas Bjerre)  
-
 ## 1.92.2 (2022-09-24)
 
 ### Bug Fixes

@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.bjurr.gitchangelog</groupId>
 	<artifactId>git-changelog-maven-plugin-example</artifactId>
 	<name>git-changelog-maven-plugin-example</name>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.92.3-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -451,6 +448,17 @@ Handlebars.registerHelper('firstLetters', function(from, options) {
 {{/commits}}
 ]]>
 							</templateContent>
+						</configuration>
+					</execution>
+					<execution>
+						<id>UpdateVersionInPom</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>git-changelog</goal>
+						</goals>
+						<configuration>
+							<skip>true</skip>
+							<updatePomWithNextSemanticVersion>true</updatePomWithNextSemanticVersion>
 						</configuration>
 					</execution>
 				</executions>
