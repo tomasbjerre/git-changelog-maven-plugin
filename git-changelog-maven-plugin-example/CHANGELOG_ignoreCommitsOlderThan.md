@@ -4,7 +4,39 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2022-04-03 10:26:40*
+   feat: enable updating version in pom based on conventional commits *2022-09-25 09:53:19*
+
+   chore: updating changelog *2022-09-24 13:38:39*
+
+   [maven-release-plugin] prepare for next development iteration *2022-09-24 13:38:02*
+
+
+
+## git-changelog-maven-plugin-1.92.2
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.92.2 *2022-09-24 13:37:58*
+
+   chore: setting version 1.92.2-SNAPSHOT *2022-09-24 13:37:50*
+
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.92.2 *2022-09-24 13:32:15*
+
+   fix: scope of maven-plugin-api *2022-09-24 13:24:04*
+
+   [maven-release-plugin] prepare for next development iteration *2022-09-24 13:08:55*
+
+
+
+## git-changelog-maven-plugin-1.92.1
+### No issue
+   chore: setting version 1.92.1-SNAPSHOT *2022-09-24 13:08:37*
+
+   chore: Maven Wrapper *2022-09-24 13:01:40*
+
+   fix: stepping library version *2022-09-24 12:59:38*
+
+   docs: mentioning inherited in README (refs #44) *2022-09-24 12:39:21*
+
+   [maven-release-plugin] prepare for next development iteration *2022-04-03 10:27:26*
 
 
 

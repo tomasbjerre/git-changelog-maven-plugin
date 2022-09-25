@@ -4,12 +4,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.1 (2015-11-17)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.1**

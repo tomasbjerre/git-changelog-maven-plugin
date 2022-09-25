@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.bjurr.gitchangelog</groupId>
@@ -10,7 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<changelog.version>1.93-SNAPSHOT</changelog.version>
+		<changelog.version>1.92.3-SNAPSHOT</changelog.version>
 	</properties>
 	<build>
 		<plugins>
@@ -159,23 +160,13 @@ Changelog of Git Changelog Maven plugin.
 
 
 					<!-- Template from file and GitLab titles in issues // -->
-					<!--execution>
-						<id>GenerateGitChangelogTemplateFromFileAndGitLabToken</id>
-						<phase>generate-sources</phase>
-						<goals>
-							<goal>git-changelog</goal>
-						</goals>
-						<configuration>
-							<useIntegrations>true</useIntegrations>
-							<gitLabEnabled>true</gitLabEnabled>
-							<gitLabServer>https://gitlab.com/</gitLabServer>
-							<gitLabToken>${GITLAB_TOKEN}</gitLabToken>
-							<gitLabProjectName>tomas.bjerre85/violations-test</gitLabProjectName>
-							<templateFile>changelog.mustache</templateFile>
-							<readableTagName>-([^-]+?)$</readableTagName>
-							<file>CHANGELOG_gitlab.md</file>
-						</configuration>
-					</execution // -->
+					<!--execution> <id>GenerateGitChangelogTemplateFromFileAndGitLabToken</id> 
+						<phase>generate-sources</phase> <goals> <goal>git-changelog</goal> </goals> 
+						<configuration> <useIntegrations>true</useIntegrations> <gitLabEnabled>true</gitLabEnabled> 
+						<gitLabServer>https://gitlab.com/</gitLabServer> <gitLabToken>${GITLAB_TOKEN}</gitLabToken> 
+						<gitLabProjectName>tomas.bjerre85/violations-test</gitLabProjectName> <templateFile>changelog.mustache</templateFile> 
+						<readableTagName>-([^-]+?)$</readableTagName> <file>CHANGELOG_gitlab.md</file> 
+						</configuration> </execution // -->
 
 
 					<!-- Template from file and Jira titles in issues // -->
@@ -188,10 +179,8 @@ Changelog of Git Changelog Maven plugin.
 						<configuration>
 							<!-- useIntegrations>true</useIntegrations -->
 							<!-- <jiraEnabled>true</jiraEnabled> -->
-							<!--jiraUsername>${JIRA_USERNAME}</jiraUsername>
-							<jiraPassword>${JIRA_PASSWORD}</jiraPassword>
-							<jiraIssuePattern>\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\b</jiraIssuePattern>
-							<jiraServer>https://yourJiraServer.com/jira</jiraServer//-->
+							<!--jiraUsername>${JIRA_USERNAME}</jiraUsername> <jiraPassword>${JIRA_PASSWORD}</jiraPassword> 
+								<jiraIssuePattern>\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\b</jiraIssuePattern> <jiraServer>https://yourJiraServer.com/jira</jiraServer// -->
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
 							<file>CHANGELOG_jira.md</file>

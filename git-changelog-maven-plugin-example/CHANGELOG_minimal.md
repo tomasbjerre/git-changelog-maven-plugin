@@ -2,16 +2,49 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.92.2 (2022-09-24)
+
+### Bug Fixes
+
+-  scope of maven-plugin-api ([6ade6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6ade639042bbf3c) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.92.2**
+
+
+[f3d49](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f3d494f6fd43791) Tomas Bjerre *2022-09-24 13:37:58*
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.92.2**
+
+
+[9f3cd](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9f3cdc59e80e8b9) Tomas Bjerre *2022-09-24 13:32:15*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[d952e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d952e3799d53cfb) Tomas Bjerre *2022-09-24 13:08:55*
+
+
+## git-changelog-maven-plugin-1.92.1 (2022-09-24)
+
+### Bug Fixes
+
+-  stepping library version ([0f186](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f186ce309e6b4d) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[69b1a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/69b1aa0109bddd8) Tomas Bjerre *2022-04-03 10:27:26*
+
+
 ## git-changelog-maven-plugin-1.92 (2022-04-03)
-
-
-
-
 
 ### Bug Fixes
 
 -  npe ([a59bf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a59bfa7ad4215d4) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -28,14 +61,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.91 (2022-04-03)
 
-
-
 ### Features
 
 -  new variable urlParts ([79a02](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/79a02f9814bff36) Tomas Bjerre)  
-
-
-
 
 ### Other changes
 
@@ -52,14 +80,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.90 (2022-03-31)
 
-
-
 ### Features
 
 -  prependToFile ([f6e76](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f6e7642a26fa114) Tomas Bjerre)  [#41](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/41)  
-
-
-
 
 ### Other changes
 
@@ -76,14 +99,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.89 (2022-03-26)
 
-
-
-
-
 ### Bug Fixes
 
 -  include first commit ([41b8d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/41b8d946144c3f8) Tomas Bjerre)  [#40](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/40)  
-
 
 ### Other changes
 
@@ -100,14 +118,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.88 (2022-01-20)
 
-
-
-
-
 ### Bug Fixes
 
 -  parsing scopes ([2c8ad](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2c8ad2e4a516307) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -124,14 +137,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.87 (2022-01-17)
 
-
-
-
-
 ### Bug Fixes
 
 -  match first semantic combination ([63b79](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/63b79929030122d) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -148,12 +156,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.86 (2022-01-16)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.86**
@@ -169,14 +171,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.85 (2022-01-16)
 
-
-
-
-
 ### Bug Fixes
 
 -  disable integrations with a boolean useIntegrations ([07c1e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/07c1e5b9f12b28d) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -193,14 +190,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.84 (2022-01-05)
 
-
-
-
-
 ### Bug Fixes
 
 -  only parse enabled issues ([2f8b5](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2f8b52acc8009b5) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -216,12 +208,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.83 (2021-12-30)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -249,14 +235,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.82 (2021-12-12)
 
-
-
 ### Features
 
 -  handlebarsHelperFile ([de8f2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/de8f292ea0c51df) Tomas Bjerre)  
-
-
-
 
 ### Other changes
 
@@ -272,12 +253,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.81 (2021-12-03)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -305,14 +280,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.80 (2021-11-27)
 
-
-
 ### Features
 
 -  Add support for including partials in mustache templates ([979ec](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/979ec1134be3078) chme)  
-
-
-
 
 ### Other changes
 
@@ -335,14 +305,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.79 (2021-11-16)
 
-
-
 ### Features
 
 -  Redmine Support ([78930](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/78930887dfe236c) Hakan Uygun)  
-
-
-
 
 ### Other changes
 
@@ -370,14 +335,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.78 (2021-06-17)
 
-
-
-
-
 ### Bug Fixes
 
 -  read template from file ([f9f68](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f9f68c745652f43) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -394,14 +354,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.77 (2021-06-11)
 
-
-
-
-
 ### Bug Fixes
 
 -  adding default changelog template jenkinsci/git-changelog-plugin#58 ([8abd8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8abd8acb2f17875) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -418,14 +373,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.76 (2021-06-09)
 
-
-
-
-
 ### Bug Fixes
 
 -  semantic version stepping ([6d0a9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6d0a92ed2dac5e2) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -442,14 +392,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.75 (2021-06-09)
 
-
-
-
-
 ### Bug Fixes
 
 -  NPE when given file has no parent ([64564](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/64564290a37b5b6) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -466,17 +411,13 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.74 (2021-06-09)
 
-
-
 ### Features
 
 -  subString and ifMatches helpers ([d3fb0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d3fb0749dc377f7) Tomas Bjerre)  
 
-
 ### Bug Fixes
 
 -  when file was in a new folder, it created folder ([cf71f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cf71f3bc966a95c) Tomas Bjerre)  
-
 
 ### Other changes
 
@@ -493,14 +434,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.73 (2021-06-02)
 
-
-
 ### Features
 
 -  regexp in ifCommitType and ifCommitScope ([27665](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/27665d7653a8e09) Tomas Bjerre)  
-
-
-
 
 ### Other changes
 
@@ -517,12 +453,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.72 (2021-05-27)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.72**
@@ -537,12 +467,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.71 (2021-05-27)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -559,14 +483,9 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.70 (2021-05-27)
 
-
-
 ### Features
 
 -  support conventional commits ([d5400](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d5400912ff9fdbb) Tomas Bjerre)  
-
-
-
 
 ### Other changes
 
@@ -599,12 +518,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.69 (2021-04-13)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.69**
@@ -636,12 +549,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.68 (2021-03-29)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.68**
@@ -662,12 +569,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.67 (2021-01-18)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.67**
@@ -682,12 +583,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.66 (2021-01-18)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -713,12 +608,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.65 (2021-01-16)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -750,12 +639,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.64 (2020-12-14)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.64**
@@ -775,12 +658,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.63 (2020-11-18)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -813,12 +690,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.62 (2020-08-05)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.62**
@@ -850,12 +721,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.61 (2019-12-12)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.61**
@@ -880,12 +745,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.60 (2019-06-11)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -912,12 +771,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.59 (2019-01-08)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.59**
@@ -937,12 +790,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.58 (2018-10-27)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -964,12 +811,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.57 (2018-10-27)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.57**
@@ -989,12 +830,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.56 (2018-10-27)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1031,12 +866,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.55 (2018-09-13)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.55**
@@ -1063,12 +892,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.54 (2017-12-30)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.54**
@@ -1083,12 +906,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.53 (2017-12-30)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1115,12 +932,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.52 (2017-12-19)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.52**
@@ -1145,12 +956,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.51 (2017-12-19)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1182,12 +987,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.50 (2017-11-18)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.50**
@@ -1218,12 +1017,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.49 (2017-07-25)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.49**
@@ -1248,12 +1041,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.48 (2017-07-24)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1280,12 +1067,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.47 (2017-07-12)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.47**
@@ -1305,12 +1086,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.46 (2017-07-12)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1337,12 +1112,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.45 (2017-07-08)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.45**
@@ -1367,12 +1136,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.44 (2017-04-14)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1399,12 +1162,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.43 (2017-03-26)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.43**
@@ -1430,12 +1187,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.42 (2017-03-20)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.42**
@@ -1460,12 +1211,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.41 (2017-03-18)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1493,12 +1238,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.40 (2017-03-01)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1529,12 +1268,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.39 (2017-01-31)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1573,12 +1306,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.38 (2016-10-22)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.38**
@@ -1603,12 +1330,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.37 (2016-10-05)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1635,12 +1356,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.36 (2016-08-11)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.36**
@@ -1665,12 +1380,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.35 (2016-08-02)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1697,12 +1406,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.34 (2016-06-25)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.34**
@@ -1727,12 +1430,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.33 (2016-06-24)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1759,12 +1456,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.32 (2016-06-24)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.32**
@@ -1789,12 +1480,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.31 (2016-06-02)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1821,12 +1506,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.30 (2016-05-20)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.30**
@@ -1851,12 +1530,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.29 (2016-04-13)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1883,12 +1556,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.28 (2016-04-12)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.28**
@@ -1914,12 +1581,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.27 (2016-04-10)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.27**
@@ -1939,12 +1600,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.26 (2016-04-10)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -1971,12 +1626,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.25 (2016-04-09)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.25**
@@ -2001,12 +1650,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.24 (2016-04-07)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2033,12 +1676,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.23 (2016-03-20)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.23**
@@ -2063,12 +1700,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.22 (2016-03-20)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2095,12 +1726,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.21 (2016-03-16)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.21**
@@ -2125,12 +1750,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.20 (2016-03-15)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2161,12 +1780,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.19 (2016-02-20)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2203,12 +1816,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.18 (2016-02-14)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.18**
@@ -2228,12 +1835,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.17 (2016-02-14)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2259,12 +1860,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.16 (2016-02-13)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2292,12 +1887,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.15 (2016-02-10)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.15**
@@ -2322,12 +1911,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.14 (2016-02-09)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2365,12 +1948,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.13 (2016-01-31)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.13**
@@ -2398,12 +1975,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.12 (2016-01-31)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2434,12 +2005,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.11 (2016-01-31)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2476,12 +2041,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.10 (2015-12-20)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.10**
@@ -2506,12 +2065,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.9 (2015-12-06)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2538,12 +2091,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.8 (2015-12-04)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.8**
@@ -2563,12 +2110,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.7 (2015-12-01)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2595,12 +2136,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.6 (2015-11-23)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.6**
@@ -2626,12 +2161,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.5 (2015-11-23)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.5**
@@ -2652,12 +2181,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.4 (2015-11-21)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.4**
@@ -2677,12 +2200,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.3 (2015-11-20)
-
-
-
-
-
-
 
 ### Other changes
 
@@ -2709,12 +2226,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.2 (2015-11-18)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.2**
@@ -2740,12 +2251,6 @@ Changelog of git-changelog-maven-plugin.
 
 ## git-changelog-maven-plugin-1.1 (2015-11-17)
 
-
-
-
-
-
-
 ### Other changes
 
 **[maven-release-plugin] prepare release git-changelog-maven-plugin-1.1**
@@ -2770,12 +2275,6 @@ Changelog of git-changelog-maven-plugin.
 
 
 ## git-changelog-maven-plugin-1.0 (2015-11-15)
-
-
-
-
-
-
 
 ### Other changes
 

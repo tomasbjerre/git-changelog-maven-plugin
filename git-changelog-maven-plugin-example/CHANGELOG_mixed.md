@@ -4,6 +4,30 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
+   feat: enable updating version in pom based on conventional commits *09:53:19*
+
+   chore: updating changelog *13:38:39*
+
+
+
+## 1.92.2
+### These commits have not issue in their commit comment
+   chore: setting version 1.92.2-SNAPSHOT *13:37:50*
+
+   fix: scope of maven-plugin-api *13:24:04*
+
+
+
+## 1.92.1
+### These commits have not issue in their commit comment
+   chore: setting version 1.92.1-SNAPSHOT *13:08:37*
+
+   chore: Maven Wrapper *13:01:40*
+
+   fix: stepping library version *12:59:38*
+
+   docs: mentioning inherited in README (refs #44) *12:39:21*
+
    fix: npe *10:26:18*
 
    feat: new variable urlParts *10:18:24*

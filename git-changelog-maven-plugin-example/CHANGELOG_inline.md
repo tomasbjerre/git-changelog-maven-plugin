@@ -5,7 +5,63 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[ff1d3748d87d4e9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ff1d3748d87d4e9) Tomas Bjerre *2022-04-03 10:26:40*
+[0f849cb7d7597c6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f849cb7d7597c6) Tomas Bjerre *2022-09-25 09:53:19*
+
+feat: enable updating version in pom based on conventional commits
+
+[9a6f68a7468860f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9a6f68a7468860f) Tomas Bjerre *2022-09-24 13:38:39*
+
+chore: updating changelog
+
+[9e04872728fdca0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9e04872728fdca0) Tomas Bjerre *2022-09-24 13:38:02*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.92.2
+### No issue
+
+[f3d494f6fd43791](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f3d494f6fd43791) Tomas Bjerre *2022-09-24 13:37:58*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.92.2
+
+[09e42afcf65fb8e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/09e42afcf65fb8e) Tomas Bjerre *2022-09-24 13:37:50*
+
+chore: setting version 1.92.2-SNAPSHOT
+
+[9f3cdc59e80e8b9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9f3cdc59e80e8b9) Tomas Bjerre *2022-09-24 13:32:15*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.92.2
+
+[6ade639042bbf3c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6ade639042bbf3c) Tomas Bjerre *2022-09-24 13:24:04*
+
+fix: scope of maven-plugin-api
+
+[d952e3799d53cfb](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d952e3799d53cfb) Tomas Bjerre *2022-09-24 13:08:55*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.92.1
+### No issue
+
+[06330bbbcb8cea2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/06330bbbcb8cea2) Tomas Bjerre *2022-09-24 13:08:37*
+
+chore: setting version 1.92.1-SNAPSHOT
+
+[3bc8a7b23990f8a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3bc8a7b23990f8a) Tomas Bjerre *2022-09-24 13:01:40*
+
+chore: Maven Wrapper
+
+[0f186ce309e6b4d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f186ce309e6b4d) Tomas Bjerre *2022-09-24 12:59:38*
+
+fix: stepping library version
+
+[623b0dc4cc47ec1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/623b0dc4cc47ec1) Tomas Bjerre *2022-09-24 12:39:21*
+
+docs: mentioning inherited in README (refs #44)
+
+[69b1aa0109bddd8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/69b1aa0109bddd8) Tomas Bjerre *2022-04-03 10:27:26*
 
 [maven-release-plugin] prepare for next development iteration
 
