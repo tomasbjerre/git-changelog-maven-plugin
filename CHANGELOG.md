@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.95.0 (2022-10-09)
+
+### Features
+
+-  moving semantic versioning to its own mojo ([75019](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7501963b8765d93) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.94.0 (2022-09-25)
 
 ### Features
