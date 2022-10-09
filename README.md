@@ -185,20 +185,40 @@ Have a look at the [pom.xml](/git-changelog-maven-plugin-example/pom.xml) where 
 
 The version in `pom.xml` can be automatically updated based on [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+From command line:
+
+```sh
+mvn se.bjurr.gitchangelog:git-changelog-maven-plugin:VERSION_HERE:semantic-version
+```
+
+Or in `pom.xml`:
+
 ```xml
-<configuration>
-	<!-- Skip changelog generation //-->
-	<skip>true</skip>
+  <build>
+    <plugins>
+     <plugin>
+      <groupId>se.bjurr.gitchangelog</groupId>
+      <artifactId>git-changelog-maven-plugin</artifactId>
+      <version>${changelog}</version>
+      <executions>
+       <execution>
+        <id>GenerateGitChangelog</id>
+        <phase>generate-sources</phase>
+        <goals>
+         <goal>semantic-version</goal>
+        </goals>
+        <configuration>
+          <!-- Suffix version with -SNAPSHOT //-->
+          <updatePomWithNextSemanticVersionSuffixSnapshot>true</updatePomWithNextSemanticVersionSuffixSnapshot>
 
-	<!-- Update the <version> tag //-->
-	<updatePomWithNextSemanticVersion>true</updatePomWithNextSemanticVersion>
-
-	<!-- Suffix version with -SNAPSHOT //-->
-	<updatePomWithNextSemanticVersionSuffixSnapshot>true</updatePomWithNextSemanticVersionSuffixSnapshot>
-
-	<!-- Regexp patterns used to identify next version can optionally be adjusted //-->
-	<semanticMajorVersionPattern>^[Bb]reaking</semanticMajorVersionPattern>
-	<semanticMinorVersionPattern>[Ff]eature</semanticMinorVersionPattern>
-	<semanticPatchVersionPattern>[Ff]ix</semanticPatchVersionPattern>
-</configuration>
+          <!-- Regexp patterns used to identify next version can optionally be adjusted //-->
+          <semanticMajorVersionPattern>^[Bb]reaking</semanticMajorVersionPattern>
+          <semanticMinorVersionPattern>[Ff]eature</semanticMinorVersionPattern>
+          <semanticPatchVersionPattern>[Ff]ix</semanticPatchVersionPattern>
+        </configuration>
+       </execution>
+      </executions>
+     </plugin>
+    </plugins>
+  </build>
 ```

@@ -2,6 +2,25 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## 1.94.0 (2022-09-25)
+
+### Features
+
+-  optional custom patterns for conventional commits ([5d522](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5d5222ae4ce034f) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.94.0**
+
+
+[4caa8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4caa819ae18f3c6) Tomas Bjerre *2022-09-25 13:57:23*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[0f8f1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f8f152636abed4) Tomas Bjerre *2022-09-25 13:25:40*
+
+
 ## 1.93.0 (2022-09-25)
 
 ### Features

@@ -5,6 +5,30 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
+[85e5a1a9dc15958](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/85e5a1a9dc15958) Tomas Bjerre *2022-09-25 13:57:51*
+
+chore: updating changelog
+
+[234a390d1f40605](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/234a390d1f40605) Tomas Bjerre *2022-09-25 13:57:28*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.94.0
+### No issue
+
+[4caa819ae18f3c6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4caa819ae18f3c6) Tomas Bjerre *2022-09-25 13:57:23*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.94.0
+
+[c06ae415aa3c5f0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c06ae415aa3c5f0) Tomas Bjerre *2022-09-25 13:57:13*
+
+chore: setting version 1.94.0-SNAPSHOT
+
+[5d5222ae4ce034f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5d5222ae4ce034f) Tomas Bjerre *2022-09-25 13:56:52*
+
+feat: optional custom patterns for conventional commits
+
 [443355dd3420145](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/443355dd3420145) Tomas Bjerre *2022-09-25 13:26:11*
 
 chore: updating changelog

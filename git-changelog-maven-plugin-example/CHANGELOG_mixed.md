@@ -4,6 +4,16 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
+   chore: updating changelog *13:57:51*
+
+
+
+## 1.94.0
+### These commits have not issue in their commit comment
+   chore: setting version 1.94.0-SNAPSHOT *13:57:13*
+
+   feat: optional custom patterns for conventional commits *13:56:52*
+
    chore: updating changelog *13:26:11*
 
 

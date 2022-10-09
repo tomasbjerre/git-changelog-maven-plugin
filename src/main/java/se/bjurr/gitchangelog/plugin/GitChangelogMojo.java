@@ -11,21 +11,15 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import org.apache.maven.model.Model;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
-import org.apache.maven.plugins.annotations.Component;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
-import org.apache.maven.project.MavenProject;
 import se.bjurr.gitchangelog.api.GitChangelogApi;
-import se.bjurr.gitchangelog.internal.semantic.SemanticVersion;
 
 @Mojo(name = "git-changelog", defaultPhase = PROCESS_SOURCES, threadSafe = true)
 public class GitChangelogMojo extends AbstractMojo {
   private static final String DEFAULT_FILE = "CHANGELOG.md";
-
-  @Component private MavenProject project;
 
   @Parameter(property = "toRef", required = false)
   private String toRef;
@@ -182,61 +176,8 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "prependToFile", required = false)
   public Boolean prependToFile;
 
-  @Parameter(
-      property = "updatePomWithNextSemanticVersion",
-      required = false,
-      defaultValue = "false")
-  private boolean updatePomWithNextSemanticVersion;
-
-  @Parameter(
-      property = "updatePomWithNextSemanticVersionSuffixSnapshot",
-      required = false,
-      defaultValue = "true")
-  private boolean updatePomWithNextSemanticVersionSuffixSnapshot;
-
-  @Parameter(property = "semanticMajorVersionPattern", required = false)
-  private String semanticMajorVersionPattern;
-
-  @Parameter(property = "semanticMinorVersionPattern", required = false)
-  private String semanticMinorVersionPattern;
-
-  @Parameter(property = "semanticPatchVersionPattern", required = false)
-  private String semanticPatchVersionPattern;
-
   @Override
   public void execute() throws MojoExecutionException {
-    if (this.updatePomWithNextSemanticVersion) {
-      try {
-        final GitChangelogApi gitChangelogApiBuilder = gitChangelogApiBuilder();
-        if (this.isSupplied(this.semanticMajorVersionPattern)) {
-          gitChangelogApiBuilder.withSemanticMajorVersionPattern(this.semanticMajorVersionPattern);
-        }
-        if (this.isSupplied(this.semanticMinorVersionPattern)) {
-          gitChangelogApiBuilder.withSemanticMinorVersionPattern(this.semanticMinorVersionPattern);
-        }
-        if (this.isSupplied(this.semanticPatchVersionPattern)) {
-          gitChangelogApiBuilder.withSemanticPatchVersionPattern(this.semanticPatchVersionPattern);
-        }
-        final SemanticVersion nextSemanticVersion = gitChangelogApiBuilder.getNextSemanticVersion();
-        final String nextVersion =
-            this.updatePomWithNextSemanticVersionSuffixSnapshot
-                ? nextSemanticVersion.getVersion() + "-SNAPSHOT"
-                : nextSemanticVersion.getVersion();
-
-        final Model model = this.project.getModel();
-        final String versionOrig = model.getVersion();
-        final File pomFile = this.project.getFile();
-        this.getLog()
-            .info("Setting version to " + nextVersion + " was (" + versionOrig + ") in " + pomFile);
-        // Change version during build
-        model.setVersion(nextVersion);
-
-        // Change version in file
-        new XmlModifier(pomFile).setVersion(nextVersion);
-      } catch (final Exception e) {
-        throw new MojoExecutionException(e.getMessage(), e);
-      }
-    }
     if (this.skip != null && this.skip == true) {
       this.getLog().info("Skipping changelog generation");
       return;

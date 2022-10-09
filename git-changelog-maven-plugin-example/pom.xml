@@ -3,12 +3,12 @@
 	<groupId>se.bjurr.gitchangelog</groupId>
 	<artifactId>git-changelog-maven-plugin-example</artifactId>
 	<name>git-changelog-maven-plugin-example</name>
-	<version>1.93.1-SNAPSHOT</version>
+	<version>1.94.1-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<changelog.version>1.93.1-SNAPSHOT</changelog.version>
+		<changelog.version>1.94.1-SNAPSHOT</changelog.version>
 	</properties>
 	<build>
 		<plugins>
@@ -448,17 +448,6 @@ Handlebars.registerHelper('firstLetters', function(from, options) {
 {{/commits}}
 ]]>
 							</templateContent>
-						</configuration>
-					</execution>
-					<execution>
-						<id>UpdateVersionInPom</id>
-						<phase>generate-sources</phase>
-						<goals>
-							<goal>git-changelog</goal>
-						</goals>
-						<configuration>
-							<skip>true</skip>
-							<updatePomWithNextSemanticVersion>true</updatePomWithNextSemanticVersion>
 						</configuration>
 					</execution>
 				</executions>

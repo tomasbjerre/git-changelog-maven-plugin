@@ -10,6 +10,20 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.94.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.94.0
+
+   chore: setting version 1.94.0-SNAPSHOT
+
+   feat: optional custom patterns for conventional commits
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.93.0
 ### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.93.0
