@@ -191,6 +191,14 @@ From command line:
 mvn se.bjurr.gitchangelog:git-changelog-maven-plugin:VERSION_HERE:semantic-version
 ```
 
+You can combine it with maven release plugin like this:
+
+```sh
+mvn \
+  se.bjurr.gitchangelog:git-changelog-maven-plugin:VERSION_HERE:semantic-version \
+  release:prepare release:perform
+```
+
 Or in `pom.xml`:
 
 ```xml
