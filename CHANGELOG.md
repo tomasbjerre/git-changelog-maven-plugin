@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.95.3 (2022-12-03)
+
+### Bug Fixes
+
+-  let semantic tag have priority if several tags on same commit ([ba86c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ba86c4e74e88a4c) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.95.2 (2022-10-09)
 
 ### Bug Fixes
