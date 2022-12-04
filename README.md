@@ -1,13 +1,12 @@
 # Git Changelog Maven Plugin
 
-[![Build Status](https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin.svg?branch=master)](https://travis-ci.org/tomasbjerre/git-changelog-maven-plugin)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/se.bjurr.gitchangelog/git-changelog-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/se.bjurr.gitchangelog/git-changelog-maven-plugin)
 
 This is a Maven plugin for [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib).
 
 ## Usage
 
-There is a running example [here](/git-changelog-maven-plugin-example).
+There is a running example [here](/git-changelog-maven-plugin-example). See also [bjurr-bom](https://github.com/tomasbjerre/bjurr-bom).
 
 Have a look at the [pom.xml](/git-changelog-maven-plugin-example/pom.xml) where you will find some more examples.
 
@@ -30,7 +29,8 @@ Here is and example that will generate a CHANGELOG.md when running `mvn generate
         <configuration>
          <templateContent>
          <![CDATA[
-          Template here!
+          Optional template here!
+          Context documented here: https://github.com/tomasbjerre/git-changelog-lib
          ]]>
          </templateContent>
         </configuration>
