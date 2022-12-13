@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.95.4 (2022-12-13)
+
+### Bug Fixes
+
+-  stepping git changelog lib ([d4dc9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d4dc962099f0b56) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.95.3 (2022-12-03)
 
 ### Bug Fixes
