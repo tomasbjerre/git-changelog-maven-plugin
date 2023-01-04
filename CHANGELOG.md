@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.95.5 (2023-01-04)
+
+### Bug Fixes
+
+-  allow space before : in commit message ([4a2c0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4a2c002c22dbd2a) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.95.4 (2022-12-13)
 
 ### Bug Fixes
