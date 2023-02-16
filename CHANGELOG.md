@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.95.6 (2023-02-16)
+
+### Bug Fixes
+
+-  parsing newest commits first ([051d7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/051d7e511bac732) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.95.5 (2023-01-04)
 
 ### Bug Fixes
