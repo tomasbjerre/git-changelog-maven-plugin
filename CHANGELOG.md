@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.96.0 (2023-02-28)
+
+### Features
+
+-  add ignoreTagsIfNameMatches to semantic-version ([db6e9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/db6e952ea756f53) Tomas Bjerre)  [#49](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/49)  
+
 ## git-changelog-maven-plugin-1.95.6 (2023-02-16)
 
 ### Bug Fixes
