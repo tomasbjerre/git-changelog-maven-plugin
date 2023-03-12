@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.96.1 (2023-03-12)
+
+### Bug Fixes
+
+-  avoiding stuck execution ([8e60e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8e60e4c1678d6e7) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.96.0 (2023-02-28)
 
 ### Features
