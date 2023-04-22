@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.97.0 (2023-04-22)
+
+### Features
+
+-  stringHelpers ([f1afc](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f1afc9f4132c5cb) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.96.1 (2023-03-12)
 
 ### Bug Fixes
