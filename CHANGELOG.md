@@ -2,6 +2,36 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.97.1 (2023-07-09)
+
+### Other changes
+
+**Merge pull request #50 from isaacsanders/patch-1**
+
+* Update pom.xml 
+
+[b9f00](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b9f00fc987463e0) Tomas Bjerre *2023-07-09 14:13:22*
+
+**Update pom.xml**
+
+* I was getting the following warnings: 
+* &#x60;&#x60;&#x60; 
+* [WARNING] 
+* [WARNING] Plugin validation issues were detected in 4 plugin(s) 
+* [WARNING] 
+* [WARNING]  * se.bjurr.gitchangelog:git-changelog-maven-plugin:1.97.0 
+* [WARNING]   Declared at location(s): 
+* [WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml) @ line 296 
+* [WARNING]   Used in module(s): 
+* [WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml) 
+* [WARNING]   Plugin issue(s): 
+* [WARNING]    * Plugin should declare these Maven artifacts in &#x60;provided&#x60; scope: [org.apache.maven:maven-core:3.6.0, org.apache.maven:maven-model-builder:3.6.0, org.apache.maven:maven-model:3.6.0, org.apache.maven:maven-builder-support:3.6.0, org.apache.maven:maven-settings:3.6.0, org.apache.maven:maven-resolver-provider:3.6.0, org.apache.maven:maven-settings-builder:3.6.0, org.apache.maven:maven-repository-metadata:3.6.0, org.apache.maven:maven-artifact:3.6.0] 
+* &#x60;&#x60;&#x60; 
+* Hopefully this is an acceptable way to resolve them. 
+
+[ba88f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ba88f248a9c6223) Isaac Sanders *2023-07-06 21:48:50*
+
+
 ## git-changelog-maven-plugin-1.97.0 (2023-04-22)
 
 ### Features
