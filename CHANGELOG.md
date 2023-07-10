@@ -21,9 +21,9 @@ Changelog of git-changelog-maven-plugin.
 * [WARNING] 
 * [WARNING]  * se.bjurr.gitchangelog:git-changelog-maven-plugin:1.97.0 
 * [WARNING]   Declared at location(s): 
-* [WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml) @ line 296 
+* [WARNING]    * com.foo:myproject:0.0.14-SNAPSHOT (pom.xml) @ line 296 
 * [WARNING]   Used in module(s): 
-* [WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml) 
+* [WARNING]    * com.foo:myproject:0.0.14-SNAPSHOT (pom.xml) 
 * [WARNING]   Plugin issue(s): 
 * [WARNING]    * Plugin should declare these Maven artifacts in &#x60;provided&#x60; scope: [org.apache.maven:maven-core:3.6.0, org.apache.maven:maven-model-builder:3.6.0, org.apache.maven:maven-model:3.6.0, org.apache.maven:maven-builder-support:3.6.0, org.apache.maven:maven-settings:3.6.0, org.apache.maven:maven-resolver-provider:3.6.0, org.apache.maven:maven-settings-builder:3.6.0, org.apache.maven:maven-repository-metadata:3.6.0, org.apache.maven:maven-artifact:3.6.0] 
 * &#x60;&#x60;&#x60; 
