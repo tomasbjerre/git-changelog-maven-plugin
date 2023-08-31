@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.98.2 (2023-08-31)
+
+### Bug Fixes
+
+-  correcting mapping of toRevision ([47b65](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/47b65332d4eb7e0) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.98.1 (2023-08-31)
 
 ## git-changelog-maven-plugin-1.98.0 (2023-08-31)
