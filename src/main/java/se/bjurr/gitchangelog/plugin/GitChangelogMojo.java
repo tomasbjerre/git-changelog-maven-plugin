@@ -37,12 +37,12 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "toRevisionStrategy", required = false, defaultValue = "DEFAULT")
   public InclusivenessStrategy toRevisionStrategy;
 
-  /** {@link Deprecated} use toRevision */
+  /** {@link Deprecated} use fromRevision */
   @Deprecated
   @Parameter(property = "fromRef", required = false)
   private String fromRef;
 
-  /** {@link Deprecated} use toRevision */
+  /** {@link Deprecated} use fromRevision */
   @Deprecated
   @Parameter(property = "fromCommit", required = false)
   private String fromCommit;
@@ -267,7 +267,7 @@ public class GitChangelogMojo extends AbstractMojo {
         builder.withToRef(this.toRef);
       }
       if (this.isSupplied(this.toRevision)) {
-        builder.withFromRevision(this.toRevision, this.toRevisionStrategy);
+        builder.withToRevision(this.toRevision, this.toRevisionStrategy);
       }
 
       if (this.isSupplied(this.ignoreTagsIfNameMatches)) {
