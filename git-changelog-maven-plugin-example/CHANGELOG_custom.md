@@ -10,6 +10,165 @@ Changelog of Git Changelog Maven plugin.
 
 
 
+## git-changelog-maven-plugin-1.97.1
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.97.1
+
+   Merge pull request #50 from isaacsanders/patch-1
+
+Update pom.xml
+
+   Update pom.xml
+
+I was getting the following warnings:
+
+```
+[WARNING]
+[WARNING] Plugin validation issues were detected in 4 plugin(s)
+[WARNING]
+[WARNING]  * se.bjurr.gitchangelog:git-changelog-maven-plugin:1.97.0
+[WARNING]   Declared at location(s):
+[WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml) @ line 296
+[WARNING]   Used in module(s):
+[WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml)
+[WARNING]   Plugin issue(s):
+[WARNING]    * Plugin should declare these Maven artifacts in `provided` scope: [org.apache.maven:maven-core:3.6.0, org.apache.maven:maven-model-builder:3.6.0, org.apache.maven:maven-model:3.6.0, org.apache.maven:maven-builder-support:3.6.0, org.apache.maven:maven-settings:3.6.0, org.apache.maven:maven-resolver-provider:3.6.0, org.apache.maven:maven-settings-builder:3.6.0, org.apache.maven:maven-repository-metadata:3.6.0, org.apache.maven:maven-artifact:3.6.0]
+```
+
+Hopefully this is an acceptable way to resolve them.
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.97.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.97.0
+
+   feat: stringHelpers
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.96.1
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.96.1
+
+   fix: avoiding stuck execution
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.96.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.96.0
+
+   feat: add ignoreTagsIfNameMatches to semantic-version (refs #49)
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.95.6
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.6
+
+   fix: parsing newest commits first
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.95.5
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.5
+
+   fix: allow space before : in commit message
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.95.4
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.4
+
+   fix: stepping git changelog lib
+
+   docs: updating readme
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.95.3
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.3
+
+   fix: let semantic tag have priority if several tags on same commit
+
+   docs: readme
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.95.2
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.2
+
+   fix: updating release script
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.95.1
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.1
+
+   fix: updating release script
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.95.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.0
+
+   chore: setting version 1.95.0-SNAPSHOT
+
+   feat: moving semantic versioning to its own mojo
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
 ## git-changelog-maven-plugin-1.94.0
 ### No issue / 
    [maven-release-plugin] prepare release git-changelog-maven-plugin-1.94.0

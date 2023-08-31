@@ -16,22 +16,42 @@ import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 import se.bjurr.gitchangelog.api.GitChangelogApi;
+import se.bjurr.gitchangelog.api.InclusivenessStrategy;
 
 @Mojo(name = "git-changelog", defaultPhase = PROCESS_SOURCES, threadSafe = true)
 public class GitChangelogMojo extends AbstractMojo {
   private static final String DEFAULT_FILE = "CHANGELOG.md";
 
+  /** {@link Deprecated} use toRevision */
+  @Deprecated
   @Parameter(property = "toRef", required = false)
   private String toRef;
-
+  /** {@link Deprecated} use toRevision */
+  @Deprecated
   @Parameter(property = "toCommit", required = false)
   private String toCommit;
 
+  @Parameter(property = "toRevision", required = false)
+  public String toRevision;
+
+  @Parameter(property = "toRevisionStrategy", required = false, defaultValue = "DEFAULT")
+  public InclusivenessStrategy toRevisionStrategy;
+
+  /** {@link Deprecated} use toRevision */
+  @Deprecated
   @Parameter(property = "fromRef", required = false)
   private String fromRef;
 
+  /** {@link Deprecated} use toRevision */
+  @Deprecated
   @Parameter(property = "fromCommit", required = false)
   private String fromCommit;
+
+  @Parameter(property = "fromRevision", required = false)
+  public String fromRevision;
+
+  @Parameter(property = "fromRevisionStrategy", required = false, defaultValue = "DEFAULT")
+  public InclusivenessStrategy fromRevisionStrategy;
 
   @Parameter(property = "settingsFile", required = false)
   private String settingsFile;
@@ -219,10 +239,6 @@ public class GitChangelogMojo extends AbstractMojo {
         builder.withExtendedHeaders(this.extendedHeaders);
       }
 
-      if (this.isSupplied(this.toRef)) {
-        builder.withToRef(this.toRef);
-      }
-
       if (this.isSupplied(this.templateFile)) {
         builder.withTemplatePath(this.templateFile);
       }
@@ -241,8 +257,17 @@ public class GitChangelogMojo extends AbstractMojo {
       if (this.isSupplied(this.fromRef)) {
         builder.withFromRef(this.fromRef);
       }
+      if (this.isSupplied(this.fromRevision)) {
+        builder.withFromRevision(this.fromRevision, this.fromRevisionStrategy);
+      }
       if (this.isSupplied(this.toCommit)) {
         builder.withToCommit(this.toCommit);
+      }
+      if (this.isSupplied(this.toRef)) {
+        builder.withToRef(this.toRef);
+      }
+      if (this.isSupplied(this.toRevision)) {
+        builder.withFromRevision(this.toRevision, this.toRevisionStrategy);
       }
 
       if (this.isSupplied(this.ignoreTagsIfNameMatches)) {

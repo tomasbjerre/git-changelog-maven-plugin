@@ -4,6 +4,90 @@ Changelog of git-changelog-maven-plugin.
 
 ## Next release ()
 
+## 1.97.1 (2023-07-09)
+
+### Other changes
+
+**Update pom.xml**
+
+* I was getting the following warnings: 
+* &#x60;&#x60;&#x60; 
+* [WARNING] 
+* [WARNING] Plugin validation issues were detected in 4 plugin(s) 
+* [WARNING] 
+* [WARNING]  * se.bjurr.gitchangelog:git-changelog-maven-plugin:1.97.0 
+* [WARNING]   Declared at location(s): 
+* [WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml) @ line 296 
+* [WARNING]   Used in module(s): 
+* [WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml) 
+* [WARNING]   Plugin issue(s): 
+* [WARNING]    * Plugin should declare these Maven artifacts in &#x60;provided&#x60; scope: [org.apache.maven:maven-core:3.6.0, org.apache.maven:maven-model-builder:3.6.0, org.apache.maven:maven-model:3.6.0, org.apache.maven:maven-builder-support:3.6.0, org.apache.maven:maven-settings:3.6.0, org.apache.maven:maven-resolver-provider:3.6.0, org.apache.maven:maven-settings-builder:3.6.0, org.apache.maven:maven-repository-metadata:3.6.0, org.apache.maven:maven-artifact:3.6.0] 
+* &#x60;&#x60;&#x60; 
+* Hopefully this is an acceptable way to resolve them. 
+
+[ba88f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ba88f248a9c6223) Isaac Sanders *2023-07-06 21:48:50*
+
+
+## 1.97.0 (2023-04-22)
+
+### Features
+
+-  stringHelpers ([f1afc](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f1afc9f4132c5cb) Tomas Bjerre)  
+
+## 1.96.1 (2023-03-12)
+
+### Bug Fixes
+
+-  avoiding stuck execution ([8e60e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8e60e4c1678d6e7) Tomas Bjerre)  
+
+## 1.96.0 (2023-02-28)
+
+### Features
+
+-  add ignoreTagsIfNameMatches to semantic-version ([db6e9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/db6e952ea756f53) Tomas Bjerre)  [#49](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/49)  
+
+## 1.95.6 (2023-02-16)
+
+### Bug Fixes
+
+-  parsing newest commits first ([051d7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/051d7e511bac732) Tomas Bjerre)  
+
+## 1.95.5 (2023-01-04)
+
+### Bug Fixes
+
+-  allow space before : in commit message ([4a2c0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4a2c002c22dbd2a) Tomas Bjerre)  
+
+## 1.95.4 (2022-12-13)
+
+### Bug Fixes
+
+-  stepping git changelog lib ([d4dc9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d4dc962099f0b56) Tomas Bjerre)  
+
+## 1.95.3 (2022-12-03)
+
+### Bug Fixes
+
+-  let semantic tag have priority if several tags on same commit ([ba86c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ba86c4e74e88a4c) Tomas Bjerre)  
+
+## 1.95.2 (2022-10-09)
+
+### Bug Fixes
+
+-  updating release script ([ad7a4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ad7a436d2ffafc9) Tomas Bjerre)  
+
+## 1.95.1 (2022-10-09)
+
+### Bug Fixes
+
+-  updating release script ([afbe3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/afbe38a1ee502d8) Tomas Bjerre)  
+
+## 1.95.0 (2022-10-09)
+
+### Features
+
+-  moving semantic versioning to its own mojo ([75019](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7501963b8765d93) Tomas Bjerre)  
+
 ## 1.94.0 (2022-09-25)
 
 ### Features

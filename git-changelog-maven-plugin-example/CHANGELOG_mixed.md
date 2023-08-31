@@ -4,6 +4,121 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
+   chore: updating changelog *14:15:20*
+
+
+
+## 1.97.1
+### These commits have not issue in their commit comment
+   Merge pull request #50 from isaacsanders/patch-1
+
+Update pom.xml *14:13:22*
+
+   Update pom.xml
+
+I was getting the following warnings:
+
+```
+[WARNING]
+[WARNING] Plugin validation issues were detected in 4 plugin(s)
+[WARNING]
+[WARNING]  * se.bjurr.gitchangelog:git-changelog-maven-plugin:1.97.0
+[WARNING]   Declared at location(s):
+[WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml) @ line 296
+[WARNING]   Used in module(s):
+[WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml)
+[WARNING]   Plugin issue(s):
+[WARNING]    * Plugin should declare these Maven artifacts in `provided` scope: [org.apache.maven:maven-core:3.6.0, org.apache.maven:maven-model-builder:3.6.0, org.apache.maven:maven-model:3.6.0, org.apache.maven:maven-builder-support:3.6.0, org.apache.maven:maven-settings:3.6.0, org.apache.maven:maven-resolver-provider:3.6.0, org.apache.maven:maven-settings-builder:3.6.0, org.apache.maven:maven-repository-metadata:3.6.0, org.apache.maven:maven-artifact:3.6.0]
+```
+
+Hopefully this is an acceptable way to resolve them. *21:48:50*
+
+   chore: updating changelog *11:54:41*
+
+
+
+## 1.97.0
+### These commits have not issue in their commit comment
+   feat: stringHelpers *11:53:28*
+
+   chore: updating changelog *07:00:31*
+
+
+
+## 1.96.1
+### These commits have not issue in their commit comment
+   fix: avoiding stuck execution *06:59:31*
+
+   chore: updating changelog *16:56:24*
+
+
+
+## 1.96.0
+### These commits have not issue in their commit comment
+   feat: add ignoreTagsIfNameMatches to semantic-version (refs #49) *16:55:24*
+
+   chore: updating changelog *20:23:23*
+
+
+
+## 1.95.6
+### These commits have not issue in their commit comment
+   fix: parsing newest commits first *20:22:00*
+
+   chore: updating changelog *16:08:30*
+
+
+
+## 1.95.5
+### These commits have not issue in their commit comment
+   fix: allow space before : in commit message *16:07:23*
+
+   chore: updating changelog *16:41:36*
+
+
+
+## 1.95.4
+### These commits have not issue in their commit comment
+   fix: stepping git changelog lib *16:40:21*
+
+   docs: updating readme *11:35:53*
+
+   chore: updating changelog *09:05:14*
+
+
+
+## 1.95.3
+### These commits have not issue in their commit comment
+   fix: let semantic tag have priority if several tags on same commit *09:04:13*
+
+   docs: readme *06:24:17*
+
+   chore: updating changelog *06:22:17*
+
+
+
+## 1.95.2
+### These commits have not issue in their commit comment
+   fix: updating release script *06:21:30*
+
+   chore: updating changelog *06:19:54*
+
+
+
+## 1.95.1
+### These commits have not issue in their commit comment
+   fix: updating release script *06:19:01*
+
+   chore: updating changelog *06:10:22*
+
+
+
+## 1.95.0
+### These commits have not issue in their commit comment
+   chore: setting version 1.95.0-SNAPSHOT *06:09:34*
+
+   feat: moving semantic versioning to its own mojo *06:09:18*
+
    chore: updating changelog *13:57:51*
 
 

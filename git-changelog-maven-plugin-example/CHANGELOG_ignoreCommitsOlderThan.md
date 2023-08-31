@@ -4,6 +4,165 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   chore: updating changelog *2023-07-09 14:15:20*
+
+   [maven-release-plugin] prepare for next development iteration *2023-07-09 14:14:44*
+
+
+
+## git-changelog-maven-plugin-1.97.1
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.97.1 *2023-07-09 14:14:40*
+
+   Merge pull request #50 from isaacsanders/patch-1
+
+Update pom.xml *2023-07-09 14:13:22*
+
+   Update pom.xml
+
+I was getting the following warnings:
+
+```
+[WARNING]
+[WARNING] Plugin validation issues were detected in 4 plugin(s)
+[WARNING]
+[WARNING]  * se.bjurr.gitchangelog:git-changelog-maven-plugin:1.97.0
+[WARNING]   Declared at location(s):
+[WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml) @ line 296
+[WARNING]   Used in module(s):
+[WARNING]    * com.drw.risk:bloomberg_market_bridge:0.0.14-SNAPSHOT (pom.xml)
+[WARNING]   Plugin issue(s):
+[WARNING]    * Plugin should declare these Maven artifacts in `provided` scope: [org.apache.maven:maven-core:3.6.0, org.apache.maven:maven-model-builder:3.6.0, org.apache.maven:maven-model:3.6.0, org.apache.maven:maven-builder-support:3.6.0, org.apache.maven:maven-settings:3.6.0, org.apache.maven:maven-resolver-provider:3.6.0, org.apache.maven:maven-settings-builder:3.6.0, org.apache.maven:maven-repository-metadata:3.6.0, org.apache.maven:maven-artifact:3.6.0]
+```
+
+Hopefully this is an acceptable way to resolve them. *2023-07-06 21:48:50*
+
+   chore: updating changelog *2023-04-22 11:54:41*
+
+   [maven-release-plugin] prepare for next development iteration *2023-04-22 11:53:51*
+
+
+
+## git-changelog-maven-plugin-1.97.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.97.0 *2023-04-22 11:53:48*
+
+   feat: stringHelpers *2023-04-22 11:53:28*
+
+   chore: updating changelog *2023-03-12 07:00:31*
+
+   [maven-release-plugin] prepare for next development iteration *2023-03-12 06:59:54*
+
+
+
+## git-changelog-maven-plugin-1.96.1
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.96.1 *2023-03-12 06:59:50*
+
+   fix: avoiding stuck execution *2023-03-12 06:59:31*
+
+   chore: updating changelog *2023-02-28 16:56:24*
+
+   [maven-release-plugin] prepare for next development iteration *2023-02-28 16:55:53*
+
+
+
+## git-changelog-maven-plugin-1.96.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.96.0 *2023-02-28 16:55:49*
+
+   feat: add ignoreTagsIfNameMatches to semantic-version (refs #49) *2023-02-28 16:55:24*
+
+   chore: updating changelog *2023-02-16 20:23:23*
+
+   [maven-release-plugin] prepare for next development iteration *2023-02-16 20:22:30*
+
+
+
+## git-changelog-maven-plugin-1.95.6
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.6 *2023-02-16 20:22:26*
+
+   fix: parsing newest commits first *2023-02-16 20:22:00*
+
+   chore: updating changelog *2023-01-04 16:08:30*
+
+   [maven-release-plugin] prepare for next development iteration *2023-01-04 16:07:50*
+
+
+
+## git-changelog-maven-plugin-1.95.5
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.5 *2023-01-04 16:07:46*
+
+   fix: allow space before : in commit message *2023-01-04 16:07:23*
+
+   chore: updating changelog *2022-12-13 16:41:36*
+
+   [maven-release-plugin] prepare for next development iteration *2022-12-13 16:40:47*
+
+
+
+## git-changelog-maven-plugin-1.95.4
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.4 *2022-12-13 16:40:43*
+
+   fix: stepping git changelog lib *2022-12-13 16:40:21*
+
+   docs: updating readme *2022-12-04 11:35:53*
+
+   chore: updating changelog *2022-12-03 09:05:14*
+
+   [maven-release-plugin] prepare for next development iteration *2022-12-03 09:04:41*
+
+
+
+## git-changelog-maven-plugin-1.95.3
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.3 *2022-12-03 09:04:37*
+
+   fix: let semantic tag have priority if several tags on same commit *2022-12-03 09:04:13*
+
+   docs: readme *2022-10-09 06:24:17*
+
+   chore: updating changelog *2022-10-09 06:22:17*
+
+   [maven-release-plugin] prepare for next development iteration *2022-10-09 06:21:55*
+
+
+
+## git-changelog-maven-plugin-1.95.2
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.2 *2022-10-09 06:21:51*
+
+   fix: updating release script *2022-10-09 06:21:30*
+
+   chore: updating changelog *2022-10-09 06:19:54*
+
+   [maven-release-plugin] prepare for next development iteration *2022-10-09 06:19:22*
+
+
+
+## git-changelog-maven-plugin-1.95.1
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.1 *2022-10-09 06:19:18*
+
+   fix: updating release script *2022-10-09 06:19:01*
+
+   chore: updating changelog *2022-10-09 06:10:22*
+
+   [maven-release-plugin] prepare for next development iteration *2022-10-09 06:09:47*
+
+
+
+## git-changelog-maven-plugin-1.95.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.95.0 *2022-10-09 06:09:43*
+
+   chore: setting version 1.95.0-SNAPSHOT *2022-10-09 06:09:34*
+
+   feat: moving semantic versioning to its own mojo *2022-10-09 06:09:18*
+
    chore: updating changelog *2022-09-25 13:57:51*
 
    [maven-release-plugin] prepare for next development iteration *2022-09-25 13:57:28*
