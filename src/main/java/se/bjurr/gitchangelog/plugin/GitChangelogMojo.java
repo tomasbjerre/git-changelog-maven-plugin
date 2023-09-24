@@ -288,7 +288,7 @@ public class GitChangelogMojo extends AbstractMojo {
       }
       builder.withRemoveIssueFromMessageArgument(this.removeIssueFromMessage);
       if (this.isSupplied(this.ignoreCommitsIfMessageMatches)) {
-        builder.withIgnoreCommitsWithMessage(this.ignoreCommitsIfMessageMatches);
+        builder.withIgnoreCommitsWithMessage(this.ignoreCommitsIfMessageMatches.trim());
       }
       if (this.ignoreCommitsOlderThan != null) {
         builder.withIgnoreCommitsOlderThan(this.ignoreCommitsOlderThan);
