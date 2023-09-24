@@ -13,13 +13,17 @@ import java.util.List;
 import java.util.Map;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
+import org.apache.maven.plugins.annotations.Component;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
+import org.apache.maven.project.MavenProject;
 import se.bjurr.gitchangelog.api.GitChangelogApi;
 import se.bjurr.gitchangelog.api.InclusivenessStrategy;
 
 @Mojo(name = "git-changelog", defaultPhase = PROCESS_SOURCES, threadSafe = true)
 public class GitChangelogMojo extends AbstractMojo {
+  @Component private MavenProject project;
+
   private static final String DEFAULT_FILE = "CHANGELOG.md";
 
   /** {@link Deprecated} use toRevision */
@@ -363,7 +367,7 @@ public class GitChangelogMojo extends AbstractMojo {
 
       if (this.file == null) {
         this.getLog().info("No output set, using file " + DEFAULT_FILE);
-        this.file = new File(DEFAULT_FILE);
+        this.file = this.project.getBasedir().toPath().resolve(DEFAULT_FILE).toFile();
       }
 
       if (this.file != null) {
