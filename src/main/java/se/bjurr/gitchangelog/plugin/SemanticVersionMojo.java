@@ -19,10 +19,16 @@ public class SemanticVersionMojo extends AbstractMojo {
   @Component private MavenProject project;
 
   @Parameter(
-      property = "updatePomWithNextSemanticVersionSuffixSnapshot",
+      property = "updatePomWithCurrentSemanticVersionSuffixSnapshot",
+      required = false,
+      defaultValue = "false")
+  private boolean updatePomWithCurrentSemanticVersionSuffixSnapshot;
+
+  @Parameter(
+      property = "updatePomWithCurrentSemanticVersionSuffixSnapshotIfNotTagged",
       required = false,
       defaultValue = "true")
-  private boolean updatePomWithNextSemanticVersionSuffixSnapshot;
+  private boolean updatePomWithCurrentSemanticVersionSuffixSnapshotIfNotTagged;
 
   @Parameter(property = "semanticMajorVersionPattern", required = false)
   private String semanticMajorVersionPattern;
@@ -52,9 +58,14 @@ public class SemanticVersionMojo extends AbstractMojo {
       if (this.isSupplied(this.ignoreTagsIfNameMatches)) {
         gitChangelogApiBuilder.withIgnoreTagsIfNameMatches(this.ignoreTagsIfNameMatches);
       }
-      final SemanticVersion nextSemanticVersion = gitChangelogApiBuilder.getNextSemanticVersion();
+      final SemanticVersion nextSemanticVersion =
+          gitChangelogApiBuilder.getCurrentSemanticVersion();
+      final boolean notTagged = nextSemanticVersion.findTag().isEmpty();
+      final boolean suffixWithSnapshot =
+          this.updatePomWithCurrentSemanticVersionSuffixSnapshot
+              || this.updatePomWithCurrentSemanticVersionSuffixSnapshotIfNotTagged && notTagged;
       final String nextVersion =
-          this.updatePomWithNextSemanticVersionSuffixSnapshot
+          suffixWithSnapshot
               ? nextSemanticVersion.getVersion() + "-SNAPSHOT"
               : nextSemanticVersion.getVersion();
 

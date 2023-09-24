@@ -217,7 +217,8 @@ Or in `pom.xml`:
         </goals>
         <configuration>
           <!-- Suffix version with -SNAPSHOT //-->
-          <updatePomWithNextSemanticVersionSuffixSnapshot>true</updatePomWithNextSemanticVersionSuffixSnapshot>
+          <updatePomWithNextSemanticVersionSuffixSnapshot>false</updatePomWithNextSemanticVersionSuffixSnapshot>
+          <updatePomWithCurrentSemanticVersionSuffixSnapshotIfNotTagged>true</updatePomWithCurrentSemanticVersionSuffixSnapshotIfNotTagged>
 
           <!-- Regexp patterns used to identify next version can optionally be adjusted //-->
           <semanticMajorVersionPattern>^[Bb]reaking</semanticMajorVersionPattern>
