@@ -81,7 +81,7 @@ public class SemanticVersionMojo extends AbstractMojo {
       new XmlModifier(pomFile).setVersion(nextVersion);
 
       // Set property that is read by Maven Release Plugin
-      this.project.getProperties().put("tag", nextVersion);
+      this.project.getProperties().setProperty("tag", nextVersion);
     } catch (final Exception e) {
       throw new MojoExecutionException(e.getMessage(), e);
     }
