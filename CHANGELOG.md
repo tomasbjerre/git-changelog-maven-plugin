@@ -2,6 +2,60 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.100.7 (2023-12-01)
+
+### Bug Fixes
+
+-  mapping commits to lowest possible semantic tag ([e5686](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e5686948d160fe1) Tomas Bjerre)  
+
+## git-changelog-maven-plugin-1.100.6 (2023-09-26)
+
+### Bug Fixes
+
+-  trying to set property to use with Maven Release Plugin ([e2944](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e294400e4df2c24) Tomas Bjerre)  
+
+## git-changelog-maven-plugin-1.100.5 (2023-09-26)
+
+### Bug Fixes
+
+-  trying to set property to use with Maven Release Plugin ([cf704](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cf70456f36d558a) Tomas Bjerre)  
+
+## git-changelog-maven-plugin-1.100.4 (2023-09-26)
+
+### Bug Fixes
+
+-  trying to set property to use with Maven Release Plugin ([03284](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0328458e387a8b0) Tomas Bjerre)  
+
+## git-changelog-maven-plugin-1.100.3 (2023-09-24)
+
+### Bug Fixes
+
+-  trim ignoreCommitsIfMessageMatches ([fe7da](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/fe7da3e6ed46e5f) Tomas Bjerre)  
+
+## git-changelog-maven-plugin-1.100.2 (2023-09-24)
+
+### Bug Fixes
+
+-  current version ([a284e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a284e5e930b97e5) Tomas Bjerre)  
+
+## git-changelog-maven-plugin-1.100.1 (2023-09-24)
+
+### Bug Fixes
+
+-  default CHANGELOG.md ([853c6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/853c6d7c8e9a3ad) Tomas Bjerre)  
+
+## git-changelog-maven-plugin-1.100.0 (2023-09-24)
+
+### Features
+
+-  set current version ([9e7e3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9e7e3f303608d99) Tomas Bjerre)  
+
+## git-changelog-maven-plugin-1.99.0 (2023-09-11)
+
+### Features
+
+-  add filtering for footer tokens ([21093](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2109322235018e4) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.98.2 (2023-08-31)
 
 ### Bug Fixes
