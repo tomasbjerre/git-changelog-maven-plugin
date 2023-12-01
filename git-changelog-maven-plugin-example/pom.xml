@@ -8,7 +8,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<changelog.version>1.100.2-SNAPSHOT</changelog.version>
+		<changelog.version>1.100.8-SNAPSHOT</changelog.version>
 	</properties>
 	<build>
 		<plugins>

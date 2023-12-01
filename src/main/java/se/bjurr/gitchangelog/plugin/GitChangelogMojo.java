@@ -362,7 +362,7 @@ public class GitChangelogMojo extends AbstractMojo {
       }
 
       if (this.isSupplied(this.pathFilter)) {
-        builder.withPathFilter(this.pathFilter);
+        builder.withPathFilters(this.pathFilter);
       }
 
       if (this.file == null) {

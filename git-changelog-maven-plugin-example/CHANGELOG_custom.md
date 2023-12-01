@@ -4,6 +4,134 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.100.7
+### No issue / 
+   fix: mapping commits to lowest possible semantic tag
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.100.6
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.6
+
+   fix: trying to set property to use with Maven Release Plugin
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.100.5
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.5
+
+   fix: trying to set property to use with Maven Release Plugin
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.100.4
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.4
+
+   fix: trying to set property to use with Maven Release Plugin
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.100.3
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.3
+
+   fix: trim ignoreCommitsIfMessageMatches
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.100.2
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.2
+
+   fix: current version
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.100.1
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.1
+
+   fix: default CHANGELOG.md
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.100.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.0
+
+   feat: set current version
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.99.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.99.0
+
+   feat: add filtering for footer tokens
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.98.2
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.98.2
+
+   fix: correcting mapping of toRevision
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.98.1
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.98.1
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.98.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.98.0
+
+   feat: from/toRevision and prioritizing commits semantically when adding to tags
+
+   Merge pull request #51 from isaacsanders/patch-2
+
+Update CHANGELOG.md
+
+   Update CHANGELOG.md
+
    chore: updating changelog
 
    [maven-release-plugin] prepare for next development iteration

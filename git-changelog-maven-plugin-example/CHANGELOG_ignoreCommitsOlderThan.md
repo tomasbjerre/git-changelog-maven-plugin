@@ -4,6 +4,134 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
+   [maven-release-plugin] prepare for next development iteration *2023-12-01 17:35:53*
+
+
+
+## git-changelog-maven-plugin-1.100.7
+### No issue
+   fix: mapping commits to lowest possible semantic tag *2023-12-01 17:35:24*
+
+   [maven-release-plugin] prepare for next development iteration *2023-09-26 17:38:24*
+
+
+
+## git-changelog-maven-plugin-1.100.6
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.6 *2023-09-26 17:38:20*
+
+   fix: trying to set property to use with Maven Release Plugin *2023-09-26 17:38:01*
+
+   [maven-release-plugin] prepare for next development iteration *2023-09-26 17:11:29*
+
+
+
+## git-changelog-maven-plugin-1.100.5
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.5 *2023-09-26 17:11:25*
+
+   fix: trying to set property to use with Maven Release Plugin *2023-09-26 17:11:06*
+
+   [maven-release-plugin] prepare for next development iteration *2023-09-26 17:04:33*
+
+
+
+## git-changelog-maven-plugin-1.100.4
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.4 *2023-09-26 17:04:28*
+
+   fix: trying to set property to use with Maven Release Plugin *2023-09-26 17:04:06*
+
+   [maven-release-plugin] prepare for next development iteration *2023-09-24 18:00:04*
+
+
+
+## git-changelog-maven-plugin-1.100.3
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.3 *2023-09-24 18:00:00*
+
+   fix: trim ignoreCommitsIfMessageMatches *2023-09-24 17:59:40*
+
+   [maven-release-plugin] prepare for next development iteration *2023-09-24 17:52:13*
+
+
+
+## git-changelog-maven-plugin-1.100.2
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.2 *2023-09-24 17:52:09*
+
+   fix: current version *2023-09-24 17:51:41*
+
+   [maven-release-plugin] prepare for next development iteration *2023-09-24 11:37:16*
+
+
+
+## git-changelog-maven-plugin-1.100.1
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.1 *2023-09-24 11:37:12*
+
+   fix: default CHANGELOG.md *2023-09-24 11:36:52*
+
+   [maven-release-plugin] prepare for next development iteration *2023-09-24 11:02:59*
+
+
+
+## git-changelog-maven-plugin-1.100.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.0 *2023-09-24 11:02:54*
+
+   feat: set current version *2023-09-24 11:02:10*
+
+   [maven-release-plugin] prepare for next development iteration *2023-09-11 15:59:41*
+
+
+
+## git-changelog-maven-plugin-1.99.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.99.0 *2023-09-11 15:59:37*
+
+   feat: add filtering for footer tokens *2023-09-11 15:59:16*
+
+   chore: updating changelog *2023-08-31 18:38:38*
+
+   [maven-release-plugin] prepare for next development iteration *2023-08-31 18:37:57*
+
+
+
+## git-changelog-maven-plugin-1.98.2
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.98.2 *2023-08-31 18:37:53*
+
+   fix: correcting mapping of toRevision *2023-08-31 18:37:24*
+
+   chore: updating changelog *2023-08-31 15:40:09*
+
+   [maven-release-plugin] prepare for next development iteration *2023-08-31 15:39:25*
+
+
+
+## git-changelog-maven-plugin-1.98.1
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.98.1 *2023-08-31 15:39:21*
+
+   chore: updating changelog *2023-08-31 15:30:18*
+
+   [maven-release-plugin] prepare for next development iteration *2023-08-31 15:29:44*
+
+
+
+## git-changelog-maven-plugin-1.98.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.98.0 *2023-08-31 15:29:40*
+
+   feat: from/toRevision and prioritizing commits semantically when adding to tags *2023-08-31 15:28:26*
+
+   Merge pull request #51 from isaacsanders/patch-2
+
+Update CHANGELOG.md *2023-07-10 09:57:08*
+
+   Update CHANGELOG.md *2023-07-10 09:55:29*
+
    chore: updating changelog *2023-07-09 14:15:20*
 
    [maven-release-plugin] prepare for next development iteration *2023-07-09 14:14:44*

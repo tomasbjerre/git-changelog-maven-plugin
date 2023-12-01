@@ -2,6 +2,88 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## 1.100.7 (2023-12-01)
+
+### Bug Fixes
+
+-  mapping commits to lowest possible semantic tag ([51d6c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/51d6cee9a1b77a6) Tomas Bjerre)  
+
+## 1.100.6 (2023-09-26)
+
+### Bug Fixes
+
+-  trying to set property to use with Maven Release Plugin ([e2944](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e294400e4df2c24) Tomas Bjerre)  
+
+## 1.100.5 (2023-09-26)
+
+### Bug Fixes
+
+-  trying to set property to use with Maven Release Plugin ([cf704](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cf70456f36d558a) Tomas Bjerre)  
+
+## 1.100.4 (2023-09-26)
+
+### Bug Fixes
+
+-  trying to set property to use with Maven Release Plugin ([03284](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0328458e387a8b0) Tomas Bjerre)  
+
+## 1.100.3 (2023-09-24)
+
+### Bug Fixes
+
+-  trim ignoreCommitsIfMessageMatches ([fe7da](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/fe7da3e6ed46e5f) Tomas Bjerre)  
+
+## 1.100.2 (2023-09-24)
+
+### Bug Fixes
+
+-  current version ([a284e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a284e5e930b97e5) Tomas Bjerre)  
+
+## 1.100.1 (2023-09-24)
+
+### Bug Fixes
+
+-  default CHANGELOG.md ([853c6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/853c6d7c8e9a3ad) Tomas Bjerre)  
+
+## 1.100.0 (2023-09-24)
+
+### Features
+
+-  set current version ([9e7e3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9e7e3f303608d99) Tomas Bjerre)  
+
+## 1.99.0 (2023-09-11)
+
+### Features
+
+-  add filtering for footer tokens ([21093](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2109322235018e4) Tomas Bjerre)  
+
+## 1.98.2 (2023-08-31)
+
+### Bug Fixes
+
+-  correcting mapping of toRevision ([47b65](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/47b65332d4eb7e0) Tomas Bjerre)  
+
+## 1.98.1 (2023-08-31)
+
+## 1.98.0 (2023-08-31)
+
+### Features
+
+-  from/toRevision and prioritizing commits semantically when adding to tags ([81d16](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/81d16f94baf0d8b) Tomas Bjerre)  
+
+### Other changes
+
+**Merge pull request #51 from isaacsanders/patch-2**
+
+* Update CHANGELOG.md 
+
+[88d9c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/88d9c3effbc3771) Tomas Bjerre *2023-07-10 09:57:08*
+
+**Update CHANGELOG.md**
+
+
+[f5aba](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f5aba05f1a2ff0e) Isaac Sanders *2023-07-10 09:55:29*
+
+
 ## 1.97.1 (2023-07-09)
 
 ### Other changes

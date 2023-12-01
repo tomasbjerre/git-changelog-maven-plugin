@@ -2,8 +2,86 @@
 
 Changelog of Git Changelog Maven plugin.
 
-## These commits are not included in any tag
+## 1.100.7
 ### These commits have not issue in their commit comment
+   fix: mapping commits to lowest possible semantic tag *17:35:24*
+
+
+
+## 1.100.6
+### These commits have not issue in their commit comment
+   fix: trying to set property to use with Maven Release Plugin *17:38:01*
+
+
+
+## 1.100.5
+### These commits have not issue in their commit comment
+   fix: trying to set property to use with Maven Release Plugin *17:11:06*
+
+
+
+## 1.100.4
+### These commits have not issue in their commit comment
+   fix: trying to set property to use with Maven Release Plugin *17:04:06*
+
+
+
+## 1.100.3
+### These commits have not issue in their commit comment
+   fix: trim ignoreCommitsIfMessageMatches *17:59:40*
+
+
+
+## 1.100.2
+### These commits have not issue in their commit comment
+   fix: current version *17:51:41*
+
+
+
+## 1.100.1
+### These commits have not issue in their commit comment
+   fix: default CHANGELOG.md *11:36:52*
+
+
+
+## 1.100.0
+### These commits have not issue in their commit comment
+   feat: set current version *11:02:10*
+
+
+
+## 1.99.0
+### These commits have not issue in their commit comment
+   feat: add filtering for footer tokens *15:59:16*
+
+   chore: updating changelog *18:38:38*
+
+
+
+## 1.98.2
+### These commits have not issue in their commit comment
+   fix: correcting mapping of toRevision *18:37:24*
+
+   chore: updating changelog *15:40:09*
+
+
+
+## 1.98.1
+### These commits have not issue in their commit comment
+   chore: updating changelog *15:30:18*
+
+
+
+## 1.98.0
+### These commits have not issue in their commit comment
+   feat: from/toRevision and prioritizing commits semantically when adding to tags *15:28:26*
+
+   Merge pull request #51 from isaacsanders/patch-2
+
+Update CHANGELOG.md *09:57:08*
+
+   Update CHANGELOG.md *09:55:29*
+
    chore: updating changelog *14:15:20*
 
 

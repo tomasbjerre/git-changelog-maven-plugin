@@ -2,6 +2,236 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.100.7 (2023-12-01)
+
+### Bug Fixes
+
+-  mapping commits to lowest possible semantic tag ([51d6c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/51d6cee9a1b77a6) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[26659](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/266591fd5cbf06c) Tomas Bjerre *2023-09-26 17:38:24*
+
+
+## git-changelog-maven-plugin-1.100.6 (2023-09-26)
+
+### Bug Fixes
+
+-  trying to set property to use with Maven Release Plugin ([e2944](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e294400e4df2c24) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.6**
+
+
+[97111](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/971110513d09ed3) Tomas Bjerre *2023-09-26 17:38:20*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[37aab](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/37aabd7f4c968e9) Tomas Bjerre *2023-09-26 17:11:29*
+
+
+## git-changelog-maven-plugin-1.100.5 (2023-09-26)
+
+### Bug Fixes
+
+-  trying to set property to use with Maven Release Plugin ([cf704](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cf70456f36d558a) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.5**
+
+
+[7b2a8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/7b2a8722525a4be) Tomas Bjerre *2023-09-26 17:11:25*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[86219](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/862195635d15906) Tomas Bjerre *2023-09-26 17:04:33*
+
+
+## git-changelog-maven-plugin-1.100.4 (2023-09-26)
+
+### Bug Fixes
+
+-  trying to set property to use with Maven Release Plugin ([03284](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0328458e387a8b0) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.4**
+
+
+[49f90](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/49f90d0d7c4a729) Tomas Bjerre *2023-09-26 17:04:28*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[32790](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/327907ec2a3bb7c) Tomas Bjerre *2023-09-24 18:00:04*
+
+
+## git-changelog-maven-plugin-1.100.3 (2023-09-24)
+
+### Bug Fixes
+
+-  trim ignoreCommitsIfMessageMatches ([fe7da](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/fe7da3e6ed46e5f) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.3**
+
+
+[16666](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/16666ed7a7683d4) Tomas Bjerre *2023-09-24 18:00:00*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[4cc20](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4cc20c77249f702) Tomas Bjerre *2023-09-24 17:52:13*
+
+
+## git-changelog-maven-plugin-1.100.2 (2023-09-24)
+
+### Bug Fixes
+
+-  current version ([a284e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a284e5e930b97e5) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.2**
+
+
+[8f033](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8f033372d23d14e) Tomas Bjerre *2023-09-24 17:52:09*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[4ac93](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4ac93c67c3ed61d) Tomas Bjerre *2023-09-24 11:37:16*
+
+
+## git-changelog-maven-plugin-1.100.1 (2023-09-24)
+
+### Bug Fixes
+
+-  default CHANGELOG.md ([853c6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/853c6d7c8e9a3ad) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.1**
+
+
+[84325](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8432546e50d4b45) Tomas Bjerre *2023-09-24 11:37:12*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[97310](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/973106566a96506) Tomas Bjerre *2023-09-24 11:02:59*
+
+
+## git-changelog-maven-plugin-1.100.0 (2023-09-24)
+
+### Features
+
+-  set current version ([9e7e3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9e7e3f303608d99) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.0**
+
+
+[bc094](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bc09402baa8b111) Tomas Bjerre *2023-09-24 11:02:54*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[14f63](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/14f63665737da73) Tomas Bjerre *2023-09-11 15:59:41*
+
+
+## git-changelog-maven-plugin-1.99.0 (2023-09-11)
+
+### Features
+
+-  add filtering for footer tokens ([21093](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2109322235018e4) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.99.0**
+
+
+[696d4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/696d4145eb319d8) Tomas Bjerre *2023-09-11 15:59:37*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[f4597](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f45970daeb99977) Tomas Bjerre *2023-08-31 18:37:57*
+
+
+## git-changelog-maven-plugin-1.98.2 (2023-08-31)
+
+### Bug Fixes
+
+-  correcting mapping of toRevision ([47b65](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/47b65332d4eb7e0) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.98.2**
+
+
+[b69e8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b69e819fa1d85e1) Tomas Bjerre *2023-08-31 18:37:53*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[bb4ae](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bb4aec3b335c141) Tomas Bjerre *2023-08-31 15:39:25*
+
+
+## git-changelog-maven-plugin-1.98.1 (2023-08-31)
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.98.1**
+
+
+[66c51](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/66c5116934aa157) Tomas Bjerre *2023-08-31 15:39:21*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[e43e1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e43e1e655532809) Tomas Bjerre *2023-08-31 15:29:44*
+
+
+## git-changelog-maven-plugin-1.98.0 (2023-08-31)
+
+### Features
+
+-  from/toRevision and prioritizing commits semantically when adding to tags ([81d16](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/81d16f94baf0d8b) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-1.98.0**
+
+
+[2e043](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2e043a6f0abab4f) Tomas Bjerre *2023-08-31 15:29:40*
+
+**Merge pull request #51 from isaacsanders/patch-2**
+
+* Update CHANGELOG.md 
+
+[88d9c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/88d9c3effbc3771) Tomas Bjerre *2023-07-10 09:57:08*
+
+**Update CHANGELOG.md**
+
+
+[f5aba](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f5aba05f1a2ff0e) Isaac Sanders *2023-07-10 09:55:29*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[83f9c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/83f9c6814fa81dc) Tomas Bjerre *2023-07-09 14:14:44*
+
+
 ## git-changelog-maven-plugin-1.97.1 (2023-07-09)
 
 ### Other changes
