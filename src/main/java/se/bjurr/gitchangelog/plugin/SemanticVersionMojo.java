@@ -18,6 +18,9 @@ import se.bjurr.gitchangelog.internal.semantic.SemanticVersion;
 public class SemanticVersionMojo extends AbstractMojo {
   @Component private MavenProject project;
 
+  @Parameter(property = "skip", required = false)
+  private Boolean skip;
+
   @Parameter(
       property = "updatePomWithCurrentSemanticVersionSuffixSnapshot",
       required = false,
@@ -44,6 +47,11 @@ public class SemanticVersionMojo extends AbstractMojo {
 
   @Override
   public void execute() throws MojoExecutionException {
+    if (this.skip != null && this.skip == true) {
+      this.getLog().info("Skipping semantic version");
+      return;
+    }
+
     try {
       final GitChangelogApi gitChangelogApiBuilder = gitChangelogApiBuilder();
       if (this.isSupplied(this.semanticMajorVersionPattern)) {
