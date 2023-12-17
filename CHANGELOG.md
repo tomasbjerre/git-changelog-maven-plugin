@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-1.101.0 (2023-12-17)
+
+### Features
+
+-  skip parameter on semantic-version mojo ([015f8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/015f8d80b3c230c) Tomas Bjerre)  [#53](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/53)  
+
 ## git-changelog-maven-plugin-1.100.7 (2023-12-01)
 
 ### Bug Fixes
