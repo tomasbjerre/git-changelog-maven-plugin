@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-2.0.0 (2024-01-27)
+
+### Breaking changes
+
+-  JGit 6 and Java 11 ([8b0c8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8b0c83de38815db) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-1.101.0 (2023-12-17)
 
 ### Features
