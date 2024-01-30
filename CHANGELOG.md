@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-2.0.1 (2024-01-30)
+
+### Bug Fixes
+
+-  removing properties ([c5ea2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c5ea2d56a1da984) Tomas Bjerre)  [#60](https://github.com/tomasbjerre/git-changelog-maven-plugin/issues/60)  
+
 ## git-changelog-maven-plugin-2.0.0 (2024-01-27)
 
 ### Breaking changes
