@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-2.1.0 (2024-02-10)
+
+### Features
+
+-  **conventional-commits**  allow whitespace, colon and comma as separator in scope ([20ddd](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/20ddddb9220f0a0) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-2.0.1 (2024-01-30)
 
 ### Bug Fixes
