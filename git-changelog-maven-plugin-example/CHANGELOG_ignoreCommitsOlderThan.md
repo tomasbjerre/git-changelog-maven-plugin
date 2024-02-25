@@ -4,13 +4,67 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   [maven-release-plugin] prepare for next development iteration *2023-12-01 17:35:53*
+   chore: building with java 21 *2024-02-25 11:46:15*
+
+   chore: updating changelog *2024-02-10 07:05:56*
+
+   [maven-release-plugin] prepare for next development iteration *2024-02-10 07:05:26*
+
+
+
+## git-changelog-maven-plugin-2.1.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.1.0 *2024-02-10 07:05:22*
+
+   feat(conventional-commits): allow whitespace, colon and comma as separator in scope *2024-02-10 07:04:59*
+
+   chore: updating changelog *2024-01-30 16:12:20*
+
+   [maven-release-plugin] prepare for next development iteration *2024-01-30 16:11:37*
+
+
+
+## git-changelog-maven-plugin-2.0.1
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.0.1 *2024-01-30 16:11:32*
+
+   fix: removing properties (refs #60) *2024-01-30 16:07:12*
+
+   chore: updating changelog *2024-01-27 08:51:54*
+
+   [maven-release-plugin] prepare for next development iteration *2024-01-27 08:51:20*
+
+
+
+## git-changelog-maven-plugin-2.0.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.0.0 *2024-01-27 08:51:16*
+
+   breaking: JGit 6 and Java 11 *2024-01-27 08:50:50*
+
+   chore: updating changelog *2023-12-17 07:28:20*
+
+   [maven-release-plugin] prepare for next development iteration *2023-12-17 07:27:27*
+
+
+
+## git-changelog-maven-plugin-1.101.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.101.0 *2023-12-17 07:27:23*
+
+   feat: skip parameter on semantic-version mojo (refs #53) *2023-12-17 07:26:35*
+
+   chore: updating changelog *2023-12-01 17:42:22*
+
+   [maven-release-plugin] prepare for next development iteration *2023-12-01 17:41:42*
 
 
 
 ## git-changelog-maven-plugin-1.100.7
 ### No issue
-   fix: mapping commits to lowest possible semantic tag *2023-12-01 17:35:24*
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.7 *2023-12-01 17:41:38*
+
+   fix: mapping commits to lowest possible semantic tag *2023-12-01 17:40:18*
 
    [maven-release-plugin] prepare for next development iteration *2023-09-26 17:38:24*
 

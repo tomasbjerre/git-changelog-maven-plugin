@@ -6,9 +6,9 @@
 	<version>1.100.2-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<changelog.version>1.100.8-SNAPSHOT</changelog.version>
+		<maven.compiler.target>21</maven.compiler.target>
+		<maven.compiler.source>21</maven.compiler.source>
+		<changelog.version>2.1.1-SNAPSHOT</changelog.version>
 	</properties>
 	<build>
 		<plugins>
@@ -16,6 +16,13 @@
 				<groupId>se.bjurr.gitchangelog</groupId>
 				<artifactId>git-changelog-maven-plugin</artifactId>
 				<version>${changelog.version}</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.openjdk.nashorn</groupId>
+						<artifactId>nashorn-core</artifactId>
+						<version>15.4</version>
+					</dependency>
+				</dependencies>
 				<executions>
 					<!-- Minimal config // -->
 					<execution>

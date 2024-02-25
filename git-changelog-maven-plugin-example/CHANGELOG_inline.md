@@ -5,7 +5,95 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[0acc97dcc89f5b4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0acc97dcc89f5b4) Tomas Bjerre *2023-12-01 17:35:53*
+[3cd0a53d4079d76](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3cd0a53d4079d76) Tomas Bjerre *2024-02-25 11:46:15*
+
+chore: building with java 21
+
+[6ed160a4fcc648e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6ed160a4fcc648e) Tomas Bjerre *2024-02-10 07:05:56*
+
+chore: updating changelog
+
+[669d3cf14067ff8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/669d3cf14067ff8) Tomas Bjerre *2024-02-10 07:05:26*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.1.0
+### No issue
+
+[fe94886793f0bb4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/fe94886793f0bb4) Tomas Bjerre *2024-02-10 07:05:22*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.1.0
+
+[20ddddb9220f0a0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/20ddddb9220f0a0) Tomas Bjerre *2024-02-10 07:04:59*
+
+feat(conventional-commits): allow whitespace, colon and comma as separator in scope
+
+[a5a8829ba97fc59](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a5a8829ba97fc59) Tomas Bjerre *2024-01-30 16:12:20*
+
+chore: updating changelog
+
+[12913b4c60f5f98](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/12913b4c60f5f98) Tomas Bjerre *2024-01-30 16:11:37*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.0.1
+### No issue
+
+[a786f088877edac](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a786f088877edac) Tomas Bjerre *2024-01-30 16:11:32*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.0.1
+
+[c5ea2d56a1da984](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c5ea2d56a1da984) Tomas Bjerre *2024-01-30 16:07:12*
+
+fix: removing properties (refs #60)
+
+[dbbe7755dcc3ad1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/dbbe7755dcc3ad1) Tomas Bjerre *2024-01-27 08:51:54*
+
+chore: updating changelog
+
+[454ada9eefa1d82](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/454ada9eefa1d82) Tomas Bjerre *2024-01-27 08:51:20*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.0.0
+### No issue
+
+[e1ea1a8913785c0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e1ea1a8913785c0) Tomas Bjerre *2024-01-27 08:51:16*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.0.0
+
+[8b0c83de38815db](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8b0c83de38815db) Tomas Bjerre *2024-01-27 08:50:50*
+
+breaking: JGit 6 and Java 11
+
+[c23bba833b5f26e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c23bba833b5f26e) Tomas Bjerre *2023-12-17 07:28:20*
+
+chore: updating changelog
+
+[522a60f523f1403](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/522a60f523f1403) Tomas Bjerre *2023-12-17 07:27:27*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-1.101.0
+### No issue
+
+[263c1b2b607957a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/263c1b2b607957a) Tomas Bjerre *2023-12-17 07:27:23*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.101.0
+
+[015f8d80b3c230c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/015f8d80b3c230c) Tomas Bjerre *2023-12-17 07:26:35*
+
+feat: skip parameter on semantic-version mojo (refs #53)
+
+[bf8a8f47114204c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bf8a8f47114204c) Tomas Bjerre *2023-12-01 17:42:22*
+
+chore: updating changelog
+
+[fc6a203a2c5eb93](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/fc6a203a2c5eb93) Tomas Bjerre *2023-12-01 17:41:42*
 
 [maven-release-plugin] prepare for next development iteration
 
@@ -13,7 +101,11 @@ Changelog of Git Changelog Maven plugin.
 ## git-changelog-maven-plugin-1.100.7
 ### No issue
 
-[51d6cee9a1b77a6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/51d6cee9a1b77a6) Tomas Bjerre *2023-12-01 17:35:24*
+[0538a87cc0329d1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0538a87cc0329d1) Tomas Bjerre *2023-12-01 17:41:38*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.7
+
+[e5686948d160fe1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e5686948d160fe1) Tomas Bjerre *2023-12-01 17:40:18*
 
 fix: mapping commits to lowest possible semantic tag
 

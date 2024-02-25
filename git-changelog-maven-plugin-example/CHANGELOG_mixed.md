@@ -2,9 +2,49 @@
 
 Changelog of Git Changelog Maven plugin.
 
+## These commits are not included in any tag
+### These commits have not issue in their commit comment
+   chore: building with java 21 *11:46:15*
+
+   chore: updating changelog *07:05:56*
+
+
+
+## 2.1.0
+### These commits have not issue in their commit comment
+   feat(conventional-commits): allow whitespace, colon and comma as separator in scope *07:04:59*
+
+   chore: updating changelog *16:12:20*
+
+
+
+## 2.0.1
+### These commits have not issue in their commit comment
+   fix: removing properties (refs #60) *16:07:12*
+
+   chore: updating changelog *08:51:54*
+
+
+
+## 2.0.0
+### These commits have not issue in their commit comment
+   breaking: JGit 6 and Java 11 *08:50:50*
+
+   chore: updating changelog *07:28:20*
+
+
+
+## 1.101.0
+### These commits have not issue in their commit comment
+   feat: skip parameter on semantic-version mojo (refs #53) *07:26:35*
+
+   chore: updating changelog *17:42:22*
+
+
+
 ## 1.100.7
 ### These commits have not issue in their commit comment
-   fix: mapping commits to lowest possible semantic tag *17:35:24*
+   fix: mapping commits to lowest possible semantic tag *17:40:18*
 
 
 

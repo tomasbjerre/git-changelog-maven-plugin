@@ -4,12 +4,66 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   chore: building with java 21
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.1.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.1.0
+
+   feat(conventional-commits): allow whitespace, colon and comma as separator in scope
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.0.1
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.0.1
+
+   fix: removing properties (refs #60)
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.0.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.0.0
+
+   breaking: JGit 6 and Java 11
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-1.101.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.101.0
+
+   feat: skip parameter on semantic-version mojo (refs #53)
+
+   chore: updating changelog
+
    [maven-release-plugin] prepare for next development iteration
 
 
 
 ## git-changelog-maven-plugin-1.100.7
 ### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-1.100.7
+
    fix: mapping commits to lowest possible semantic tag
 
    [maven-release-plugin] prepare for next development iteration

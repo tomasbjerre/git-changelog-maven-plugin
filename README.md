@@ -19,6 +19,14 @@ Here is and example that will generate a CHANGELOG.md when running `mvn generate
       <groupId>se.bjurr.gitchangelog</groupId>
       <artifactId>git-changelog-maven-plugin</artifactId>
       <version>${changelog}</version>
+      <dependencies>
+       <!-- This dependency is only needed if you add your own javascript-helpers //-->
+       <dependency>
+        <groupId>org.openjdk.nashorn</groupId>
+        <artifactId>nashorn-core</artifactId>
+        <version>15.4</version>
+       </dependency>
+      </dependencies>
       <executions>
        <execution>
         <id>GenerateGitChangelog</id>
