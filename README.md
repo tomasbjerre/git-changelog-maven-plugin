@@ -140,6 +140,14 @@ You can add your own helpers and use them in the template. There are also [built
       <groupId>se.bjurr.gitchangelog</groupId>
       <artifactId>git-changelog-maven-plugin</artifactId>
       <version>${changelog}</version>
+      <dependencies>
+       <!-- This dependency is only needed if you add your own javascript-helpers //-->
+       <dependency>
+        <groupId>org.openjdk.nashorn</groupId>
+        <artifactId>nashorn-core</artifactId>
+        <version>15.4</version>
+       </dependency>
+      </dependencies>
       <executions>
        <execution>
         <id>GenerateGitChangelog</id>
@@ -216,6 +224,14 @@ Or in `pom.xml`:
       <groupId>se.bjurr.gitchangelog</groupId>
       <artifactId>git-changelog-maven-plugin</artifactId>
       <version>${changelog}</version>
+      <dependencies>
+       <!-- This dependency is only needed if you add your own javascript-helpers //-->
+       <dependency>
+        <groupId>org.openjdk.nashorn</groupId>
+        <artifactId>nashorn-core</artifactId>
+        <version>15.4</version>
+       </dependency>
+      </dependencies>
       <executions>
        <execution>
         <id>GenerateGitChangelog</id>
