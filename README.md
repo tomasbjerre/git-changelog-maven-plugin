@@ -4,6 +4,12 @@
 
 This is a Maven plugin for [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib).
 
+| Version                  | Java Version |
+| ------------------------ | ------------ |
+| version < 2.0.0          | 8            |
+| 2.0.0 <= version < 2.2.0 | 11           |
+| 2.2.0 <= version         | 17           |
+
 ## Usage
 
 There is a running example [here](/git-changelog-maven-plugin-example). See also [bjurr-bom](https://github.com/tomasbjerre/bjurr-bom).

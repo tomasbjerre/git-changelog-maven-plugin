@@ -1,9 +1,0 @@
-sudo: false
-language: java
-jdk:
-  - openjdk8
-  - openjdk11
-script:
-  - ./build.sh
-notifications:
-  email: false
