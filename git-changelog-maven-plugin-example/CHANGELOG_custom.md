@@ -4,6 +4,12 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
+   feat: git-changelog-lib 2.2.0 and Java 17
+
+   chore: documenting java compatibility (refs #52)
+
+   docs: readme
+
    chore: building with java 21
 
    chore: updating changelog

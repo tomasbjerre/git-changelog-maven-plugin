@@ -4,7 +4,13 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   chore: building with java 21 *2024-02-25 11:46:15*
+   feat: git-changelog-lib 2.2.0 and Java 17 *2024-10-03 14:18:08*
+
+   chore: documenting java compatibility (refs #52) *2024-10-03 14:17:20*
+
+   docs: readme *2024-02-25 19:25:38*
+
+   chore: building with java 21 *2024-02-25 11:49:42*
 
    chore: updating changelog *2024-02-10 07:05:56*
 

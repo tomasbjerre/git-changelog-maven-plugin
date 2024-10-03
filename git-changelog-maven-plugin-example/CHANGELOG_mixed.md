@@ -4,7 +4,13 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
-   chore: building with java 21 *11:46:15*
+   feat: git-changelog-lib 2.2.0 and Java 17 *14:18:08*
+
+   chore: documenting java compatibility (refs #52) *14:17:20*
+
+   docs: readme *19:25:38*
+
+   chore: building with java 21 *11:49:42*
 
    chore: updating changelog *07:05:56*
 

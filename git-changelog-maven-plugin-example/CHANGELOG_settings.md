@@ -4,6 +4,10 @@ Changelog of git-changelog-maven-plugin.
 
 ## Next release ()
 
+### Features
+
+-  git-changelog-lib 2.2.0 and Java 17 ([711d7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/711d7907e1b1304) Tomas Bjerre)  
+
 ## 2.1.0 (2024-02-10)
 
 ### Features
