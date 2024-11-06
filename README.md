@@ -254,6 +254,8 @@ Or in `pom.xml`:
           <semanticMajorVersionPattern>^[Bb]reaking</semanticMajorVersionPattern>
           <semanticMinorVersionPattern>[Ff]eature</semanticMinorVersionPattern>
           <semanticPatchVersionPattern>[Ff]ix</semanticPatchVersionPattern>
+
+          <jiraBasePath>https://my-company.atlassian.net/rest/api/latest</jiraBasePath>
         </configuration>
        </execution>
       </executions>
