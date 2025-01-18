@@ -2,6 +2,8 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-2.2.3 (2025-01-18)
+
 ## git-changelog-maven-plugin-2.2.2 (2024-12-25)
 
 ## git-changelog-maven-plugin-2.2.1 (2024-10-20)
