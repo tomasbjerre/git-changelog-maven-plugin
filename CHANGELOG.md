@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-2.2.4 (2025-01-26)
+
+### Bug Fixes
+
+-  reverse order in eachUrlPart ([f25c9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f25c9b839a5fc7a) Tomas Bjerre)  
+
 ## git-changelog-maven-plugin-2.2.3 (2025-01-18)
 
 ## git-changelog-maven-plugin-2.2.2 (2024-12-25)
