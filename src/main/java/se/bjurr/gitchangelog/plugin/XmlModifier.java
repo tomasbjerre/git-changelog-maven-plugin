@@ -26,8 +26,17 @@ public class XmlModifier {
     final Document document = this.readDocument();
 
     final Node projectNode = this.getNode(document.getChildNodes(), "project");
-    final Node versionNode = this.getNode(projectNode.getChildNodes(), "version");
-    versionNode.setTextContent(value);
+
+    // Not multimodule with version in parent pom
+    final Node versionNodeOpt = this.findNode(projectNode.getChildNodes(), "version");
+    if (versionNodeOpt != null) {
+      versionNodeOpt.setTextContent(value);
+    } else {
+      // Probably version in parent/version node
+      final Node parentNode = this.getNode(projectNode.getChildNodes(), "parent");
+      final Node versionNode = this.getNode(parentNode.getChildNodes(), "version");
+      versionNode.setTextContent(value);
+    }
 
     this.saveDocument(document);
   }
@@ -47,7 +56,7 @@ public class XmlModifier {
     transformer.transform(source, result);
   }
 
-  private Node getNode(final NodeList nodes, final String tagName) {
+  private Node findNode(final NodeList nodes, final String tagName) {
     Node found = null;
     for (int tagIndex = 0; tagIndex < nodes.getLength(); tagIndex++) {
       final Node tag = nodes.item(tagIndex);
@@ -58,6 +67,11 @@ public class XmlModifier {
         found = tag;
       }
     }
+    return found;
+  }
+
+  private Node getNode(final NodeList nodes, final String tagName) {
+    Node found = findNode(nodes, tagName);
     if (found == null) {
       throw new RuntimeException("Cannot find " + tagName + " in " + nodes);
     }
