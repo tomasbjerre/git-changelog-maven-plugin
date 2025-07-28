@@ -2,6 +2,25 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## git-changelog-maven-plugin-2.2.8 (2025-07-28)
+
+### Bug Fixes
+
+-  set version in parent pom reference ([f7bfc](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f7bfcc47de25c21) Tomas Bjerre)  
+
+### Other changes
+
+**[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.8**
+
+
+[6d424](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6d424e7695f25b0) Tomas Bjerre *2025-07-28 08:49:02*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[28984](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2898443f2c2f23e) Tomas Bjerre *2025-07-17 04:31:12*
+
+
 ## git-changelog-maven-plugin-2.2.7 (2025-07-17)
 
 ### Bug Fixes
