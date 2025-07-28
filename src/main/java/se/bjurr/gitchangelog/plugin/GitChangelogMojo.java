@@ -4,6 +4,7 @@ import static org.apache.maven.plugins.annotations.LifecyclePhase.PROCESS_SOURCE
 import static se.bjurr.gitchangelog.api.GitChangelogApi.gitChangelogApiBuilder;
 
 import java.io.File;
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -19,6 +20,7 @@ import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.project.MavenProject;
 import se.bjurr.gitchangelog.api.GitChangelogApi;
 import se.bjurr.gitchangelog.api.InclusivenessStrategy;
+import se.bjurr.gitchangelog.api.exceptions.GitChangelogRepositoryException;
 
 @Mojo(name = "git-changelog", defaultPhase = PROCESS_SOURCES, threadSafe = true)
 public class GitChangelogMojo extends AbstractMojo {
@@ -381,7 +383,7 @@ public class GitChangelogMojo extends AbstractMojo {
         this.getLog().info("#");
       }
 
-    } catch (final Exception e) {
+    } catch (final GitChangelogRepositoryException | IOException e) {
       this.getLog().error("GitChangelog", e);
     }
   }

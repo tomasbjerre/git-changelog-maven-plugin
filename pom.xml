@@ -1,65 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>se.bjurr.maven</groupId>
-		<artifactId>bjurr-maven-plugin-parent</artifactId>
-		<version>1.1.4</version>
-	</parent>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>se.bjurr.maven</groupId>
+    <artifactId>bjurr-maven-plugin-parent</artifactId>
+    <version>1.1.4</version>
+  </parent>
 
-	<groupId>se.bjurr.gitchangelog</groupId>
-	<artifactId>git-changelog-maven-plugin</artifactId>
-	<version>2.2.9-SNAPSHOT</version>
-	<name>git-changelog-maven-plugin</name>
-	<description>Maven plugin that can generate a changelog from git repo.</description>
-	<url>https://github.com/tomasbjerre/git-changelog-maven-plugin</url>
-	<inceptionYear>2025</inceptionYear>
+  <groupId>se.bjurr.gitchangelog</groupId>
+  <artifactId>git-changelog-maven-plugin</artifactId>
+  <version>2.2.9</version>
+  <name>git-changelog-maven-plugin</name>
+  <description>Maven plugin that can generate a changelog from git repo.</description>
+  <url>https://github.com/tomasbjerre/git-changelog-maven-plugin</url>
+  <inceptionYear>2025</inceptionYear>
 
-	<scm>
-		<developerConnection>scm:git:git@github.com:tomasbjerre/git-changelog-maven-plugin.git</developerConnection>
-		<url>https://github.com/tomasbjerre/git-changelog-maven-plugin</url>
-		<tag>git-changelog-maven-plugin-1.92.2</tag>
-	</scm>
+  <scm>
+    <developerConnection>scm:git:git@github.com:tomasbjerre/git-changelog-maven-plugin.git</developerConnection>
+    <tag>git-changelog-maven-plugin-2.2.9</tag>
+    <url>https://github.com/tomasbjerre/git-changelog-maven-plugin</url>
+  </scm>
 
-	<properties>
-		<maven.compiler.target>17</maven.compiler.target>
-		<maven.compiler.source>17</maven.compiler.source>
-		<changelog-lib>2.6.0</changelog-lib>
-	</properties>
+  <properties>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <changelog-lib>2.6.0</changelog-lib>
+  </properties>
 
-	<dependencies>
-		<dependency>
-			<groupId>se.bjurr.gitchangelog</groupId>
-			<artifactId>git-changelog-lib</artifactId>
-			<version>${changelog-lib}</version>
-		</dependency>
-	</dependencies>
+  <dependencies>
+    <dependency>
+      <groupId>se.bjurr.gitchangelog</groupId>
+      <artifactId>git-changelog-lib</artifactId>
+      <version>${changelog-lib}</version>
+    </dependency>
+  </dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-plugin-plugin</artifactId>
-				<version>3.6.4</version>
-				<configuration>
-					<goalPrefix>git-changelog-maven-plugin</goalPrefix>
-					<skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
-					<helpPackageName>gitchangelog.helpmojo</helpPackageName>
-				</configuration>
-				<executions>
-					<execution>
-						<id>mojo-descriptor</id>
-						<goals>
-							<goal>descriptor</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>gitchangelog-goal</id>
-						<goals>
-							<goal>helpmojo</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-plugin-plugin</artifactId>
+        <version>3.6.4</version>
+        <configuration>
+          <goalPrefix>git-changelog-maven-plugin</goalPrefix>
+          <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
+          <helpPackageName>gitchangelog.helpmojo</helpPackageName>
+        </configuration>
+        <executions>
+          <execution>
+            <id>mojo-descriptor</id>
+            <goals>
+              <goal>descriptor</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>gitchangelog-goal</id>
+            <goals>
+              <goal>helpmojo</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 </project>
