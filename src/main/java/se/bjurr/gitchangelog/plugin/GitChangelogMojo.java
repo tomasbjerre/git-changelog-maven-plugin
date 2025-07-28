@@ -32,6 +32,7 @@ public class GitChangelogMojo extends AbstractMojo {
   @Deprecated
   @Parameter(property = "toRef", required = false)
   private String toRef;
+
   /** {@link Deprecated} use toRevision */
   @Deprecated
   @Parameter(property = "toCommit", required = false)
