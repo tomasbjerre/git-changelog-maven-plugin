@@ -2,6 +2,12 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## 2.2.11 (2025-07-29)
+
+### Dependency updates
+
+- dependency updates ([62f72](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/62f72dc7a7bbe58) Tomas Bjerre)  
+- dependencies ([a2eb6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a2eb6c6b4ada084) Tomas Bjerre)  
 ## 2.2.10 (2025-07-28)
 
 ## 2.2.9 (2025-07-28)
