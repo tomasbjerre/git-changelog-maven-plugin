@@ -9,7 +9,7 @@
 
   <groupId>se.bjurr.gitchangelog</groupId>
   <artifactId>git-changelog-maven-plugin</artifactId>
-  <version>2.2.11</version>
+  <version>2.2.12-SNAPSHOT</version>
 
   <packaging>maven-plugin</packaging>
   <name>git-changelog-maven-plugin</name>
@@ -19,7 +19,7 @@
 
   <scm>
     <developerConnection>scm:git:git@github.com:tomasbjerre/git-changelog-maven-plugin.git</developerConnection>
-    <tag>git-changelog-maven-plugin-2.2.11</tag>
+    <tag>git-changelog-maven-plugin-2.2.9</tag>
     <url>https://github.com/tomasbjerre/git-changelog-maven-plugin</url>
   </scm>
 
