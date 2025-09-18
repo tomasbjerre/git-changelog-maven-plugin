@@ -2,16 +2,20 @@ package se.bjurr.gitchangelog.plugin;
 
 import static org.apache.maven.plugins.annotations.LifecyclePhase.PROCESS_SOURCES;
 import static se.bjurr.gitchangelog.api.GitChangelogApi.gitChangelogApiBuilder;
+import static se.bjurr.gitchangelog.plugin.model.ExtensionType.ASCIIDOC;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import nl.jworks.markdown_to_asciidoc.Converter;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Component;
@@ -21,12 +25,13 @@ import org.apache.maven.project.MavenProject;
 import se.bjurr.gitchangelog.api.GitChangelogApi;
 import se.bjurr.gitchangelog.api.InclusivenessStrategy;
 import se.bjurr.gitchangelog.api.exceptions.GitChangelogRepositoryException;
+import se.bjurr.gitchangelog.plugin.model.ExtensionType;
 
 @Mojo(name = "git-changelog", defaultPhase = PROCESS_SOURCES, threadSafe = true)
 public class GitChangelogMojo extends AbstractMojo {
   @Component private MavenProject project;
 
-  private static final String DEFAULT_FILE = "CHANGELOG.md";
+  private static final String DEFAULT_EXTENSION = ".md";
 
   /** {@link Deprecated} use toRevision */
   @Deprecated
@@ -203,6 +208,12 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "prependToFile", required = false)
   public Boolean prependToFile;
 
+  @Parameter(property = "generatedFileName", required = false, defaultValue = "CHANGELOG")
+  private String generatedFileName;
+
+  @Parameter(property = "generatedFileExtension", required = false, defaultValue = "md")
+  private ExtensionType generatedFileExtension;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (this.skip != null && this.skip == true) {
@@ -213,8 +224,7 @@ public class GitChangelogMojo extends AbstractMojo {
       final Map<String, String> extendedVariablesCliAsMap = this.convertExtendedVariablesCli2Map();
       this.extendedVariables.putAll(extendedVariablesCliAsMap);
 
-      GitChangelogApi builder;
-      builder =
+      GitChangelogApi builder =
           gitChangelogApiBuilder()
               .withUseIntegrations(this.isSuppliedAndTrue(this.useIntegrations))
               .withJiraEnabled(this.isSuppliedAndTrue(this.jiraEnabled))
@@ -369,24 +379,47 @@ public class GitChangelogMojo extends AbstractMojo {
       }
 
       if (this.file == null) {
-        this.getLog().info("No output set, using file " + DEFAULT_FILE);
-        this.file = this.project.getBasedir().toPath().resolve(DEFAULT_FILE).toFile();
+        this.getLog().info("No output set, using file " + defaultFile());
+        this.file = this.project.getBasedir().toPath().resolve(defaultFile()).toFile();
       }
 
-      if (this.file != null) {
+      if (ASCIIDOC.equals(generatedFileExtension)) {
+
+        if (this.isSuppliedAndTrue(this.prependToFile) && this.file.exists()) {
+          String markDown = Files.readString(Paths.get(this.file.getPath()), getEncoding());
+          write(markDown + builder.render());
+        } else {
+          write(builder.render());
+        }
+      } else {
         if (this.isSuppliedAndTrue(this.prependToFile)) {
           builder.prependToFile(this.file);
         } else {
           builder.toFile(this.file);
         }
-        this.getLog().info("#");
-        this.getLog().info("# Wrote: " + this.file);
-        this.getLog().info("#");
       }
+
+      this.getLog().info("#");
+      this.getLog().info("# Wrote: " + this.file);
+      this.getLog().info("#");
 
     } catch (final GitChangelogRepositoryException | IOException e) {
       this.getLog().error("GitChangelog", e);
     }
+  }
+
+  private String defaultFile() {
+    return generatedFileName + "." + generatedFileExtension;
+  }
+
+  private void write(String markDown) throws GitChangelogRepositoryException, IOException {
+    Path targetFile = Paths.get(this.file.getPath());
+    String asciidoc = Converter.convertMarkdownToAsciiDoc(markDown);
+    Files.writeString(targetFile, asciidoc, getEncoding());
+  }
+
+  private Charset getEncoding() {
+    return Charset.forName(project.getModel().getModelEncoding());
   }
 
   private boolean isSuppliedAndTrue(final Boolean b) {

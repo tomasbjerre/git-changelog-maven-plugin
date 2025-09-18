@@ -47,7 +47,7 @@ public class SemanticVersionMojo extends AbstractMojo {
 
   @Override
   public void execute() throws MojoExecutionException {
-    if (this.skip != null && this.skip == true) {
+    if (this.skip != null && this.skip) {
       this.getLog().info("Skipping semantic version");
       return;
     }
