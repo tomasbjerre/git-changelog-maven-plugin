@@ -4,7 +4,107 @@ Changelog of Git Changelog Maven plugin.
 
 ## These commits are not included in any tag
 ### These commits have not issue in their commit comment
-   feat: git-changelog-lib 2.2.0 and Java 17 *14:18:08*
+   chore: updating changelog *05:47:45*
+
+   chore: setting version in pom *05:46:34*
+
+   chore(deps): dependency updates *05:46:19*
+
+   chore(deps): dependencies *16:13:05*
+
+   chore: updating changelog *10:02:54*
+
+   chore: setting version in pom *10:01:46*
+
+   chore: using parent pom *10:01:21*
+
+   chore: updating changelog *09:58:38*
+
+
+
+## 2.2.9
+### These commits have not issue in their commit comment
+   chore: setting version in pom *09:57:21*
+
+   chore: using parent pom *09:57:11*
+
+   chore: using parent pom *09:53:03*
+
+   chore: updating changelog *08:49:37*
+
+
+
+## 2.2.8
+### These commits have not issue in their commit comment
+   fix: set version in parent pom reference *08:48:39*
+
+   chore: updating changelog *04:31:46*
+
+
+
+## 2.2.7
+### These commits have not issue in their commit comment
+   fix: trying to use new Sonatype OSS API *04:30:35*
+
+   chore: updating changelog *16:16:48*
+
+
+
+## 2.2.6
+### These commits have not issue in their commit comment
+   chore: trying to use new Sonatype OSS API *16:12:01*
+
+   chore: trying to use new Sonatype OSS API *16:10:44*
+
+   chore: prop *16:04:36*
+
+   chore(deps): Updated pom.xml by Safer #67 *16:03:45*
+
+   chore: updating changelog *15:04:51*
+
+
+
+## 2.2.5
+### These commits have not issue in their commit comment
+   chore(deps): git-changelog-lib *15:03:36*
+
+   chore: updating changelog *10:20:01*
+
+
+
+## 2.2.4
+### These commits have not issue in their commit comment
+   fix: reverse order in eachUrlPart *10:18:54*
+
+   chore: updating changelog *07:15:45*
+
+
+
+## 2.2.3
+### These commits have not issue in their commit comment
+   chore(deps): upgrading dependencies *07:14:32*
+
+   chore: updating changelog *07:19:55*
+
+
+
+## 2.2.2
+### These commits have not issue in their commit comment
+   chore: updating changelog *13:15:06*
+
+
+
+## 2.2.1
+### These commits have not issue in their commit comment
+   chore(deps): git-changelog-lib 2.4.1 *13:13:44*
+
+   chore: updating changelog *14:21:04*
+
+
+
+## 2.2.0
+### These commits have not issue in their commit comment
+   feat: git-changelog-lib 2.3.2 and Java 17 *14:19:15*
 
    chore: documenting java compatibility (refs #52) *14:17:20*
 

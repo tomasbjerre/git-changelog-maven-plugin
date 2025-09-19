@@ -4,7 +4,163 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue
-   feat: git-changelog-lib 2.2.0 and Java 17 *2024-10-03 14:18:08*
+   chore: updating changelog *2025-07-29 05:47:45*
+
+   [maven-release-plugin] prepare for next development iteration *2025-07-29 05:47:06*
+
+
+
+## git-changelog-maven-plugin-2.2.11
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.11 *2025-07-29 05:47:02*
+
+   chore: setting version in pom *2025-07-29 05:46:34*
+
+   chore(deps): dependency updates *2025-07-29 05:46:19*
+
+   chore(deps): dependencies *2025-07-28 16:13:05*
+
+   chore: updating changelog *2025-07-28 10:02:54*
+
+   [maven-release-plugin] prepare for next development iteration *2025-07-28 10:02:16*
+
+
+
+## git-changelog-maven-plugin-2.2.10
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.10 *2025-07-28 10:02:12*
+
+   chore: setting version in pom *2025-07-28 10:01:46*
+
+   chore: using parent pom *2025-07-28 10:01:21*
+
+   chore: updating changelog *2025-07-28 09:58:38*
+
+   [maven-release-plugin] prepare for next development iteration *2025-07-28 09:57:49*
+
+
+
+## git-changelog-maven-plugin-2.2.9
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.9 *2025-07-28 09:57:45*
+
+   chore: setting version in pom *2025-07-28 09:57:21*
+
+   chore: using parent pom *2025-07-28 09:57:11*
+
+   chore: using parent pom *2025-07-28 09:53:03*
+
+   chore: updating changelog *2025-07-28 08:49:37*
+
+   [maven-release-plugin] prepare for next development iteration *2025-07-28 08:49:07*
+
+
+
+## git-changelog-maven-plugin-2.2.8
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.8 *2025-07-28 08:49:02*
+
+   fix: set version in parent pom reference *2025-07-28 08:48:39*
+
+   chore: updating changelog *2025-07-17 04:31:46*
+
+   [maven-release-plugin] prepare for next development iteration *2025-07-17 04:31:12*
+
+
+
+## git-changelog-maven-plugin-2.2.7
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.7 *2025-07-17 04:31:09*
+
+   fix: trying to use new Sonatype OSS API *2025-07-17 04:30:35*
+
+   chore: updating changelog *2025-07-16 16:16:48*
+
+   [maven-release-plugin] prepare for next development iteration *2025-07-16 16:16:19*
+
+
+
+## git-changelog-maven-plugin-2.2.6
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.6 *2025-07-16 16:16:15*
+
+   chore: trying to use new Sonatype OSS API *2025-07-16 16:12:01*
+
+   chore: trying to use new Sonatype OSS API *2025-07-16 16:10:44*
+
+   chore: prop *2025-07-16 16:04:36*
+
+   chore(deps): Updated pom.xml by Safer #67 *2025-07-16 16:03:45*
+
+   chore: updating changelog *2025-03-16 15:04:51*
+
+   [maven-release-plugin] prepare for next development iteration *2025-03-16 15:04:17*
+
+
+
+## git-changelog-maven-plugin-2.2.5
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.5 *2025-03-16 15:04:14*
+
+   chore(deps): git-changelog-lib *2025-03-16 15:03:36*
+
+   chore: updating changelog *2025-01-26 10:20:01*
+
+   [maven-release-plugin] prepare for next development iteration *2025-01-26 10:19:27*
+
+
+
+## git-changelog-maven-plugin-2.2.4
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.4 *2025-01-26 10:19:23*
+
+   fix: reverse order in eachUrlPart *2025-01-26 10:18:54*
+
+   chore: updating changelog *2025-01-18 07:15:45*
+
+   [maven-release-plugin] prepare for next development iteration *2025-01-18 07:15:06*
+
+
+
+## git-changelog-maven-plugin-2.2.3
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.3 *2025-01-18 07:15:02*
+
+   chore(deps): upgrading dependencies *2025-01-18 07:14:32*
+
+   chore: updating changelog *2024-12-25 07:19:55*
+
+   [maven-release-plugin] prepare for next development iteration *2024-12-25 07:19:12*
+
+
+
+## git-changelog-maven-plugin-2.2.2
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.2 *2024-12-25 07:19:08*
+
+   chore: updating changelog *2024-10-20 13:15:06*
+
+   [maven-release-plugin] prepare for next development iteration *2024-10-20 13:14:34*
+
+
+
+## git-changelog-maven-plugin-2.2.1
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.1 *2024-10-20 13:14:31*
+
+   chore(deps): git-changelog-lib 2.4.1 *2024-10-20 13:13:44*
+
+   chore: updating changelog *2024-10-03 14:21:04*
+
+   [maven-release-plugin] prepare for next development iteration *2024-10-03 14:20:09*
+
+
+
+## git-changelog-maven-plugin-2.2.0
+### No issue
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.0 *2024-10-03 14:20:05*
+
+   feat: git-changelog-lib 2.3.2 and Java 17 *2024-10-03 14:19:15*
 
    chore: documenting java compatibility (refs #52) *2024-10-03 14:17:20*
 

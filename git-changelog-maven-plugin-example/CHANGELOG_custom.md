@@ -4,7 +4,163 @@ Changelog of Git Changelog Maven plugin.
 
 ## Unreleased
 ### No issue / 
-   feat: git-changelog-lib 2.2.0 and Java 17
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.11
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.11
+
+   chore: setting version in pom
+
+   chore(deps): dependency updates
+
+   chore(deps): dependencies
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.10
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.10
+
+   chore: setting version in pom
+
+   chore: using parent pom
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.9
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.9
+
+   chore: setting version in pom
+
+   chore: using parent pom
+
+   chore: using parent pom
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.8
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.8
+
+   fix: set version in parent pom reference
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.7
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.7
+
+   fix: trying to use new Sonatype OSS API
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.6
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.6
+
+   chore: trying to use new Sonatype OSS API
+
+   chore: trying to use new Sonatype OSS API
+
+   chore: prop
+
+   chore(deps): Updated pom.xml by Safer #67
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.5
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.5
+
+   chore(deps): git-changelog-lib
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.4
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.4
+
+   fix: reverse order in eachUrlPart
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.3
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.3
+
+   chore(deps): upgrading dependencies
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.2
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.2
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.1
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.1
+
+   chore(deps): git-changelog-lib 2.4.1
+
+   chore: updating changelog
+
+   [maven-release-plugin] prepare for next development iteration
+
+
+
+## git-changelog-maven-plugin-2.2.0
+### No issue / 
+   [maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.0
+
+   feat: git-changelog-lib 2.3.2 and Java 17
 
    chore: documenting java compatibility (refs #52)
 

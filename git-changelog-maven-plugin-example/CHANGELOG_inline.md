@@ -5,9 +5,273 @@ Changelog of Git Changelog Maven plugin.
 ## Unreleased
 ### No issue
 
-[711d7907e1b1304](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/711d7907e1b1304) Tomas Bjerre *2024-10-03 14:18:08*
+[58f5a1cca73ece2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/58f5a1cca73ece2) Tomas Bjerre *2025-07-29 05:47:45*
 
-feat: git-changelog-lib 2.2.0 and Java 17
+chore: updating changelog
+
+[5c32dd412c34777](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5c32dd412c34777) Tomas Bjerre *2025-07-29 05:47:06*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.11
+### No issue
+
+[8d89e964713c901](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8d89e964713c901) Tomas Bjerre *2025-07-29 05:47:02*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.11
+
+[135e56662651c62](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/135e56662651c62) Tomas Bjerre *2025-07-29 05:46:34*
+
+chore: setting version in pom
+
+[62f72dc7a7bbe58](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/62f72dc7a7bbe58) Tomas Bjerre *2025-07-29 05:46:19*
+
+chore(deps): dependency updates
+
+[a2eb6c6b4ada084](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a2eb6c6b4ada084) Tomas Bjerre *2025-07-28 16:13:05*
+
+chore(deps): dependencies
+
+[e81528341948255](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e81528341948255) Tomas Bjerre *2025-07-28 10:02:54*
+
+chore: updating changelog
+
+[147a2dc4190a442](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/147a2dc4190a442) Tomas Bjerre *2025-07-28 10:02:16*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.10
+### No issue
+
+[eee7293676a5267](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/eee7293676a5267) Tomas Bjerre *2025-07-28 10:02:12*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.10
+
+[25a91ecc0c585ef](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/25a91ecc0c585ef) Tomas Bjerre *2025-07-28 10:01:46*
+
+chore: setting version in pom
+
+[86ddf50813936f1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/86ddf50813936f1) Tomas Bjerre *2025-07-28 10:01:21*
+
+chore: using parent pom
+
+[0dd54426d5647c3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0dd54426d5647c3) Tomas Bjerre *2025-07-28 09:58:38*
+
+chore: updating changelog
+
+[0c3915009f89bb4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0c3915009f89bb4) Tomas Bjerre *2025-07-28 09:57:49*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.9
+### No issue
+
+[2d10d212e14951a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2d10d212e14951a) Tomas Bjerre *2025-07-28 09:57:45*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.9
+
+[9d9e258ad9f4024](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9d9e258ad9f4024) Tomas Bjerre *2025-07-28 09:57:21*
+
+chore: setting version in pom
+
+[3ac8d117ff1ffef](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3ac8d117ff1ffef) Tomas Bjerre *2025-07-28 09:57:11*
+
+chore: using parent pom
+
+[1ce74b9fb7004d3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1ce74b9fb7004d3) Tomas Bjerre *2025-07-28 09:53:03*
+
+chore: using parent pom
+
+[3d62d355fcdc899](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3d62d355fcdc899) Tomas Bjerre *2025-07-28 08:49:37*
+
+chore: updating changelog
+
+[3230818ea51d97b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3230818ea51d97b) Tomas Bjerre *2025-07-28 08:49:07*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.8
+### No issue
+
+[6d424e7695f25b0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6d424e7695f25b0) Tomas Bjerre *2025-07-28 08:49:02*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.8
+
+[f7bfcc47de25c21](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f7bfcc47de25c21) Tomas Bjerre *2025-07-28 08:48:39*
+
+fix: set version in parent pom reference
+
+[1e205a61802078b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1e205a61802078b) Tomas Bjerre *2025-07-17 04:31:46*
+
+chore: updating changelog
+
+[2898443f2c2f23e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/2898443f2c2f23e) Tomas Bjerre *2025-07-17 04:31:12*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.7
+### No issue
+
+[a2da2367850f208](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a2da2367850f208) Tomas Bjerre *2025-07-17 04:31:09*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.7
+
+[a89db6f7ce731eb](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a89db6f7ce731eb) Tomas Bjerre *2025-07-17 04:30:35*
+
+fix: trying to use new Sonatype OSS API
+
+[97c618ba8e5b025](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/97c618ba8e5b025) Tomas Bjerre *2025-07-16 16:16:48*
+
+chore: updating changelog
+
+[498c96cac72c8e9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/498c96cac72c8e9) Tomas Bjerre *2025-07-16 16:16:19*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.6
+### No issue
+
+[b8efbd859d7bdfe](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/b8efbd859d7bdfe) Tomas Bjerre *2025-07-16 16:16:15*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.6
+
+[3e47458f85c544b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/3e47458f85c544b) Tomas Bjerre *2025-07-16 16:12:01*
+
+chore: trying to use new Sonatype OSS API
+
+[f2c1bf436d81371](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f2c1bf436d81371) Tomas Bjerre *2025-07-16 16:10:44*
+
+chore: trying to use new Sonatype OSS API
+
+[96c901cdf63c7d7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/96c901cdf63c7d7) Tomas Bjerre *2025-07-16 16:04:36*
+
+chore: prop
+
+[218e0266cc63786](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/218e0266cc63786) safer-bot *2025-07-16 16:03:45*
+
+chore(deps): Updated pom.xml by Safer #67
+
+[169d3f42902cd30](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/169d3f42902cd30) Tomas Bjerre *2025-03-16 15:04:51*
+
+chore: updating changelog
+
+[eefcf782891d2a8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/eefcf782891d2a8) Tomas Bjerre *2025-03-16 15:04:17*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.5
+### No issue
+
+[5877902b792948a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5877902b792948a) Tomas Bjerre *2025-03-16 15:04:14*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.5
+
+[1a6ea9781691e70](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1a6ea9781691e70) Tomas Bjerre *2025-03-16 15:03:36*
+
+chore(deps): git-changelog-lib
+
+[168948509a26a03](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/168948509a26a03) Tomas Bjerre *2025-01-26 10:20:01*
+
+chore: updating changelog
+
+[895a111a105aa21](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/895a111a105aa21) Tomas Bjerre *2025-01-26 10:19:27*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.4
+### No issue
+
+[ea683b695533d3b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ea683b695533d3b) Tomas Bjerre *2025-01-26 10:19:23*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.4
+
+[f25c9b839a5fc7a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f25c9b839a5fc7a) Tomas Bjerre *2025-01-26 10:18:54*
+
+fix: reverse order in eachUrlPart
+
+[8b2c6ca3352ad8c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/8b2c6ca3352ad8c) Tomas Bjerre *2025-01-18 07:15:45*
+
+chore: updating changelog
+
+[66b841b7d790c4a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/66b841b7d790c4a) Tomas Bjerre *2025-01-18 07:15:06*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.3
+### No issue
+
+[62f4343b51bf603](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/62f4343b51bf603) Tomas Bjerre *2025-01-18 07:15:02*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.3
+
+[0beb48cebe3e649](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0beb48cebe3e649) Tomas Bjerre *2025-01-18 07:14:32*
+
+chore(deps): upgrading dependencies
+
+[273080c868459f2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/273080c868459f2) Tomas Bjerre *2024-12-25 07:19:55*
+
+chore: updating changelog
+
+[182e735bb48701c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/182e735bb48701c) Tomas Bjerre *2024-12-25 07:19:12*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.2
+### No issue
+
+[5f4142b8bb0cfe7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/5f4142b8bb0cfe7) Tomas Bjerre *2024-12-25 07:19:08*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.2
+
+[cb11699915147de](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/cb11699915147de) Tomas Bjerre *2024-10-20 13:15:06*
+
+chore: updating changelog
+
+[069cbe660559e84](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/069cbe660559e84) Tomas Bjerre *2024-10-20 13:14:34*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.1
+### No issue
+
+[e61451ae6b0c58b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e61451ae6b0c58b) Tomas Bjerre *2024-10-20 13:14:31*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.1
+
+[00587780a426277](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/00587780a426277) Tomas Bjerre *2024-10-20 13:13:44*
+
+chore(deps): git-changelog-lib 2.4.1
+
+[adbea3d12cc70bf](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/adbea3d12cc70bf) Tomas Bjerre *2024-10-03 14:21:04*
+
+chore: updating changelog
+
+[92737182ac1898d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/92737182ac1898d) Tomas Bjerre *2024-10-03 14:20:09*
+
+[maven-release-plugin] prepare for next development iteration
+
+
+## git-changelog-maven-plugin-2.2.0
+### No issue
+
+[9b789c0b2fdd8d7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9b789c0b2fdd8d7) Tomas Bjerre *2024-10-03 14:20:05*
+
+[maven-release-plugin] prepare release git-changelog-maven-plugin-2.2.0
+
+[70c28a5bb547e52](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/70c28a5bb547e52) Tomas Bjerre *2024-10-03 14:19:15*
+
+feat: git-changelog-lib 2.3.2 and Java 17
 
 [bb98f52d8db927e](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bb98f52d8db927e) Tomas Bjerre *2024-10-03 14:17:20*
 

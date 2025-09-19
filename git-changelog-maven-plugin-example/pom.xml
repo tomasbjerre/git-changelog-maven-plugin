@@ -8,7 +8,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>21</maven.compiler.target>
 		<maven.compiler.source>21</maven.compiler.source>
-		<changelog.version>2.1.1-SNAPSHOT</changelog.version>
+		<changelog.version>2.2.12-SNAPSHOT</changelog.version>
 	</properties>
 	<build>
 		<plugins>

@@ -2,6 +2,65 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## 2.2.11 (2025-07-29)
+
+### Dependency updates
+
+- dependency updates ([62f72](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/62f72dc7a7bbe58) Tomas Bjerre)  
+- dependencies ([a2eb6](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a2eb6c6b4ada084) Tomas Bjerre)  
+## 2.2.10 (2025-07-28)
+
+## 2.2.9 (2025-07-28)
+
+## 2.2.8 (2025-07-28)
+
+### Bug Fixes
+
+-  set version in parent pom reference ([f7bfc](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f7bfcc47de25c21) Tomas Bjerre)  
+
+## 2.2.7 (2025-07-17)
+
+### Bug Fixes
+
+-  trying to use new Sonatype OSS API ([a89db](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/a89db6f7ce731eb) Tomas Bjerre)  
+
+## 2.2.6 (2025-07-16)
+
+### Dependency updates
+
+- Updated pom.xml by Safer #67 ([218e0](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/218e0266cc63786) safer-bot)  
+## 2.2.5 (2025-03-16)
+
+### Dependency updates
+
+- git-changelog-lib ([1a6ea](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1a6ea9781691e70) Tomas Bjerre)  
+## 2.2.4 (2025-01-26)
+
+### Bug Fixes
+
+-  reverse order in eachUrlPart ([f25c9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/f25c9b839a5fc7a) Tomas Bjerre)  
+
+## 2.2.3 (2025-01-18)
+
+### Dependency updates
+
+- upgrading dependencies ([0beb4](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0beb48cebe3e649) Tomas Bjerre)  
+## 2.2.2 (2024-12-25)
+
+## 2.2.1 (2024-10-20)
+
+### Dependency updates
+
+- git-changelog-lib 2.4.1 ([00587](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/00587780a426277) Tomas Bjerre)  
+## 2.2.0 (2024-10-03)
+
+### Features
+
+-  git-changelog-lib 2.3.2 and Java 17 ([70c28](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/70c28a5bb547e52) Tomas Bjerre)  
+
+### Other changes
+
+
 ## 2.1.0 (2024-02-10)
 
 ### Features
@@ -174,11 +233,17 @@ Changelog of git-changelog-maven-plugin.
 
 -  stepping git changelog lib ([d4dc9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d4dc962099f0b56) Tomas Bjerre)  
 
+### Other changes
+
+
 ## 1.95.3 (2022-12-03)
 
 ### Bug Fixes
 
 -  let semantic tag have priority if several tags on same commit ([ba86c](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ba86c4e74e88a4c) Tomas Bjerre)  
+
+### Other changes
+
 
 ## 1.95.2 (2022-10-09)
 
@@ -221,6 +286,9 @@ Changelog of git-changelog-maven-plugin.
 ### Bug Fixes
 
 -  stepping library version ([0f186](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0f186ce309e6b4d) Tomas Bjerre)  
+
+### Other changes
+
 
 ## 1.92 (2022-04-03)
 
