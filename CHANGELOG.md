@@ -2,6 +2,15 @@
 
 Changelog of git-changelog-maven-plugin.
 
+## 2.3.0 (2026-09-13)
+
+### Features
+
+-  git changelog lib 3 ([d27fd](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d27fda120b91ada) Tomas Bjerre)  
+
+### Dependency updates
+
+- updates ([102bd](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/102bd621af8a128) Tomas Bjerre)  
 ## 2.2.11 (2025-07-29)
 
 ### Dependency updates
