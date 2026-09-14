@@ -1,6 +1,6 @@
 # Git Changelog Maven Plugin
 
-[![Maven Central](https://img.shields.io/maven-central/v/se.bjurr.gitchangelog/git-changelog-maven-plugin.svg?label=Maven%20Central)](https://search.maven.org/artifact/se.bjurr.gitchangelog/git-changelog-maven-plugin)
+[![Maven Central](https://img.shields.io/maven-central/v/se.bjurr.gitchangelog/git-changelog-maven-plugin.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/se.bjurr.gitchangelog/git-changelog-maven-plugin)
 
 This is a Maven plugin for [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib).
 
