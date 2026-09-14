@@ -1,3 +1,29 @@
+## 2.4.0 (2026-09-14)
+
+### Features
+
+-  **ci**  add draft/publish release workflow ([e892d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/e892d9297c22d66) Tomas Bjerre)  
+
+### Dependency updates
+
+- update maven-plugin-plugin 3.6.4 -> 3.12.0 ([741eb](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/741eb33f67a372e) Tomas Bjerre)  
+### Other changes
+
+**Fix broken Maven Central badge in README**
+
+* maven-badges.herokuapp.com is down; switch to img.shields.io badge 
+* linking to search.maven.org. 
+* Co-Authored-By: Claude Sonnet 5 &lt;noreply@anthropic.com&gt; 
+* Claude-Session: https://claude.ai/code/session_011PGVf85V1VhJj4oM3rKh7b 
+
+[20212](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/20212eeae99e08b) Tomas Bjerre *2026-09-13 08:52:01*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[c2ec2](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c2ec2d458e5718c) Tomas Bjerre *2026-09-13 06:40:23*
+
+
 # git-changelog-maven-plugin changelog
 
 Changelog of git-changelog-maven-plugin.
