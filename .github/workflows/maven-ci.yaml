@@ -1,0 +1,7 @@
+name: Bundle Maven CI
+
+on: [workflow_dispatch, push, pull_request]
+
+jobs:
+  call-workflow:
+    uses: tomasbjerre/.github/.github/workflows/bundle-maven-ci.yaml@master
