@@ -146,6 +146,9 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "jiraServer", required = false)
   private String jiraServer;
 
+  @Parameter(property = "jiraRestBasePath", required = false)
+  private String jiraRestBasePath;
+
   @Parameter(property = "jiraUsername", required = false)
   private String jiraUsername;
 
@@ -181,6 +184,9 @@ public class GitChangelogMojo extends AbstractMojo {
 
   @Parameter(property = "pathFilter", required = false)
   private String pathFilter;
+
+  @Parameter(property = "commitCount", required = false)
+  private boolean commitCount;
 
   @Parameter(property = "javascriptHelper", required = false)
   private String javascriptHelper;
@@ -347,6 +353,9 @@ public class GitChangelogMojo extends AbstractMojo {
       if (this.isSupplied(this.jiraServer)) {
         builder.withJiraServer(this.jiraServer);
       }
+      if (this.isSupplied(this.jiraRestBasePath)) {
+        builder.withJiraRestBasePath(this.jiraRestBasePath);
+      }
       if (this.isSupplied(this.jiraBearer)) {
         builder.withJiraBearer(this.jiraBearer);
       }
@@ -375,6 +384,7 @@ public class GitChangelogMojo extends AbstractMojo {
       if (this.isSupplied(this.pathFilter)) {
         builder.withPathFilters(this.pathFilter);
       }
+      builder.withCommitCount(this.commitCount);
 
       if (this.file == null) {
         this.getLog().info("No output set, using file " + DEFAULT_FILE);

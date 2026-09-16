@@ -185,6 +185,7 @@ Changelog of Git Changelog Maven plugin.
 							<!-- <jiraEnabled>true</jiraEnabled> -->
 							<!--jiraUsername>${JIRA_USERNAME}</jiraUsername> <jiraPassword>${JIRA_PASSWORD}</jiraPassword>
 								<jiraIssuePattern>\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\b</jiraIssuePattern> <jiraServer>https://yourJiraServer.com/jira</jiraServer>
+								<jiraRestBasePath>/rest/api/latest</jiraRestBasePath>
 								<jiraIssueAdditionalFields><jiraIssueAdditionalField>customfield_10001</jiraIssueAdditionalField><jiraIssueAdditionalField>customfield_10002</jiraIssueAdditionalField></jiraIssueAdditionalFields// -->
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
@@ -261,6 +262,7 @@ Changelog of Git Changelog Maven plugin.
 							<ignoreTagsIfNameMatches>.*[0-9]{2}$</ignoreTagsIfNameMatches>
 							<untaggedName>These commits are not included in any tag</untaggedName>
 							<noIssueName>These commits have not issue in their commit comment</noIssueName>
+							<commitCount>true</commitCount>
 							<templateContent>
 <![CDATA[
 # Git Changelog Maven plugin changelog
@@ -272,7 +274,7 @@ Changelog of Git Changelog Maven plugin.
  {{#issues}}
 ### {{name}}
   {{#commits}}
-   {{{message}}} *{{commitTime}}*
+   {{{message}}} *{{commitTime}}* *(commitCount: {{commitCount}})*
 
   {{/commits}}
 

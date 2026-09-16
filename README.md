@@ -264,6 +264,7 @@ All of these go inside the `<configuration>` element of the `git-changelog` goal
 | `fromRevision` / `fromRevisionStrategy` | Commit/tag/branch to start from, and whether it's `INCLUSIVE`, `EXCLUSIVE` or `DEFAULT`. Deprecated aliases: `fromRef`, `fromCommit`. |
 | `toRevision` / `toRevisionStrategy` | Commit/tag/branch to end at, and its inclusiveness. Deprecated aliases: `toRef`, `toCommit`. |
 | `pathFilter` | Only consider commits touching this path, analogous to `git log -- <path>`. Useful in monorepos. |
+| `commitCount` | Compute each commit's ancestor count (equivalent to `git rev-list --count <hash>`), exposed to templates as `commitCount`. Off by default: it is O(depth) per commit and can be slow on large histories. |
 
 **Template**
 
@@ -305,7 +306,7 @@ All of these go inside the `<configuration>` element of the `git-changelog` goal
 | `useIntegrations` | Master switch enabling GitHub/GitLab/Jira/Redmine integrations below. |
 | `gitHubEnabled`, `gitHubApi`, `gitHubApiIssuePattern`, `gitHubToken`, `gitHubIssuePattern` | GitHub issue title lookup. |
 | `gitLabEnabled`, `gitLabServer`, `gitLabProjectName`, `gitLabToken` | GitLab issue title lookup. |
-| `jiraEnabled`, `jiraServer`, `jiraUsername`, `jiraPassword`, `jiraBearer`, `jiraIssuePattern`, `jiraIssueAdditionalFields` | Jira issue title lookup. `jiraIssueAdditionalFields` fetches extra custom fields, available in the template's `issue.additionalFields`. |
+| `jiraEnabled`, `jiraServer`, `jiraRestBasePath`, `jiraUsername`, `jiraPassword`, `jiraBearer`, `jiraIssuePattern`, `jiraIssueAdditionalFields` | Jira issue title lookup. `jiraRestBasePath` overrides the REST API path appended to `jiraServer` (defaults to `/rest/api/2`), for servers using e.g. `/rest/api/latest`. `jiraIssueAdditionalFields` fetches extra custom fields, available in the template's `issue.additionalFields`. |
 | `redmineEnabled`, `redmineServer`, `redmineUsername`, `redminePassword`, `redmineToken`, `redmineIssuePattern` | Redmine issue title lookup. |
 
 More documentation can be found in the [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib), which this plugin is a thin wrapper around.
