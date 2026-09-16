@@ -45,6 +45,9 @@ public class SemanticVersionMojo extends AbstractMojo {
   @Parameter(property = "ignoreTagsIfNameMatches", required = false)
   private String ignoreTagsIfNameMatches;
 
+  @Parameter(property = "pathFilter", required = false)
+  private String pathFilter;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (this.skip != null && this.skip == true) {
@@ -65,6 +68,9 @@ public class SemanticVersionMojo extends AbstractMojo {
       }
       if (this.isSupplied(this.ignoreTagsIfNameMatches)) {
         gitChangelogApiBuilder.withIgnoreTagsIfNameMatches(this.ignoreTagsIfNameMatches);
+      }
+      if (this.isSupplied(this.pathFilter)) {
+        gitChangelogApiBuilder.withPathFilters(this.pathFilter);
       }
       final SemanticVersion nextSemanticVersion =
           gitChangelogApiBuilder.getCurrentSemanticVersion();
