@@ -152,6 +152,9 @@ public class GitChangelogMojo extends AbstractMojo {
   @Parameter(property = "jiraBearer", required = false)
   private String jiraBearer;
 
+  @Parameter(property = "jiraIssueAdditionalFields", required = false)
+  private List<String> jiraIssueAdditionalFields;
+
   @Parameter(property = "redmineIssuePattern", required = false)
   private String redmineIssuePattern;
 
@@ -346,6 +349,11 @@ public class GitChangelogMojo extends AbstractMojo {
       }
       if (this.isSupplied(this.jiraBearer)) {
         builder.withJiraBearer(this.jiraBearer);
+      }
+      if (this.jiraIssueAdditionalFields != null) {
+        for (final String jiraIssueAdditionalField : this.jiraIssueAdditionalFields) {
+          builder.withJiraIssueAdditionalField(jiraIssueAdditionalField);
+        }
       }
 
       if (this.isSupplied(this.redmineUsername)) {

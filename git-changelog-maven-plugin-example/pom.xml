@@ -183,8 +183,9 @@ Changelog of Git Changelog Maven plugin.
 						<configuration>
 							<!-- useIntegrations>true</useIntegrations -->
 							<!-- <jiraEnabled>true</jiraEnabled> -->
-							<!--jiraUsername>${JIRA_USERNAME}</jiraUsername> <jiraPassword>${JIRA_PASSWORD}</jiraPassword> 
-								<jiraIssuePattern>\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\b</jiraIssuePattern> <jiraServer>https://yourJiraServer.com/jira</jiraServer// -->
+							<!--jiraUsername>${JIRA_USERNAME}</jiraUsername> <jiraPassword>${JIRA_PASSWORD}</jiraPassword>
+								<jiraIssuePattern>\b[a-zA-Z]([a-zA-Z]+)-([0-9]+)\b</jiraIssuePattern> <jiraServer>https://yourJiraServer.com/jira</jiraServer>
+								<jiraIssueAdditionalFields><jiraIssueAdditionalField>customfield_10001</jiraIssueAdditionalField><jiraIssueAdditionalField>customfield_10002</jiraIssueAdditionalField></jiraIssueAdditionalFields// -->
 							<templateFile>changelog.mustache</templateFile>
 							<readableTagName>-([^-]+?)$</readableTagName>
 							<file>CHANGELOG_jira.md</file>
