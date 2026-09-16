@@ -199,6 +199,52 @@ Handlebars.registerHelper('firstLetters', function(from, options) {
 
 More documentation can be found in the [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib).
 
+### Example - custom commit link
+
+There's no built-in `commitUrl` parameter, since the URL structure to link to a specific commit differs by Git host (GitHub, Bitbucket, GitLab, self-hosted, ...). Instead, pass the base URL in as an `extendedVariable` and use a custom helper to build the link, keeping the base URL itself out of the template:
+
+```xml
+<configuration>
+  <file>CHANGELOG.md</file>
+  <settingsFile>etc/changelog/settings.json</settingsFile>
+  <templateFile>etc/changelog/changelog.hbs</templateFile>
+  <handlebarsHelperFile>etc/changelog/helpers.js</handlebarsHelperFile>
+  <extendedVariables>
+    <url>${project.scm.url}</url>
+  </extendedVariables>
+</configuration>
+```
+
+`etc/changelog/helpers.js`:
+
+```javascript
+/**
+ * helper 'linkCommit' : create a markdown link
+ * @param {String} text        link text
+ * @param {String} url         base url
+ * @param {String} commitId    commit hash
+ * @return a safe markdown link
+ *
+ * Usage:
+ *   {{linkCommit hash url hash}}
+ */
+Handlebars.registerHelper("linkCommit", function(text, url, commitId) {
+  text = Handlebars.escapeExpression(text);
+  url = Handlebars.escapeExpression(url);
+  commitId = Handlebars.escapeExpression(commitId);
+
+  return new Handlebars.SafeString("[" + text + "](" + url + "/commits/" + commitId + ")");
+});
+```
+
+`etc/changelog/changelog.hbs`:
+
+```hbs
+- {{{commitDescription .}}} ({{linkCommit hash url hash}})
+```
+
+Credit to [@merikan](https://github.com/merikan) for this pattern.
+
 ### Configuration
 
 Have a look at the [pom.xml](/git-changelog-maven-plugin-example/pom.xml) where you will find some more examples.
