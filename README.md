@@ -203,6 +203,67 @@ More documentation can be found in the [Git Changelog Lib](https://github.com/to
 
 Have a look at the [pom.xml](/git-changelog-maven-plugin-example/pom.xml) where you will find some more examples.
 
+#### `git-changelog` goal parameters
+
+All of these go inside the `<configuration>` element of the `git-changelog` goal's execution.
+
+**General**
+
+| Parameter | Description |
+| --- | --- |
+| `skip` | Skip execution entirely. |
+| `file` | Where to write the changelog, e.g. `CHANGELOG.md`. |
+| `prependToFile` | Prepend to `file` instead of overwriting it. |
+| `settingsFile` | Path to a JSON settings file, as an alternative to setting individual parameters here. See [example](/git-changelog-maven-plugin-example/changelog.json). |
+| `fromRevision` / `fromRevisionStrategy` | Commit/tag/branch to start from, and whether it's `INCLUSIVE`, `EXCLUSIVE` or `DEFAULT`. Deprecated aliases: `fromRef`, `fromCommit`. |
+| `toRevision` / `toRevisionStrategy` | Commit/tag/branch to end at, and its inclusiveness. Deprecated aliases: `toRef`, `toCommit`. |
+| `pathFilter` | Only consider commits touching this path, analogous to `git log -- <path>`. Useful in monorepos. |
+
+**Template**
+
+| Parameter | Description |
+| --- | --- |
+| `templateFile` | Path to a Handlebars/Mustache template file. |
+| `templateContent` | Template given inline instead of as a file. |
+| `templateBaseDir` / `templateSuffix` | Base directory and file suffix for template [partials](#partials). |
+| `extendedVariables` | Extra key/value pairs made available in the template as `custom.*`. |
+| `extendedHeaders` | Extra key/value pairs, exposed the same way as `extendedVariables` but intended for header-only content. |
+| `extendedVariablesCli` | Same as `extendedVariables`, but settable from the command line (Maven can't pass Map parameters via `-D`). |
+| `javascriptHelper` | Inline JavaScript registering custom Handlebars helpers. Requires a JS engine like [Nashorn](https://central.sonatype.com/artifact/org.openjdk.nashorn/nashorn-core/overview) on the classpath. |
+| `handlebarsHelperFile` | Same as `javascriptHelper`, but loaded from a file instead of inlined in the `pom.xml`. |
+| `readableTagName` | Regular expression to shorten tag names shown in the changelog, e.g. extracting `1.6` out of `git-changelog-maven-plugin-1.6`. |
+| `dateFormat` / `timeZone` | Formatting used for commit/tag dates in the template context. |
+
+**Filtering**
+
+| Parameter | Description |
+| --- | --- |
+| `ignoreTagsIfNameMatches` | Regular expression; matching tags are excluded from the changelog. |
+| `ignoreCommitsIfMessageMatches` | Regular expression; matching commits are excluded. |
+| `ignoreCommitsOlderThan` | Exclude commits older than this date. |
+| `ignoreCommitsWithoutIssue` | Exclude commits whose message doesn't reference an issue. |
+| `removeIssueFromMessage` | Strip the issue reference from the commit message text in the output. |
+| `untaggedName` | Name of the virtual group for commits not yet included in any tag, e.g. "Next release". |
+| `noIssueName` | Name of the virtual issue group for commits with no issue reference in their message. |
+
+**Custom issue trackers**
+
+| Parameter | Description |
+| --- | --- |
+| `customIssues` | Define your own issue pattern/link/title, for trackers not natively supported. See [example](/git-changelog-maven-plugin-example/pom.xml). |
+
+**Integrations** (`useIntegrations` must be `true` for any of these to run)
+
+| Parameter | Description |
+| --- | --- |
+| `useIntegrations` | Master switch enabling GitHub/GitLab/Jira/Redmine integrations below. |
+| `gitHubEnabled`, `gitHubApi`, `gitHubApiIssuePattern`, `gitHubToken`, `gitHubIssuePattern` | GitHub issue title lookup. |
+| `gitLabEnabled`, `gitLabServer`, `gitLabProjectName`, `gitLabToken` | GitLab issue title lookup. |
+| `jiraEnabled`, `jiraServer`, `jiraUsername`, `jiraPassword`, `jiraBearer`, `jiraIssuePattern`, `jiraIssueAdditionalFields` | Jira issue title lookup. `jiraIssueAdditionalFields` fetches extra custom fields, available in the template's `issue.additionalFields`. |
+| `redmineEnabled`, `redmineServer`, `redmineUsername`, `redminePassword`, `redmineToken`, `redmineIssuePattern` | Redmine issue title lookup. |
+
+More documentation can be found in the [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib), which this plugin is a thin wrapper around.
+
 #### Update version based on conventional commits
 
 The version in `pom.xml` can be automatically updated based on [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
