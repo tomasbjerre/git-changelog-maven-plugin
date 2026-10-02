@@ -1,3 +1,97 @@
+## 2.5.0 (2026-09-17)
+
+### Features
+
+-  add commitCount and jiraRestBasePath parameters (#80) ([424f3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/424f317e7ea52f7) Tomas Bjerre)  
+-  expose pathFilter on the semantic-version goal for monorepos (#75) ([9f203](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/9f2033cb43218db) Tomas Bjerre)  
+-  expose jiraIssueAdditionalFields mojo parameter (#72) ([4c7d7](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/4c7d74b5433398d) Tomas Bjerre)  
+
+### Other changes
+
+**Update dependency se.bjurr.maven:bjurr-maven-plugin-parent to v1.2.2 (#84)**
+
+* Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; 
+
+[d893f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/d893fdda1abe280) renovate[bot] *2026-09-17 03:57:13*
+
+**Update dependency se.bjurr.maven:bjurr-maven-plugin-parent to v1.2.0 (#83)**
+
+* Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; 
+
+[ae71d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ae71de70bc0131b) renovate[bot] *2026-09-16 22:51:06*
+
+**Update dependency se.bjurr.gitchangelog:git-changelog-maven-plugin to v2.4.0 (#82)**
+
+* Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; 
+
+[bfb98](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/bfb988d9668d394) renovate[bot] *2026-09-16 17:31:54*
+
+**Update dependency se.bjurr.gitchangelog:git-changelog-lib to v3.2.0 (#81)**
+
+* Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; 
+
+[231f1](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/231f1d89ebbc1f1) renovate[bot] *2026-09-16 17:31:27*
+
+**Update dependency org.openjdk.nashorn:nashorn-core to v15.7 (#77)**
+
+* Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; 
+
+[c046b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/c046bf60a2fbf83) renovate[bot] *2026-09-16 16:06:52*
+
+**Update dependency org.apache.maven.plugins:maven-plugin-plugin to v3.16.0 (#76)**
+
+* Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; 
+
+[79888](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/79888bc77f0973f) renovate[bot] *2026-09-16 16:06:48*
+
+**Update dependency maven to v3.9.16 (#73)**
+
+* Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; 
+
+[1803d](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1803dd1287114e0) renovate[bot] *2026-09-16 16:06:44*
+
+**Update dependency maven-wrapper to v3.3.4 (#74)**
+
+* Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; 
+
+[327aa](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/327aae3ed0ff801) renovate[bot] *2026-09-16 14:52:19*
+
+**Superseded by centralized publish-draft-releases.yaml in .github**
+
+
+[786e3](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/786e3922eb6fd3b) Tomas Bjerre *2026-09-14 19:59:00*
+
+**Auto-publish pending draft releases weekly**
+
+
+[ce8f9](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ce8f9ed04a14a0d) Tomas Bjerre *2026-09-14 19:47:55*
+
+**Remove accidentally-recreated override; this repo has real CI and should inherit full automerge from the account default**
+
+
+[ad428](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ad42874e11e55ff) Tomas Bjerre *2026-09-14 19:36:50*
+
+**Add 10-day minimumReleaseAge to reduce supply-chain risk from very-fresh releases**
+
+
+[1ae3f](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1ae3fa14364c64c) Tomas Bjerre *2026-09-14 18:48:05*
+
+**Real CI now exists, allow automerge again**
+
+
+[20c1b](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/20c1bace3b4a164) Tomas Bjerre *2026-09-14 18:22:51*
+
+**Add PR CI via shared bundle-maven-ci workflow**
+
+
+[6fdf8](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/6fdf8bb03f3553c) Tomas Bjerre *2026-09-14 18:22:49*
+
+**No CI in this repo, never automerge dependency PRs here**
+
+
+[591ae](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/591ae3e51a589ec) Tomas Bjerre *2026-09-14 18:02:37*
+
+
 ## 2.4.0 (2026-09-14)
 
 ### Features
