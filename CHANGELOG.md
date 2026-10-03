@@ -1,3 +1,12 @@
+## 2.5.4 (2026-10-03)
+
+### Bug Fixes
+
+-  bump (#90) ([ff665](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/ff66544ad1d0ebc) Tomas Bjerre)  
+
+### Other changes
+
+
 ## 2.5.0 (2026-09-17)
 
 ### Features
