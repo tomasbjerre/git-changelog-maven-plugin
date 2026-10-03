@@ -303,7 +303,7 @@ public class GitChangelogMojo extends AbstractMojo {
         builder.withIgnoreCommitsWithMessage(this.ignoreCommitsIfMessageMatches.trim());
       }
       if (this.ignoreCommitsOlderThan != null) {
-        builder.withIgnoreCommitsOlderThan(this.ignoreCommitsOlderThan);
+        builder.withIgnoreCommitsOlderThan(this.ignoreCommitsOlderThan.toInstant());
       }
       if (this.isSupplied(this.untaggedName)) {
         builder.withUntaggedName(this.untaggedName);
