@@ -1,3 +1,12 @@
+## 2.5.6 (2026-11-02)
+
+### Bug Fixes
+
+-  bump bjurr-maven-plugin-parent to 1.2.4 ([0c935](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/0c935fa3f48aa8f) Tomas Bjerre)  
+
+### Dependency updates
+
+- update dependency se.bjurr.gitchangelog:git-changelog-lib to v5.0.1 (#94) ([1925a](https://github.com/tomasbjerre/git-changelog-maven-plugin/commit/1925adab5a53245) renovate[bot])  
 ## 2.5.4 (2026-10-03)
 
 ### Bug Fixes
